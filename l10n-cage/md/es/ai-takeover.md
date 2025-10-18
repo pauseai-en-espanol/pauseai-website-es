@@ -10,7 +10,7 @@ Esto no significa necesariamente que todos mueran, pero sí significa que (casi)
 Discutimos los conceptos básicos del riesgo existencial principalmente en [otro artículo](/xrisk).
 En este artículo, argumentaremos que este riesgo de toma del control no solo es real, sino que es muy probable que ocurra _si desarrollamos una superinteligencia_.
 
-## El argumento {#the-argument}
+## El argumentooooooouyuo {#the-argument}
 
 - Es probable que exista una Superinteligencia Agente (SA) en un futuro cercano.
 - Algún ejemplo de la SA intentará una toma del control.
