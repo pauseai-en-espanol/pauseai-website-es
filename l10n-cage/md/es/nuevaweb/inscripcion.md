@@ -24,9 +24,19 @@ En PauseAI tenemos un doble objetivo: [promover la pausa](/l10n-cage/md/es/nueva
 
 ><img src="/src/assets/images/web-spain/logo-redondo.svg" width="12" height="12"> ¿Te interesaría [coordinar un podcast](/l10n-cage/md/es/nuevaweb/debate.md#falta-info) sobre los riesgos de la IA?
 
+### Firma de peticiones {#peticiones}
+
+Tanto si eres miembro de PauseAI como si no, una aportación sencilla y útil es firmar peticiones en favor de la seguridad en la IA. En la mayoría de casos es cuestión de un par de minutos.
+
+- [Declaración de PauseAI](https://pauseai.info/statement)
+- [Declaración sobre los riesgos de la inteligencia artificial](https://aistatement.com), del Center For AI Safety
+- [Recogida de firmas para prohibir la superinteligencia](https://superintelligence-statement.org), del Future Of Life Institute
+- [Petición para un desarrollo responsable de la IA](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-2a2f1a13-b63a-4d8c-979b-b144bded2f48), en change.org
+- [Carta abierta en favor de un tratado internacional](https://aitreaty.org/)
+
 ### Consejos para escribir a políticos {#escribir}
 
-Tu primer paso como activista de PauseAI podría ser escribir a un político. Estamos muy poco acostumbrados a transmitir a nuestros representantes las inquietudes que tenemos, y sin embargo es **algo fundamental en democracia**.
+Tu primer paso como activista de PauseAI también podría ser escribir a un político. Estamos muy poco acostumbrados a transmitir a nuestros representantes las inquietudes que tenemos, y sin embargo es **algo fundamental en democracia**.
 
 Te ofrecemos a continuación una guía breve para redactar una carta sobre los riesgos de la IA.
 
