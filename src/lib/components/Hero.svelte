@@ -74,6 +74,8 @@
 		color: white;
 		font-size: calc(3.5 * var(--cqw));
 		margin: 0;
+		margin-left: 80px;
+		margin-right: 80px;
 		text-align: center;
 		padding: calc(3.5 * var(--cqw));
 		padding-bottom: calc(0.5 * var(--cqw));
@@ -83,6 +85,8 @@
 	.tagline p {
 		color: white;
 		margin: 0;
+		margin-left: 80px;
+		margin-right: 80px;
 		font-size: calc(2 * var(--cqw));
 		padding: calc(3.5 * var(--cqw));
 	}
