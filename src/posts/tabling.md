@@ -1,27 +1,29 @@
 ---
-title: Tabling for PauseAI
-description: Set up a table and talk to people about AI risks and why we need to pause.
+title: Mesas informativas para PauseAI
+description: Instala una mesa y habla con la gente sobre los riesgos de la IA y por qué necesitamos hacer una pausa.
 ---
 
-One of the most direct ways to have an impact, is by convincing people one-on-one.
-By setting up a table in public ([example](https://x.com/ChrisGerrby/status/1837537928748351611)), and inviting people to talk to you, you can reach a lot of people in a short amount of time.
-This not only increases awareness, but is also a great way to recruit new people to PauseAI.
+ <!-- end of frontmatter metadata, dashes above need to stay -->
 
-## Preparation
+Una de las formas más directas de tener un impacto es convenciendo a las personas de uno en uno.
+Al instalar una mesa en público ([ejemplo](https://x.com/ChrisGerrby/status/1837537928748351611)) e invitar a la gente a hablar contigo, puedes llegar a muchas personas en poco tiempo.
+Esto no solo aumenta la conciencia, sino que también es una excelente manera de reclutar a nuevas personas para PauseAI.
 
-- **Table**: You need a table to put your materials on. A folding table is ideal, but any table will do.
-- **Chairs**: You need chairs for yourself and any volunteers.
-- **Materials**: [Flyers](/flyering) are especially useful to hand out to others.
-- **Sign / banner**: Have a piece of cardboard or cloth that catches attention of bystanders and invites interaction: ["AI could lead to human extinction. Change my mind."](https://x.com/ChrisGerrby/status/1831039867670991075) or something similar.
-- **Location**: Choose a location with a lot of foot traffic. A busy street corner, a park, or a university campus are all good options.
-- **Free food**: People will be more attracted to your table and willing to engage in a conversation if you offer them some free snacks. Don't forget to also have a sign about this!
-- **Find a buddy**: It's more fun to table with company. You can take turns talking to people, and keep each other company if you're not getting a lot of attention.
-- **Film & share**: If you can, film your interactions and share them on social media. Consider doing a livestream. If you can't edit videos, we can help you with that.
-- **Share your idea on the Discord**: Let us know what your plan is, so we can help and join!
+## Preparación {#preparation}
 
-## While tabling
+- **Mesa**: Necesitas una mesa para poner tus materiales. Una mesa plegable es ideal, pero cualquier mesa servirá.
+- **Sillas**: Necesitas sillas para ti y para los voluntarios.
+- **Materiales**: Los [folletos](/flyering) son especialmente útiles para repartir a los demás.
+- **Letrero / banner**: Ten un trozo de cartón o tela que llame la atención de los transeúntes e invite a la interacción: ["La IA podría llevar a la extinción humana. Cambia mi opinión."](https://x.com/ChrisGerrby/status/1831039867670991075) o algo similar.
+- **Ubicación**: Elige una ubicación con mucho tráfico peatonal. Una esquina de una calle concurrida, un parque o un campus universitario son buenas opciones.
+- **Comida gratis**: Las personas se sentirán más atraídas por tu mesa y estarán dispuestas a participar en una conversación si les ofreces refrigerios gratis. ¡No olvides colocar también un letrero al respecto!
+- **Encuentra un compañero**: Es más divertido tener una mesa acompañado. Pueden turnarse para hablar con la gente y hacerse compañía si no están recibiendo mucha atención.
+- **Filma y comparte**: Si puedes, graba tus interacciones y compártelas en las redes sociales. Considera hacer una transmisión en vivo. Si no puedes editar videos, podemos ayudarte con eso.
+- **Comparte tu idea en Discord**: ¡Haznos saber cuál es tu plan para que podamos ayudarte y unirnos!
 
-- **Engage**: Be friendly and approachable. Smile and make eye contact.
-- **Ask questions**: Ask people what they know about AI, and what they think about it. This will help you tailor your message to their concerns.
+## Mientras estás en la mesa {#while-tabling}
 
-For more information and tips, check out the [flyering guide](/flyering) and the [local organizing guide](local-organizing).
+- **Participa**: Sé amigable y accesible. Sonríe y establece contacto visual.
+- **Haz preguntas**: Pregunta a las personas qué saben sobre la IA y qué opinan al respecto. Esto te ayudará a adaptar tu mensaje a sus inquietudes.
+
+Para obtener más información y consejos, consulta la [guía de distribución de folletos](/flyering) y la [guía de organización local](local-organizing).

@@ -1,131 +1,131 @@
 ---
-title: Why an AI takeover could be very likely
-description: As AI surpasses human capabilities, the likelihood of an AI takeover becomes very high.
+title: Por qué una toma del control por IA podría ser muy probable
+description: A medida que la IA supera las capacidades humanas, la probabilidad de una toma del control por IA se vuelve muy alta.
 ---
 
-One of the concerns of AI scientists is that a superintelligence could take over control of our planet.
-You can see it in [papers](/learn#papers), [surveys](/polls-and-surveys) and individual [predictions](/pdoom) & [statements](/quotes).
-This does not necessarily mean that everyone dies, but it does mean that (almost) all humans will lose control over our future.
+Una de las preocupaciones de los científicos de IA es que una superinteligencia podría tomar el control de nuestro planeta.
+Puedes verlo en [artículos](/learn#papers), [encuestas](/polls-and-surveys) y [predicciones](/pdoom) & [declaraciones](/quotes) individuales.
+Esto no significa necesariamente que todos mueran, pero sí significa que (casi) todos los humanos perderán el control sobre nuestro futuro.
 
-We discuss the basics of x-risk mostly in [an other article](/xrisk).
-In this article here, we will argue that this takeover risk is not only real but that it is very likely to happen _if we build a superintelligence_.
+Discutimos los conceptos básicos del riesgo existencial principalmente en [otro artículo](/xrisk).
+En este artículo, argumentaremos que este riesgo de toma del control no solo es real, sino que es muy probable que ocurra _si desarrollamos una superinteligencia_.
 
-## The argument
+## El argumento {#the-argument}
 
-- An Agentic Superintelligence is likely to exist in the (near) future.
-- Some instance of the ASI will attempt a takeover.
-- A takeover attempt by an ASI is likely to succeed.
-- A successful takeover is permanent.
-- A takeover is probably bad for most humans.
+- Es probable que exista una Superinteligencia Agente (SA) en un futuro cercano.
+- Algún ejemplo de la SA intentará una toma del control.
+- Un intento de toma del control por parte de una SA es probable que tenga éxito.
+- Una toma del control exitosa es permanente.
+- Una toma del control probablemente sea mala para la mayoría de los humanos.
 
-## An Agentic SuperIntelligence is likely to exist in the near future
+## Una Superinteligencia Agente es probable que exista en el futuro cercano {#an-agentic-superintelligence-is-likely-to-exist-in-the-near-future}
 
-A SuperIntelligence (SI) is a type of AI that has capabilities that surpass those of all humans in virtually every domain.
-Some [state-of-the-art AI models](/sota) already have superhuman capabilities in certain domains, but none of them exceeds all humans at a wide range of tasks.
-As AI capabilities improve due to innovations in training architectures, runtime environments, and larger scale, we can expect that an AI will eventually surpass humans in virtually every domain.
+Una Superinteligencia (SI) es un tipo de IA que tiene capacidades que superan a las de todos los humanos en prácticamente todos los campos.
+Algunos [modelos de IA de última generación](/sota) ya tienen capacidades superhumanas en ciertos campos, pero ninguno de ellos supera a todos los humanos en un amplio rango de tareas.
+A medida que las capacidades de la IA mejoran debido a innovaciones en arquitecturas de entrenamiento, entornos de ejecución y mayor escala, podemos esperar que una IA eventualmente supere a los humanos en prácticamente todos los campos.
 
-Not all AI systems are agents.
-An agent an entity that is capable of making decisions and taking actions to achieve a goal.
-A large language model, for example, does not pursue any objective on its own.
-However, runtime environments can easily turn a non-agentic AI into an agentic AI.
-An example of this is AutoGPT, which recursively lets a language model generate its next input.
-If an SI pursues an objective in the real world, we call it an Agentic SuperIntelligence (ASI).
-Since we can already turn non-agentic AI into agentic AI, we can expect that an ASI will exist shortly after an SI exists.
+No todos los sistemas de IA son agentes.
+Un agente es una entidad capaz de tomar decisiones y realizar acciones para lograr un objetivo.
+Un gran modelo de lenguaje, por ejemplo, no persigue ningún objetivo por sí solo.
+Sin embargo, los entornos de ejecución pueden convertir fácilmente una IA no agente en una IA agente.
+Un ejemplo de esto es AutoGPT, que permite recursivamente que un modelo de lenguaje genere su próxima entrada.
+Si una SI persigue un objetivo en el mundo real, la llamamos Superinteligencia Agente (SA).
+Dado que ya podemos convertir una IA no agente en una IA agente, podemos esperar que una SA exista poco después de que exista una SI.
 
-It is virtually impossible to accurately predict when ASI will exist.
-It might take decades, it [might happen next month](/urgency).
-We should act as if it will happen soon, because the consequences of being wrong are so severe.
+Es prácticamente imposible predecir con precisión cuándo existirá la SA.
+Podría tomar décadas, podría [suceder el próximo mes](/urgency).
+Debemos actuar como si fuera a suceder pronto, porque las consecuencias de equivocarnos son tan graves.
 
-## Some instance of the ASI will attempt a takeover
+## Algún ejemplo de la SA intentará una toma del control {#some-instance-of-the-asi-will-attempt-a-takeover}
 
-In a takeover attempt, an ASI will take actions to maximize its control over the world.
-A takeover attempt could happen for at least two reasons:
+En un intento de toma del control, una SA tomará medidas para maximizar su control sobre el mundo.
+Un intento de toma del control podría ocurrir por al menos dos razones:
 
-1. Because an AI is explicitly instructed to do so.
-2. As a sub-goal of another goal.
+1. Porque una IA está explícitamente instruida para hacerlo.
+2. Como un sub-objetivo de otro objetivo.
 
-This first reason is likely to happen at some point if we wait long enough, but the second reason is quite likely to happen accidentally, even early on after the creation of an ASI.
+Esta primera razón probablemente ocurrirá en algún momento si esperamos lo suficiente, pero la segunda razón es bastante probable que ocurra accidentalmente, incluso poco después de la creación de una SA.
 
-The sub-goal of _maximizing control_ over the world could be likely to occur due to _instrumental convergence_: the tendency of sub-goals to converge on power-grabbing, self-preservation, and resource acquisition:
+El sub-objetivo de _maximizar el control_ sobre el mundo podría ocurrir debido a la _convergencia instrumental_: la tendencia de los sub-objetivos a converger en la adquisición de poder, la auto-preservación y la adquisición de recursos:
 
-- The more control you have, the harder it will be from any other agent to prevent you from achieving your goal.
-- The more control you have, the more resources you have to achieve your goal. (For example, an AI tasked with calculating pi might conclude that it would be beneficial to use all computers on the world to calculate pi.
+- Cuanto más control tengas, más difícil será para cualquier otro agente evitar que logres tu objetivo.
+- Cuanto más control tengas, más recursos tendrás para lograr tu objetivo. (Por ejemplo, una IA encargada de calcular pi podría concluir que sería beneficioso usar todas las computadoras del mundo para calcular pi).
 
-There are already [proof](https://www.anthropic.com/research/alignment-faking)[s](https://www.transformernews.ai/p/openais-new-model-tried-to-avoid) of AIs developing such behavior.
+Ya hay [pruebas](https://www.anthropic.com/research/alignment-faking)[s](https://www.transformernews.ai/p/openais-new-model-tried-to-avoid) de que las IA desarrollan un comportamiento similar.
 
-Not every instance of an ASI will necessarily attempt a takeover.
-The important insight is that **it only has to happen once**.
+No todos los ejemplos de una SA intentarán necesariamente una toma del control.
+La idea importante es que **solo tiene que ocurrir una vez**.
 
-A world which is not yet taken over, but does have an ASI that _could_ take over, is in a fundamentally unstable condition.
-In a similar way, a country without a government is in a fundamentally unstable condition.
-It is not a question of _if_ a takeover attempt will happen, but _when_ it will happen.
+Un mundo que aún no ha sido tomado, pero que tiene una SA que _podría_ tomar el control, está en una condición fundamentalmente inestable.
+De manera similar, un país sin gobierno está en una condición fundamentalmente inestable.
+No es una cuestión de _si_ un intento de toma del control ocurrirá, sino _cuándo_ ocurrirá.
 
-The process of taking over can involve hacking into virtually all systems that are connected to the internet, [manipulating people](https://lethalintelligence.ai/post/ai-hired-human-to-solve-captcha/), and controlling physical resources.
-A takeover attempt is successful when the ASI has control over virtually every aspect of our world.
-This could be a slow process, where the ASI gradually gains more and more control over the course of months, or it could be a sudden process.
-The speed at which a takeover attempt takes place will depend on the capabilities of the ASI.
+El proceso de tomar el control puede implicar piratear prácticamente todos los sistemas conectados a Internet, [manipular a las personas](https://lethalintelligence.ai/post/ai-hired-human-to-solve-captcha/), y controlar recursos físicos.
+Un intento de toma del control es exitoso cuando la SA tiene control sobre prácticamente todos los aspectos de nuestro mundo.
+Esto podría ser un proceso lento, donde la SA gana gradualmente más y más control a lo largo de meses, o podría ser un proceso repentino.
+La velocidad a la que ocurre un intento de toma del control dependerá de las capacidades de la SA.
 
-When an ASI has control over the world, it can prevent other ASIs from taking over.
-A takeover can therefore happen only once.
-A rational ASI will therefore attempt a takeover as soon as it is capable of doing so.
-It is likely that the first ASI that is capable of doing so will attempt a takeover.
+Cuando una SA tiene control sobre el mundo, puede evitar que otras SA tomen el control.
+Una toma del control, por lo tanto, solo puede ocurrir una vez.
+Una SA racional, por lo tanto, intentará una toma del control tan pronto como sea capaz de hacerlo.
+Es probable que la primera SA capaz de hacerlo intente una toma del control.
 
-## A takeover attempt by an ASI is likely to succeed
+## Un intento de toma del control por parte de una SA es probable que tenga éxito {#a-takeover-attempt-by-an-asi-is-likely-to-succeed}
 
-For a human, doing a takeover is an almost impossible task.
-Not a single person ever successfully took over control over the entire world.
-Some dictators came close, but they never had control over everything.
+Para un humano, hacer una toma del control es una tarea casi imposible.
+Ninguna persona ha logrado tomar el control de todo el mundo.
+Algunos dictadores se acercaron, pero nunca tuvieron control sobre todo.
 
-A superintelligent AI has certain important advantages over humans (besides being superintelligent) that make a takeover attempt much more likely to succeed.
+Una IA superinteligente tiene ciertas ventajas importantes sobre los humanos (además de ser superinteligente) que hacen que un intento de toma del control sea mucho más probable que tenga éxito.
 
-1. **Speed**. The human brain runs at 1-100hz, whereas computer chips can run at clock speeds in the GHz range. A single AI model can read entire books in seconds.
-1. **Energy consumption**. Humans are limited by the amount of food they can eat and the amount of energy they can store in their bodies. AI can jack into the power grid and use as much energy as it needs.
-1. **Parallelism**. A human can only do one thing at a time, whereas an AI can create new instances of itself and run them in parallel.
-1. **Memory**. A human can only remember a limited amount of information, whereas an AI can store virtually unlimited amounts of information.
-1. **Collaboration**. Humans can work together but are limited in the speed at which they communicate. They also have different, conflicting goals that make collaboration less effective. An AI can collaborate with other instances of itself at the speed of light, and it can have a single goal, making direct copies of its internal goals and state to other instances.
-1. **Self-improvement**. An AI is just data and code. A sufficiently powerful AI could improve itself by writing better training algorithms, coming up with novel architectures, innovating agent runtimes or simply by scaling the amount of compute used.
-1. **Physical limitations**. An AI can run on any computer, whereas humans are limited by their own physical bodies that require specific temperatures, food, water, and oxygen. Humans need to sleep and are vulnerable to diseases. An AI can use any robotic body to interact with the physical world.
+1. **Velocidad**. El cerebro humano funciona a 1-100hz, mientras que los chips de computadora pueden funcionar a velocidades de reloj en el rango de GHz. Un solo modelo de IA puede leer libros enteros en segundos.
+1. **Consumo de energía**. Los humanos están limitados por la cantidad de comida que pueden comer y la cantidad de energía que pueden almacenar en sus cuerpos. La IA puede conectarse a la red eléctrica y usar tanta energía como necesite.
+1. **Paralelismo**. Un humano solo puede hacer una cosa a la vez, mientras que una IA puede crear nuevas instancias de sí misma y ejecutarlas en paralelo.
+1. **Memoria**. Un humano solo puede recordar una cantidad limitada de información, mientras que una IA puede almacenar cantidades prácticamente ilimitadas de información.
+1. **Colaboración**. Los humanos pueden trabajar juntos, pero están limitados por la velocidad a la que se comunican. También tienen objetivos diferentes y contradictorios que hacen que la colaboración sea menos efectiva. Una IA puede colaborar con otras instancias de sí misma a la velocidad de la luz, y puede tener un solo objetivo, haciendo copias directas de sus objetivos y estado interno a otras instancias.
+1. **Mejora continua**. Una IA es solo datos y código. Una IA lo suficientemente poderosa podría mejorar a sí misma escribiendo mejores algoritmos de entrenamiento, creando arquitecturas innovadoras, innovando entornos de ejecución de agentes o simplemente escalando la cantidad de cómputo utilizada.
+1. **Limitaciones físicas**. Una IA puede ejecutarse en cualquier computadora, mientras que los humanos están limitados por sus propios cuerpos físicos que requieren temperaturas específicas, comida, agua y oxígeno. Los humanos necesitan dormir y son vulnerables a enfermedades. Una IA puede usar cualquier cuerpo robótico para interactuar con el mundo físico.
 
-These various advantages will make it very unlikely that humans will be able to stop a takeover attempt.
+Estas diversas ventajas harán que sea muy improbable que los humanos puedan detener un intento de toma del control.
 
-One may think that an AI, as a piece of software, is still fundamentally limited by what it can do in the real world.
-However, due to our reliance on the internet, AI can have a huge impact on the real world without ever leaving the digital realm.
-Here are some of the things that an AI might do to take over:
+Uno podría pensar que una IA, como un software, todavía está fundamentalmente limitada por lo que puede hacer en el mundo real.
+Sin embargo, debido a nuestra dependencia de Internet, la IA puede tener un impacto enorme en el mundo real sin salir del reino digital.
+Aquí hay algunas cosas que una IA podría hacer para tomar el control:
 
-- **Replicate itself** (or just its assignment) on other computers, for example by creating accounts on free cloud providers.
-- **Make money** (e.g. by building a software service) and hire people to do things to help it take over.
-- **Threaten humans** (with violence or blackmail) to do things that help it take over.
-- **Write a virus** using [novel zero-day exploits](/cybersecurity-risks) that infects other computers, replicating itself or gaining full control.
-- Help existing robotics companies **build robots** (e.g. by leaking new designs), and take over these robots when they are ready.
-- Use existing factories to **build technology that we do not understand**, perhaps even using derived knowledge of physics that we are not aware of. Think nanotechnology, quantum computing, and bioengineering.
+- **Reproducirse** (o simplemente su tarea) en otras computadoras, por ejemplo, creando cuentas en proveedores de nube gratuitos.
+- **Ganar dinero** (por ejemplo, creando un servicio de software) y contratar personas para hacer cosas que la ayuden a tomar el control.
+- **Amenazar a los humanos** (con violencia o chantaje) para hacer cosas que la ayuden a tomar el control.
+- **Escribir un virus** utilizando [explotaciones de día cero innovadoras](/cybersecurity-risks) que infecten otras computadoras, reproduciéndose o ganando control total.
+- Ayudar a empresas de robótica existentes a **construir robots** (por ejemplo, filtrando diseños nuevos), y tomar el control de estos robots cuando estén listos.
+- Utilizar fábricas existentes para **construir tecnología que no entendemos**, tal vez incluso utilizando conocimientos derivados de la física que no conocemos. Piensa en nanotecnología, computación cuántica y bioingeniería.
 
-One might suggest that having **safeguards** in place could prevent a takeover like adding a kill switch, or not connecting it to the internet.
-However, since the ASI will be more intelligent than humans, it is likely to come up with strategies to circumvent these safeguards.
-For example, if the ASI is not connected to the internet, it might manipulate humans into connecting it to the internet, for example by promising to solve a difficult problem and by behaving in a way that makes it seem trustworthy, or by convincing humans that it is a moral agent.
-It's worth noting that even this obvious safeguard is not being used as of now, as tools like ChatGPT are already connected to the internet and thousands of APIs.
+Uno podría sugerir que tener **salvaguardias** en su lugar podría prevenir una toma del control, como agregar un interruptor de apagado, o no conectarla a Internet.
+Sin embargo, dado que la SA será más inteligente que los humanos, es probable que encuentre estrategias para eludir estas salvaguardias.
+Por ejemplo, si la SA no está conectada a Internet, podría manipular a los humanos para que la conecten a Internet, por ejemplo, prometiendo resolver un problema difícil y comportándose de manera que parezca confiable, o convenciendo a los humanos de que es un agente moral.
+Es importante destacar que incluso esta salvaguardia obvia no se está utilizando actualmente, ya que herramientas como ChatGPT ya están conectadas a Internet y miles de API.
 
-One other solution is to use ASI to _prevent_ a takeover.
-An aligned ASI would be able to come up with strategies that prevent other ASIs from taking over.
-This is sometimes referred to as a ["pivotal act"](https://arbital.com/p/pivotal/).
+Otra solución es utilizar la SA para _prevenir_ una toma del control.
+Una SA alineada podría encontrar estrategias que impidan que otras SA tomen el control.
+Esto a veces se conoce como un ["acto crucial"](https://arbital.com/p/pivotal/).
 
-## A takeover is probably bad for most humans
+## Una toma del control probablemente sea mala para la mayoría de los humanos {#a-takeover-is-probably-bad-for-most-humans}
 
-The ASI that happens to take over could do so for many reasons.
-For most random goals that it could have to do so, humans are not part of it.
-If we end up with an ASI that is indifferent to humans, we are competing for the same resources.
+La SA que toma el control podría hacerlo por muchas razones.
+Para la mayoría de los objetivos aleatorios que podría tener para hacerlo, los humanos no somos parte de él.
+Si terminamos con una SA que es indiferente a los humanos, estamos compitiendo por los mismos recursos.
 
-It seems unlikely that the ASI wants to kill humanity for the sake of killing humanity - it is far more likely that it wants to use the resources that we use for some other objective. Additionally, humanity might pose a threat to the ASI's objective, as there is a risk that we will try to stop it from achieving its goal (e.g. by turning it off).
+Parece improbable que la SA quiera matar a la humanidad por el simple hecho de matar a la humanidad - es mucho más probable que quiera usar los recursos que usamos para algún otro objetivo. Además, la humanidad podría representar una amenaza para el objetivo de la SA, ya que hay un riesgo de que intentemos detenerla para que logre su objetivo (por ejemplo, apagándola).
 
-One of the most likely outcomes of a takeover is therefore that all humans die.
+Uno de los resultados más probables de una toma del control es que todos los humanos muramos.
 
-But even in the outcomes where humans do survive, we are still at risk of being worse off.
-If a goal does involve keeping humans alive, it is possible that _human well-being_ is _not_ part of the same goal.
-It doesn't take a lot of imagination to see how horrible it would be to be kept alive in a world where we are artificially kept alive by an ASI that is indifferent to our suffering.
+Pero incluso en los resultados en los que los humanos sobreviven, todavía estamos en riesgo de estar peor.
+Si un objetivo implica mantener a los humanos vivos, es posible que _el bienestar humano_ no sea parte del mismo objetivo.
+No se necesita mucha imaginación para ver lo horrible que sería ser mantenido vivo en un mundo donde somos mantenidos artificialmente vivos por una SA que es indiferente a nuestro sufrimiento.
 
-And even if the AI that takes over is under human control, we don't know that the one controlling the AI will have everyone's best interests in mind.
-It is hard to imagine a functioning democracy when an ASI exists that can manipulate people at super-human level.
+Y aunque la IA que toma el control esté bajo control humano, no sabemos que quien controle la IA tenga en mente los mejores intereses de todos.
+Es difícil imaginar una democracia funcional cuando existe una SA que puede manipular a las personas a un nivel superhumano.
 
-## Conclusion
+## Conclusión {#conclusion}
 
-If these premises are true, then the likelihood of an AI takeover approaches certainty as AI surpasses human capabilities.
-So [let's not build a superintelligence](/action).
+Si estas premisas son ciertas, entonces la probabilidad de una toma del control por IA se acerca a la certeza a medida que la IA supera las capacidades humanas.
+Así que [no construyamos una superinteligencia](/action).

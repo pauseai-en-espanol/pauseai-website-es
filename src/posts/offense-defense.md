@@ -1,67 +1,67 @@
 ---
-title: Offense / Defense balance in AI safety
-description: How to think about the balance between offense and defense in AI safety
+title: Equilibrio entre ataque y defensa en la seguridad de la IA
+description: Cómo analizar el equilibrio entre ataque y defensa en la seguridad de la IA
 ---
 
-Offense-defense balance refers to the relative strengths and weaknesses of offensive and defensive strategies, usually in the context of military conflict or sports competitions.
+El equilibrio entre ataque y defensa se refiere a las fortalezas y debilidades relativas de las estrategias ofensivas y defensivas, generalmente en el contexto de conflictos militares o competiciones deportivas.
 
-Since AI is a dual-use technology, we can see these offense-defense balances play a role in various AI safety problems:
+Dado que la IA es una tecnología de doble uso, podemos ver que estos equilibrios entre ataque y defensa juegan un papel en varios problemas de seguridad de la IA:
 
-- Fake media generation, fake media detection
-- Cybersecurity attacks, cybersecurity defenses
-- AI takeover, AI defense against takeover
+- Generación de medios falsos, detección de medios falsos
+- Ataques de ciberseguridad, defensas de ciberseguridad
+- Toma de control por IA, defensa de la IA contra la toma de control
 
-How will the offense-defense balance in AI safety play out?
+¿Cómo se desarrollará el equilibrio entre ataque y defensa en la seguridad de la IA?
 
-## Fake media
+## Medios falsos {#fake-media}
 
-Modern Large Language Models can create text in all sorts of styles, and other models can create images, audio, and even video.
-Many models create unconvincing fakes, but the quality is improving rapidly.
+Los modelos de lenguaje grandes modernos pueden crear texto en todo tipo de estilos, y otros modelos pueden crear imágenes, audio e incluso videos.
+Muchos modelos crean falsificaciones poco convincentes, pero la calidad está mejorando rápidamente.
 
-State-of-the-art text, audio and image models are already good enough to fool most humans.
-In 2022, the first AI generated image won an art competition.
-A couple of months later, a photography contest was won using an AI generated image.
+Los modelos de texto, audio e imagen de última generación ya son lo suficientemente buenos como para engañar a la mayoría de los humanos.
+En 2022, la primera imagen generada por IA ganó un concurso de arte.
+Un par de meses después, un concurso de fotografía fue ganado utilizando una imagen generada por IA.
 
-We also have AIs that can detect deepfakes.
-This results in a cat and mouse game between the fakers and the detectors.
+También contamos con IA que puede detectar deepfakes.
+Esto da lugar a un juego del gato y el ratón entre los falsificadores y los detectores.
 
-For text, the offense seems to be winning.
-OpenAI [discontinued](https://news.ycombinator.com/item?id=36862850) their AI classifier due to low accuracy.
+En el caso del texto, el ataque parece estar ganando.
+OpenAI [descontinuó](https://news.ycombinator.com/item?id=36862850) su clasificador de IA debido a la baja precisión.
 
-Luckily, measures like [watermarking](https://arxiv.org/abs/2303.07205) and digital signatures can be used to detect fakes.
-Requiring signatures for all media we consume might be a suitable solution.
+Afortunadamente, medidas como [marcado de agua](https://arxiv.org/abs/2303.07205) y firmas digitales pueden ser utilizadas para detectar falsificaciones.
+Requerir firmas para todos los medios que consumimos podría ser una solución adecuada.
 
-## Cybersecurity attacks vs defenses
+## Ataques de ciberseguridad frente a defensas {#cybersecurity-attacks-vs-defenses}
 
-Modern Large Language Models can be used to find vulnerabilities in software.
-When you discover a vulnerability, you can fix it (defense) or exploit it (offense).
-And luckily, by far most people are on the defense side.
+Los modelos de lenguaje grandes modernos pueden ser utilizados para encontrar vulnerabilidades en el software.
+Cuando se descubre una vulnerabilidad, se puede solucionar (defensa) o explotar (ataque).
+Y afortunadamente, la mayoría de las personas están del lado de la defensa.
 
-However, there are some advantages that attackers have over defenders:
+Sin embargo, hay algunas ventajas que los atacantes tienen sobre los defensores:
 
-- **Attackers only need to find one vulnerability, while defenders need to find all of them.** The defenders will not know which vulnerability the attackers will find, so they need to defend against all of them.
-- **Deploying patches takes longer than attacking.** The "Window of Vulnerability" is the time it takes from an exploit to be discovered to the time it is patched. Defenders need to fix the bug, re-compile the application or publish the updated libraries, and then all users need to update their software. This can take months, and in the meantime, the vulnerability can be exploited.
+- **Los atacantes solo necesitan encontrar una vulnerabilidad, mientras que los defensores necesitan encontrar todas ellas.** Los defensores no sabrán qué vulnerabilidad encontrarán los atacantes, por lo que necesitan defenderse contra todas ellas.
+- **Implementar parches lleva más tiempo que atacar.** La "Ventana de Vulnerabilidad" es el tiempo que transcurre desde que se descubre una explotación hasta que se parchea. Los defensores necesitan corregir el error, recompilar la aplicación o publicar las bibliotecas actualizadas, y luego todos los usuarios necesitan actualizar su software. Esto puede llevar meses, y mientras tanto, la vulnerabilidad puede ser explotada.
 
-## Biohazards and biodefense
+## Riesgos biológicos y defensa biológica {#biohazards-and-biodefense}
 
-AI can be used to design new biological agents, or help in the process of engineering a pandemic.
-A group of students was able to use a chatbot to [produce all the steps needed to create a new pandemic](https://arxiv.org/abs/2306.03809).
-However, it might also be used to create new vaccines, medicine or defenses against biological agents.
+La IA puede ser utilizada para diseñar nuevos agentes biológicos o ayudar en el proceso de creación de una pandemia.
+Un grupo de estudiantes pudo utilizar un chatbot para [producir todos los pasos necesarios para crear una nueva pandemia](https://arxiv.org/abs/2306.03809).
+Sin embargo, también podría ser utilizada para crear nuevas vacunas, medicamentos o defensas contra agentes biológicos.
 
-- **Viruses spread quicker than vaccines**. A virus is literally a self-replicating machine. A vaccination, on the other hand, requires a lot of effort to produce and distribute.
+- **Los virus se propagan más rápido que las vacunas**. Un virus es literalmente una máquina autorreplicante. Una vacunación, por otro lado, requiere mucho esfuerzo para producir y distribuir.
 
-## Unknown technology and risks
+## Tecnología desconocida y riesgos {#unknown-technology-and-risks}
 
-An AI far smarter than humans may be able to use its superior understanding of reality to create new technologies.
-Perhaps some self-replicating nanobots that can convert all matter into copies of themselves, or small machines that can influence the brains of humans.
-Predicting what exactly this type of technology will be is impossible (we'd have to be at least as smart as the AI), but we can still reason about the offense-defense balance.
-The conclusion is not that difficult: we have no idea what's coming, and we have no idea how to defend against it.
-We're at a disadvantage.
+Una IA mucho más inteligente que los humanos podría ser capaz de utilizar su comprensión superior de la realidad para crear nuevas tecnologías.
+Quizás algunos nanobots autorreplicantes que puedan convertir toda la materia en copias de sí mismos, o pequeñas máquinas que puedan influir en los cerebros de los humanos.
+Predecir qué tipo de tecnología será exactamente es imposible (tendríamos que ser al menos tan inteligentes como la IA), pero todavía podemos razonar sobre el equilibrio entre ataque y defensa.
+La conclusión no es tan difícil: no tenemos idea de qué se avecina, y no tenemos idea de cómo defendernos contra ello.
+Estamos en desventaja.
 
-## Conclusion
+## Conclusión {#conclusion}
 
-Many AI risks have an offense-defense balance.
-For fake media, we could use digital signatures to detect fakes, shifting the balance to defense.
-For cybersecurity, biohazards and unknown technology, the offense seems to have the advantage.
+Muchos riesgos de la IA tienen un equilibrio entre ataque y defensa.
+Para los medios falsos, podríamos utilizar firmas digitales para detectar falsificaciones, desplazando el equilibrio hacia la defensa.
+Para la ciberseguridad, los riesgos biológicos y la tecnología desconocida, el ataque parece tener la ventaja.
 
-The important policy implication of this is: [let's not build this technology in the first place](/proposal).
+La importante implicación política de esto es: [no construyamos esta tecnología en primer lugar](/proposal).

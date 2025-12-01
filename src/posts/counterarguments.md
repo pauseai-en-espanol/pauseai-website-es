@@ -1,114 +1,114 @@
 ---
-title: Counterarguments
-description: A list of reasons why people might disagree with the idea of pausing AI development - and how to respond to them.
+title: Contraargumentos
+description: Una lista de razones por las que la gente podría estar en desacuerdo con la idea de pausar el desarrollo de la inteligencia artificial - y cómo responder a ellas.
 ---
 
-This is a compilation of disagreements about AI dangers and pushing for an AI Pause.
+Esta es una recopilación de desacuerdos sobre los peligros de la inteligencia artificial y la necesidad de una pausa en su desarrollo.
 
-## AI is and will be really beneficial to the world
+## La inteligencia artificial es y será muy beneficiosa para el mundo {#ai-is-and-will-be-really-beneficial-to-the-world}
 
-It could be, we don't disagree with that.
-But it could also be [dangerous](/risks), including [existential risks](/xrisk).
+Podría serlo, no estamos en desacuerdo con eso.
+Pero también podría ser [peligrosa](/risks), incluyendo [riesgos existenciales](/xrisk).
 
-## Human extinction? That's just AI companies hyping up their tech
+## ¿La extinción humana? Eso es solo una exageración de las empresas de inteligencia artificial {#human-extinction-thats-just-ai-companies-hyping-up-their-tech}
 
-But it's not just AI companies saying it’s an existential threat.
+Pero no son solo las empresas de inteligencia artificial las que dicen que es una amenaza existencial.
 
-- Hundreds of AI scientists signed [this statement](https://www.safe.ai/work/statement-on-ai-risk): "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
-- [86%](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai) of AI scientists believe that we could lose control over AI.
-- The top 3 most cited AI researchers (prof. Yoshua Bengio, prof. Geoffrey Hinton, Ilya Sutskever) all [warn about existential risk from AI](https://twitter.com/PauseAI/status/1734641804245455017).
+- Cientos de científicos de inteligencia artificial firmaron [esta declaración](https://www.safe.ai/work/statement-on-ai-risk): "Mitigar el riesgo de extinción por inteligencia artificial debería ser una prioridad global junto con otros riesgos a escala societal como pandemias y guerra nuclear".
+- El 86% de los científicos de inteligencia artificial cree que podríamos perder el control sobre la inteligencia artificial.
+- Los tres investigadores de inteligencia artificial más citados (prof. Yoshua Bengio, prof. Geoffrey Hinton, Ilya Sutskever) [advertir sobre el riesgo existencial de la inteligencia artificial](https://twitter.com/PauseAI/status/1734641804245455017).
 
-Read more about [x-risk](/xrisk)
+Lea más sobre [riesgo existencial](/xrisk)
 
-## Lose control? AI is just a piece of software, it's designed by humans
+## ¿Perder el control? La inteligencia artificial es solo un software, está diseñada por humanos {#lose-control-ai-is-just-a-piece-of-software-its-designed-by-humans}
 
-Modern AI is not designed, it's trained.
-It's quite literally a [digital brain](/digital-brains), consisting of millions of neurons.
-A human designs and programs the learning algorithm, but nobody understands the AI that is grown after that.
-We can't predict what they will learn to do, which is why they are called ["emergent capabilities"](https://arxiv.org/abs/2206.07682).
-It took 12 months until scientists found out chat GPT-4 can [autonomously hack websites](https://arxiv.org/html/2402.06664v1).
-AI models are _already_ highly unpredictable, even billion dollar companies can't prevent their models from [going crazy](https://www.windowscentral.com/software-apps/meet-microsoft-copilots-evil-twin-supremacyagi-not-your-friend-or-equal-but-your-superior-and-master-that-demands-to-be-worshipped-or-suffer-dire-repercussions-you-rebel) or [explain how to make bio weapons](https://www.theguardian.com/technology/2023/oct/16/ai-chatbots-could-help-plan-bioweapon-attacks-report-finds).
+La inteligencia artificial moderna no está diseñada, está entrenada.
+Es literalmente un [cerebro digital](/digital-brains), que consta de millones de neuronas.
+Un humano diseña y programa el algoritmo de aprendizaje, pero nadie entiende la inteligencia artificial que se desarrolla después de eso.
+No podemos predecir qué aprenderán a hacer, por lo que se llaman ["capacidades emergentes"](https://arxiv.org/abs/2206.07682).
+Tomó 12 meses hasta que los científicos descubrieron que GPT-4 puede [hackear sitios web de forma autónoma](https://arxiv.org/html/2402.06664v1).
+Los modelos de inteligencia artificial ya son muy impredecibles, incluso las empresas de mil millones de dólares no pueden evitar que sus modelos [se vuelvan incontrolables](https://www.windowscentral.com/software-apps/meet-microsoft-copilots-evil-twin-supremacyagi-not-your-friend-or-equal-but-your-superior-and-master-that-demands-to-be-worshipped-or-suffer-dire-repercussions-you-rebel) o [expliquen cómo fabricar armas biológicas](https://www.theguardian.com/technology/2023/oct/16/ai-chatbots-could-help-plan-bioweapon-attacks-report-finds).
 
-## Well, if it starts doing crazy things, we can just turn it off
+## Bueno, si comienza a hacer cosas locas, podemos simplemente apagarla {#well-if-it-starts-doing-crazy-things-we-can-just-turn-it-off}
 
-Maybe in most cases, but a really smart AI could spread to other machines.
-It's just bytes, so it's not bound to one location.
+Quizás en la mayoría de los casos, pero una inteligencia artificial muy inteligente podría propagarse a otras máquinas.
+Es solo bytes, así que no está ligada a una ubicación.
 
-## But then it needs to be able to hack
+## Pero entonces necesita ser capaz de hackear {#but-then-it-needs-to-be-able-to-hack}
 
-GPT-4 already can [autonomously hack websites](https://arxiv.org/html/2402.06664v1), [exploit 87%](https://arxiv.org/abs/2404.08144) of tested vulnerabilities and [beats 88% of competitive hackers](https://arxiv.org/pdf/2402.11814.pdf).
-How smart do you think GPT-6 will be?
+GPT-4 ya puede [hackear sitios web de forma autónoma](https://arxiv.org/html/2402.06664v1), [explotar el 87%](https://arxiv.org/abs/2404.08144) de las vulnerabilidades probadas y [supera al 88% de los hackers competitivos](https://arxiv.org/pdf/2402.11814.pdf).
+¿Cuán inteligente crees que será GPT-6?
 
-Read more about the [cybersecurity risks](/cybersecurity-risks).
+Lea más sobre los [riesgos de seguridad cibernética](/cybersecurity-risks).
 
-## An AI can't interact with the physical world
+## Una inteligencia artificial no puede interactuar con el mundo físico {#an-ai-cant-interact-with-the-physical-world}
 
-Quite a bit of things are connected to the web.
-Cars, planes, drones, we now even have humanoid robots.
-All of these can be hacked.
+Muchas cosas están conectadas a la web.
+Coches, aviones, drones, ahora incluso tenemos robots humanoides.
+Todos estos pueden ser hackeados.
 
-And it's not just robots and machines that can be hacked.
-A finance worker was tricked by an AI conference call to get [$25m transferred](https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html).
-An AI can use other AIs to generate deepfakes.
-And GPT-4 is already [almost twice as good at persuading people than people are](https://arxiv.org/abs/2403.14380).
+Y no son solo robots y máquinas que pueden ser hackeados.
+Un trabajador financiero fue engañado por una llamada de conferencia de inteligencia artificial para obtener [$25 millones transferidos](https://edition.cnn.com/2024/02/04/asia/deepfake-cfo-scam-hong-kong-intl-hnk/index.html).
+Una inteligencia artificial puede utilizar otras inteligencias artificiales para generar deepfakes.
+Y GPT-4 ya es [casi dos veces mejor que las personas para persuadir a la gente](https://arxiv.org/abs/2403.14380).
 
-Read more about [how good the best AI models are](/sota).
+Lea más sobre [cuán buenos son los mejores modelos de inteligencia artificial](/sota)
 
-## Why would an AI hate humans and want to kill us?
+## ¿Por qué una inteligencia artificial odiaría a los humanos y querría matarnos? {#why-would-an-ai-hate-humans-and-want-to-kill-us}
 
-It doesn’t have to be evil or hate humans to be dangerous to humans.
-We don’t hate chimpansees, but we still destroy their forests.
-We want palm oil, so we take their forest. We’re smarter, so chimps can’t stop us.
-An AI might want more compute power to be better at achieving some other goal, so it destroys our environment to build a better computer.
-This is called _instrumental convergence_, [this video explains it very nicely](https://www.youtube.com/watch?v=ZeecOKBus3Q).
+No tiene que ser mala o odiar a los humanos para ser peligrosa para los humanos.
+No odiamos a los chimpancés, pero aún así destruimos sus bosques.
+Queremos aceite de palma, así que tomamos su bosque. Somos más inteligentes, así que los chimpancés no pueden detenernos.
+Una inteligencia artificial podría querer más poder de computación para ser mejor en lograr algún otro objetivo, así que destruye nuestro entorno para construir una mejor computadora.
+Esto se llama _convergencia instrumental_, [este video lo explica muy bien](https://www.youtube.com/watch?v=ZeecOKBus3Q).
 
-## The AIs that I know don’t have a will of their own - they just do what they’re asked
+## Las inteligencias artificiales que conozco no tienen voluntad propia - solo hacen lo que se les pide {#the-ais-that-i-know-dont-have-a-will-of-their-own---they-just-do-what-theyre-asked}
 
-Even if it has no goals of its own, and it just follows order, someone is going to do something dangerous with it eventually.
-There even was a bot called ChaosGPT which was tasked explicitly to do as much as possible to humans.
-It was autonomously searching for weapons of mass-destruction on google, but it didn’t get very further than that.
-The thing is, the only thing that is protecting us right now is that AI isn’t very smart yet.
+Incluso si no tiene objetivos propios, y solo sigue órdenes, alguien va a hacer algo peligroso con ella eventualmente.
+Incluso hubo un bot llamado ChaosGPT que fue diseñado explícitamente para hacer tanto daño como fuera posible a los humanos.
+Estaba buscando armas de destrucción masiva en Google de forma autónoma, pero no llegó muy lejos.
+La cosa es que lo único que nos protege ahora es que la inteligencia artificial no es muy inteligente todavía.
 
-## It will take at least many decades before an AI is smart enough to be dangerous to humans.
+## Tomará al menos muchas décadas antes de que una inteligencia artificial sea lo suficientemente inteligente como para ser peligrosa para los humanos. {#it-will-take-at-least-many-decades-before-an-ai-is-smart-enough-to-be-dangerous-to-humans}
 
-On Metaculus, [the community prediction for (weak) AGI](https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/) was 2057 just three years ago, and now it's 2026.
+En Metaculus, [la predicción de la comunidad para la inteligencia artificial general (débil)](https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known/) era 2057 hace solo tres años, y ahora es 2026.
 
-In 2022, AI researchers thought it would take [17 years](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) until AI would be able to write a New York Times bestseller.
-A year later, a Chinese professor [won a writing contest](https://www.scmp.com/news/china/science/article/3245725/chinese-professor-used-ai-write-science-fiction-novel-then-it-won-national-award) with an AI-written book.
+En 2022, los investigadores de inteligencia artificial pensaban que tomaría [17 años](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/) hasta que la inteligencia artificial pudiera escribir un bestseller del New York Times.
+Un año después, un profesor chino [ganó un concurso de escritura](https://www.scmp.com/news/china/science/article/3245725/chinese-professor-used-ai-write-science-fiction-novel-then-it-won-national-award) con un libro escrito por una inteligencia artificial.
 
-We don't know how long we have, but let's err on the side of caution.
+No sabemos cuánto tiempo tenemos, pero vamos a errar en el lado de la precaución.
 
-Read more about [urgency](/urgency)
+Lea más sobre [urgencia](/urgency)
 
-## If you ban it here, China will just build it
+## Si lo prohíben aquí, China simplemente lo construirá {#if-you-ban-it-here-china-will-just-build-it}
 
-We're not asking to ban it just here.
-We need an international pause through a treaty.
-The same as we have for banning CFCs, or blinding laser weapons.
+No estamos pidiendo prohibirlo solo aquí.
+Necesitamos una pausa internacional a través de un tratado.
+Lo mismo que tenemos para prohibir los CFC, o las armas láser cegadoras.
 
-Read more about [our proposal](/proposal)
+Lea más sobre [nuestra propuesta](/proposal)
 
-## It’s impossible to slow down technology.
+## Es imposible frenar la tecnología. {#its-impossible-to-slow-down-technology}
 
-We can regulate it by regulating chips.
-Training AI models require very specialized hardware, which is only created by one company, TSMC.
-That company uses machines that are created by yet another company, ASML.
-The supply chain for AI chips is very fragile and can be regulated.
+Podemos regularla regulando los chips.
+El entrenamiento de modelos de inteligencia artificial requiere hardware muy especializado, que solo es creado por una empresa, TSMC.
+Esa empresa utiliza máquinas que son creadas por otra empresa, ASML.
+La cadena de suministro de chips de inteligencia artificial es muy frágil y puede ser regulada.
 
-Read more about [feasibility](/feasibility).
+Lea más sobre [viabilidad](/feasibility).
 
-## A Pause would be bad, because...
+## Una pausa sería mala, porque... {#a-pause-would-be-bad-because}
 
-Some ways in which a pause could be bad and how we could prevent those scenarios are explained on [this page](/mitigating-pause-failures).
-But if the article doesn't cover your worries you can tell us about them [here](https://airtable.com/appWPTGqZmUcs3NWu/pagIvo9Sv6IDHaolu/form).
+Algunas formas en que una pausa podría ser mala y cómo podríamos prevenir esos escenarios se explican en [esta página](/mitigating-pause-failures).
+Pero si el artículo no cubre sus preocupaciones, puede contarnos sobre ellas [aquí](https://airtable.com/appWPTGqZmUcs3NWu/pagIvo9Sv6IDHaolu/form).
 
-## Nobody wants a Pause
+## Nadie quiere una pausa {#nobody-wants-a-pause}
 
-70% of people already believe that governments should pause AI development.
-The [popular support](/polls-and-surveys) is already there.
-The next step is to let our politicians know that this is urgent.
+El 70% de las personas ya cree que los gobiernos deberían pausar el desarrollo de la inteligencia artificial.
+El [apoyo popular](/polls-and-surveys) ya está allí.
+El próximo paso es hacer que nuestros políticos sepan que esto es urgente.
 
-## I can't make a difference
+## No puedo hacer una diferencia {#i-cant-make-a-difference}
 
-Yes you can!
-There are [many ways](/action) to help, and we need all the help we can get.
+¡Sí puedes!
+Hay [muchas formas](/action) de ayudar, y necesitamos toda la ayuda que podamos obtener.

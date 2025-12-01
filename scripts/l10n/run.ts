@@ -243,9 +243,15 @@ const languageNamesInEnglish = new Intl.DisplayNames('en', { type: 'language' })
 			})(),
 			(async () => {
 				const markdownPathsFromBase = await fs.readdir(MARKDOWN_SOURCE, { recursive: true })
-				const markdownPathsFromRoot = markdownPathsFromBase.map((file) =>
-					path.join(MARKDOWN_SOURCE, file)
-				)
+				const markdownPathsFromRoot = (
+					await Promise.all(
+						markdownPathsFromBase.map(async (file) => {
+							const fullPath = path.join(MARKDOWN_SOURCE, file)
+							const stat = await fs.stat(fullPath)
+							return stat.isFile() ? fullPath : null
+						})
+					)
+				).filter((p): p is string => p !== null)
 				return await retrieveMarkdown(
 					{
 						sourcePaths: markdownPathsFromRoot,

@@ -1,6 +1,6 @@
 ---
-title: PauseAI protest @ Melbourne - June 16th
-description: Join PauseAI for an upcoming peaceful protest at the Melbourne Convention and Exhibition Centre (MCEC) where Sam Altman will be having a talk in Melbourne.
+title: Protesta de PauseAI en Melbourne - 16 de junio
+description: Únete a PauseAI en una próxima protesta pacífica en el Melbourne Convention and Exhibition Centre (MCEC), donde Sam Altman dará una charla en Melbourne.
 ---
 
 <script>
@@ -13,46 +13,46 @@ description: Join PauseAI for an upcoming peaceful protest at the Melbourne Conv
 </div>
 </WidgetConsent>
 
-Join #PauseAI for an upcoming peaceful protest at the Melbourne Convention and Exhibition Centre (MCEC) where Sam Altman will be having a talk.
+Únete a #PauseAI en una próxima protesta pacífica en el Melbourne Convention and Exhibition Centre (MCEC), donde Sam Altman dará una charla.
 
-- Date & Time: Friday, June 16, 2 pm AEST
-- Venue: Main entrance of MCEC, 1 Convention Centre Place, South Wharf, VIC 3006, Australia
-- Protest Times: 1.30 pm to 3 pm (arrival time) & 4:30 pm onwards (departure time)
-- Logistics: Bring signs and flyers, no fee is required to participate, Startup Victoria membership ticket is currently free
+- Fecha y hora: viernes, 16 de junio, 14:00 horas AEST
+- Lugar: Entrada principal del MCEC, 1 Convention Centre Place, South Wharf, VIC 3006, Australia
+- Horarios de la protesta: 13:30 a 15:00 horas (hora de llegada) y 16:30 horas en adelante (hora de salida)
+- Logística: Trae carteles y folletos; no se requiere pago para participar. La entrada de membresía de Startup Victoria es gratuita actualmente.
 
-Join us to raise your voice for AI safety and make a difference. Please join #PauseAI's [Discord server](https://discord.gg/2XXWXvErfA), the #australia channel and AGI Moratorium's Slack, [#λ-australia](https://www.campaignforaisafety.org/r/2b0991d9?m=4045bfdd-2b52-4fa2-b4c5-0d8adb4aac63) for more discussions.
+Únete a nosotros para alzar tu voz por la seguridad de la inteligencia artificial y hacer una diferencia. Por favor, únete al servidor de Discord de #PauseAI, el canal #australia y el Slack de AGI Moratorium, #λ-australia, para más discusiones.
 
-## Press Release
+## Comunicado de prensa {#press-release}
 
-On Friday, June 16th, volunteers from the new [PauseAI](http://pauseai.info) movement will gather at the Melbourne Convention and Exhibition Centre to urge the Australian government to take the lead on pausing the development of more powerful and dangerous AI systems.
+El viernes, 16 de junio, voluntarios del movimiento PauseAI se reunirán en el Melbourne Convention and Exhibition Centre para instar al gobierno australiano a tomar la iniciativa en la pausa del desarrollo de sistemas de inteligencia artificial más poderosos y peligrosos.
 
-A rapidly increasing number of AI experts [signed a statement](https://www.safe.ai/statement-on-ai-risk) last week that reads:
+Un número creciente de expertos en inteligencia artificial firmaron una declaración la semana pasada que afirma:
 
-> "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+> "Mitigar el riesgo de extinción por inteligencia artificial debe ser una prioridad global, junto con otros riesgos a escala societal como pandemias y guerra nuclear".
 
-This has been signed by virtually all AI labs (OpenAI, Google DeepMind, Anthropic) and hundreds of AI scientists including Geoffrey Hinton, the "Godfather of AI".
+Esto ha sido firmado por prácticamente todos los laboratorios de inteligencia artificial (OpenAI, Google DeepMind, Anthropic) y cientos de científicos de inteligencia artificial, incluyendo a Geoffrey Hinton, considerado el "padre de la inteligencia artificial".
 
-AI safety researchers have not reached on consensus on how large the risk of human extinction will be.
-Results from the ["Existential risk from AI survey"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) show that estimates range from 2% to 98%, with an average of 30%.
+Los investigadores de seguridad de la inteligencia artificial no han llegado a un consenso sobre cuán grande es el riesgo de extinción humana.
+Los resultados de la encuesta "Riesgo existencial de la inteligencia artificial" muestran que las estimaciones van desde el 2% hasta el 98%, con un promedio del 30%.
 
-The protesters are urging the Australian government to take the lead on global AI safety and pause the development of more dangerous AI systems.
-They are also asking them to prioritize the Pause on the [AI Safety Summit](https://pauseai.info/summit), which is being organised by the UK and will be held later in 2023.
+Los manifestantes están instando al gobierno australiano a tomar la iniciativa en la seguridad global de la inteligencia artificial y a pausar el desarrollo de sistemas de inteligencia artificial más peligrosos.
+También les están pidiendo que prioricen la pausa en la Cumbre de Seguridad de la Inteligencia Artificial, que está siendo organizada por el Reino Unido y se llevará a cabo a finales de 2023.
 
-Pausing AI development is a radically different approach to safety from what the AI lab CEOs like Sam Altman are proposing.
-OpenAI believes that ["it would be unintuitively risky and difficult to stop the creation of superintelligence"](https://openai.com/blog/governance-of-superintelligence), so they are pursuing further development toward superintelligence.
+Pausar el desarrollo de la inteligencia artificial es un enfoque radicalmente diferente a la seguridad de lo que los directores ejecutivos de los laboratorios de inteligencia artificial como Sam Altman están proponiendo.
+OpenAI cree que "sería arriesgado y difícil detener la creación de superinteligencia", por lo que están persiguiendo un mayor desarrollo hacia la superinteligencia.
 
-> "We have a choice: do we risk everything to build a superintelligence that the public was never consulted on, or do we stop while we still can?" - PauseAI protesters
+> "Tenemos una elección: ¿arriesgamos todo para construir una superinteligencia que el público nunca fue consultado, o paramos mientras todavía podemos?" - Manifestantes de PauseAI
 
-> "AI companies are putting everything at risk; we're already seeing the damage, and it will get far worse. Technology development is not inevitable, and pausing should be considered a feasible option. We can't cede the future to a few CEOs who acknowledge they are willing to risk humanity for their dreams. We all deserve a say on our future, and a global pause gives us that chance."
+> "Las empresas de inteligencia artificial están poniendo todo en riesgo; ya estamos viendo el daño, y empeorará. El desarrollo de la tecnología no es inevitable, y la pausa debe considerarse una opción factible. No podemos ceder el futuro a unos pocos directores ejecutivos que reconocen que están dispuestos a arriesgar la humanidad por sus sueños. Todos merecemos tener voz en nuestro futuro, y una pausa global nos da esa oportunidad".
 
-> "Despite acknowledging the dangers of continued AI development, these companies are merely using it as an excuse to carry on, and seem to refuse to voluntarily give up this dangerous power. In such situations, global collaboration in reigning in this dangerous development is key so that we make sure technology development works for all."
+> "A pesar de reconocer los peligros del desarrollo continuo de la inteligencia artificial, estas empresas simplemente lo están utilizando como excusa para seguir adelante, y parecen negarse a renunciar voluntariamente a este poder peligroso. En tales situaciones, la colaboración global para reinar en este desarrollo peligroso es clave para asegurarnos de que el desarrollo de la tecnología funcione para todos".
 
-> "We may not have the luxury of time. AI developments are happening at a frantic pace, and we need to act now to prevent the worst-case scenarios. The summit in autumn could be even too late to prevent the worst. We need governments to pause AI development right now"
+> "Es posible que no tengamos el lujo del tiempo. Los desarrollos de la inteligencia artificial están sucediendo a un ritmo frenético, y debemos actuar ahora para prevenir los peores escenarios. La cumbre en otoño podría ser demasiado tarde para prevenir lo peor. Necesitamos que los gobiernos pausen el desarrollo de la inteligencia artificial ahora mismo".
 
-The PauseAI protesters have concrete [agenda suggestions](/summit) and [policy proposals](/proposal) for the summit.
+Los manifestantes de PauseAI tienen sugerencias concretas de agenda y propuestas de políticas para la cumbre.
 
-For more information, please visit [PauseAI.info](http://pauseai.info).
+Para más información, por favor visite [PauseAI.info](http://pauseai.info).
 
-## Contact
+## Contacto {#contact}
 
 - Michael Huang ([Twitter](https://twitter.com/michhuan))

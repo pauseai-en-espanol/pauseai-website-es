@@ -1,67 +1,64 @@
 ---
-title: 'Next International Protest: Paris AI Summit — February 7–11'
-description: AI Safety should be the focus of the Paris AI Action Summit!
+title: 'Próxima Protesta Internacional: Cumbre de IA de París — 7-11 de febrero'
+description: La seguridad de la IA debe ser el enfoque principal de la Cumbre de Acción de IA de París.
 ---
 
 <script>
     import LumaSignup from '$lib/components/LumaSignup.svelte'
 </script>
 
-## AI Safety should be the focus of the Paris AI Action Summit!
+## La seguridad de la IA debe ser el enfoque principal de la Cumbre de Acción de IA de París. {#ai-safety-should-be-the-focus-of-the-paris-ai-action-summit}
 
-On the 10th and 11th of February this year, politicians from around the world including the USA, China, UK, Canada and France as well as global experts in AI will be gathering in Paris for the Artificial Intelligence Action Summit. Without a focus on safety, **the summit will be a lost opportunity to protect our common future**. We are protesting around the world to shift main focus onto AI Safety!
+El 10 y 11 de febrero de este año, políticos de todo el mundo, incluyendo EE. UU., China, Reino Unido, Canadá y Francia, así como expertos globales en IA, se reunirán en París para la Cumbre de Acción de Inteligencia Artificial. Sin un enfoque en la seguridad, **la cumbre será una oportunidad perdida para proteger nuestro futuro común**. Estamos organizando protestas en todo el mundo para cambiar el enfoque principal hacia la seguridad de la IA.
 
-- **PauseAI wants to ensure the Summit attendees and organizers know that Safety is the most important issue for discussion\!**
+- **PauseAI quiere asegurarse de que los asistentes y organizadores de la Cumbre sepan que la seguridad es el tema más importante para discutir.**
 
-- **We hope you will stand with us in February to send a clear message to the organizers and the delegates!**
+- **Esperamos que te unirás a nosotros en febrero para enviar un mensaje claro a los organizadores y delegados.**
 
-## Protests around the world:
+## Protestas en todo el mundo: {#protests-around-the-world}
 
-- [**Paris**](https://lu.ma/vo3354ab), France
-- [**New York**](https://lu.ma/user/pauseainyc), USA
-- [**Victoria**](https://lu.ma/azbyo7ik), Canada
-- [**London**](https://lu.ma/0h69asxw), UK
-- [**Berlin**](https://lu.ma/7sjdot1d), Germany
-- [**Brussels**](https://lu.ma/sudbttnx), Belgium
-- **Zürich**, Switzerland _(details t.b.a.)_
-- [**Prague**](https://lu.ma/6t4fmgw0), Czechia
-- **Milan**, Italy _(details t.b.a.)_
-- [**Stockholm**](https://www.facebook.com/events/1844597859610851), Sweden
-- [**Copenhagen**](https://fb.me/e/6kJob0cvU), Denmark
-- [**Oslo**](https://lu.ma/iazbqzr1), Norway
-- [**Kristiansand**](https://lu.ma/kla08ott), Norway
-- [**Trondheim**](https://lu.ma/w5cxxfuq), Norway
-- [**Kinshasa**](https://lu.ma/9l5fif4e), DR Congo
-- [**Brazzaville**](https://lu.ma/jhhimjt3), Republic of the Congo
+- [**París**](https://lu.ma/vo3354ab), Francia
+- [**Nueva York**](https://lu.ma/user/pauseainyc), EE. UU.
+- [**Victoria**](https://lu.ma/azbyo7ik), Canadá
+- [**Londres**](https://lu.ma/0h69asxw), Reino Unido
+- [**Berlín**](https://lu.ma/7sjdot1d), Alemania
+- [**Bruselas**](https://lu.ma/sudbttnx), Bélgica
+- **Zúrich**, Suiza _(detalles por confirmar)_
+- [**Praga**](https://lu.ma/6t4fmgw0), República Checa
+- **Milán**, Italia _(detalles por confirmar)_
+- [**Estocolmo**](https://www.facebook.com/events/1844597859610851), Suecia
+- [**Copenhague**](https://fb.me/e/6kJob0cvU), Dinamarca
+- [**Oslo**](https://lu.ma/iazbqzr1), Noruega
+- [**Kristiansand**](https://lu.ma/kla08ott), Noruega
+- [**Trondheim**](https://lu.ma/w5cxxfuq), Noruega
+- [**Kinshasa**](https://lu.ma/9l5fif4e), República Democrática del Congo
+- [**Brazzaville**](https://lu.ma/jhhimjt3), República del Congo
 - [**N'Djaména**](https://lu.ma/amtxwy69), Chad
 - [**Melbourne**](https://lu.ma/hnzqf46d), Australia
 
 <LumaSignup eventId="evt-OEM90n9MAvb8JTx">
-    Sign up to get updates
+    Regístrate para recibir actualizaciones
 </LumaSignup>
 
-Reach out to the @Protest Team on [our Discord](https://discord.gg/9MN5yhNR3K) if you want to organize a protest in your city!
+Ponte en contacto con el equipo de @Protest en [nuestro Discord](https://discord.gg/9MN5yhNR3K) si deseas organizar una protesta en tu ciudad.
 
-<!--And sign up to this event for updates! (waiting for the global Luma if we create that)-->
+## ¿Por qué estamos protestando y qué pedimos a los organizadores y delegados que hagan? {#why-are-we-protesting-and-what-are-we-asking-the-organizer-and-the-delegates-to-do}
 
-## Why are we protesting, and what are we asking the organizer and the delegates to do!
+Los organizadores de la cumbre de París han creado un programa que cubrirá el interés público, el futuro del trabajo, la innovación y la cultura, la confianza en la IA y la gobernanza global **— pero han dedicado muy poco tiempo a la seguridad de la IA.**
 
-The organizers of the Paris summit have created an agenda that will cover public interest, the future of work, innovation and culture, trust in AI, and global governance **— but they have given very little time to AI Safety.**
+- Es un error restar importancia a la seguridad y el riesgo de la IA.
+- El rápido avance de las capacidades de la IA en los últimos años hace que sea urgentemente necesario que los líderes mundiales comiencen a colaborar para mitigar los riesgos graves y [existentiales](https://www.safe.ai/work/statement-on-ai-risk) que plantean los sistemas de IA cada vez más poderosos para garantizar nuestro futuro común.
+- La seguridad de la IA debe ser el enfoque principal de la Cumbre de Acción de IA de París.
 
-- It is a mistake to deprioritize AI-safety and AI risk.
-- The rapid advancement of AI capabilities in recent years makes it urgently required that world leaders start collaborating on mitigating the serious and [existential risks](https://www.safe.ai/work/statement-on-ai-risk) posed by increasingly powerful AI-systems to ensure our common future
-- AI Safety needs to be the focus at the Paris AI Action Summit!
+**Proponemos que los organizadores y los delegados gubernamentales en la cumbre hagan de la seguridad de la IA el enfoque principal trabajando en lo siguiente:**
 
-**We propose that the organizers and the government delegates at the summit makes AI Safety the focus of the summit by working on the following:**
+- Colaborar en la creación de tratados y regulaciones globales para mitigar los riesgos graves y existenciales de la IA, y frenar a las empresas y organizaciones que están construyendo sistemas de IA cada vez más capaces y peligrosos.
+- Planificar el establecimiento de organismos internacionales para hacer cumplir dichos tratados y regulaciones.
+- Compartir y revisar las mejores prácticas sobre cómo cada nación puede contribuir al desafío de proteger el mundo que compartimos.
 
-- Collaborating on creating global treaties and regulations to mitigate serious and existential risks from AI, and reign in the companies and organizations racing to build ever more capable and dangerous AI systems.
-- Planning the establishment of international bodies to enforce such treaties and regulations
-- Sharing and reviewing best practices on how each nation can contribute to the challenge of protecting the world that we share.
+## Únete a PauseAI — la organización detrás de esta protesta {#join-pauseai--the-organization-behind-this-protest}
 
-## Join PauseAI — the organization behind this protest
+PauseAI Global es una organización de voluntarios ubicada en todo el mundo que busca implementar una pausa en el entrenamiento de sistemas de IA más poderosos que la IA más avanzada, hasta que sepamos cómo construirlos de manera segura y mantenerlos bajo control humano.
+Nuestros miembros se coordinan para asegurarse de que el desarrollo de sistemas de IA se entienda y se discuta en la esfera pública, para que todos podamos influir en nuestros tomadores de decisiones para pausar el desarrollo hasta que la seguridad sea una prioridad.
 
-PauseAI Global is an organization of volunteers located across the globe seeking to implement a pause on the training of
-AI systems more powerful than the most advanced AI, until we know how to build them safely and keep them under human control.
-Our members coordinate to make sure the development of AI systems is understood and discussed in the public sphere, so that we can all influence our decision-makers to pause development until safety is a priority.
-
-Join us and take part in our International Protests during the Paris AI Summit: sign up [here](https://pauseai.info/join) and join our protest events [here](https://lu.ma/PauseAI).
+Únete a nosotros y participa en nuestras protestas internacionales durante la Cumbre de IA de París: regístrate [aquí](https://pauseai.info/join) y únete a nuestros eventos de protesta [aquí](https://lu.ma/PauseAI).

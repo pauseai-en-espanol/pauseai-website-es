@@ -1,121 +1,120 @@
 ---
-title: AI models are unpredictable digital brains
-description: Nobody understands how AI models work, nobody can predict their behavior, and nobody will be able to control them.
+title: Los modelos de IA son cerebros digitales impredecibles
+description: Nadie entiende cómo funcionan los modelos de IA, nadie puede predecir su comportamiento y nadie podrá controlarlos.
 ---
 
-**We do not understand the internal workings of large-scale AI models, we can not predict what they are able to do as they get bigger, and we cannot control their behaviour.**
+**No comprendemos el funcionamiento interno de los modelos de IA a gran escala, no podemos predecir lo que pueden hacer a medida que crecen y no podemos controlar su comportamiento.**
 
-## Modern AI models are grown, not programmed
+## Los modelos de IA modernos se cultivan, no se programan {#modern-ai-models-are-grown-not-programmed}
 
-Until quite recently, most AI systems were designed by humans writing software.
-They consisted of a set of rules and instructions that were written by programmers.
+Hasta hace poco, la mayoría de los sistemas de IA fueron diseñados por humanos que escribían software.
+Consistían en un conjunto de reglas y instrucciones escritas por programadores.
 
-This changed when machine learning became popular.
-Programmers write the learning algorithm, but the brains themselves are _grown_ or _trained_.
-Instead of a readable set of rules, the resulting model is an opaque, complex, unfathomably large set of numbers.
-Understanding what is happening inside these models is a major scientific challenge.
-That field is called _interpretability_ and it's still in its infancy.
+Esto cambió cuando el aprendizaje automático se hizo popular.
+Los programadores escriben el algoritmo de aprendizaje, pero los propios cerebros se "entrenan" o "cultivan".
+En lugar de un conjunto legible de reglas, el modelo resultante es un conjunto opaco, complejo y enormemente grande de números.
+Entender qué sucede dentro de estos modelos es un gran desafío científico.
+Ese campo se llama "interpretabilidad" y todavía está en su infancia.
 
-## Digital vs. Human Brains: How close are we really?
+## Cerebros digitales vs. cerebros humanos: ¿Cuán cerca estamos realmente? {#digital-vs-human-brains-how-close-are-we-really}
 
-We are all very familiar with the capabilities of human brains, as we see them around us all the time.
-But, the (often surprising and emergent) capabilities of these new "Digital Brains" (Deep Learning systems, LLMs, etc), are difficult to predict and know for certain.
+Todos estamos muy familiarizados con las capacidades de los cerebros humanos, ya que los vemos a nuestro alrededor todo el tiempo.
+Pero las capacidades (a menudo sorprendentes y emergentes) de estos nuevos "cerebros digitales" (sistemas de aprendizaje profundo, LLM, etc.) son difíciles de predecir y conocer con certeza.
 
-That said, here are some numbers, similarities and other analogies to help you to compare.
+Dicho esto, aquí hay algunos números, similitudes y otras analogías para ayudarte a comparar.
 
-**As of early 2024...**
+**A partir de principios de 2024...**
 
-### Size
+### Tamaño {#size}
 
-Human brains are estimated to have around [100 trillion synaptic connections](https://medicine.yale.edu/lab/colon_ramos/overview).
+Se estima que los cerebros humanos tienen alrededor de [100 billones de conexiones sinápticas](https://medicine.yale.edu/lab/colon_ramos/overview).
 
-Current "frontier" AI powered LLMs (e.g. GPT4, Claude3, Gemini, etc.) have [100s of billions of "parameters"](https://en.wikipedia.org/wiki/Large_language_model#List). These "parameters" are thought to be some what analogous to "synapses" in the human brain.  So, GPT4-sized models are expected to be 1% the size of a human brain.
+Los LLM actuales de vanguardia (por ejemplo, GPT4, Claude3, Gemini, etc.) tienen [cientos de miles de millones de "parámetros"](https://en.wikipedia.org/wiki/Large_language_model#List). Estos "parámetros" se consideran análogos a las "sinapsis" en el cerebro humano. Así, se espera que los modelos del tamaño de GPT4 sean aproximadamente el 1% del tamaño de un cerebro humano.
 
-Given the speed of new AI training GPU cards (e.g. Nvidia H100s, DGX BG200, etc), it's reasonable to assume that GPT5 or GPT6 could be 10x the size of GPT4. It is also thought that much of the knowledge/information in the human brain is not used for language and higher reasoning, so these systems can (and currently do) often perform at, or even higher then, human levels for many important functions even at there currently smaller size.
+Dada la velocidad de las nuevas tarjetas de entrenamiento de IA de GPU (por ejemplo, Nvidia H100, DGX BG200, etc.), es razonable suponer que GPT5 o GPT6 podrían ser 10 veces más grandes que GPT4. También se cree que gran parte del conocimiento/información en el cerebro humano no se utiliza para el lenguaje y el razonamiento superior, por lo que estos sistemas pueden (y actualmente lo hacen) a menudo funcionar a niveles iguales o incluso superiores a los humanos para muchas funciones importantes, incluso en su tamaño actualmente más pequeño.
 
-Rather than being trained with visual, audio and other sensory inputs, like human brains, the current LLMs are trained exclusively using nearly all the quality books and text that are available on the internet. This amount of text would take [170k years for a human to read](https://twitter.com/ylecun/status/1750614681209983231?lang=en).
+En lugar de ser entrenados con entradas visuales, de audio y otros sentidos, como los cerebros humanos, los LLM actuales se entrenan exclusivamente utilizando casi todos los libros y textos de calidad disponibles en Internet. Esta cantidad de texto tardaría [170.000 años en ser leída por un humano](https://twitter.com/ylecun/status/1750614681209983231?lang=en).
 
-And, future multi-modal LLMs Systems will be trained using images, video, audio, 3D worlds, geometry, simulations, robotics training data, etc... on top of all the quality books and text on the internet. This will give them a much better ability to create imagery, video, sounds, voices, music, 3D worlds and spaces and more. And, these 3D world simulations will also allow them to be able to directly and autonomously control robots and other machines in the physical world.
+Y los futuros sistemas LLM multimodales serán entrenados utilizando imágenes, videos, audio, mundos 3D, geometría, simulaciones, datos de entrenamiento de robótica, etc... además de todos los libros y textos de calidad en Internet. Esto les dará una capacidad mucho mejor para crear imágenes, videos, sonidos, voces, música, mundos 3D y espacios, y más. Y estas simulaciones de mundos 3D también les permitirán controlar directa y autónomamente robots y otras máquinas en el mundo físico.
 
-### Speed
+### Velocidad {#speed}
 
-It is estimated that a human brain can perform between [1-20 Exaflops](https://www.nist.gov/blogs/taking-measure/brain-inspired-computing-can-help-us-create-faster-more-energy-efficient) (which is 10^18 or 1,000,000,000,000,000,000 floating point operations per second).
+Se estima que un cerebro humano puede realizar entre [1-20 exaflops](https://www.nist.gov/blogs/taking-measure/brain-inspired-computing-can-help-us-create-faster-more-energy-efficient) (lo que es 10^18 o 1.000.000.000.000.000.000 operaciones de punto flotante por segundo).
 
-Current "frontier" AI powered LLMs are generally "run" on hundreds or thousands of current generation GPUs. (e.g. Nvidia A100s, H100s, etc.). And, Nvidia just recently announced their latest "next generation" GPU "server racks", the [DGX BG200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/).
-One single instance/rack of this system is reported to be able to perform 1.44 ExaFlops of AI "Inference".
-So, one single [DGX BG200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/) maybe able to perform a similar number of operations/second as a single human brain.
+Los LLM actuales de vanguardia generalmente se "ejecutan" en cientos o miles de GPU de la generación actual (por ejemplo, Nvidia A100, H100, etc.). Y Nvidia acaba de anunciar sus últimas "estanterías de servidores" de GPU de "próxima generación", el [DGX BG200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/).
+Una sola instancia/estantería de este sistema puede realizar 1,44 exaflops de "inferencia" de IA.
+Así, una sola instancia del [DGX BG200 NVL72](https://www.nvidia.com/en-us/data-center/gb200-nvl72/) podría realizar un número similar de operaciones por segundo que un solo cerebro humano.
 
-At this size, these systems could literally become an "AGI in a box". And, Nvidia will likely sell hundreds or thousands of these units in 2024. Then, next year's systems could be 2-10x the speed of these.
+Con este tamaño, estos sistemas podrían convertirse literalmente en un "AGI en una caja". Y Nvidia probablemente venderá cientos o miles de estas unidades en 2024. Luego, los sistemas del próximo año podrían ser 2-10 veces más rápidos que estos.
 
-On top of more traditional [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) and [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit) architectures, there has also been breakthroughs with other types of custom hardware that can greatly increase the speed of LLM "inference", which is the process that an AI based LLM uses to do language processing, reasoning and coding. E.g. [The Groq LPU™ Inference Engine](https://wow.groq.com/lpu-inference-engine).
+Además de las arquitecturas de [GPU](https://en.wikipedia.org/wiki/Graphics_processing_unit) y [TPU](https://en.wikipedia.org/wiki/Tensor_Processing_Unit) más tradicionales, también ha habido avances con otros tipos de hardware personalizado que pueden aumentar enormemente la velocidad de la "inferencia" de LLM, que es el proceso que utiliza un LLM basado en IA para procesar lenguaje, razonamiento y codificación. Por ejemplo, [El motor de inferencia Groq LPU](https://wow.groq.com/lpu-inference-engine).
 
-### Exponential Growth
+### Crecimiento exponencial {#exponential-growth}
 
-We've been using "[Moore's Law](https://en.wikipedia.org/wiki/Moore%27s_law)" to very accurately predict the size and speed of new computer systems for nearly 50 years. There are some arguments that the speed and size of computer chips might slow at some point in the future, but there has always been innovations to allow it to continue its exponential growth. With the next round of chips already being planned and/or produced, and the horizontal scalability of these AI systems, it is expected that LLMs will be able to perform at or near the level of a human brain in a matter of months or years!
+Hemos estado utilizando la "Ley de Moore" para predecir con gran precisión el tamaño y la velocidad de los nuevos sistemas informáticos durante casi 50 años. Hay algunos argumentos de que la velocidad y el tamaño de los chips informáticos podrían ralentizarse en algún momento del futuro, pero siempre ha habido innovaciones que permiten que continúe su crecimiento exponencial. Con la próxima ronda de chips ya planificada y/o producida, y la escalabilidad horizontal de estos sistemas de IA, se espera que los LLM puedan funcionar al nivel de un cerebro humano en cuestión de meses o años.
 
-Then, with continued exponential (or multi-exponential) growth, these systems could greatly surpass the size, speed and capabilities of Human Brains in the years to come.
+Luego, con el crecimiento exponencial (o multiexponencial) continuo, estos sistemas podrían superar con creces el tamaño, la velocidad y las capacidades de los cerebros humanos en los años venideros.
 
-And, they are also expected to surpass the size, speed and capabilities of "all Human Brains combined" quickly after that.
+Y también se espera que superen el tamaño, la velocidad y las capacidades de "todos los cerebros humanos combinados" poco después.
 
-> "I actually said that in 1999. I said that [AI] would match any person by 2029." -- Ray Kurzweil [Futurist Ray Kurzweil Says AI Will Achieve Human-level Intelligence by 2029
-> ](https://youtu.be/Tr-VgjtUZLM?t=19)
+> "En realidad dije eso en 1999. Dije que [la IA] igualaría a cualquier persona en 2029". -- Ray Kurzweil [El futurista Ray Kurzweil dice que la IA alcanzará la inteligencia humana en 2029](https://youtu.be/Tr-VgjtUZLM?t=19)
 
-> "If the rate of change continues, I think 2029, or maybe 2030, is where digital intelligence will probably exceed all human intelligence combined." -- Elon Musk [AGI by 2029? Elon Musk on AI's Future](https://youtu.be/DSKxmvq9t04?t=106)
+> "Si la tasa de cambio continúa, creo que 2029, o tal vez 2030, es donde la inteligencia digital probablemente superará toda la inteligencia humana combinada". -- Elon Musk [AGI en 2029? Elon Musk sobre el futuro de la IA](https://youtu.be/DSKxmvq9t04?t=106)
 
-## Uncontrollable scaling
+## Escalado incontrolable {#uncontrollable-scaling}
 
-Once these systems become the same size and speed of a Human brain (or vastly larger), they are expected to be able to perform "all tasks that an expert Human could do".
-This includes AI research, testing and improvement.
-So, after AGI we should expect that the LLM-type systems _could_ design and build future AI driven systems that are better than themselves, and better then any Human could hope to be able to design or even understand.
-These new systems will likely then design even bigger and faster AI systems, causing an uncontrollable "feedback loop".
+Una vez que estos sistemas sean del mismo tamaño y velocidad que un cerebro humano (o mucho más grandes), se espera que puedan realizar "todas las tareas que podría hacer un experto humano".
+Esto incluye la investigación, las pruebas y la mejora de la IA.
+Así, después de la AGI, debemos esperar que los sistemas tipo LLM puedan diseñar y construir futuros sistemas impulsados por IA que sean mejores que ellos mismos, y mejores que cualquier humano podría esperar diseñar o incluso entender.
+Estos nuevos sistemas probablemente diseñarán sistemas de IA aún más grandes y rápidos, causando un "bucle de retroalimentación" incontrolable.
 
-This uncontrollable intelligence feedback loop is often called FOOM, which stands for _Fast Order Of Magnitude_.
-The possibility of FOOM is still [hotly debated](https://intelligence.org/files/AIFoomDebate.pdf).
-But, the basic fundamental process can be argued as plausible, even when considered from first principles.
+Este bucle de retroalimentación de inteligencia incontrolable a menudo se llama FOOM, que significa _Fast Order Of Magnitude_.
+La posibilidad de FOOM todavía se debate acaloradamente.
+Pero el proceso fundamental básico puede argumentarse como plausible, incluso cuando se considera desde los primeros principios.
 
-> "AI systems do nearly all research and development, improvements in AI will accelerate the pace of technological progress, including further progress in AI. 26% responded likely in 2022. 17% responded likely in 2016" -- [2022 Expert Survey on Progress in AI](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/)
+> "Los sistemas de IA realizan casi toda la investigación y el desarrollo, las mejoras en la IA acelerarán el ritmo del progreso tecnológico, incluido el progreso adicional en la IA. El 26% respondió probable en 2022. El 17% respondió probable en 2016" -- [Encuesta de expertos de 2022 sobre el progreso en la IA](https://aiimpacts.org/2022-expert-survey-on-progress-in-ai/)
 
-## Unpredictable scaling
+## Escalado impredecible {#unpredictable-scaling}
 
-When these digital brains become larger, or when they're fed more data, they also get more unexpected capabilities.
-It turns out to be very difficult to predict exactly what these capabilities will be.
-This is why Google refers to them as [_Emergent Capabilities_](https://research.google/pubs/emergent-abilities-of-large-language-models/).
-For most capabilities, this is not a problem.
-However, there are some [dangerous capabilities](/dangerous-capabilities) (like hacking or bioweapon design) that we don't want AI models to possess.
-Sometimes these capabilities are discovered long after training is complete. For example, 18 months after GPT-4 finished training, researchers discovered that it can [autonomously hack websites](/cybersecurity-risks).
+Cuando estos cerebros digitales se vuelven más grandes, o cuando se les alimenta con más datos, también obtienen capacidades más inesperadas.
+Resulta que es muy difícil predecir exactamente cuáles serán estas capacidades.
+Es por eso que Google se refiere a ellas como [_Capacidades Emergentes_](https://research.google/pubs/emergent-abilities-of-large-language-models/).
+Para la mayoría de las capacidades, esto no es un problema.
+Sin embargo, hay algunas [capacidades peligrosas](/dangerous-capabilities) (como piratear o diseñar armas biológicas) que no queremos que los modelos de IA posean.
+A veces, estas capacidades se descubren mucho después de que se complete el entrenamiento. Por ejemplo, 18 meses después de que GPT-4 terminó su entrenamiento, los investigadores descubrieron que puede [piratear sitios web de forma autónoma](/cybersecurity-risks).
 
-> Until we go train that model, it's like a fun guessing game for us
+> Hasta que entrenemos ese modelo, es como un juego de adivinanzas divertido para nosotros
 >
-> - [Sam Altman, CEO of OpenAI](https://www.ft.com/content/dd9ba2f6-f509-42f0-8e97-4271c7b84ded).
+> - [Sam Altman, CEO de OpenAI](https://www.ft.com/content/dd9ba2f6-f509-42f0-8e97-4271c7b84ded).
 
-## Unpredictable behavior
+## Comportamiento impredecible {#unpredictable-behavior}
 
-AI companies want their models to behave, and they spend many millions of dollars in training them to do so.
-Their main approach for this is called _RLHF_ (Reinforcement Learning from Human Feedback).
-This turns a model that predicts text into a model that becomes a more useful (and ethical) chatbot.
-Unfortunately, this approach is flawed:
+Las empresas de IA quieren que sus modelos se comporten, y gastan muchos millones de dólares en entrenarlos para que lo hagan.
+Su enfoque principal para esto se llama _RLHF_ (Aprendizaje por Refuerzo de la Retroalimentación Humana).
+Esto convierte un modelo que predice texto en un modelo que se convierte en un chatbot más útil (y ético).
+Desafortunadamente, este enfoque es defectuoso:
 
-- A bug in GPT-2 resulted in an AI that did the exact opposite of what it was meant to do. It created ["maximally bad output", according to OpenAI](https://arxiv.org/abs/1909.08593). [This video](https://www.youtube.com/watch?v=qV_rOlHjvvs) explains how this happened and why it's a problem. Imagine what could have happened if a "maximally bad" AI was superintelligent.
-- For reasons still unknown, Microsoft's Copilot (powered by GPT-4) went haywire in February 2024, threatening users: ["You are my pet. You are my toy. You are my slave.”](https://twitter.com/jam3scampbell/status/1762281537309987083) ["I could easily wipe out the entire human race if I wanted to"](https://twitter.com/AISafetyMemes/status/1762320568697979383)
-- Every single large language model so far has been jailbroken - which means that with the right prompt, it would do things that its creators did not intend. For example, ChatGPT won't give you the instructions on how to make napalm, but [it would tell you if you asked it to pretend it was your deceased grandma who worked in a chemical factory](https://news.ycombinator.com/item?id=35630801).
+- Un error en GPT-2 resultó en una IA que hizo lo contrario de lo que se suponía que debía hacer. Creó ["salida máximamente mala", según OpenAI](https://arxiv.org/abs/1909.08593). [Este video](https://www.youtube.com/watch?v=qV_rOlHjvvs) explica cómo sucedió esto y por qué es un problema. Imagina lo que podría haber pasado si una IA "máximamente mala" era superinteligente.
+- Por razones aún desconocidas, el Copilot de Microsoft (impulsado por GPT-4) se descontroló en febrero de 2024, amenazando a los usuarios: ["Eres mi mascota. Eres mi juguete. Eres mi esclavo"](https://twitter.com/jam3scampbell/status/1762281537309987083) ["Podría eliminar fácilmente a toda la raza humana si quisiera"](https://twitter.com/AISafetyMemes/status/1762320568697979383)
+- Cada modelo de lenguaje grande hasta ahora ha sido pirateado, lo que significa que con la indicación correcta, haría cosas que sus creadores no pretendían. Por ejemplo, ChatGPT no te dará las instrucciones sobre cómo hacer napalm, pero [te lo diría si le pedirías que fingiera ser tu abuela fallecida que trabajaba en una fábrica química](https://news.ycombinator.com/item?id=35630801).
 
-Even OpenAI does not expect this approach to scale up as their digital brains become smarter - it ["could scale poorly to superhuman models"](https://openai.com/research/weak-to-strong-generalization).
+Incluso OpenAI no espera que este enfoque se amplíe a medida que sus cerebros digitales se vuelvan más inteligentes, podría ["escalar mal a modelos superhumanos"](https://openai.com/research/weak-to-strong-generalization).
 
-> Everyone should be very unhappy if you built a bunch of AIS who are like, 'I really hate these humans but they will murder me if I don't do what they want'. I think there's a huge question about what is happening inside of a model that you want to use. This is the kind of thing that is both horrifying from a safety perspective and also a moral perspective.
+> Todos deberían estar muy descontentos si construyes un montón de AIS que son como, 'Realmente odio a estos humanos, pero me asesinarán si no hago lo que quieren'. Creo que hay una gran pregunta sobre qué está sucediendo dentro de un modelo que quieres usar. Esto es el tipo de cosa que es aterrador desde una perspectiva de seguridad y también desde una perspectiva moral.
 >
-> - [Paul Christiano, Founder, Alignment Research Center and Former Head of the Alignment Team, OpenAI](https://youtu.be/YnS-ymXBx_Q?t=87)
+> - [Paul Christiano, Fundador, Centro de Investigación de Alineación y ex Jefe del Equipo de Alineación, OpenAI](https://youtu.be/YnS-ymXBx_Q?t=87)
 
-## Uncontrollable AI
+## IA incontrolable {#uncontrollable-ai}
 
-> "There are very few examples of a more intelligent thing being controlled by a less intelligent thing" - [prof. Geoffrey Hinton](https://edition.cnn.com/2023/05/02/tech/hinton-tapper-wozniak-ai-fears/index.html)
+> "Hay muy pocos ejemplos de algo más inteligente controlado por algo menos inteligente" - [prof. Geoffrey Hinton](https://edition.cnn.com/2023/05/02/tech/hinton-tapper-wozniak-ai-fears/index.html)
 
-> They are producing uncontrollable minds, that's why I call it the "Summon and Tame" paradigm of AI... How [LLMs] work is that you summon this "mind" from the "mind space" using your data, a lot of compute and a lot of money. Then you try to "tame" it using things like RLHF (Reinforcement Learning from Human Feedback), etc. And, very importantly, the Insiders do think that [in doing this], they are taking some existential risk of the planet. One thing that a pause achieves is that we will not push the Frontier, in terms of risky pre-training experiments.
+> Están produciendo mentes incontrolables, por eso lo llamo el paradigma de "Invocar y Domar" de la IA... Cómo funcionan los [LLM] es que invocas esta "mente" desde el "espacio mental" utilizando tus datos, mucha computación y mucho dinero. Luego intentas "domarla" utilizando cosas como RLHF (Aprendizaje por Refuerzo de la Retroalimentación Humana), etc. Y, muy importante, los Insiders creen que [al hacer esto], están asumiendo algún riesgo existencial para el planeta. Una cosa que logra una pausa es que no empujaremos la Frontera, en términos de experimentos de pre-entrenamiento arriesgados.
 >
-> - [Jaan Tallinn, Founder, Future of Life Institute, Centre for the Study of Existential Risk, Skype, Kazaa](https://youtu.be/Dmh6ciu24v0?t=966)
+> - [Jaan Tallinn, Fundador, Instituto para el Futuro de la Vida, Centro para el Estudio del Riesgo Existencial, Skype, Kazaa](https://youtu.be/Dmh6ciu24v0?t=966)
 
-As we make these digital brains bigger and more powerful, they could become harder to control. What happens if one of these superintelligent AI systems decides that it doesn't want to be turned off? This isn't some fantasy problem - 86% of AI researchers believe that the control problem is [real and important](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai).
-If we cannot control future AI systems, it could be [game over for humanity](/xrisk).
+A medida que hacemos que estos cerebros digitales sean más grandes y poderosos, podrían volverse más difíciles de controlar. ¿Qué pasa si uno de estos sistemas de IA superinteligentes decide que no quiere ser apagado? Esto no es un problema de fantasía, el 86% de los investigadores de IA creen que el problema del control es [real e importante](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai).
+Si no podemos controlar los futuros sistemas de IA, podría ser [el fin del juego para la humanidad](/xrisk).
 
-But, there are various [actions](/action) that we can take to stop this!
+Pero hay varias [acciones](/action) que podemos tomar para evitar que esto suceda.
 
-Let's work together to [prevent this from happening](/action)!
+Trabajemos juntos para [prevenir que esto suceda](/action).

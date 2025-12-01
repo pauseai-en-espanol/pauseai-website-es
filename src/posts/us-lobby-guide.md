@@ -1,151 +1,151 @@
 ---
-title: US Lobbying Guide
-description: The goal of this guide is to empower people – everyday citizens who lack any background in lobbying or advocacy, but who are concerned about AI – to meet with their elected officials directly and make their concerns heard as effectively as possible.
+title: Guía de cabildeo en EE. UU.
+description: El objetivo de esta guía es empoderar a las personas – ciudadanos comunes que carecen de experiencia en cabildeo o defensa, pero que están preocupados por la IA – para reunirse con sus funcionarios electos directamente y hacer que sus preocupaciones sean escuchadas de manera efectiva.
 ---
 
-The goal of this guide is to **empower people** – everyday citizens who lack any background in lobbying or advocacy, but who are concerned about AI – to meet with their elected officials directly and make their concerns heard as effectively as possible.
+El objetivo de esta guía es **empoderar a las personas** – ciudadanos comunes que carecen de experiencia en cabildeo o defensa, pero que están preocupados por la IA – para reunirse con sus funcionarios electos directamente y hacer que sus preocupaciones sean escuchadas de manera efectiva.
 
-Someone with minimal advocacy experience should be able to read through this document and come away feeling empowered and ready to set up a meeting with their Congressional office.
+Alguien con experiencia mínima en defensa debería poder leer este documento y sentirse empoderado y listo para programar una reunión con la oficina de su Congresista.
 
-If you are not from the US, check out our global [Lobbying Tips](/lobby-tips) instead.
+Si no eres de EE. UU., consulta nuestros [Consejos de cabildeo globales](/lobby-tips) en su lugar.
 
-## Why is lobbying important?
+## ¿Por qué es importante el cabildeo? {#why-is-lobbying-important}
 
-Meetings with Congress play a vital role in the policymaking process. Members of Congress want to hear from their constituents, in order to help determine which bills to prioritize and which initiatives to champion.
+Las reuniones con el Congreso juegan un papel fundamental en el proceso de formulación de políticas. Los miembros del Congreso quieren escuchar a sus electores para ayudar a determinar qué proyectos de ley priorizar y qué iniciativas defender.
 
-If nothing else, members of Congress want to get re-elected. In order to get re-elected, they need to choose issues that are popular among their constituents. Thus, they need to know what their constituents are thinking on the issues.
+Si no hay nada más, los miembros del Congreso quieren ser reelegidos. Para ser reelegidos, necesitan elegir temas que sean populares entre sus electores. Por lo tanto, necesitan saber qué piensan sus electores sobre los temas.
 
-Further, most people do not call or write– let alone meet with– their Congressional offices. Meeting directly with your Congressional office can give you a massive, outsized impact and is **one of the most effective ways** to make your voice heard.
+Además, la mayoría de las personas no se comunican con las oficinas de sus Congresistas. Reunirse directamente con la oficina de su Congresista puede tener un impacto significativo y es **una de las formas más efectivas** de hacer que su voz sea escuchada.
 
-For more on the effectiveness of communicating with Congress, [see here](https://forum.effectivealtruism.org/posts/5oStggnYLGzomhvvn/talking-to-congress-can-constituents-contacting-their).
+Para obtener más información sobre la efectividad de la comunicación con el Congreso, [haga clic aquí](https://forum.effectivealtruism.org/posts/5oStggnYLGzomhvvn/talking-to-congress-can-constituents-contacting-their).
 
-Every U.S. citizen can set up lobby meetings with (at least) three Congressional offices: Their U.S. Representative and both of their Senators.
+Todos los ciudadanos estadounidenses pueden programar reuniones de cabildeo con (al menos) tres oficinas del Congreso: su Representante de EE. UU. y ambos Senadores.
 
-## How to set up a lobby meeting
+## Cómo programar una reunión de cabildeo {#how-to-set-up-a-lobby-meeting}
 
-### Step 1: Book your meeting
+### Paso 1: Reserva tu reunión {#step-1-book-your-meeting}
 
-First, you'll want to see if your member has **a way to book meetings on their website, or if you'll need to e-mail or call** them to arrange the meeting.
+Primero, querrás ver si tu miembro del Congreso tiene **una forma de reservar reuniones en su sitio web, o si necesitarás enviar un correo electrónico o llamar** para concertar la reunión.
 
-To do that, go to this [link](https://www.congress.gov/members/find-your-member) and enter your address (just your zip code is sufficient).
+Para hacer esto, ve a este [enlace](https://www.congress.gov/members/find-your-member) e ingresa tu dirección (solo tu código postal es suficiente).
 
-Click the "Contact" button, and search their website for a meeting request form. It can look similar to [this](https://mikethompsonforms.house.gov/constituent-services/meeting-request.htm).
+Haz clic en el botón "Contacto" y busca en su sitio web un formulario de solicitud de reunión. Puede parecerse a [esto](https://mikethompsonforms.house.gov/constituent-services/meeting-request.htm).
 
-If your legislator doesn't have a specific form, you can **navigate to their contact page** ([example](https://www.kaine.senate.gov/contact/share-your-opinion)) and use that to **email your meeting request**. Or, you can call their office to do the same.
+Si tu legislador no tiene un formulario específico, puedes **navegar a su página de contacto** ([ejemplo](https://www.kaine.senate.gov/contact/share-your-opinion)) y usar eso para **enviar un correo electrónico con tu solicitud de reunión**. O, puedes llamar a su oficina para hacer lo mismo.
 
-Scheduling a meeting may require some persistence, especially with larger offices. If you tried to book a meeting via your legislator’s website, but haven’t heard anything in 2 weeks or more, you should **call their office and follow up**.
+Programar una reunión puede requerir persistencia, especialmente con oficinas más grandes. Si intentaste reservar una reunión a través del sitio web de tu legislador, pero no has recibido respuesta en 2 semanas o más, debes **llamar a su oficina y hacer un seguimiento**.
 
-Plan for **4-6 weeks between your initial scheduling request and the date of the meeting**.
+Planifica **4-6 semanas entre tu solicitud de programación inicial y la fecha de la reunión**.
 
-#### Note: pros and cons of district vs. D.C. meetings
+#### Nota: ventajas y desventajas de las reuniones en el distrito vs. en D.C. {#note-pros-and-cons-of-district-vs-dc-meetings}
 
-All U.S. Congressional offices have both a Washington, D.C. office and a local district office. You may have the option to schedule with either office.
+Todas las oficinas del Congreso de EE. UU. tienen una oficina en Washington, D.C. y una oficina local en el distrito. Puedes tener la opción de programar con cualquiera de las oficinas.
 
-- The obvious advantage of a district meeting is **convenience**. It is much easier to have an in-person meeting in your own congressional district than to travel all the way to D.C.
-- However, district offices typically handle constituent services, while D.C. offices handle policy. So **D.C. offices are best for discussing policy recommendations**.
-- If you are unable to visit your D.C. office in person, some offices do offer **scheduled meetings online** (though this is more likely for Democratic offices rather than Republican ones). Requesting a Zoom meeting with your D.C. office can be a good bet.
-  **Options for scheduling meetings, ranked:**
+- La ventaja obvia de una reunión en el distrito es la **conveniencia**. Es mucho más fácil tener una reunión en persona en tu propio distrito congresional que viajar hasta D.C.
+- Sin embargo, las oficinas del distrito suelen manejar servicios para los electores, mientras que las oficinas de D.C. manejan políticas. Entonces, **las oficinas de D.C. son las mejores para discutir recomendaciones políticas**.
+- Si no puedes visitar tu oficina en D.C. en persona, algunas oficinas ofrecen **reuniones programadas en línea** (aunque esto es más probable para las oficinas demócratas que para las republicanas). Solicitar una reunión de Zoom con tu oficina en D.C. puede ser una buena opción.
+  **Opciones para programar reuniones, clasificadas:**
 
-1.  In-person meeting with D.C. office
-2.  Online meeting with D.C. office
-3.  In-person meeting with district office
-4.  Online meeting with district office
+1.  Reunión en persona con la oficina de D.C.
+2.  Reunión en línea con la oficina de D.C.
+3.  Reunión en persona con la oficina del distrito
+4.  Reunión en línea con la oficina del distrito
 
-### Step 2: Do your research
+### Paso 2: Investiga {#step-2-do-your-research}
 
-If you want to make the biggest impact possible, you should find ways to **connect your agenda with your legislator’s priorities**. Ideally, you want to frame the issue in a way that relates to their policy priorities, relevant committee assignments, relevant bills sponsored, etc.
+Si quieres tener el mayor impacto posible, debes encontrar formas de **conectar tu agenda con las prioridades de tu legislador**. Idealmente, quieres enmarcar el tema de una manera que se relacione con sus prioridades políticas, asignaciones de comités relevantes, proyectos de ley patrocinados, etc.
 
-Some **questions to answer** include:
+Algunas **preguntas para responder** incluyen:
 
-- What statements has my legislator made about AI? A quick google search, e.g. “Sen. Peters on AI risk” can go a long way.
-- Does my legislator serve on any relevant committees? You can [find committee assignments here](https://www.congress.gov/members).
-  - Relevant House committees:
-    - Homeland Security
-    - Education and the Workforce
-    - Space, Science, and Technology
-  - Relevant Senate committees
-    - Homeland Security and Governmental Affairs
-    - Health, Education, Labor, and Pensions
-    - Commerce, Science, and Transportation
-- Has my legislator cosponsored or signed any bills related to AI?
-  - Database of relevant bills
-- What are my legislator’s policy priorities? How do these relate to AI?
-  - You can typically find your legislator’s policy priorities on the “issues” section of their website ([example](https://www.peters.senate.gov/about/issues)).
-  - Different policy priorities may relate to AI in different ways. For instance, labor priorities may lead to concerns about job loss/displacement. National security priorities may lead to concerns about malicious actors using AI, etc.
+- ¿Qué declaraciones ha hecho mi legislador sobre la IA? Una búsqueda rápida en Google, por ejemplo, "Sen. Peters sobre el riesgo de la IA" puede ser muy útil.
+- ¿Mi legislador forma parte de algún comité relevante? Puedes [encontrar asignaciones de comités aquí](https://www.congress.gov/members).
+  - Comités relevantes de la Cámara:
+    - Seguridad Nacional
+    - Educación y Fuerza Laboral
+    - Espacio, Ciencia y Tecnología
+  - Comités relevantes del Senado
+    - Seguridad Nacional y Asuntos Gubernamentales
+    - Salud, Educación, Trabajo y Pensiones
+    - Comercio, Ciencia y Transporte
+- ¿Mi legislador ha copatrocinado o firmado algún proyecto de ley relacionado con la IA?
+  - Base de datos de proyectos de ley relevantes
+- ¿Cuáles son las prioridades políticas de mi legislador? ¿Cómo se relacionan con la IA?
+  - Puedes encontrar las prioridades políticas de tu legislador en la sección "Temas" de su sitio web ([ejemplo](https://www.peters.senate.gov/about/issues)).
+  - Las diferentes prioridades políticas pueden relacionarse con la IA de diferentes maneras. Por ejemplo, las prioridades laborales pueden generar preocupaciones sobre la pérdida de empleos/desplazamiento. Las prioridades de seguridad nacional pueden generar preocupaciones sobre actores malintencionados que utilizan la IA, etc.
 
-### Step 3: Hold the meeting
+### Paso 3: Celebra la reunión {#step-3-hold-the-meeting}
 
-Once you’ve scheduled a meeting and done your research, now it’s time to prepare for the meeting.
+Una vez que hayas programado una reunión y hayas investigado, ahora es el momento de prepararte para la reunión.
 
-Typically, **lobby meetings last ~30 minutes** and follow a **concrete agenda**. Here is one sample agenda for inspiration:
+Por lo general, **las reuniones de cabildeo duran ~30 minutos** y siguen una **agenda concreta**. Aquí hay una muestra de agenda para inspiración:
 
-#### Sample agenda
+#### Muestra de agenda {#sample-agenda}
 
-**Intros (5 minutes)**:
+**Presentaciones (5 minutos)**:
 
-- Introduce yourself, describe your background and the issue you’re meeting to discuss, and thank staffers for their time.
-- Make sure to leave time for staffers to introduce themselves.
-  **Describe issue of concern (10 minutes)**:
+- Preséntate, describe tu experiencia y el tema que vas a discutir, y agradece a los asistentes por su tiempo.
+- Asegúrate de dejar tiempo para que los asistentes se presenten.
+  **Describe el tema de interés (10 minutos)**:
 
-- **Tell a story** with the following structure:
-  - Context
-  - Problem
-    - Personal story: How this affects you as a constituent.
-  - Solution
-  - What lawmakers can do about it.
-- Sample story: - Context: In recent years, AI capabilities have skyrocketed, taking many researchers by surprise. - Problem: Many experts worry that future AIs could pose an existential risk to humanity. We’ve seen growing constituent concern that AI could be used to manufacture pathogens or hack into nuclear launch systems. - Personal story: As a parent, I am frightened about my child’s future, and I want to make sure he grows up in a world where his life is not in danger. - Solution: There need to be safeguards on AI development, such as mandatory [third-party evaluations](/evaluations) to ensure AI systems aren’t capable of malicious use. - What lawmakers can do: That’s why we support H.R. XXX, sponsored by Rep. XYZ, to establish mandatory evaluations for all AI systems above a certain capabilities threshold.
-  **Your ask (5 minutes)**:
+- **Cuenta una historia** con la siguiente estructura:
+  - Contexto
+  - Problema
+    - Historia personal: Cómo te afecta esto como elector.
+  - Solución
+  - Qué pueden hacer los legisladores al respecto.
+- Muestra de historia: - Contexto: En los últimos años, las capacidades de la IA han aumentado vertiginosamente, sorprendiendo a muchos investigadores. - Problema: Muchos expertos se preocupan de que las futuras IA puedan suponer un riesgo existencial para la humanidad. Hemos visto una creciente preocupación entre los electores de que la IA podría utilizarse para fabricar patógenos o piratear sistemas de lanzamiento nuclear. - Historia personal: Como padre, estoy asustado por el futuro de mi hijo y quiero asegurarme de que crezca en un mundo donde su vida no esté en peligro. - Solución: Deben haber salvaguardias en el desarrollo de la IA, como evaluaciones obligatorias de terceros para asegurarse de que los sistemas de IA no sean capaces de un uso malintencionado. - Qué pueden hacer los legisladores: Por eso apoyamos el proyecto de ley H.R. XXX, patrocinado por el Representante XYZ, para establecer evaluaciones obligatorias para todos los sistemas de IA por encima de un cierto umbral de capacidades.
+  **Tu petición (5 minutos)**:
 
-- Now that you’ve explained the issue, you need to make a clear ask.
-- Sample ask: Can we count on Representative XYZ to co-sponsor/support the bill?
-  - The staffer likely won’t have a definitive answer, but will say something like ‘I can’t speak for the Congressman, but will get back to you.’
-- Note: if you don’t have a specific bill you’re supporting, it still helps to make a specific ‘ask.’ This could be e.g. “Congressman X should make AI safety a priority and talk to his colleagues.”
-  **Fact-finding and Relationship-building (10 minutes)**: Ask questions to better understand your Congressperson’s perspective on the issue and related issues.
+- Ahora que has explicado el tema, debes hacer una petición clara.
+- Muestra de petición: ¿Podemos contar con el Representante XYZ para copatrocinar/apoyar el proyecto de ley?
+  - El asistente probablemente no tendrá una respuesta definitiva, pero dirá algo como "No puedo hablar por el Congresista, pero me pondré en contacto contigo".
+- Nota: si no tienes un proyecto de ley específico que estés apoyando, todavía ayuda hacer una petición específica. Esto podría ser, por ejemplo, "El Congresista X debería hacer de la seguridad de la IA una prioridad y hablar con sus colegas".
+  **Investigación y establecimiento de relaciones (10 minutos)**: Haz preguntas para entender mejor la perspectiva de tu Congresista sobre el tema y temas relacionados.
 
-- Possible questions include:
-  - What other movement in Congress have you seen around this issue?
-  - What positions does your Congressperson have on AI and technology policy more broadly?
-  - What are your Congressperson’s top priorities this legislative session?
-- Thank them again for their time & tell them you’ll follow up.
+- Preguntas posibles incluyen:
+  - ¿Qué otros movimientos ha visto en el Congreso sobre este tema?
+  - ¿Qué posiciones tiene tu Congresista sobre la política de IA y tecnología en general?
+  - ¿Cuáles son las principales prioridades de tu Congresista en esta sesión legislativa?
+- Agradéceles nuevamente por su tiempo y diles que harás un seguimiento.
 
-### Best practices when meeting
+### Mejores prácticas cuando te reúnes {#best-practices-when-meeting}
 
-- **Appeal to expert opinion**. Emphasize that some of the [world’s leading experts](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things) are concerned about AI risk. For instance, you can discuss the [Gladstone Report](https://www.gladstone.ai/action-plan), commissioned by the State Department finding a significant chance of AI-induced extinction and recommending sweeping policy actions.
-- **Express Gratitude**. Acknowledge and thank your legislator for past actions on related issues. Showing appreciation for their efforts not only makes your message more respectful but also more persuasive.
-- **Refer to the legislator's interests**. Tailor your message by referring to your legislator's committee memberships and known interests. Appeal to their focus areas and agendas. Indicating your awareness of their position highlights the level of your concern.
-- **Tell a story**. Why do you care about AI? Utilize storytelling to make your message stand out. Personal stories are highly effective in capturing attention and making your message memorable. Share how the issue at hand, such as the threat of increased misinformation or job loss, has personally affected you.
-- **Be specific**. Clearly state your request, whether it's supporting a specific bill or expressing concern over an issue. Your message should be direct and to the point, outlining exactly what action you expect from the legislator.
+- **Apela a la opinión de expertos**. Enfatiza que algunos de los [expertos líderes mundiales](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things) están preocupados por el riesgo de la IA. Por ejemplo, puedes discutir el [Informe Gladstone](https://www.gladstone.ai/action-plan), encargado por el Departamento de Estado, que encuentra una probabilidad significativa de extinción inducida por la IA y recomienda acciones políticas exhaustivas.
+- **Expresa gratitud**. Agradece a tu legislador por acciones pasadas sobre temas relacionados. Mostrar aprecio por sus esfuerzos no solo hace que tu mensaje sea más respetuoso, sino también más persuasivo.
+- **Refiérete a los intereses del legislador**. Adapta tu mensaje refiriéndote a las membresías en comités y los intereses conocidos de tu legislador. Apela a sus áreas de enfoque y agendas. Indicar tu conciencia de su posición destaca el nivel de tu preocupación.
+- **Cuenta una historia**. ¿Por qué te importa la IA? Utiliza la narración para hacer que tu mensaje se destaque. Las historias personales son muy efectivas para captar la atención y hacer que tu mensaje sea memorable. Comparte cómo el tema en cuestión, como la amenaza de una mayor desinformación o pérdida de empleos, te ha afectado personalmente.
+- **Sé específico**. Establece claramente tu petición, ya sea apoyar un proyecto de ley específico o expresar preocupación por un tema. Tu mensaje debe ser directo y conciso, delineando exactamente qué acción esperas del legislador.
 
-### Step 4: follow up
+### Paso 4: haz un seguimiento {#step-4-follow-up}
 
-So, you’ve met with your legislator. Now what?
+Entonces, te has reunido con tu legislador. ¿Ahora qué?
 
-**Immediately after meeting**: send them an email thanking them for their time, re-iterating your ask, and letting them know you’ll be in touch.
+**Inmediatamente después de la reunión**: envíales un correo electrónico agradeciéndoles por su tiempo, reiterando tu petición y diciéndoles que estarás en contacto.
 
-**2 weeks later**: Send a follow-up email re-iterating your ask and including any additional information. For example, if your ask was for your legislator to support a specific bill, inquire into any updates regarding the legislator’s support.
+**2 semanas después**: Envía un correo electrónico de seguimiento reiterando tu petición e incluyendo cualquier información adicional. Por ejemplo, si tu petición era que tu legislador apoyara un proyecto de ley específico, pregunta sobre actualizaciones sobre el apoyo del legislador.
 
-**4+ weeks later**: schedule a follow-up meeting, if applicable. These meetings can follow similar agendas but can also include updates on policy development. For instance, if your initial meeting advocated for a specific bill, and this bill has since gotten out of committee, you can discuss these updates and push your legislator to do more.
+**4+ semanas después**: programa una reunión de seguimiento, si corresponde. Estas reuniones pueden seguir agendas similares, pero también pueden incluir actualizaciones sobre el desarrollo de políticas. Por ejemplo, si tu reunión inicial abogaba por un proyecto de ley específico, y este proyecto de ley ha salido del comité desde entonces, puedes discutir estas actualizaciones y presionar a tu legislador para que haga más.
 
-### Bonus tips to bring your lobby meetings to the next level
+### Consejos adicionales para llevar tus reuniones de cabildeo al siguiente nivel {#bonus-tips-to-bring-your-lobby-meetings-to-the-next-level}
 
-- **Coalition-building**: invite multiple people from different backgrounds and organizations to the meeting. This is valuable because it introduces more personal stories and increases the level of visible constituent concern.
-- **Two-pagers**: give legislative staff a two-page summary of your bill and/or priorities. This is an effective way to get your point across and a common practice for lobbying groups.
-- **Consider the timing**. If you're trying to influence a vote or a decision, contact your legislator well in advance, and set up a meeting at least 1-2 weeks before the vote, to ensure your message is taken into account during decision-making.
+- **Construcción de coaliciones**: invita a varias personas de diferentes orígenes y organizaciones a la reunión. Esto es valioso porque introduce más historias personales y aumenta el nivel de preocupación visible de los electores.
+- **Resúmenes de dos páginas**: da al personal legislativo un resumen de dos páginas de tu proyecto de ley y/o prioridades. Esta es una forma efectiva de transmitir tu punto y una práctica común para los grupos de cabildeo.
+- **Considera el momento**. Si estás tratando de influir en una votación o decisión, contacta a tu legislador con anticipación y programa una reunión al menos 1-2 semanas antes de la votación, para asegurarte de que tu mensaje se tenga en cuenta durante la toma de decisiones.
 
-## FAQs
+## Preguntas frecuentes {#faqs}
 
-**Who will I be meeting with?**
+**¿Con quién me reuniré?**
 
-It is unlikely that you’ll meet with your legislator directly. More likely, you’ll meet with one or more members of their staff. These staffers might be specialized in technology policy and be able to provide more information about the legislator’s technology policy positions and priorities.
+Es poco probable que te reúnas con tu legislador directamente. Es más probable que te reúnas con uno o más miembros de su personal. Estos asistentes pueden estar especializados en política tecnológica y pueden proporcionar más información sobre las posiciones y prioridades políticas tecnológicas del legislador.
 
-**I feel like I don’t have the expertise to meet with Congress.**
+**Me siento como si no tuviera la experiencia para reunirme con el Congreso.**
 
-Most people who meet with Congressional offices don’t have expertise – they’re everyday people who’ve been affected by an issue and want to make their voices heard.
+La mayoría de las personas que se reúnen con las oficinas del Congreso no tienen experiencia – son personas comunes que han sido afectadas por un tema y quieren hacer que sus voces sean escuchadas.
 
-The thing to remember is that Congressional staff want to hear from you. It is their job to listen to the needs of their constituents. Moreover, by taking the effort to schedule a meeting, you are participating in an active, democratic process as an informed citizen of your country.
+Lo que debes recordar es que el personal del Congreso quiere escucharte. Es su trabajo escuchar las necesidades de sus electores. Además, al tomar la iniciativa de programar una reunión, estás participando en un proceso democrático activo como ciudadano informado de tu país.
 
-**What if nobody gets back to me about my lobby meeting request?**
+**¿Qué pasa si nadie se pone en contacto conmigo sobre mi solicitud de reunión de cabildeo?**
 
-Be persistent. If nobody gets back to you, call their office and schedule a meeting over the phone. Follow up as needed. If you’re persistent enough, you will get a meeting.
+Sé persistente. Si nadie se pone en contacto contigo, llama a su oficina y programa una reunión por teléfono. Haz un seguimiento según sea necesario. Si eres lo suficientemente persistente, obtendrás una reunión.
 
-_Credit to Felix De Simone, PauseAI's organizing director_
+_Crédito a Felix De Simone, director de organización de PauseAI_

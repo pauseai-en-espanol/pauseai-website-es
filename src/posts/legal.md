@@ -1,121 +1,121 @@
 ---
-title: Legal information
-description: Information required by law about PauseAI.
+title: Información legal
+description: Información requerida por ley sobre PauseAI.
 ---
 
-This website is maintained by PauseAI Global.
-Read more about the inner workings about PauseAI on the [Organization page](/organization).
+Este sitio web es mantenido por PauseAI Global.
+Lee más sobre el funcionamiento interno de PauseAI en la [página de la organización](/organization).
 
-## PauseAI Global (Stichting PauseAI)
+## PauseAI Global (Stichting PauseAI) {#pauseai-global-stichting-pauseai}
 
-The following contains information about the Dutch legal entity behind PauseAI:
+A continuación, se proporciona información sobre la entidad legal holandesa detrás de PauseAI:
 
-- Name: "Stichting PauseAI"
-- KVK number: 92951031
+- Nombre: "Stichting PauseAI"
+- Número de KVK: 92951031
 - RSIN: 866227696
-- Tax/VAT number: NL866227696B01
-- Bank Account: NL31BUNQ2109903155 ([donate](/donate))
-- Goal: "Mitigate the most catastrophic risks of AI."
-- Founding date: 13-02-2024
-- ANBI status: Yes, since 13-02-2024
-- Contact: [Joep Meindertsma](mailto:joep@pauseai.info)
-- Address: Skopjestraat 26, 3541ES Utrecht, The Netherlands
+- Número de impuesto/IVA: NL866227696B01
+- Cuenta bancaria: NL31BUNQ2109903155 ([donar](/donate))
+- Objetivo: "Mitigar los riesgos más catastróficos de la inteligencia artificial".
+- Fecha de fundación: 13-02-2024
+- Estado ANBI: Sí, desde el 13-02-2024
+- Contacto: [Joep Meindertsma](mailto:joep@pauseai.info)
+- Dirección: Skopjestraat 26, 3541ES Utrecht, Países Bajos
 
-### ANBI status
+### Estado ANBI {#anbi-status}
 
-The ANBI status is a Dutch tax status for charities.
-It allows tax-free and tax-deductible donations and other benefits for the charity and its donors.
-Stichting PauseAI is a registered ANBI since 13-02-2024. Check the status [here](https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/anbi-status-controleren) (page in Dutch).
+El estado ANBI es un estatus fiscal holandés para organizaciones benéficas.
+Permite donaciones libres de impuestos y deducibles de impuestos y otros beneficios para la organización benéfica y sus donantes.
+Stichting PauseAI es una ANBI registrada desde el 13-02-2024. Verifique el estado [aquí](https://www.belastingdienst.nl/wps/wcm/connect/nl/aftrek-en-kortingen/content/anbi-status-controleren) (página en holandés).
 
-To qualify for ANBI status, the charity must meet certain [requirements](https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/business-public-benefit-organisations/public_benefit_organisations/conditions_pbos/which_conditions_must_be_met_by_pbo):
+Para calificar para el estado ANBI, la organización benéfica debe cumplir con ciertos [requisitos](https://www.belastingdienst.nl/wps/wcm/connect/bldcontenten/belastingdienst/business/business-public-benefit-organisations/public_benefit_organisations/conditions_pbos/which_conditions_must_be_met_by_pbo):
 
-- Needs to serve the public interest.
-- No profit motive, money must be used for the goal of the charity.
-- Various publication requirements (such as this page).
+- Debe servir al interés público.
+- No debe tener fines de lucro, el dinero debe utilizarse para el objetivo de la organización benéfica.
+- Varios requisitos de publicación (como esta página).
 
-### Policy Plan 2024-2025 ("Beleidsplan")
+### Plan de política 2024-2025 ("Beleidsplan") {#policy-plan-2024-2025-beleidsplan}
 
-It is our goal to prevent catastrophic risks from AI. We aim to achieve this by taking the following actions:
+Nuestro objetivo es prevenir los riesgos catastróficos de la inteligencia artificial. Pretendemos lograr esto mediante las siguientes acciones:
 
-- Grow a community of volunteers to advocate for AI safety.
-- Inform the public through social media, writing articles, participating in [interviews/podcasts](/press), and organizing events.
-- Facilitate community [growth](/growth-strategy) by organizing social events.
-- Distribute [donations](/donate) to projects that align with our goals.
-- Organize [protests](/protests) and other forms of activism to raise awareness about the risks of AI.
-- Educate [volunteers](/join) on how to become more effective advocates.
-- Research policy measures and update [our proposal](/proposal) accordingly.
+- Crear una comunidad de voluntarios para abogar por la seguridad de la inteligencia artificial.
+- Informar al público a través de las redes sociales, escribir artículos, participar en [entrevistas/podcasts](/press) y organizar eventos.
+- Facilitar el crecimiento de la comunidad [crecimiento](/growth-strategy) organizando eventos sociales.
+- Distribuir [donaciones](/donate) a proyectos que se alineen con nuestros objetivos.
+- Organizar [protestas](/protests) y otras formas de activismo para concienciar sobre los riesgos de la inteligencia artificial.
+- Educar a [voluntarios](https://pauseai.info/join) sobre cómo convertirse en defensores más efectivos.
+- Investigar medidas políticas y actualizar [nuestra propuesta](/proposal) en consecuencia.
 
-#### Financial accountability ("Financieele paragraaf")
+#### Responsabilidad financiera ("Financieele paragraaf") {#financial-accountability-financieele-paragraaf}
 
-We raise funds to support our activities through [donations](/donate), selling merchandise (through [the store](https://pauseai-shop.fourthwall.com/)) and applying for grants.
-The funds will be used to cover the costs of our activities, such as hiring people, travel expenses, materials for events, marketing expenses, and other costs related to our mission.
-We also expect to provide grants ("PauseAI MicroGrants") to volunteers who want to organize events, create content or otherwise contribute to our mission.
-Our first bookkeeping year is longer than one year - it starts from our founding date (13-02-2024) year ends on 31-12-2025, after which we will publish an annual report.
-Received funds are managed by the board and are used to cover the costs of our activities.
-If we receive more funds than we can spend, we will save the excess funds for future activities.
+Recaudamos fondos para apoyar nuestras actividades a través de [donaciones](/donate), la venta de mercancías (a través de [la tienda](https://pauseai-shop.fourthwall.com/)) y la solicitud de subvenciones.
+Los fondos se utilizarán para cubrir los costos de nuestras actividades, como contratar personal, gastos de viaje, materiales para eventos, gastos de marketing y otros costos relacionados con nuestra misión.
+También esperamos proporcionar subvenciones ("PauseAI MicroGrants") a voluntarios que deseen organizar eventos, crear contenido o contribuir de alguna otra manera a nuestra misión.
+Nuestro primer año contable es más largo que un año - comienza desde nuestra fecha de fundación (13-02-2024) y termina el 31-12-2025, después de lo cual publicaremos un informe anual.
+Los fondos recibidos son administrados por la junta y se utilizan para cubrir los costos de nuestras actividades.
+Si recibimos más fondos de los que podemos gastar, ahorraremos los fondos excedentes para actividades futuras.
 
-### Report of activities
+### Informe de actividades {#report-of-activities}
 
-A list of [media appearances](/press) and [organized protests](/protests) can be found on their respective pages.
-Social media posts can primarily be found on [X](https://x.com/PauseAI).
-Our [Discord server](https://discord.gg/HWcPt5ccJN) is by far our most active community, averaging 100 messages per day.
+Una lista de [apariciones en los medios](/press) y [protestas organizadas](/protests) se puede encontrar en sus respectivas páginas.
+Las publicaciones en las redes sociales se pueden encontrar principalmente en [X](https://x.com/PauseAI).
+Nuestro [servidor de Discord](https://discord.gg/HWcPt5ccJN) es, con mucho, nuestra comunidad más activa, con un promedio de 100 mensajes por día.
 
-### Board
+### Junta {#board}
 
-- Joep Meindertsma (Voorzitter / Chairman)
-- Michiel van den Ingh (Penningmeester / Treasurer)
-- Otto Barten (Secretaris / Secretary)
+- Joep Meindertsma (Presidente)
+- Michiel van den Ingh (Tesorero)
+- Otto Barten (Secretario)
 
-### Remuneration policy
+### Política de remuneración {#remuneration-policy}
 
-The board members do not receive any remuneration for their work.
-They are entitled to reimbursement of the costs incurred by them in the performance of their duties.
+Los miembros de la junta no reciben remuneración por su trabajo.
+Tienen derecho a reembolso de los gastos incurridos por ellos en el desempeño de sus funciones.
 
-### Financial accountability
+### Responsabilidad financiera {#financial-accountability}
 
-Our first annual report will be published after the first fiscal year ends on 31-12-2025.
+Nuestro primer informe anual se publicará después de que termine el primer año fiscal el 31-12-2025.
 
-## PauseAI US
+## PauseAI US {#pauseai-us}
 
-- Name: PauseAI US
-- Nonprofit Corporation - CA - Public Benefit
-- Entity Number 501(c)(3): 6071248
-- Entity Number 501(c)(4): 99-3051616
-- Registration date: 01/24/2024
-- Formed in: California
-- Status: Active
-- Contact: [Holly Elmore](mailto:holly@pauseai.info)
+- Nombre: PauseAI US
+- Corporación sin fines de lucro - CA - Beneficio público
+- Número de entidad 501(c)(3): 6071248
+- Número de entidad 501(c)(4): 99-3051616
+- Fecha de registro: 01/24/2024
+- Formado en: California
+- Estado: Activo
+- Contacto: [Holly Elmore](mailto:holly@pauseai.info)
 
-## PauseAI UK
+## PauseAI UK {#pauseai-uk}
 
-- Name: PauseAI UK Ltd
-- Incorporation date: 28th December 2023
-- Company number: 15373608
+- Nombre: PauseAI UK Ltd
+- Fecha de incorporación: 28 de diciembre de 2023
+- Número de empresa: 15373608
 - Director: [William Baird](mailto:william@pauseai.info)
 
-## PauseIA (France)
+## PauseIA (Francia) {#pauseia-france}
 
-- Name: PauseIA
-- It will be incorporated soon
+- Nombre: PauseIA
+- Se incorporará pronto
 - Director: [Maxime Fournes](mailto:maxime@pauseai.info)
 
-## Relationship between entities
+## Relación entre entidades {#relationship-between-entities}
 
-PauseAI Global is responsible for:
+PauseAI Global es responsable de:
 
-- Facilitating the growth of the movement.
-- Helping local PauseAI entities.
-- This website and the managing the online Discord community.
-- Volunteer management and growth.
-- Global social media.
-- Organizing digital events.
-- The global strategy and theory of change.
-- The global financials and fundraising.
-- [Microgrants](/microgrants).
+- Facilitar el crecimiento del movimiento.
+- Ayudar a las entidades locales de PauseAI.
+- Este sitio web y la gestión de la comunidad en línea de Discord.
+- Gestión y crecimiento de voluntarios.
+- Redes sociales globales.
+- Organización de eventos digitales.
+- La estrategia y teoría de cambio globales.
+- Las finanzas y la recaudación de fondos globales.
+- [Microsubvenciones](/microgrants).
 
-The national/local entities are responsible for:
+Las entidades nacionales/locales son responsables de:
 
-- Physical events and protests.
-- Getting local [media coverage](/).
-- Local social media channels (e.g. [PauseAI UK](https://twitter.com/PauseAI_UK) and [PauseAI US](https://twitter.com/PauseAIus) Twitter)
-- National-level policy work & feedback.
+- Eventos y protestas físicas.
+- Obtención de cobertura en los medios locales [cobertura en los medios](/).
+- Canales de redes sociales locales (por ejemplo, [PauseAI UK](https://twitter.com/PauseAI_UK) y [PauseAI US](https://twitter.com/PauseAIus) Twitter)
+- Trabajo y retroalimentación de políticas a nivel nacional.

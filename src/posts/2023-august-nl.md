@@ -1,7 +1,9 @@
 ---
-title: PauseAI protest @ The Hague, Netherlands - August 11th
-description: We are organizing a protest to demand a pause on dangerous AI development.
+title: Protesta de PauseAI en La Haya, Países Bajos - 11 de agosto
+description: Estamos organizando una protesta para exigir una pausa en el desarrollo de inteligencia artificial peligrosa.
 ---
+
+ <!-- end of frontmatter metadata, dashes above need to stay -->
 
 <script>
     import WidgetConsent from '$lib/components/widget-consent/WidgetConsent.svelte'
@@ -9,65 +11,65 @@ description: We are organizing a protest to demand a pause on dangerous AI devel
 
 <WidgetConsent>
 <div>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">We protested in The Hague, Netherlands to ask our government to prioritise mitigation of AI risks. We had a few speeches, talked to people on the streets, handed out flyers and had a good time!<br><br>Check out the press release (EN + NL) for more information: <a href="https://t.co/Dd7CXHlajc">https://t.co/Dd7CXHlajc</a> <a href="https://t.co/T306vZD974">pic.twitter.com/T306vZD974</a></p>&mdash; PauseAI ⏸🤖 (@PauseAI) <a href="https://twitter.com/PauseAI/status/1690290512643719168?ref_src=twsrc%5Etfw">August 12, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Protestamos en La Haya, Países Bajos, para pedir a nuestro gobierno que priorice la mitigación de los riesgos de la IA. Tuvimos algunos discursos, hablamos con la gente en la calle, repartimos folletos y lo pasamos bien!<br><br>Consulta el comunicado de prensa (EN + NL) para obtener más información: <a href="https://t.co/Dd7CXHlajc">https://t.co/Dd7CXHlajc</a> <a href="https://t.co/T306vZD974">pic.twitter.com/T306vZD974</a></p>&mdash; PauseAI ⏸🤖 (@PauseAI) <a href="https://twitter.com/PauseAI/status/1690290512643719168?ref_src=twsrc%5Etfw">12 de agosto de 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </WidgetConsent>
 
-- PauseAI protest
-- Where: Wijnhaven, The Hague
-- When: 11th of August 2023, 16:00 - 17:00
+- Protesta de PauseAI
+- Dónde: Wijnhaven, La Haya
+- Cuándo: 11 de agosto de 2023, 16:00 - 17:00
 
-## Why we protest
+## Por qué protestamos {#why-we-protest}
 
-AI is rapidly becoming more powerful, far faster than virtually any AI scientist has predicted.
-Billions are being poured into AI capabilities, and the results are staggering.
-New models are [outperforming humans](/sota) in a lot of domains.
-As capabilities increase, so do the [risks](/risks).
-Scientists are even [warning](https://www.safe.ai/statement-on-ai-risk) that AI might [end up destroying humanity](/xrisk).
+La inteligencia artificial (IA) se está desarrollando a un ritmo vertiginoso, mucho más rápido de lo que cualquier científico había predicho.
+Se están invirtiendo miles de millones en capacidades de IA, y los resultados son asombrosos.
+Los nuevos modelos están [superando a los humanos](/sota) en muchos dominios.
+A medida que aumentan las capacidades, también aumentan los [riesgos](/risks).
+Los científicos incluso [advierten](https://www.safe.ai/statement-on-ai-risk) que la IA podría [acabar con la humanidad](/xrisk).
 
-Our politicians are not taking this topic remotely as seriously as they should.
-We need our leaders to listen to these warnings.
-We need them to take action and [implement a pause](/proposal) to stop this suicide race.
+Nuestros políticos no están tomando este tema con la seriedad que merece.
+Necesitamos que nuestros líderes escuchen estas advertencias.
+Necesitamos que tomen medidas y [implementen una pausa](/proposal) para detener esta carrera suicida.
 
-We want the Dutch government to:
+Queremos que el gobierno holandés:
 
-- Invite AI safety experts to inform parliament of these risks
-- Schedule a debate on the existential risks of AI
-- Prioritize preparations for the AI safety summit later this year, and take a leading role in working toward effective policy
-- Collaborate internationally to orchestrate sufficient safety measures on a global scale
+- Invite a expertos en seguridad de la IA a informar al parlamento sobre estos riesgos
+- Programe un debate sobre los riesgos existenciales de la IA
+- Priorice las preparaciones para la cumbre de seguridad de la IA más adelante este año y asuma un papel de liderazgo en la elaboración de políticas efectivas
+- Colabore internacionalmente para implementar medidas de seguridad suficientes a escala global
 
-## Agenda
+## Agenda {#agenda}
 
-- 12:00 - 16:00 Prepare signage in workshop (only for the real enthusiasts, contact us if you want to be there!)
-- 16:00 Speeches + protest + flyering
-- 17:00 Drinks @ nearby pub
+- 12:00 - 16:00 Preparar carteles en el taller (solo para los verdaderos entusiastas, ¡contáctanos si quieres estar allí!)
+- 16:00 Discursos + protesta + reparto de folletos
+- 17:00 Bebidas en un pub cercano
 
-## Contact
+## Contacto {#contact}
 
-- Joep Meindertsma ([twitter](https://twitter.com/joepmeindertsma), [email](mailto:joep@ontola.io))
+- Joep Meindertsma ([twitter](https://twitter.com/joepmeindertsma), [correo electrónico](mailto:joep@ontola.io))
 
-## Press Release (EN): PauseAI Calls on Dutch Government to Prevent Human-Threatening, AI-Related Disasters
+## Comunicado de prensa (EN): PauseAI pide al gobierno holandés que prevenga desastres relacionados con la IA que amenazan a la humanidad {#press-release-en-pauseai-calls-on-dutch-government-to-prevent-human-threatening-ai-related-disasters}
 
-On Friday, August 11th, at 4:00 PM, a group of concerned individuals will gather at the Ministry of the Interior under the name [PauseAI](http://pauseai.info) to address the developments in the field of (generative) AI. They are urging the government to take action in pausing the development of powerful and potentially dangerous artificial intelligence.
+El viernes 11 de agosto, a las 16:00, un grupo de personas preocupadas se reunirá en el Ministerio del Interior bajo el nombre de [PauseAI](http://pauseai.info) para abordar los desarrollos en el campo de la IA (generativa). Están instando al gobierno a tomar medidas para pausar el desarrollo de inteligencia artificial poderosa y potencialmente peligrosa.
 
-So far, the Dutch government has not taken any steps to address the existential threat posed by AI. There has been no response to warnings and statements from entities such as the [UN](https://www.linkedin.com/feed/update/urn:li:activity:7075767810336923648), the Prime Minister of the [United Kingdom](https://www.theguardian.com/technology/2023/may/25/no-10-acknowledges-existential-risk-ai-first-time-rishi-sunak?) (where a summit on this topic is planned for the fall), and [AI experts](https://nos.nl/op3/artikel/2012979-wetenschappers-waarschuwen-voor-kunstmatige-intelligentie), even after a [motion](https://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vm1rshv2ulz5) in the House of Representatives prompted such action earlier this year.
+Hasta ahora, el gobierno holandés no ha tomado ninguna medida para abordar la amenaza existencial planteada por la IA. No ha habido respuesta a las advertencias y declaraciones de entidades como la [ONU](https://www.linkedin.com/feed/update/urn:li:activity:7075767810336923648), el Primer Ministro del [Reino Unido](https://www.theguardian.com/technology/2023/may/25/no-10-acknowledges-existential-risk-ai-first-time-rishi-sunak?) (donde se planea una cumbre sobre este tema para el otoño), y [expertos en IA](https://nos.nl/op3/artikel/2012979-wetenschappers-waarschuwen-voor-kunstmatige-intelligentie), incluso después de que una [moción](https://www.parlementairemonitor.nl/9353000/1/j9vvij5epmj1ey0/vm1rshv2ulz5) en la Cámara de Representantes instara a tal acción a principios de este año.
 
-"[Scientists](https://www.safe.ai/statement-on-ai-risk) are sounding the alarm: AI could spell the end of humanity. Experts even estimate a [30% likelihood](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) of this. AI companies are charging ahead, risking all of our lives, while regulation lags hopelessly behind." - Joep Meindertsma, CEO of software company Ontola and founder of PauseAI.
+"[Los científicos](https://www.safe.ai/statement-on-ai-risk) están sonando la alarma: la IA podría significar el fin de la humanidad. Los expertos incluso estiman una [probabilidad del 30%](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) de que esto suceda. Las empresas de IA están avanzando a toda velocidad, arriesgando todas nuestras vidas, mientras que la regulación se queda atrás." - Joep Meindertsma, director ejecutivo de la empresa de software Ontola y fundador de PauseAI.
 
-Concerns about the risks associated with AI are rapidly growing globally. Just this week, research firm Axios published the results of a public opinion poll conducted among residents of the United States, revealing that 86% of respondents are concerned about catastrophic AI risks.
+Las preocupaciones sobre los riesgos asociados con la IA están creciendo rápidamente en todo el mundo. Esta semana, la firma de investigación Axios publicó los resultados de una encuesta de opinión pública realizada entre residentes de los Estados Unidos, que reveló que el 86% de los encuestados están preocupados por los riesgos catastróficos de la IA.
 
-"The US holds Senate hearings where AI experts discuss how AI could bring about the end of humanity. Why is this topic being ignored in Dutch politics? Especially considering that the Netherlands plays a key role in the chip supply chain, thanks to ASML. This is why it can also play a pivotal role in AI compute governance. All lives are at stake!" - Joep Meindertsma
+"Los EE. UU. tienen audiencias en el Senado donde los expertos en IA discuten cómo la IA podría provocar el fin de la humanidad. ¿Por qué se ignora este tema en la política holandesa? Especialmente considerando que los Países Bajos juegan un papel clave en la cadena de suministro de chips, gracias a ASML. ¡Esto es por qué también puede desempeñar un papel clave en la gobernanza de la computación de IA! Todas las vidas están en juego." - Joep Meindertsma
 
-PauseAI calls on the Dutch government to:
+PauseAI pide al gobierno holandés que:
 
-- Invite AI safety experts to inform the parliament about these risks
-- Schedule a parliamentary debate on the existential risks of advanced artificial intelligence
-- Give priority to preparations for the proposed AI summit in the United Kingdom later this year and take a leading role in effective policy. The activists have concrete [proposals](https://pauseai.info/summit) and [policy ideas](https://pauseai.info/proposal) for the upcoming AI summit.
-- Collaborate internationally to implement an adequate set of measures on a global scale, including a so-called AI pause.
+- Invite a expertos en seguridad de la IA a informar al parlamento sobre estos riesgos
+- Programe un debate parlamentario sobre los riesgos existenciales de la inteligencia artificial avanzada
+- Priorice las preparaciones para la cumbre de IA propuesta en el Reino Unido más adelante este año y asuma un papel de liderazgo en la elaboración de políticas efectivas. Los activistas tienen [propuestas concretas](https://pauseai.info/summit) y [ideas de políticas](https://pauseai.info/proposal) para la próxima cumbre de IA.
+- Colabore internacionalmente para implementar un conjunto adecuado de medidas a escala global, incluida una pausa en la IA.
 
-For more information, visit [PauseAI.info](http://pauseai.info). Contact: Joep Meindertsma ([twitter](https://twitter.com/joepmeindertsma), [email](mailto:joep@ontola.io)) & Ruben Dieleman ([email](mailto:ruben@existentialriskobservatory.org))
+Para obtener más información, visite [PauseAI.info](http://pauseai.info). Contacto: Joep Meindertsma ([twitter](https://twitter.com/joepmeindertsma), [correo electrónico](mailto:joep@ontola.io)) y Ruben Dieleman ([correo electrónico](mailto:ruben@existentialriskobservatory.org))
 
-## Press Release (NL): PauseAI roept overheid op tot het voorkomen van mensbedreigende, AI-gerelateerde rampen
+## Comunicado de prensa (NL): PauseAI roept overheid op tot het voorkomen van mensbedreigende, AI-gerelateerde rampen {#press-release-nl-pauseai-roept-overheid-op-tot-het-voorkomen-van-mensbedreigende-ai-gerelateerde-rampen}
 
 Op vrijdag 11 augustus om 16.00 komt een groep mensen samen die zich zorgen maken over de ontwikkelingen op het gebied van (generatieve) AI bij het Ministerie van Binnenlandse Zaken onder de naam [PauseAI](http://pauseai.info). Zij roepen de regering op zich in te spannen voor een pauze van de ontwikkeling van krachtige en mogelijk gevaarlijke kunstmatige intelligentie.
 

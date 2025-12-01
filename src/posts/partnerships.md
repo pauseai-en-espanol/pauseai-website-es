@@ -1,105 +1,105 @@
 ---
-title: Partnership Opportunities with PauseAI
-description: Invitation link to PauseAI's Discord server
+title: Oportunidades de colaboración con PauseAI
+description: Enlace de invitación al servidor de Discord de PauseAI
 ---
 
-PauseAI is dedicated to preventing AI catastrophes through grassroots activism, policy advocacy, and public engagement.
-As a volunteer-driven organization, we bring together a diverse network of individuals and groups committed to addressing the extreme risks posed by artificial intelligence.
-We invite organizations and individuals to partner with us in this critical mission.
-Our unique value propositions highlight how collaboration with PauseAI can amplify your impact and drive meaningful change in AI policy and awareness.
+PauseAI se dedica a prevenir catástrofes relacionadas con la inteligencia artificial a través del activismo de base, la defensa de políticas y el compromiso público.
+Como organización impulsada por voluntarios, reunimos a una red diversa de individuos y grupos comprometidos con abordar los riesgos extremos planteados por la inteligencia artificial.
+Invitamos a organizaciones e individuos a colaborar con nosotros en esta misión crítica.
+Nuestras propuestas de valor únicas destacan cómo la colaboración con PauseAI puede amplificar su impacto y generar un cambio significativo en la política y la conciencia sobre la inteligencia artificial.
 
-## PauseAI’s Unique Selling Points
+## Puntos únicos de venta de PauseAI {#pauseais-unique-selling-points}
 
-1. **100% Volunteer-Run:** Genuine passion and commitment.
-2. **Grassroots Lobbying Expertise:** Direct line to policymakers.
-3. **Protest Experience:** Organizing public demonstrations and attracting media.
-4. **Flexibility:** Adaptable and open to new activities and partnerships.
-5. **Public Engagement:** Skilled at mobilizing public support and awareness.
+1. **100% dirigido por voluntarios:** Pasión y compromiso genuinos.
+2. **Experiencia en cabildeo de base:** Acceso directo a los formuladores de políticas.
+3. **Experiencia en movilización pública:** Organización de manifestaciones públicas y atracción de medios.
+4. **Flexibilidad:** Adaptable y abierto a nuevas actividades y colaboraciones.
+5. **Compromiso público:** Habilidad para movilizar el apoyo y la conciencia pública.
 
-PauseAI offers unique benefits to a variety of organizations and individuals, enhancing the collective effort to address AI risks. Here are our tailored value propositions:
+PauseAI ofrece beneficios únicos a una variedad de organizaciones e individuos, mejorando el esfuerzo colectivo para abordar los riesgos de la inteligencia artificial. A continuación, se presentan nuestras propuestas de valor personalizadas:
 
-## Think Tanks
+## Grupos de reflexión {#think-tanks}
 
-- **Grassroots Perspective:** Unique insights from our volunteer-driven activism inform policy recommendations.
-  - **Direct Citizen Feedback:** Volunteers gather real-time public insights on AI issues.
-  - **Diverse Viewpoints:** Our volunteers' varied backgrounds help identify policy blind spots.
-- **Public Engagement:** Mobilize public support for think tank initiatives.
-- **Real-world Testing:** Test and refine policy ideas through citizen lobbying.
-  - **Immediate Feedback:** Present proposals to lawmakers and gather feedback.
-  - **Iterative Refinement:** Track and refine proposals based on political responses.
-- **Amplification:** Increase the reach of publications through our campaigns.
+- **Perspectiva de base:** Informes únicos de nuestro activismo impulsado por voluntarios informan recomendaciones políticas.
+  - **Retroalimentación ciudadana directa:** Los voluntarios recopilan información en tiempo real sobre cuestiones de inteligencia artificial.
+  - **Diversidad de perspectivas:** Los antecedentes variados de nuestros voluntarios ayudan a identificar puntos ciegos en la política.
+- **Compromiso público:** Movilizar el apoyo público para las iniciativas de los grupos de reflexión.
+- **Pruebas en el mundo real:** Probar y refinar ideas políticas a través del cabildeo ciudadano.
+  - **Retroalimentación inmediata:** Presentar propuestas a los legisladores y recopilar retroalimentación.
+  - **Refinamiento iterativo:** Seguir y refinar propuestas basadas en respuestas políticas.
+- **Amplificación:** Aumentar el alcance de las publicaciones a través de nuestras campañas.
 
-## Lobby Groups
+## Grupos de cabildeo {#lobby-groups}
 
-- **Complementary Tactics:** Our volunteer network provides public pressure to complement lobby groups' direct engagement with lawmakers.
+- **Tácticas complementarias:** Nuestra red de voluntarios proporciona presión pública para complementar el compromiso directo de los grupos de cabildeo con los legisladores.
 
-## Research Groups
+## Grupos de investigación {#research-groups}
 
-- **Data Collection:** Assist with large-scale surveys and qualitative data through volunteers.
-- **Research Dissemination:** Translate complex findings into accessible formats.
-- **Practical Application:** Test and implement research outcomes in advocacy scenarios.
-  - **Field Experiments:** Test public communication strategies.
-  - **Policy Implementation Trials:** Advocate for new policy recommendations and gather implementation data.
-- **Funding Support:** Jointly apply for grants requiring research and public engagement.
+- **Recopilación de datos:** Ayudar con encuestas a gran escala y datos cualitativos a través de voluntarios.
+- **Difusión de la investigación:** Traducir hallazgos complejos en formatos accesibles.
+- **Aplicación práctica:** Probar y implementar resultados de la investigación en escenarios de defensa.
+  - **Experimentos de campo:** Probar estrategias de comunicación pública.
+  - **Pruebas de implementación de políticas:** Defender nuevas recomendaciones políticas y recopilar datos de implementación.
+- **Apoyo a la financiación:** Solicitar conjuntamente subvenciones que requieren investigación y compromiso público.
 
-## Networks of Professionals
+## Redes de profesionales {#networks-of-professionals}
 
-- **Diverse Skill Set:** Access our multi-disciplinary volunteer base.
-- **Public-facing Arm:** Provide a more activist-oriented public presence for professional networks that prefer to remain neutral.
-- **Cross-sector Collaboration:** Connect professionals with other stakeholders.
+- **Conjunto de habilidades diverso:** Acceder a nuestra base de voluntarios multidisciplinarios.
+- **Presencia pública:** Proporcionar una presencia pública más orientada al activismo para las redes profesionales que prefieren mantenerse neutrales.
+- **Colaboración intersectorial:** Conectar a profesionales con otros interesados.
 
-## Small Advocacy Organizations
+## Organizaciones de defensa pequeñas {#small-advocacy-organizations}
 
-- **Resource Sharing:** Pool resources for larger events or campaigns.
-- **Complementary Tactics:** Combine expertise for comprehensive advocacy.
-- **Volunteer Exchange:** Share volunteers for capacity building.
-- **United Voice:** Present a unified front on AI risk concerns.
+- **Compartir recursos:** Compartir recursos para eventos o campañas más grandes.
+- **Tácticas complementarias:** Combinar experiencia para una defensa integral.
+- **Intercambio de voluntarios:** Compartir voluntarios para la creación de capacidad.
+- **Voz unificada:** Presentar un frente unificado sobre las preocupaciones de riesgo de inteligencia artificial.
 
-## Media Outlets
+## Medios de comunicación {#media-outlets}
 
-- **Story Generation:** Provide newsworthy actions and events.
-- **Expert Connections:** Facilitate interviews with subject matter experts.
-- **Fact-checking:** Verify AI-risk related news items.
-- **Public Opinion Insights:** Share grassroots data on public sentiment.
+- **Generación de historias:** Proporcionar acciones y eventos noticiables.
+- **Conexiones con expertos:** Facilitar entrevistas con expertos en la materia.
+- **Verificación de hechos:** Verificar noticias relacionadas con el riesgo de inteligencia artificial.
+- **Perspectivas de opinión pública:** Compartir datos de base sobre el sentimiento público.
 
-## Academic and Technical Experts
+## Expertos académicos y técnicos {#academic-and-technical-experts}
 
-- **Platform Amplification:** Share expert knowledge with the public.
-- **Real-world Feedback:** Provide insights on theoretical concepts' public perception.
-- **Research Opportunities:** Connect experts with potential study participants.
-- **Policy Impact:** Translate recommendations into policy actions.
-- **Interdisciplinary Collaboration:** Facilitate connections with experts in related fields.
+- **Amplificación de plataforma:** Compartir conocimientos expertos con el público.
+- **Retroalimentación del mundo real:** Proporcionar información sobre la percepción pública de conceptos teóricos.
+- **Oportunidades de investigación:** Conectar a expertos con posibles participantes en estudios.
+- **Impacto político:** Traducir recomendaciones en acciones políticas.
+- **Colaboración interdisciplinaria:** Facilitar conexiones con expertos en campos relacionados.
 
-## Public Intellectuals and Thought Leaders
+## Intelectuales públicos y líderes de pensamiento {#public-intellectuals-and-thought-leaders}
 
-- **Audience Expansion:** Introduce ideas to new audiences.
-- **Concept Testing:** Test and refine ideas with an informed group.
-- **Media Opportunities:** Generate media coverage through events.
-- **Public Engagement:** Interact with engaged citizens.
-- **Content Creation:** Collaborate on accessible, impactful content.
+- **Expansión de audiencia:** Presentar ideas a nuevas audiencias.
+- **Pruebas de concepto:** Probar y refinar ideas con un grupo informado.
+- **Oportunidades de medios:** Generar cobertura de medios a través de eventos.
+- **Compromiso público:** Interactuar con ciudadanos comprometidos.
+- **Creación de contenido:** Colaborar en contenido accesible y de impacto.
 
-## Influential Decision-Makers and Policymakers
+## Líderes y formuladores de políticas influyentes {#influential-decision-makers-and-policymakers}
 
-- **Grassroots Support:** Demonstrate public backing for AI-risk initiatives.
-- **Public Opinion Gauge:** Provide insights into public sentiment.
-- **Crisis Response Support:** Mobilize volunteers for emergency communication and action.
-- **Policy Refinement:** Iterate and improve policies based on feedback.
+- **Apoyo de base:** Demostrar respaldo público para iniciativas de riesgo de inteligencia artificial.
+- **Medidor de opinión pública:** Proporcionar información sobre el sentimiento público.
+- **Apoyo a la respuesta a crisis:** Movilizar a voluntarios para la comunicación y la acción de emergencia.
+- **Refinamiento de políticas:** Iterar y mejorar políticas basadas en retroalimentación.
 
-## Social Media Influencers and Digital Content Creators
+## Influencers de redes sociales y creadores de contenido digital {#social-media-influencers-and-digital-content-creators}
 
-- **Fact-checking and Expertise:** Ensure accurate information in content.
-- **Engaging Content Ideas:** Provide real-world stories for authentic content.
-- **Audience Engagement:** Connect with our passionate volunteer base.
-- **Trend Amplification:** Boost AI risk-related campaigns.
-- **Educational Partnerships:** Create shareable content to raise awareness.
+- **Verificación de hechos y experiencia:** Asegurar la precisión de la información en el contenido.
+- **Ideas de contenido atractivo:** Proporcionar historias del mundo real para contenido auténtico.
+- **Compromiso de audiencia:** Conectar con nuestra base de voluntarios apasionados.
+- **Amplificación de tendencias:** Impulsar campañas relacionadas con el riesgo de inteligencia artificial.
+- **Asociaciones educativas:** Crear contenido compartible para aumentar la conciencia.
 
-## International Organizations and NGOs
+## Organizaciones internacionales y ONG {#international-organizations-and-ngos}
 
-- **Cultural Translation:** Adapt messages for local contexts.
-- **Rapid Mobilization:** Organize responses to emerging threats.
-- **Grassroots Feedback:** Gather ground-level feedback on AI safety programs.
-- **Cross-border Collaboration:** Connect local activists with global initiatives.
+- **Traducción cultural:** Adaptar mensajes a contextos locales.
+- **Movilización rápida:** Organizar respuestas a amenazas emergentes.
+- **Retroalimentación de base:** Recopilar retroalimentación de nivel de base sobre programas de seguridad de inteligencia artificial.
+- **Colaboración transfronteriza:** Conectar a activistas locales con iniciativas globales.
 
-## Interested in exploring partnership opportunities?
+## ¿Interesado en explorar oportunidades de colaboración? {#interested-in-exploring-partnership-opportunities}
 
-Send an email to [joep@pauseai.info](mailto:joep@pauseai.info).
+Envíe un correo electrónico a [joep@pauseai.info](mailto:joep@pauseai.info).

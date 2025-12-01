@@ -1,51 +1,51 @@
 ---
-title: PauseAI Protests
-description: A list of upcoming and past protests.
+title: Protestas de PauseAI
+description: Una lista de próximas protestas y protestas anteriores.
 ---
 
-## Upcoming protest
+## Próximas protestas {#upcoming-protest}
 
-**See our [events](/events) for upcoming protests.**
+**Consulta nuestros [eventos](/events) para conocer las próximas protestas.**
 
-## Past Protests
+## Protestas anteriores {#past-protests}
 
-### 2025
+### 2025 {#2025}
 
-- [30th of June, London](https://pauseai.info/deepmind-protest-2025)
-- [7th - 11th of February, 15+ cities](/2025-february)
+- [30 de junio, Londres](https://pauseai.info/deepmind-protest-2025)
+- [7-11 de febrero, más de 15 ciudades](/2025-febrero)
 
-### 2024
+### 2024 {#2024}
 
-- [21st of November, 10+ cities](/2024-november)
-- [22nd of September, NYC](https://www.eventbrite.com/e/pauseai-nyc-summit-of-the-future-protest-tickets-905766862067)
-- [30th of July, Washington, DC](https://www.facebook.com/events/2528518090675538) (World Pause Coalition)
-- [23rd of July, San Francisco, London, Paris](https://x.com/PauseAI/status/1816550279095238711)
-- [13th of May, San Francisco, London, Stockholm, Berlin, Den Haag, Rome, Paris...](/2024-may)
-- [12th of February, OpenAI, SF](/2024-february)
+- [21 de noviembre, más de 10 ciudades](/2024-noviembre)
+- [22 de septiembre, Nueva York](https://www.eventbrite.com/e/pauseai-nyc-summit-of-the-future-protest-tickets-905766862067)
+- [30 de julio, Washington, DC](https://www.facebook.com/events/2528518090675538) (Coalición Mundial por la Pausa)
+- [23 de julio, San Francisco, Londres, París](https://x.com/PauseAI/status/1816550279095238711)
+- [13 de mayo, San Francisco, Londres, Estocolmo, Berlín, La Haya, Roma, París...](/2024-mayo)
+- [12 de febrero, OpenAI, San Francisco](/2024-febrero)
 
-### 2023
+### 2023 {#2023}
 
-- [1st of November, Bletchley Park, UK](/2023-november-uk)
-- [21st of October, International protest](/2023-oct)
-- [29th of September, San Francisco](https://metaprotest.org/) (not officially PauseAI)
-- [11th of August, Netherlands](/2023-august-nl)
-- [18th of July, London](/2023-july-london-18th)
-- [13th of July, London](/2023-july-london-13th)
-- [29th of June, London](/2023-june-london-office-for-ai)
-- [16th of June, Melbourne, Australia](/2023-june-melbourne)
-- [8th of June, Parliament Square, London](/2023-june-london)
-- [3rd of June, NYC, UN Building](/nyc-un-vigil)
-- [24th of May, London, UCL](https://twitter.com/GFuterman/status/1660648998863028230?s=20) (not officially PauseAI)
-- [23rd of May, Microsoft, Brussels](/brussels-microsoft-protest)
-- [20th of May, OpenAI, San Francisco](/openai-protest)
-- [19th - 22nd of May, Google DeepMind, London](/2023-may-deepmind-london)
+- [1 de noviembre, Bletchley Park, Reino Unido](/2023-noviembre-uk)
+- [21 de octubre, Protesta internacional](/2023-oct)
+- [29 de septiembre, San Francisco](https://metaprotest.org/) (no organizado oficialmente por PauseAI)
+- [11 de agosto, Países Bajos](/2023-agosto-nl)
+- [18 de julio, Londres](/2023-julio-londres-18)
+- [13 de julio, Londres](/2023-julio-londres-13)
+- [29 de junio, Londres](/2023-junio-londres-oficina-para-ia)
+- [16 de junio, Melbourne, Australia](/2023-junio-melbourne)
+- [8 de junio, Plaza del Parlamento, Londres](/2023-junio-londres)
+- [3 de junio, Nueva York, Edificio de la ONU](/nyc-un-vigil)
+- [24 de mayo, Londres, UCL](https://twitter.com/GFuterman/status/1660648998863028230?s=20) (no organizado oficialmente por PauseAI)
+- [23 de mayo, Microsoft, Bruselas](/brussels-microsoft-protest)
+- [20 de mayo, OpenAI, San Francisco](/openai-protest)
+- [19-22 de mayo, Google DeepMind, Londres](/2023-mayo-deepmind-londres)
 
-## Organize a protest
+## Organiza una protesta {#organize-a-protest}
 
-Take ownership of a protest and organize it yourself!
-We're here to help.
-Read more about [organizing a protest](/organizing-a-protest).
+¡Toma la iniciativa y organiza una protesta tú mismo!
+Estamos aquí para ayudarte.
+Lee más sobre [cómo organizar una protesta](/organizing-a-protest).
 
-## Code of conduct
+## Código de conducta {#code-of-conduct}
 
-[Read our code of conduct on protesting](/protesters-code-of-conduct)
+[Lee nuestro código de conducta para manifestantes](/protesters-code-of-conduct)

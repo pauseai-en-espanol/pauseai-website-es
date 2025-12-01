@@ -1,27 +1,27 @@
 ---
-title: International PauseAI Protest November 2024
-description: We are organizing a protest to demand a pause on dangerous AI development.
+title: Protesta internacional de PauseAI noviembre 2024
+description: Estamos organizando una protesta para exigir una pausa en el desarrollo de inteligencia artificial peligrosa.
 ---
 
-## November 20th-22nd, in over 10 cities
+## 20-22 de noviembre, en más de 10 ciudades {#november-20th-22nd-in-over-10-cities}
 
-- **[San Francisco, US](https://facebook.com/events/s/tell-anthropic-to-pause-ai/917486370313748/)**
-- **[London, UK](https://lu.ma/qtlk8l6y)**
-- **Oxford, UK**
-- **[Osnabrück, Germany](https://lu.ma/glguga9k)**
-- **[Paris, France](https://lu.ma/0tjhnnf9)**
-- **[Oslo, Norway](https://fb.me/e/5OYXuGCj4)**
-- **[Kristiansand, Norway](https://facebook.com/events/s/internasjonal-protest-kristian/920543192766699/)**
-- **[Zürich, Switzerland](https://lu.ma/t031iy9r)**
+- **[San Francisco, EE. UU.](https://facebook.com/events/s/tell-anthropic-to-pause-ai/917486370313748/)**
+- **[Londres, Reino Unido](https://lu.ma/qtlk8l6y)**
+- **Oxford, Reino Unido**
+- **[Osnabrück, Alemania](https://lu.ma/glguga9k)**
+- **[París, Francia](https://lu.ma/0tjhnnf9)**
+- **[Oslo, Noruega](https://fb.me/e/5OYXuGCj4)**
+- **[Kristiansand, Noruega](https://facebook.com/events/s/internasjonal-protest-kristian/920543192766699/)**
+- **[Zúrich, Suiza](https://lu.ma/t031iy9r)**
 - **[Kinshasa, Congo](https://lu.ma/klejgi5p)**
-- **[Milan, Italy](https://chat.whatsapp.com/Cue9aeK6kpJFoDxT3xV9Zx)**
-- **[Skopelos, Greece](https://lu.ma/lpl93rlo)**
-- Organize in your area! [Join our Discord server](https://discord.gg/2XXWXvErfA) and coordinate.
+- **[Milán, Italia](https://chat.whatsapp.com/Cue9aeK6kpJFoDxT3xV9Zx)**
+- **[Skopelos, Grecia](https://lu.ma/lpl93rlo)**
+- ¡Organiza una protesta en tu zona! [Únete a nuestro servidor de Discord](https://discord.gg/2XXWXvErfA) y coordina con otros.
 
-## Narrative & core messages
+## Narrativa y mensajes clave {#narrative--core-messages}
 
-- The AI Safety Conference in SF is a rare opportunity to bring together decision makers and AI experts from around the world. Don't let this opportunity go to waste.
-- We need a Pause! Check out our [proposal](/proposal) for more details on what we mean by that.
-- We need international regulations & collaboration. Why is China missing from this conference? Where is the Bejing AI Safety Institute? We need China to be at the table - otherwise the AI race will not be stopped.
-- A pause is technically feasible, for now. Supply chain regulation (e.g. through ASML) can help proliferation of AI training facilities, but we can't wait for too long, or it will be too late. Read [Building the Pause Button](/building-the-pause-button) to understand what can be done.
-- We need an adult in the room. We need one country to step up and initialise treaty negotiations. And this is our job. We need to wake up our politicians, because no-one else will.
+- La Conferencia de Seguridad de IA en San Francisco es una oportunidad única para reunir a expertos y líderes en IA de todo el mundo. No podemos dejar pasar esta oportunidad.
+- ¡Es hora de hacer una pausa! Consulta nuestra [propuesta](/proposal) para obtener más información sobre lo que proponemos.
+- Necesitamos regulaciones y cooperación internacionales. ¿Por qué no está China representada en esta conferencia? ¿Dónde está el Instituto de Seguridad de IA de Pekín? Es fundamental que China se una a la discusión para evitar una carrera descontrolada en el desarrollo de IA.
+- Una pausa es técnicamente posible, al menos por ahora. La regulación de la cadena de suministro (por ejemplo, a través de ASML) puede ayudar a frenar la proliferación de instalaciones de entrenamiento de IA, pero debemos actuar con rapidez, ya que el tiempo se está agotando. Lee [Construyendo el botón de pausa](/building-the-pause-button) para entender qué medidas se pueden tomar.
+- Necesitamos un liderazgo responsable. Necesitamos que un país dé el primer paso y comience las negociaciones para un tratado. Y ese es nuestro objetivo. Debemos concienciar a nuestros líderes políticos, ya que nadie más lo hará.

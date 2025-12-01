@@ -1,59 +1,61 @@
 ---
-title: Communications Director Vacancy at PauseAI Global (Vacancy closed)
-description: PauseAI is looking for an Communications Director to lead our Comms Team and Social Media accounts. Remote work or in-person in Utrecht, the Netherlands.
+title: Vacante de Director de Comunicaciones en PauseAI Global (Vacante cerrada)
+description: PauseAI busca un Director de Comunicaciones para liderar nuestro equipo de Comunicaciones y cuentas de redes sociales. Trabajo remoto o presencial en Utrecht, Países Bajos.
 ---
 
-_Update 2025-03-24: This vacancy is now closed._
+<!-- end of frontmatter metadata, dashes above need to stay -->
 
-Do you want to make an impact and work on the most important issue on Earth?
+_Actualización 2025-03-24: Esta vacante ya está cerrada._
 
-## About PauseAI
+¿Quieres tener un impacto significativo y trabajar en el tema más importante del planeta?
 
-PauseAI is a young, international non-profit organization with the goal of preventing the creation of AI that is (much) more intelligent than humanity.
-A staggering [86% of AI scientists](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai) believe that if we reach this point, there is a chance we could lose control.
-The [three biggest AI scientists](https://twitter.com/PauseAI/status/1734641804245455017) have long been warning us: this could mean the end of humanity.
+## Acerca de PauseAI {#about-pauseai}
 
-PauseAI started in April 2023 and has since grown to 2000 members, over 100 registered volunteers, and dozens of [local groups](/communities) across the world.
+PauseAI es una organización sin fines de lucro internacional y joven con el objetivo de prevenir la creación de inteligencia artificial (IA) que supere significativamente la inteligencia humana.
+Un asombroso [86% de científicos de IA](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai) cree que si llegamos a este punto, existe un riesgo real de perder el control.
+Los [tres científicos de IA más destacados](https://twitter.com/PauseAI/status/1734641804245455017) nos han estado advirtiendo durante mucho tiempo: esto podría tener consecuencias catastróficas para la humanidad.
 
-## Your Role
+PauseAI se fundó en abril de 2023 y desde entonces ha crecido a 2000 miembros, más de 100 voluntarios registrados y docenas de [grupos locales](/communities) en todo el mundo.
 
-Although many volunteers contribute to PauseAI (some even full-time), PauseAI has one paid staff member ([Organizing Director](/2024-vacancy-organizing-director)
-You will be the second hire and you will play a crucial role in how the organization grows and evolves.
-You will work closely with the founder, Joep Meindertsma.
-Be aware that PauseAI may grow very quickly in the near future, both in terms of members and funding.
+## Tu papel {#your-role}
 
-### Tasks & Responsibilities
+Aunque muchos voluntarios contribuyen a PauseAI (algunos incluso a tiempo completo), PauseAI tiene un miembro del personal remunerado ([Director de Organización](/2024-vacancy-organizing-director)).
+Serás la segunda persona contratada y desempeñarás un papel crucial en el crecimiento y la evolución de la organización.
+Trabajarás estrechamente con el fundador, Joep Meindertsma.
+Ten en cuenta que PauseAI puede experimentar un crecimiento rápido en el futuro cercano, tanto en términos de miembros como de financiamiento.
 
-- Lead the Comms [Team](/teams) (multiple volunteers with diverse relevant skills, some of who create and edit videos)
-- Develop and execute a communication strategy
-- Set up an international communication pipeline for the various National Groups.
-- Run our Social Media accounts (Twitter, Facebook, TikTok, LinkedIn, YouTube, Instagram, SubStack)
-- Creating social media content (text, video) to inform, motivate, and inspire.
-- Engage with the PauseAI community and other organizations
-- Stay up to date on AI (safety, governance) news
-- Set up & execute digital (ad) campaigns
-- Make changes to our website (no programming experience required)
+### Tareas y responsabilidades {#tasks--responsibilities}
 
-### Skills & Attributes
+- Liderar el equipo de Comunicaciones [Team](/teams) (varios voluntarios con habilidades relevantes diversas, algunos de los cuales crean y editan videos)
+- Desarrollar y ejecutar una estrategia de comunicación efectiva
+- Establecer un canal de comunicación internacional para los diversos Grupos Nacionales.
+- Administrar nuestras cuentas de redes sociales (Twitter, Facebook, TikTok, LinkedIn, YouTube, Instagram, SubStack)
+- Crear contenido de redes sociales (texto, video) para informar, motivar e inspirar a nuestra audiencia.
+- Interactuar con la comunidad de PauseAI y otras organizaciones relevantes
+- Mantenerse actualizado sobre noticias y avances en IA (seguridad, gobernanza)
+- Establecer y ejecutar campañas digitales (publicitarias) efectivas
+- Realizar cambios en nuestro sitio web (no se requiere experiencia en programación)
 
-- You enjoy posting things on social media, have a good feeling for marketing.
-- Experience with digital communication / social media.
-- Experience with press / journalists / media.
-- Excellent communication skills, both verbal and written.
-- A generalist with leadership experience.
-- You understand AI safety and AI governance.
-- Supports the idea of an AI Pause, but we're open to different perspectives (such as threat models or policies).
-- Advertising experience is a plus.
-- Experience with video content creation is a plus.
-- Proactive and entrepreneurial.
+### Habilidades y atributos {#skills--attributes}
 
-### Conditions
+- Disfrutas creando y compartiendo contenido en redes sociales y tienes un buen sentido del marketing digital.
+- Experiencia en comunicación digital / redes sociales.
+- Experiencia en relaciones con la prensa / periodistas / medios.
+- Excelentes habilidades de comunicación, tanto verbales como escritas.
+- Un líder con experiencia en gestión de equipos y proyectos.
+- Entiendes la seguridad y la gobernanza de la IA.
+- Apoyas la idea de una pausa en la IA, pero estamos abiertos a diferentes perspectivas (como modelos de amenaza o políticas).
+- La experiencia en publicidad es un plus.
+- La experiencia en creación de contenido de video es un plus.
+- Proactivo, emprendedor y con capacidad para trabajar de forma autónoma.
 
-- Remote work or in-person in Utrecht, the Netherlands.
-- Full-time position
-- Salary range: 40k - 60k EUR per year, depending on experience and location.
-- Referral bonus: 500 EUR for a successful hire!
+### Condiciones {#conditions}
 
-## Apply
+- Trabajo remoto o presencial en Utrecht, Países Bajos.
+- Posición a tiempo completo
+- Rango salarial: 40k - 60k EUR al año, dependiendo de la experiencia y la ubicación.
+- Bono de recomendación: 500 EUR por una contratación exitosa!
 
-You can no longer apply for this position.
+## Aplicar {#apply}
+
+Ya no puedes aplicar para esta posición.

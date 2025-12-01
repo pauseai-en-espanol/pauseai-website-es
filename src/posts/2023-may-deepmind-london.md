@@ -1,6 +1,6 @@
 ---
-title: PauseAI protest @ Google DeepMind - May 19th - 22nd
-description: We are organising a protest at Google DeepMind to demand a summit to pause AI development.
+title: Protesta de PauseAI en Google DeepMind - 19-22 de mayo
+description: Estamos organizando una protesta en Google DeepMind para exigir una cumbre para pausar el desarrollo de la inteligencia artificial.
 ---
 
 <script>
@@ -9,126 +9,126 @@ description: We are organising a protest at Google DeepMind to demand a summit t
 
 <WidgetConsent>
 <div>
-<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Proud to be part of the first ever protest calling for a global moratorium on the development of AI systems more powerful than GPT-4! See you at 5pm Monday for more of the same. <a href="https://twitter.com/hashtag/PauseAI?src=hash&amp;ref_src=twsrc%5Etfw">#PauseAI</a> <a href="https://t.co/ZM1d49tsIc">pic.twitter.com/ZM1d49tsIc</a></p>&mdash; Alistair Stewart (@alistair___s) <a href="https://twitter.com/alistair___s/status/1659559271351058433?ref_src=twsrc%5Etfw">May 19, 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">Orgulloso de ser parte de la primera protesta que pide un moratorio global sobre el desarrollo de sistemas de inteligencia artificial más poderosos que GPT-4. ¡Nos vemos el lunes a las 5 pm para más de lo mismo! <a href="https://twitter.com/hashtag/PauseAI?src=hash&amp;ref_src=twsrc%5Etfw">#PauseAI</a> <a href="https://t.co/ZM1d49tsIc">pic.twitter.com/ZM1d49tsIc</a></p>&mdash; Alistair Stewart (@alistair___s) <a href="https://twitter.com/alistair___s/status/1659559271351058433?ref_src=twsrc%5Etfw">19 de mayo de 2023</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </div>
 </WidgetConsent>
 
-Please read the PauseAI Protestors' Code of Conduct [here](https://pauseai.info/protesters-code-of-conduct) before attending this protest.
+Por favor, lee el Código de Conducta de los Manifestantes de PauseAI [aquí](https://pauseai.info/protesters-code-of-conduct) antes de asistir a esta protesta.
 
-What:
+¿Qué es esto?
 
-- Lawful protest outside Google DeepMind + awareness-raising/recruitment outside EAG London
+- Protesta pacífica fuera de Google DeepMind + concienciación y reclutamiento fuera de EAG Londres
 
-When & where:
+¿Cuándo y dónde?
 
-- 1200-1400 Fri 19 May outside Google DeepMind
-- 1200-1400 Sat 20 and Sun 21 May outside EAG London
-- 1700-2000 Mon 22 May outside Google DeepMind
-- In the future: regular (weekly?) protest?
+- 1200-1400 viernes 19 de mayo fuera de Google DeepMind
+- 1200-1400 sábado 20 y domingo 21 de mayo fuera de EAG Londres
+- 1700-2000 lunes 22 de mayo fuera de Google DeepMind
+- En el futuro: ¿protesta regular (semanal)?
 
-Exact locations:
+Ubicaciones exactas:
 
-- Google DeepMind in building [S2 Handyside](https://www.kingscross.co.uk/s2-handyside): [2 Canal Reach](https://goo.gl/maps/HEA1pvEQJRfmymiEA?coh=178571&entry=tt), King's Cross, London, N1C 4DC
-- Effective Altruism Global London ([EAG London](https://www.effectivealtruism.org/ea-global/events/ea-global-london-2023)): [Tobacco Dock](https://goo.gl/maps/MfVJ6Exfv7B1NbcL6?coh=178571&entry=tt), Tobacco Quay, Wapping Lane, Wapping, London, E1W 2SF
+- Google DeepMind en el edificio [S2 Handyside](https://www.kingscross.co.uk/s2-handyside): [2 Canal Reach](https://goo.gl/maps/HEA1pvEQJRfmymiEA?coh=178571&entry=tt), King's Cross, Londres, N1C 4DC
+- Effective Altruism Global Londres ([EAG Londres](https://www.effectivealtruism.org/ea-global/events/ea-global-london-2023)): [Tobacco Dock](https://goo.gl/maps/MfVJ6Exfv7B1NbcL6?coh=178571&entry=tt), Tobacco Quay, Wapping Lane, Wapping, Londres, E1W 2SF
 
-Why:
+¿Por qué?
 
-- To call for a moratorium on AGI development
-- To raise public awareness of the threat posed by AGI development
-- To create and leverage social pressure on Google DeepMind and other AI companies
-- To build momentum for a social movement calling for better AI safety, governance and ethics in general
-- In particular, to set a precedent for a regular (weekly?) protest
+- Para pedir un moratorio sobre el desarrollo de la inteligencia artificial general
+- Para concienciar al público sobre la amenaza que plantea el desarrollo de la inteligencia artificial general
+- Para crear y aprovechar la presión social sobre Google DeepMind y otras empresas de inteligencia artificial
+- Para generar impulso para un movimiento social que demande una mejor seguridad, gobernanza y ética en la inteligencia artificial en general
+- En particular, para sentar un precedente para una protesta regular (semanal)
 
-How:
+¿Cómo?
 
-- We will lawfully and peacefully stand outside Google DeepMind with placards and a banner, possibly handing out flyers / stickers / pin badges to DeepMind employees and passers-by
-- We will have respectful, cooperative conversations
-- We may give speeches (more likely) and/or sing and/or chant (less likely)
-- We may dress up in attention-grabbing costumes
-- Our tone will be informative, inclusive and even humorous rather than confrontational and disruptive
-- We aim to get up to 30 people to this first protest
+- Nosotros nos manifestaremos pacíficamente fuera de Google DeepMind con pancartas y una pancarta, posiblemente repartiendo folletos / pegatinas / insignias a los empleados de DeepMind y transeúntes
+- Tendremos conversaciones respetuosas y cooperativas
+- Podemos dar discursos (más probable) y / o cantar y / o corear (menos probable)
+- Podemos disfrazarnos con trajes llamativos
+- Nuestro tono será informativo, inclusivo y hasta humorístico en lugar de confrontativo y disruptivo
+- Nuestro objetivo es reunir a hasta 30 personas en esta primera protesta
 
-Legal:
+Aspectos legales:
 
-- This is a wholly lawful, legal and non-arrestable protest
-- We will stand on the pavement (public space), not on private land
+- Esta es una protesta completamente pacífica, legal y no arrestable
+- Nosotros nos manifestaremos en la acera (espacio público), no en terreno privado
 
-Press/media/publicity:
+Prensa / medios / publicidad:
 
-- Alistair will write a press release and share with newspapers etc.
-- Alistair will post on the EA Forum, Alignment Forum and LessWrong
-- Please share as far as you can on social media, by word of mouth etc.!
-- Facebook event [here](https://fb.me/e/Tc3BBimH)
+- Alistair escribirá un comunicado de prensa y lo compartirá con los periódicos, etc.
+- Alistair publicará en el Foro de EA, el Foro de Alineación y LessWrong
+- ¡Por favor, comparte lo más que puedas en las redes sociales, de boca en boca, etc.!
+- Evento de Facebook [aquí](https://fb.me/e/Tc3BBimH)
 
-## Messaging & narrative
+## Mensajes y narrativa {#messaging--narrative}
 
-The problem:
+El problema:
 
-- We don't know how AI works
-- We haven't solved alignment
-- Solve alignment first
-- How do we control an artificial superintelligence?
-- AI safety, then AI development
-- AI poses an existential threat to humanity
-- 30% chance of bad outcomes from ASI -- [AI safety researchers](https://pauseai.info/xrisk)
-- Risk of blowing up the planet is more than 1% -- [AI researchers](https://twitter.com/liron/status/1656929936639430657?s=20)
-- Experts are worried
-- See PauseAI's expert quotes [here](https://pauseai.info/xrisk)
-- Pause the race to the bottom
-- What if we can't pull the plug?
-- We killed off the Neanderthals; will AI kill us off?
-- AI wiping out humanity is "not inconceivable" -- Hinton
-- This will change everything
-- #dontlookup
-- Don't let AI decide our future
-- What if AI goes rogue?
+- No sabemos cómo funciona la inteligencia artificial
+- No hemos resuelto la alineación
+- Resuelve la alineación primero
+- ¿Cómo controlamos una superinteligencia artificial?
+- Seguridad de la inteligencia artificial, luego desarrollo de la inteligencia artificial
+- La inteligencia artificial plantea una amenaza existencial para la humanidad
+- 30% de posibilidades de resultados malos de la inteligencia artificial superinteligente -- [investigadores de seguridad de la inteligencia artificial](https://pauseai.info/xrisk)
+- El riesgo de destruir el planeta es más del 1% -- [investigadores de inteligencia artificial](https://twitter.com/liron/status/1656929936639430657?s=20)
+- Los expertos están preocupados
+- Ver citas de expertos de PauseAI [aquí](https://pauseai.info/xrisk)
+- Pausa la carrera hacia el abismo
+- ¿Qué pasa si no podemos desconectar?
+- Aniquilamos a los neandertales; ¿la inteligencia artificial nos aniquilará a nosotros?
+- La inteligencia artificial que elimina a la humanidad no es "inconcebible" -- Hinton
+- Esto cambiará todo
+- #NoMiresHaciaArriba
+- No dejes que la inteligencia artificial decida nuestro futuro
+- ¿Qué pasa si la inteligencia artificial se vuelve en contra de nosotros?
 
-The solution:
+La solución:
 
-- Pause AI
-- #pauseAI
-- #justlookup
-- Don't build AGI
-- Stop building AGI
-- Moratorium on AGI development, now
-- Global AI summit, now
-- Global AI treaty, now
-- Global AI referendum, now [more controversial]
+- Pausa la inteligencia artificial
+- #PausaIA
+- #MiraHaciaArriba
+- No construyas inteligencia artificial general
+- Detén la construcción de inteligencia artificial general
+- Moratorio sobre el desarrollo de inteligencia artificial general, ahora
+- Cumbre global de inteligencia artificial, ahora
+- Tratado global de inteligencia artificial, ahora
+- Referéndum global de inteligencia artificial, ahora [más controvertido]
 
-The end result:
+El resultado final:
 
-- Safe, secure, aligned AI
-- AI summer
-- We don't need AGI for an amazing future
+- Inteligencia artificial segura, segura y alineada
+- Verano de la inteligencia artificial
+- No necesitamos inteligencia artificial general para un futuro increíble
 
-More messaging and narrative ideas:
+Más ideas de mensajes y narrativa:
 
-- PauseAI website [here](https://pauseai.info/risks)
-- Campaign for AI Safety (CFAIS) ideas for message testing [here](https://docs.google.com/document/d/10D5WxU-vixiFe-klLWdSAJmYTB3Njtu3YXbz8qM2qZY/edit#heading=h.i7iryjlsib9y)
-- CFAIS narrative testing results [here](https://www.campaignforaisafety.org/uncovering-effective-narratives-for-convincing-people-to-support-agi-moratorium/)
+- Sitio web de PauseAI [aquí](https://pauseai.info/risks)
+- Ideas de la Campaña para la Seguridad de la Inteligencia Artificial (CFAIS) para pruebas de mensajes [aquí](https://docs.google.com/document/d/10D5WxU-vixiFe-klLWdSAJmYTB3Njtu3YXbz8qM2qZY/edit#heading=h.i7iryjlsib9y)
+- Resultados de pruebas de narrativa de CFAIS [aquí](https://www.campaignforaisafety.org/uncovering-effective-narratives-for-convincing-people-to-support-agi-moratorium/)
 
-## Equipment
+## Equipo {#equipment}
 
-Banner
+Pancarta
 
-- Alistair will print a two-person banner with the PauseAI [logo](https://twitter.com/Radlib4/status/1654262421794717696?s=20) on it
+- Alistair imprimirá una pancarta para dos personas con el logotipo de PauseAI [aquí](https://twitter.com/Radlib4/status/1654262421794717696?s=20)
 
-Placards
+Pancartas
 
-- Due to lack of time and uncertainty about what optimal placard messages will be, Alistair is not currently planning on printing out placards (in bulk at least)
-- Everyone is encouraged to create and bring their own (using e.g. cardboard and a Sharpie pen!)
-- If you would like to print placards and would like funding, please speak to Alistair
+- Debido a la falta de tiempo y la incertidumbre sobre qué mensajes de pancarta serán óptimos, Alistair no planea imprimir pancartas (al menos en masa)
+- Todos están invitados a crear y traer sus propias pancartas (usando, por ejemplo, cartón y un bolígrafo Sharpie)
+- Si deseas imprimir pancartas y necesitas financiamiento, por favor habla con Alistair
 
-Flyers
+Folletos
 
-- Due to uncertainty about what should go on flyers, Alistair is not currently planning on printing flyers
-- Alistair will print out a load of FLI letters (and possibly Yudkowsky Time articles) to hand out
-- If you would like to do this and would like funding, please speak to Alistair
+- Debido a la incertidumbre sobre qué debería ir en los folletos, Alistair no planea imprimir folletos
+- Alistair imprimirá una carga de cartas de FLI (y posiblemente artículos de Yudkowsky Time) para repartir
+- Si deseas hacer esto y necesitas financiamiento, por favor habla con Alistair
 
-Stickers and pin badges
+Pegatinas y insignias
 
-- Alistair will try to print PauseAI stickers and pin badges
+- Alistair intentará imprimir pegatinas y insignias de PauseAI
 
-## Contact
+## Contacto {#contact}
 
-Alistair Steward ([email](mailto:achoto@protonmail.com), [twitter](https://twitter.com/alistair___s))
+Alistair Steward ([correo electrónico](mailto:achoto@protonmail.com), [Twitter](https://twitter.com/alistair___s))

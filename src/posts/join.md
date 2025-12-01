@@ -1,24 +1,26 @@
 ---
-title: Join PauseAI
-description: Sign up to join the PauseAI movement
+title: Únete a PauseAI
+description: Regístrate para unirte al movimiento PauseAI
 ---
+
+<!-- end of frontmatter metadata, dashes above need to stay -->
 
 <script>
     import TallyEmbed from '$lib/components/TallyEmbed.svelte'
     import NewsletterSignup from '$lib/components/NewsletterSignup.svelte'
 </script>
 
-This is our nuclear moment.
-Rapid AI advancement represents one of history's most consequential and dangerous technological shifts.
-We demand politicians and companies pause AGI development until international safety agreements are established.
-Join our global network standing for democratic oversight of AI.
+Este es un momento crítico.
+El rápido avance de la inteligencia artificial representa uno de los cambios tecnológicos más trascendentales y peligrosos de la historia.
+Exigimos que los líderes políticos y las empresas detengan el desarrollo de la inteligencia artificial general (AGI) hasta que se establezcan acuerdos internacionales de seguridad.
+Únete a nuestra red global que aboga por la supervisión democrática de la inteligencia artificial.
 
-PauseAI Global unites concerned citizens—scientists, parents, students, workers, and community leaders—who believe transformative technologies require public input before they progress beyond human control.
-Whether you can spare 5 minutes (sharing posts), an hour (flyering, writing letters), 5 hours (protests, meeting politicians) or 5 days weekly (strategy development), your voice matters.
-After signing up, join our onboarding session online or locally to learn about current actions.
+PauseAI Global une a ciudadanos preocupados —científicos, padres, estudiantes, trabajadores y líderes comunitarios— que creen que las tecnologías transformadoras requieren la participación y el control público antes de progresar más allá de nuestra capacidad para gestionarlas.
+Ya sea que puedas dedicar 5 minutos (compartiendo publicaciones), una hora (repartiendo folletos, escribiendo cartas), 5 horas (protestas, reuniones con políticos) o 5 días a la semana (desarrollo de estrategias), tu voz es importante.
+Después de registrarte, únete a nuestra sesión de incorporación en línea o local para conocer las acciones actuales y cómo puedes participar.
 
 <TallyEmbed formId="wbGvKe" />
 
-## Stay Updated
+## Mantente informado {#stay-updated}
 
 <NewsletterSignup />

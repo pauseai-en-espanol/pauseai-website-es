@@ -1,10 +1,10 @@
 ---
-title: Welcome to the PauseAI community!
-description: Thanks for joining and advice on checking inbox
+title: ¡Bienvenido a la comunidad de PauseAI!
+description: Gracias por unirte y consejos para revisar tu bandeja de entrada
 ---
 
-Thank you so much for submitting the form and getting involved!
+¡Muchas gracias por enviar el formulario y participar!
 
-**Please check your inbox (and spam/junk folder, just in case!)** for an email from us. You'll need to click the verification link in that email to confirm your email address.
+**Por favor, revisa tu bandeja de entrada (y la carpeta de spam o correo no deseado, por si acaso)** para encontrar un correo electrónico nuestro. Deberás hacer clic en el enlace de verificación que aparece en ese correo para confirmar tu dirección de correo electrónico.
 
-Once your email is verified, we'll be able to keep you updated on news, events, and opportunities to contribute.
+Una vez que hayas verificado tu correo electrónico, podremos mantenerte informado sobre noticias, eventos y oportunidades para contribuir.

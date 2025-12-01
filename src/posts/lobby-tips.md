@@ -1,73 +1,72 @@
 ---
-title: Tips for effective lobbying
-description: How to convince your government that it needs to work towards a pause on AI training runs
+title: Consejos para un lobby efectivo
+description: Cómo convencer a tu gobierno de que necesita trabajar hacia una pausa en las ejecuciones de entrenamiento de IA
 ---
 
-## Anyone can be a lobbyist
+## Cualquiera puede ser un lobista {#anyone-can-be-a-lobbyist}
 
-You don't need a degree in AI, you don't need special training.
-You can reach out to your representatives and tell them about AI risks.
-It is _their job_ to listen to _their constituents_.
-They are representing _you_.
+No necesitas un título en IA ni capacitación especial para ser un lobista.
+Puedes contactar a tus representantes y hablarles sobre los riesgos de la IA.
+Es su deber escuchar a sus electores, y te están representando a ti.
 
-So don't be afraid to reach out to them.
-You can learn how to do it in this [recording of an emailing workshop](https://www.youtube.com/watch?v=Mjq4NFiKKd0) that we had.
+Así que no tengas miedo de contactarlos.
+Puedes aprender a hacerlo en esta [grabación de un taller de correo electrónico](https://www.youtube.com/watch?v=Mjq4NFiKKd0) que realizamos.
 
-If you are from the US, you can check out our particular [US Lobbying Guide](/us-lobby-guide).
+Si eres de EE. UU., puedes consultar nuestra [Guía de lobby en EE. UU.](/us-lobby-guide).
 
-## Find people to help you
+## Encuentra personas que te ayuden {#find-people-to-help-you}
 
-- It can be useful to find people who are skilled at lobbying, who know the political culture in your country.
-- Do not expect to find the perfect person in one go. You have to iterate. Meet with people (even if it's just a 30min call), ask them if they know who you should talk to. This will go way faster than you might think!
-- Don't bet all your efforts on one contact. Try multiple approaches, multiple people. If multiple people will mention the same name, it's probably a good idea to reach out to them.
-- If people are technical / smart, you have a higher chance that they will take this problem seriously.
+- Es útil encontrar personas que sean hábiles en el lobby y conozcan la cultura política en tu país.
+- No esperes encontrar a la persona perfecta de inmediato. Debes iterar y reunirte con varias personas (incluso si es solo una llamada de 30 minutos) para preguntarles si saben quién deberías contactar. Esto te ayudará a avanzar más rápido de lo que crees.
+- No te limites a un solo contacto. Intenta múltiples enfoques y contacta a varias personas. Si varias personas mencionan el mismo nombre, probablemente sea una buena idea contactar a esa persona.
+- Si las personas son técnicas o inteligentes, es más probable que tomen en serio este problema.
 
-## Communicate clearly about the urgency and the risks
+## Comunica claramente sobre la urgencia y los riesgos {#communicate-clearly-about-the-urgency-and-the-risks}
 
-For many people, It's easy to dismiss AI risk as some sort of science fiction nonsense.
-This is why it's important to communicate clearly about what experts are saying.
-Note that the [top three most cited AI researchers](https://twitter.com/PauseAI/status/1734641804245455017) are all warning about [x-risk](/xrisk).
-Check out the [surveys](/polls-and-surveys) and the [quotes](/quotes) pages for examples.
+Muchas personas descartan el riesgo de la IA como una especie de disparate de la ciencia ficción.
+Por eso es importante comunicar claramente lo que dicen los expertos.
+Ten en cuenta que los [tres investigadores de IA más citados](https://twitter.com/PauseAI/status/1734641804245455017) están advirtiendo sobre el [riesgo existencial](/xrisk).
+Consulta las páginas de [encuestas](/polls-and-surveys) y [citas](/quotes) para obtener ejemplos.
 
-## Find your ultimate target
+## Encuentra tu objetivo final {#find-your-ultimate-target}
 
-- We need **people in power** to make the pause happen. We need these political Champions in every country. Finding and convincing that person in your country is your goal.
-- Consider their **goals and ambitions**. Do they like organizing things? Do they get a kick out of being a thought leader? Do they shy away from controversy? All these things matter.
-- Consider their **background**. Do they understand catastrophic risks? AI? Global coordination?
-- Consider **who they listen to**. Many people change their mind through specific trusted peers. Find out who these people are.
+- Necesitamos personas con poder para hacer que la pausa suceda. Necesitamos a estos campeones políticos en cada país. Encontrar y convencer a esa persona en tu país es tu objetivo.
+- Considera sus metas y ambiciones. ¿Les gusta organizar cosas? ¿Se emocionan con ser líderes de pensamiento? ¿Evitan la controversia? Todas estas cosas importan.
+- Considera su experiencia y conocimientos. ¿Entienden los riesgos catastróficos? ¿IA? ¿Coordinación global?
+- Considera a quién escuchan. Muchas personas cambian de opinión a través de pares de confianza específicos. Descubre quiénes son estas personas.
 
-## Write a letter or email
+## Escribe una carta o correo electrónico {#write-a-letter-or-email}
 
-- We made an app specifically for this! Check out the [Email Builder](/email-builder).
-- Your email needs to be good, but it does not have to be perfect. Don't work on this for months, or worse - not send it at all.
-- **Optional**: Consider collecting signatures from people who agree with you. This will make your letter more powerful.Find professors, opinion leaders, people with status to sign it. You should be able to find a couple by simply googling. Ask the people who help you to find more people. The first signature is the hardest. The higher status the first signee is, the easier it will be to grow the list.
-- **Optional**: Consider publishing the letter. An Open Letter is a powerful tool. It might help speed up the process, but it could also damage you if the government will be in defensive mode instead of taking the lead. Discuss this with the local lobbyists.
+- ¡Hemos creado una aplicación específicamente para esto! Consulta el [Constructor de correos electrónicos](/email-builder).
+- Tu correo electrónico debe ser bueno, pero no tiene que ser perfecto. No te preocupes por trabajar en ello durante meses; lo importante es enviarlo.
+- **Opcional**: Considera recopilar firmas de personas que estén de acuerdo contigo. Esto hará que tu carta sea más poderosa. Busca profesores, líderes de opinión o personas con estatus para firmarla. Deberías poder encontrar a un par simplemente buscando en Google. Pide a las personas que te ayuden a encontrar a más personas. La primera firma es la más difícil; cuanto más alto sea el estatus del primer firmante, más fácil será aumentar la lista.
+- **Opcional**: Considera publicar la carta. Una carta abierta es una herramienta poderosa. Puede ayudar a acelerar el proceso, pero también podría dañarte si el gobierno se pone a la defensiva en lugar de tomar la iniciativa. Discute esto con los lobistas locales.
 
-## During the meeting
+## Durante la reunión {#during-the-meeting}
 
-Sounding the alarm can be tough and frightening.
-You may fear speaking your mind, and you may fear being dismissed.
-But we cannot afford to mince words and tone everything down:
+Hacer sonar la alarma puede ser difícil y aterrador.
+Puedes temer hablar con franqueza y temer ser desestimado.
+Pero no podemos permitirnos el lujo de minimizar las palabras y suavizar todo:
 
-- Be clear about the urgency. **This is an emergency**.
-- Be clear about the risks. **This is an existential risk**.
-- Be clear about the solution. We need to work towards a pause on AI training runs. Your government needs to prepare for the [summit](/summit) by forming coalitions with other countries and start working on a global treaty to [pause AI training runs](/proposal).
+- Sé claro sobre la urgencia. **Esto es una emergencia**.
+- Sé claro sobre los riesgos. **Esto es un riesgo existencial**.
+- Sé claro sobre la solución. Necesitamos trabajar hacia una pausa en las ejecuciones de entrenamiento de IA. Tu gobierno necesita prepararse para la [cumbre](/summit) formando coaliciones con otros países y comenzando a trabajar en un tratado global para [pausar las ejecuciones de entrenamiento de IA](/proposal).
 
-## After the meeting
+## Después de la reunión {#after-the-meeting}
 
-Keep your contact warm!
-Send them regulare updates on what's happening in the AI safety field.
-The field moves very fast, and this is your oppurtinuty to be their source of information.
-If you are knowledgeable about this field (which you probaly are compared to lots of people) you can become an advisor / source or knowledge.
-Ask them to introduce you to other people who might be interested in this topic.
+¡Mantén el contacto cálido!
+Envíales actualizaciones regulares sobre lo que está sucediendo en el campo de la seguridad de la IA.
+El campo se mueve muy rápido, y esta es tu oportunidad de ser su fuente de información.
+Si eres conocedor de este campo, puedes convertirte en un asesor o fuente de conocimiento.
+Pide que te presenten a otras personas que puedan estar interesadas en este tema.
 
-## Get to it!
+## ¡Comienza! {#get-to-it}
 
-This all probably feels pretty intimidating.
-You've probably never done something like this before.
-But you can do it!
-It's not that hard, it just takes some time, effort and a little courage.
-And you don't have to do it alone.
-We already have a couple of initiatives running in different countries.
-We're here to help each other out and fix this problem together.
-Join the [Discord server](https://discord.gg/YfZujPdHSZ) and get started.
+Todo esto puede parecer intimidante.
+Probablemente nunca hayas hecho algo así antes.
+¡Pero puedes hacerlo!
+No es tan difícil; solo requiere algo de tiempo, esfuerzo y un poco de coraje.
+Y no tienes que hacerlo solo.
+Ya tenemos un par de iniciativas en marcha en diferentes países.
+Estamos aquí para ayudarnos mutuamente y solucionar este problema juntos.
+Únete al [servidor de Discord](https://discord.gg/YfZujPdHSZ) y comienza.

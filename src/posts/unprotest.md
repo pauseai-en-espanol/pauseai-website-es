@@ -1,39 +1,39 @@
 ---
-title: PauseAI UN Demonstration
-description: Help us demand immediate global regulation on frontier AI models
+title: Manifestación de PauseAI en la ONU
+description: Ayúdanos a exigir una regulación global inmediata sobre modelos de IA de vanguardia
 date: '2024-9-18'
 ---
 
-## Show support for AI safety action, and help save the world from AI's [many risks](https://airisk.mit.edu/)! We have an urgent need for people to help us with any of the following:
+## Muestra tu apoyo a la acción por la seguridad de la IA y ayuda a salvar al mundo de los [numerosos riesgos](https://airisk.mit.edu/) de la IA. Tenemos una necesidad urgente de personas que nos ayuden con alguna de las siguientes tareas: {#show-support-for-ai-safety-action-and-help-save-the-world-from-ais-many-risks-we-have-an-urgent-need-for-people-to-help-us-with-any-of-the-following}
 
-(Updated Sept 18)
+(Actualizado el 18 de septiembre)
 
-**If you’re reading this (five minute tasks anyone can do):**
+**Si estás leyendo esto (tareas sencillas que puedes realizar en cinco minutos):**
 
-- Send an email about AI’s risks to [all your US elected officials simultaneously](https://democracy.io/), to [the UN AI advisory body](mailto:aiadvisorybody@un.org), and to [the US representative at the UN.](https://usun.usmission.gov/mission/contact-us/). If you don’t know what to say, use [our email builder](https://pauseai.info/email-builder).
-- Join [our in-person monthly meetings](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957) each month on the 11th.
-- Join our online NYC community in the following locations: [Discord](https://discord.com/channels/1100491867675709580/1223374237016784928), [Whatsapp](https://chat.whatsapp.com/KAQMwz2nQeWIkTLxwKxHg1) We mostly use Discord for now, but let us know if you want alternative communication.
-- Follow PauseAINYC on [Instagram](https://www.instagram.com/pauseainyc/), or on [Twitter](https://x.com/PauseAINYC).
+- Envía un correo electrónico sobre los riesgos de la IA a [todos tus representantes electos en EE. UU. simultáneamente](https://democracy.io/), al [órgano asesor de IA de la ONU](mailto:aiadvisorybody@un.org) y al [representante de EE. UU. en la ONU](https://usun.usmission.gov/mission/contact-us/). Si no sabes qué decir, utiliza [nuestra herramienta para crear correos electrónicos](https://pauseai.info/email-builder).
+- Únete a [nuestras reuniones mensuales en persona](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957) cada mes el día 11.
+- Únete a nuestra comunidad en línea de NYC en los siguientes lugares: [Discord](https://discord.com/channels/1100491867675709580/1223374237016784928), [Whatsapp](https://chat.whatsapp.com/KAQMwz2nQeWIkTLxwKxHg1) Principalmente utilizamos Discord por ahora, pero avísanos si prefieres una comunicación alternativa.
+- Sigue a PauseAINYC en [Instagram](https://www.instagram.com/pauseainyc/), o en [Twitter](https://x.com/PauseAINYC).
 
-**If you like to socialize:**
+**Si te gusta socializar:**
 
-- Sign up for one of [our events](https://www.eventbrite.com/o/pause-ai-nyc-83065324363). We do everything from public demonstrations in front of AI companies to attending networking sessions with related organizations.
-- Set up a meeting with [your local political official](https://www.usa.gov/elected-officials) to discuss AI risks. [Copy us by email](mailto:nyc@pauseai.info) so we can support your engagement with resources and additional members. Alternatively, finding an official in your state or region who works directly on AI legislation may be more productive.
+- Regístrate para uno de [nuestros eventos](https://www.eventbrite.com/o/pause-ai-nyc-83065324363). Organizamos todo tipo de actividades, desde manifestaciones públicas frente a empresas de IA hasta sesiones de networking con organizaciones relacionadas.
+- Concerta una reunión con [tu representante político local](https://www.usa.gov/elected-officials) para discutir los riesgos de la IA. [Envíanos un correo electrónico](mailto:nyc@pauseai.info) para que podamos apoyar tu compromiso con recursos y miembros adicionales. Alternativamente, encontrar un representante en tu estado o región que trabaje directamente en la legislación de IA puede ser más efectivo.
 
-**If you’re good at posting and networking on social media:**
+**Si eres hábil en las redes sociales:**
 
-- [Attend our in-person meetings](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), or send an email to [nyc@pauseai.info](mailto:nyc@pauseai.info) with a brief summary of your experience. We’re specifically looking for people who can connect with other technology risk communities and expand our reach as an organization on social media.
-- For less of a commitment, showing appreciation for the PauseAINYC posts through likes, supportive comments, and follows is also appreciated
+- [Asiste a nuestras reuniones en persona](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), o envía un correo electrónico a [nyc@pauseai.info](mailto:nyc@pauseai.info) con un breve resumen de tu experiencia. Estamos buscando personas que puedan conectarse con otras comunidades de riesgo tecnológico y ampliar nuestro alcance como organización en las redes sociales.
+- Para un compromiso menor, mostrar aprecio por las publicaciones de PauseAINYC a través de likes, comentarios de apoyo y seguidores también es apreciado.
 
-**If you’re good at web development:**
+**Si tienes habilidades en desarrollo web:**
 
-- [Attend our in-person meetings](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), or send an email to [nyc@pauseai.info](mailto:nyc@pauseai.info) with a brief summary of your experience. We're looking for people to write and potentially help host our own separate website (that doesn't cost a million dollars from a web host provider).
+- [Asiste a nuestras reuniones en persona](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), o envía un correo electrónico a [nyc@pauseai.info](mailto:nyc@pauseai.info) con un breve resumen de tu experiencia. Estamos buscando personas que puedan desarrollar y potencialmente alojar nuestro propio sitio web independiente (sin costos exorbitantes de proveedores de alojamiento web).
 
-**If you’re good at photography, videography, and/or media production:**
+**Si tienes habilidades en fotografía, videografía y/o producción de medios:**
 
-- We're always looking for more people to help us capture our public demonstrations and spread the message. Either [attend our in-person meetings](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), or send an email to [nyc@pauseai.info](mailto:nyc@pauseai.info) with a brief summary of your experience.
+- Estamos buscando personas que nos ayuden a capturar nuestras manifestaciones públicas y difundir el mensaje. Puedes [asistir a nuestras reuniones en persona](https://www.eventbrite.com/e/pauseai-monthly-action-meeting-tickets-914711244957), o enviar un correo electrónico a [nyc@pauseai.info](mailto:nyc@pauseai.info) con un breve resumen de tu experiencia.
 
-**If you want to provide financial support:**
+**Si deseas brindar apoyo financiero:**
 
-- You can [donate here](https://pauseai.info/donate). Your donations are tax-deductible (if you itemize your taxes), and all donations go directly to people and projects addressing the dangers of AI.
-- Alternatively, you can directly fund specific projects, such as t-shirt printing costs or funds to help members travel to protest together. Information about this is available on [the Discord server](https://discord.com/channels/1100491867675709580/1223374237016784928).
+- Puedes [donar aquí](https://pauseai.info/donate). Tus donaciones son deducibles de impuestos (si declaras tus impuestos), y todas las donaciones van directamente a personas y proyectos que abordan los peligros de la IA.
+- Alternativamente, puedes financiar proyectos específicos, como costos de impresión de camisetas o fondos para ayudar a los miembros a viajar juntos para protestar. La información sobre esto está disponible en [el servidor de Discord](https://discord.com/channels/1100491867675709580/1223374237016784928).

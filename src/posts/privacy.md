@@ -1,72 +1,74 @@
 ---
-title: Privacy policy for PauseAI
+title: Política de privacidad de PauseAI
 ---
 
-**Effective Date:** July 17th, 2024
+ <!-- end of frontmatter metadata, dashes above need to stay -->
 
-## 1. Introduction
+**Fecha de vigencia:** 17 de julio de 2024
 
-Welcome to PauseAI!
-We are committed to protecting your privacy and ensuring that your personal information is handled in a safe and responsible manner.
-This Privacy Policy outlines how [Stichting PauseAI](/legal) ("we," "us," "our") collects, uses, discloses, and protects your personal information in accordance with NL / EU law.
+## 1. Introducción {#introduction}
 
-## 2. Information We Collect
+¡Bienvenido a PauseAI!
+Nos comprometemos a proteger tu privacidad y a garantizar que tu información personal se trate de manera segura y responsable.
+Esta Política de privacidad describe cómo [Stichting PauseAI](/legal) ("nosotros", "nos", "nuestro") recopila, utiliza, divulga y protege tu información personal de acuerdo con la legislación de la Unión Europea y los Países Bajos.
 
-### a. Personal Information
+## 2. Información que recopilamos {#information-we-collect}
 
-- When you [join](/join) as a member, we collect your name, email address, and any other information you provide during registration.
+### a. Información personal {#a-personal-information}
 
-### b. Usage Information
+- Cuando te [unices](https://pauseai.info/join) como miembro, recopilamos tu nombre, dirección de correo electrónico y cualquier otra información que proporciones durante el proceso de registro.
 
-- We use Google Analytics to track and analyze visitor interactions with our website. This includes information about how you use our website, the pages you visit, the time spent on those pages, and other related statistics.
+### b. Información de uso {#b-usage-information}
 
-## 3. How We Use Your Information
+- Utilizamos Google Analytics para rastrear y analizar las interacciones de los visitantes con nuestro sitio web. Esto incluye información sobre cómo utilizas nuestro sitio web, las páginas que visitas, el tiempo que pasas en esas páginas y otras estadísticas relacionadas con el uso.
 
-We use the collected information for the following purposes:
+## 3. Cómo utilizamos tu información {#how-we-use-your-information}
 
-### a. Providing and Improving Our Services
+Utilizamos la información recopilada para los siguientes fines:
 
-- To manage your membership and provide you with relevant information and updates.
-- To improve our website and services based on the usage data we collect.
+### a. Proporcionar y mejorar nuestros servicios {#a-providing-and-improving-our-services}
 
-### b. Communication
+- Para gestionar tu membresía y proporcionarte información y actualizaciones relevantes sobre nuestras actividades.
+- Para mejorar nuestro sitio web y servicios basándonos en los datos de uso que recopilamos.
 
-- To reach out to members using Airtable for internal communications and updates about PauseAI events, activities, and other relevant information.
-- If you agree to subscribe to our newsletter, we add your email to substack as a subscriber to [our newsletter](https://pauseai.substack.com/).
+### b. Comunicación {#b-communication}
 
-## 4. Disclosure of Your Information
+- Para comunicarnos contigo utilizando Airtable para comunicaciones internas y actualizaciones sobre eventos, actividades y otra información relevante de PauseAI.
+- Si aceptas suscribirte a nuestro boletín, agregamos tu correo electrónico a Substack como suscriptor a [nuestro boletín](https://pauseai.substack.com/).
 
-We do not sell, trade, or otherwise transfer your personal information to outside parties. However, we may share your information in the following circumstances:
+## 4. Divulgación de tu información {#disclosure-of-your-information}
 
-### a. Service Providers
+No vendemos, intercambiamos ni transferimos tu información personal a terceros. Sin embargo, podemos compartir tu información en las siguientes circunstancias:
 
-We may share your information with third-party service providers, such as Airtable, Substack and Google Analytics, to assist us in operating our website and conducting our activities.
+### a. Proveedores de servicios {#a-service-providers}
 
-### b. Legal Requirements
+Podemos compartir tu información con proveedores de servicios terceros, como Airtable, Substack y Google Analytics, para ayudarnos a operar nuestro sitio web y realizar nuestras actividades.
 
-We may disclose your information if required to do so by law or in response to valid requests by public authorities.
+### b. Requisitos legales {#b-legal-requirements}
 
-### c. Chapter leaders
+Podemos divulgar tu información si es requerido por la ley o en respuesta a solicitudes válidas de autoridades públicas.
 
-We may share your contact information of the PauseAI national chapter leader of your country.
+### c. Líderes de capítulos {#c-chapter-leaders}
 
-## 5. Data Security
+Podemos compartir tu información de contacto con el líder del capítulo nacional de PauseAI de tu país.
 
-We implement a variety of security measures to maintain the safety of your personal information. Your personal information is stored in secure networks and is only accessible by a limited number of persons who have special access rights to such systems and are required to keep the information confidential.
+## 5. Seguridad de los datos {#data-security}
 
-## 6. Your Rights
+Implementamos medidas de seguridad adecuadas para proteger tu información personal. Tu información personal se almacena en redes seguras y solo es accesible por un número limitado de personas que tienen derechos de acceso especiales a dichos sistemas y están obligadas a mantener la confidencialidad de la información.
 
-You have the right to access, correct, or delete your personal information. If you wish to exercise these rights or have any questions about our privacy practices, please contact us at [insert contact email].
+## 6. Tus derechos {#your-rights}
 
-## 7. Changes to This Privacy Policy
+Tienes derecho a acceder, corregir o eliminar tu información personal. Si deseas ejercer estos derechos o tienes alguna pregunta sobre nuestras prácticas de privacidad, por favor contáctanos en [insertar correo electrónico de contacto].
 
-We may update this Privacy Policy from time to time. Any changes will be posted on this page with an updated effective date.
+## 7. Cambios a esta Política de privacidad {#changes-to-this-privacy-policy}
 
-## 8. Contact Us
+Podemos actualizar esta Política de privacidad de vez en cuando. Cualquier cambio se publicará en esta página con una fecha de vigencia actualizada.
 
-If you have any questions or concerns about this Privacy Policy, please contact us at:
+## 8. Contáctanos {#contact-us}
+
+Si tienes alguna pregunta o inquietud sobre esta Política de privacidad, por favor contáctanos en:
 
 **Stichting PauseAI**
 [joep@pauseai.info](mailto:joep@pauseai.info)
 
-By using our website and services, you consent to the terms outlined in this Privacy Policy.
+Al utilizar nuestro sitio web y servicios, aceptas los términos descritos en esta Política de privacidad.

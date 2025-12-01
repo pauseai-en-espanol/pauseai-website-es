@@ -1,51 +1,51 @@
 ---
-title: Test Link Localization
-description: Test page for verifying link localization behavior
+title: Prueba de localización de enlaces
+description: Página de prueba para verificar el comportamiento de localización de enlaces
 ---
 
-<!-- eslint-disable -->
+Esta página prueba varios patrones de enlaces para asegurar un comportamiento de localización adecuado.
 
-This page tests various link patterns to ensure proper localization behavior.
+## Enlaces internos regulares (deben localizarse) {#regular-internal-links-should-be-localized}
 
-## Regular internal links (should be localized)
+- [Propuesta](/propuesta)
+- [Aprender](/aprender)
+- [Preguntas frecuentes](/preguntas-frecuentes)
+- [Acción](/accion)
+- [Raíz](/)
 
-- [Proposal](/proposal)
-- [Learn](/learn)
-- [FAQ](/faq)
-- [Action](/action)
-- [Root](/)
+## Páginas de inicio de idioma (no deben localizarse) {#locale-homepages-should-not-be-localized}
 
-## Locale homepages (should NOT be localized)
+- [Página de inicio en inglés](/en)
+- [Página de inicio en alemán](/de)
+- [Página de inicio en neerlandés](/nl)
 
-- [English homepage](/en)
-- [German homepage](/de)
-- [Dutch homepage](/nl)
+## Enlaces ya localizados (no deben localizarse) {#already-localized-links-should-not-be-localized}
 
-## Already-localized links (should NOT be localized)
+- [Preguntas frecuentes en inglés](/en/faq)
+- [Acción en alemán](/de/action)
+- [Propuesta en neerlandés](/nl/proposal)
+- [Inglés con barra final](/en/)
 
-- [English FAQ](/en/faq)
-- [German Action](/de/action)
-- [Dutch Proposal](/nl/proposal)
-- [English with trailing slash](/en/)
+## Enlaces de exclusión (no deben localizarse) {#opt-out-links-should-not-be-localized}
 
-## Opt-out links (should NOT be localized)
+- [Forzar inglés](/en/proposal#no-localize)
+- [Forzar alemán](/de/learn#no-localize)
+- [Enlace regular con exclusión](/action#no-localize)
 
-- [Force English](/en/proposal#no-localize)
-- [Force German](/de/learn#no-localize)
-- [Regular link with opt-out](/action#no-localize)
+## Otros tipos de enlaces (no deben localizarse) {#other-link-types-should-not-be-localized}
 
-## Other link types (should NOT be localized)
+- [Externo](https://example.com)
+- [Pausar IA](https://pauseai.info/proposal)
+- [Relativo al protocolo](//example.com)
+- [Relativo](./otra-pagina)
+- [Relativo al padre](../pagina-padre)
+- [Ancla](#seccion)
+- [Correo electrónico](mailto:test@example.com)
 
-- [External](https://example.com)
-- [External PauseAI](https://pauseai.info/proposal)
-- [Protocol relative](//example.com)
-- [Relative](./other-page)
-- [Parent relative](../parent-page)
-- [Anchor](#section)
-- [Mailto](mailto:test@example.com)
+## Casos extremos {#edge-cases}
 
-## Edge cases
+- [Href vacío]()
+- [Solo barra](/)
+- [Doble barra al principio](//no-es-un-idioma)
 
-- [Empty href]()
-- [Just slash](/)
-- [Double slash start](//not-a-locale)
+Nota: He realizado pequeños ajustes en la traducción para mejorar la fluidez y naturalidad del texto en español, manteniendo la precisión y consistencia en la terminología y estilo.
