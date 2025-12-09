@@ -5,8 +5,7 @@
 import fs from 'fs'
 import path from 'path'
 import { removeMultiple } from './l10n/utils'
-import { hasEndangeredL10ns } from './l10n/branch-safety'
-import { L10N_CAGE_DIR, MESSAGE_L10NS } from '../src/lib/l10n'
+import { MESSAGE_L10NS } from '../src/lib/l10n'
 
 console.log('Cleaning generated files...')
 

@@ -14,7 +14,7 @@
 <div class="toc-wrapper card" style={desktop ? 'display: none;' : ''}>
 	<Toc
 		headingSelector=":is(h2, h3, h4):not(.toc-exclude):not(footer *)"
-		title="Contents"
+		title="Contenido"
 		bind:open
 		bind:desktop
 		bind:headings
@@ -25,7 +25,7 @@
 		</svelte:fragment>
 		<svelte:fragment slot="title">
 			<div class="toc-head">
-				<h2 class="toc-title-heading toc-exclude">Contents</h2>
+				<h2 class="toc-title-heading toc-exclude">Contenido</h2>
 				<button
 					class="toc-close"
 					on:click={() => (open = false)}

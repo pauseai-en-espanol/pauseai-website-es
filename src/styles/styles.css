@@ -237,3 +237,7 @@ textarea:focus {
 code {
 	word-wrap: break-word;
 }
+
+.center {
+	text-align: center;
+}

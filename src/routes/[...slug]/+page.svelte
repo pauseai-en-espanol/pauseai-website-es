@@ -5,7 +5,7 @@
 	// don't destructure to maintain reactivity for invalidation after language detection
 	export let data
 	$: meta = data.meta
-	$: ({ title = data.slug, date, description, image, author } = meta)
+	$: ({ title = data.slug, date, description, image, author, hideTitle } = meta)
 	$: parent = data.slug.split('/').slice(0, -1).join('/')
 	$: imageUrl = getAssetUrlOrStaticUrl(image)
 </script>
@@ -14,17 +14,19 @@
 
 <article>
 	{#if parent}
-		<a href={`/${parent}`}>View all {parent}</a>
+		<a href={`/${parent}`}>Volver a {parent}</a>
 	{/if}
-	<hgroup>
-		<h1>{title}</h1>
-		{#if author}
-			<p>{author}</p>
-		{/if}
-		{#if date}
-			<!-- <p>Published at {formatDate(date)}</p> -->
-		{/if}
-	</hgroup>
+	{#if !hideTitle}
+		<hgroup>
+			<h1>{title}</h1>
+			{#if author}
+				<p>{author}</p>
+			{/if}
+			{#if date}
+				<!-- <p>Published at {formatDate(date)}</p> -->
+			{/if}
+		</hgroup>
+	{/if}
 
 	<!-- <div class="tags">
 		{#if meta.categories && meta.categories.length > 0}

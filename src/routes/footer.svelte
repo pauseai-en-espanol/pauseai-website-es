@@ -17,6 +17,7 @@
 		<div class="column">
 			<h2>{m.footer_info()}</h2>
 			<Link href="/nosotros">Nosotros</Link>
+			<Link href="/riesgos">Riesgos</Link>
 			<Link href="/pausa">La pausa</Link>
 			<Link href="/debate">IA con ñ</Link>
 			<Link href="/privacy">{m.footer_info_privacy()}</Link>
