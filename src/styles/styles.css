@@ -241,3 +241,16 @@ code {
 .center {
 	text-align: center;
 }
+
+.info-box {
+	background-color: var(--bg-subtle);
+	border: 1px solid var(--brand);
+	border-radius: 8px;
+	padding: 1.5rem;
+	margin: 2rem 0;
+}
+
+.info-box h4 {
+	margin-top: 0;
+	color: var(--brand);
+}

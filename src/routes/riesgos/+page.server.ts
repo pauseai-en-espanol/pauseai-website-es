@@ -9,7 +9,7 @@ export interface RiskArticle {
 	isPlaceholder?: boolean
 }
 
-const TOTAL_RISKS = 27
+const TOTAL_RISKS = 3
 
 export const load: PageServerLoad = async () => {
 	// Load all risk markdown files
@@ -61,12 +61,16 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 	// Sort by id
 	risks.sort((a, b) => a.id - b.id)
 
+	const FUTURE_RISKS: Record<number, string> = {
+		2: 'Fake News'
+	}
+
 	// Fill with placeholders
 	for (let i = 1; i <= TOTAL_RISKS; i++) {
 		if (!usedIds.has(i)) {
 			risks.push({
 				id: i,
-				title: 'Próximamente',
+				title: FUTURE_RISKS[i] || 'Próximamente',
 				brief: '',
 				isPlaceholder: true
 			})

@@ -139,7 +139,7 @@ cualquier otra empresa. **Un empleado de un restaurante de comida rápida tiene 
 considerablemente mayores que uno que se encuentre en el campo de la IA**. Y eso que EEUU no es famoso por su regulación
 en dicho ámbito.
 
-En septiembre de 2025, hubo [https://fortune.com/2025/09/05/trump-tech-dinner-full-attendee-list/](un encuentro) que
+En septiembre de 2025, hubo [un encuentro](https://fortune.com/2025/09/05/trump-tech-dinner-full-attendee-list/) que
 mostró el enorme vínculo entre el presidente y las empresas tecnológicas. A este singular evento fueron invitados 31
 magnates de Silicon Valley. Entre ellos se encuentran nombres de la talla de:
 
@@ -165,6 +165,18 @@ El enfoque al que se supedita el plan de acción sobre IA de la administración 
 "ganar la carrera" contra China: aboga por suprimir los trámites burocráticos (página 3), aunque por lo menos admite el
 deficiente conocimiento que hay sobre los mecanismos internos de la IA, y propone invertir en interpretabilidad y
 control (página 9).
+
+<div class="info-box">
+
+#### ¿Qué es la interpretabilidad? {#interpretabilidad}
+
+Por increíble que parezca, los grandes modelos de IA avanzada son una caja negra: no hay un humano escribiendo líneas de
+código sino que son fruto de un proceso de entrenamiento automatizado (por eso muchos expertos afirman que esta IA "se
+cultiva"). El resultado es un conjunto de trillones de números indescifrables, un mecanismo que ni siquiera sus
+creadores comprenden. La interpretabilidad es el estudio de las 'entrañas' de la IA para tratar de arrojar algo de luz
+sobre su funcionamiento.
+
+</div>
 
 En cualquier caso, no parece haber muchas garantías de que en EEUU el apartado de seguridad vaya a tratarse de manera
 seria en medio del estruendo del tecno-optimismo, la dinámica de la carrera internacional, y el peso de los donantes.
@@ -260,7 +272,7 @@ Esto comienza por entenderla.
 
 ---
 
-✍️Esta página fue redactada al 100% por un humano.
+✍️Este documento fue redactado al 100% por humanos.
 
 Secretismo y ambición es una pésima combinación que guía la carrera de la IA.
 [Únete a PauseAI](https://pauseai.es/inscripcion) y ayúdanos a impulsar una pausa en el desarrollo de los modelos
