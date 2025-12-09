@@ -2,8 +2,8 @@
 	/**
 	 * ParallaxHero - Scroll-locked parallax scene
 	 *
-	 * Animation triggers as hero scrolls up. No scroll hijacking.
-	 * The animation plays based on how far the hero has scrolled past the top.
+	 * Implements scroll hijacking by pinning the scene while scrolling through
+	 * a defined distance. Uses JS-based positioning to avoid parent overflow issues.
 	 */
 	import { onMount } from 'svelte'
 	import { browser } from '$app/environment'
@@ -22,34 +22,38 @@
 	export let aspectRatio: string = '16/9'
 	export let titleFade: [number, number] = [0, 0.5]
 	export let layers: Layer[] = []
+	export let scrollDistance: number = 1500
 
+	let wrapper: HTMLElement
 	let scene: HTMLElement
 	let progress = 0
 
+	// Layout state
+	let state: 'start' | 'fixed' | 'end' = 'start'
+	let rectWidth = 0
+	let rectLeft = 0
+
 	function updateProgress() {
-		if (!scene) return
+		if (!wrapper) return
 
-		const rect = scene.getBoundingClientRect()
+		const rect = wrapper.getBoundingClientRect()
+		const top = rect.top
 
-		// Animation based on scroll position relative to initial position
-		// progress = 0 at initial scroll (scrollY = 0)
-		// progress = 1 when hero top reaches viewport top (rect.top = 0)
+		// Capture dimensions for fixed positioning
+		rectWidth = rect.width
+		rectLeft = rect.left
 
-		if (rect.top <= 0) {
-			// Hero at or past top - animation complete
-			progress = 1
+		// Calculate progress
+		// We start animating when the top of the wrapper hits the top of the viewport (top <= 0)
+		const scrolled = -top
+		progress = Math.min(1, Math.max(0, scrolled / scrollDistance))
+
+		if (progress <= 0) {
+			state = 'start'
+		} else if (progress < 1) {
+			state = 'fixed'
 		} else {
-			// Calculate progress based on how close hero top is to viewport top
-			// initialTop is where the hero starts when page loads (approx rect.top + scrollY at load)
-			const initialTop = scene.offsetTop
-			const currentScroll = window.scrollY
-			const scrollNeeded = initialTop // scroll needed for hero top to reach viewport top
-
-			if (scrollNeeded <= 0) {
-				progress = 1
-			} else {
-				progress = Math.min(1, Math.max(0, currentScroll / scrollNeeded))
-			}
+			state = 'end'
 		}
 	}
 
@@ -82,43 +86,94 @@
 
 		updateProgress()
 		window.addEventListener('scroll', updateProgress, { passive: true })
+		window.addEventListener('resize', updateProgress, { passive: true })
 
 		return () => {
 			window.removeEventListener('scroll', updateProgress)
+			window.removeEventListener('resize', updateProgress)
 		}
 	})
 </script>
 
-<div class="parallax-scene" bind:this={scene} style="--aspect-ratio: {aspectRatio};">
-	{#each layers as layer, i}
-		{@const from = layer.from ?? 'left'}
-		{@const travel = layer.travel ?? 1}
-		{@const zIndex = layer.zIndex ?? i + 1}
-		<div
-			class="parallax-layer"
-			style="
-				z-index: {zIndex};
-				transform: {getTransform(from, travel, progress)};
-			"
-		>
-			<img src={layer.src} alt={layer.alt ?? ''} />
-		</div>
-	{/each}
+<!-- The wrapper creates the scrollable space -->
+<div
+	class="parallax-wrapper"
+	bind:this={wrapper}
+	style="
+		--aspect-ratio: {aspectRatio}; 
+		padding-bottom: {scrollDistance}px;
+	"
+>
+	<!-- Spacer to reserve the height of the hero in the document flow -->
+	<div class="parallax-spacer"></div>
 
-	{#if title}
-		{@const opacity = getTitleOpacity(progress, titleFade)}
-		<div class="parallax-title" style="opacity: {opacity};" aria-hidden={opacity === 0}>
-			<h1>{title}</h1>
-		</div>
-	{/if}
+	<!-- The scene is what we pin/move -->
+	<div
+		class="parallax-scene"
+		class:fixed={state === 'fixed'}
+		class:end={state === 'end'}
+		style="
+			width: {state === 'fixed' ? `${rectWidth}px` : '100%'};
+			left: {state === 'fixed' ? `${rectLeft}px` : 'auto'};
+		"
+	>
+		{#each layers as layer, i}
+			{@const from = layer.from ?? 'left'}
+			{@const travel = layer.travel ?? 1}
+			{@const zIndex = layer.zIndex ?? i + 1}
+			<div
+				class="parallax-layer"
+				style="
+					z-index: {zIndex};
+					transform: {getTransform(from, travel, progress)};
+				"
+			>
+				<img src={layer.src} alt={layer.alt ?? ''} />
+			</div>
+		{/each}
+
+		{#if title}
+			{@const opacity = getTitleOpacity(progress, titleFade)}
+			<div class="parallax-title" style="opacity: {opacity};" aria-hidden={opacity === 0}>
+				<h1>{title}</h1>
+			</div>
+		{/if}
+	</div>
 </div>
 
 <style>
-	.parallax-scene {
+	.parallax-wrapper {
 		position: relative;
 		width: 100%;
+		/* Height is determined by the spacer + padding-bottom */
+	}
+
+	.parallax-spacer {
+		width: 100%;
+		aspect-ratio: var(--aspect-ratio);
+		pointer-events: none;
+	}
+
+	.parallax-scene {
+		position: absolute;
+		top: 0;
 		aspect-ratio: var(--aspect-ratio);
 		overflow: hidden;
+		z-index: 10;
+		will-change: transform, width, left;
+	}
+
+	.parallax-scene.fixed {
+		position: fixed;
+		top: 0;
+		/* width and left are set via inline styles */
+	}
+
+	.parallax-scene.end {
+		position: absolute;
+		top: auto;
+		bottom: 0;
+		width: 100%;
 	}
 
 	.parallax-layer {
@@ -142,5 +197,6 @@
 		align-items: center;
 		justify-content: center;
 		will-change: opacity;
+		pointer-events: none;
 	}
 </style>
