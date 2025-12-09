@@ -117,7 +117,6 @@
 
 	main {
 		padding-block: 1rem;
-		margin-bottom: 5rem;
 	}
 
 	/* @media (min-width: --page-width) {
