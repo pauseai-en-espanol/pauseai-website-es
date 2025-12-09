@@ -25,7 +25,7 @@ description: Cómo está estructurada la organización PauseAI y qué recursos e
 
 ## Recursos educativos {#educational-resources}
 
-- Los conceptos básicos de PauseAI: [Preguntas frecuentes](/faq), nuestra [propuesta](/proposal), [riesgos](/risgos), [riesgo existencial](/xrisk), [urgencia](/urgency), [capacidades peligrosas](/dangerous-capabilities), [mitigación de fallos de pausa](/mitigating-pause-failures)
+- Los conceptos básicos de PauseAI: [Preguntas frecuentes](/faq), nuestra [propuesta](/proposal), [riesgos](/riesgos), [riesgo existencial](/xrisk), [urgencia](/urgency), [capacidades peligrosas](/dangerous-capabilities), [mitigación de fallos de pausa](/mitigating-pause-failures)
 - [Distribución de folletos](/flyering): Cómo distribuir folletos de manera efectiva
 - [Contraargumentos](/counterarguments)
 - [Organización de una protesta](/organizing-a-protest)
