@@ -41,6 +41,8 @@ su piso**. Suchir afirmaba poseer documentos relevantes para respaldar sus acusa
 consigo al testificar. Hacía tan solo 5 días desde su cumpleaños. Había mantenido recientemente conversaciones con sus
 padres, quienes no vieron ningún comportamiento extraño por su parte.
 
+> El joven ingeniero Suchir Balaji afirmaba poseer documentos para respaldar sus acusaciones contra OpenAI
+
 Un criticado informe, emitido por las autoridades de San Francisco, **descartó rápidamente la posibilidad de que se t
 ratara de un homicidio**. Se habló de un joven, bajo el efecto de varias sustancias, que tomó su propia vida con un
 disparo. Todo encontrándose solo, en un apartamento cerrado con llave, y al cual nadie más había podido acceder.
@@ -65,6 +67,8 @@ restrictivo, tanto que **cuando este fue filtrado la empresa tuvo que retractars
 El acuerdo forzaba a los empleados a no criticar a la empresa y sus actividades durante el resto de sus vidas, sin
 excepción, enfrentándose a pérdidas millonarias en caso de hacerlo. Resultaba paradójico ver cómo el CEO alertaba de los
 inminentes riesgos de la IA, mientras cerraba de forma desesperada cualquier vía para su transparencia.
+
+> Un acuerdo de confidencialidad forzaba de por vida a los empleados de OpenAI a no criticar a la empresa
 
 Este secretismo no era un caso aislado. Y uno puede averiguar rápidamente por qué. Por una parte, existían antecedentes
 legales que llevaron a todas las empresas a adoptar un perfil de absoluta confidencialidad. Por ejemplo, en 2009, una
@@ -97,6 +101,8 @@ y más respaldo institucional para no hacerlo**. Una frase común en EEUU en est
 hará", con esto se resucita el fantasma de la amenaza nuclear rusa, dejando la ética en segundo plano con el pretexto de
 preservar la soberanía y seguridad nacional.
 
+> La frase "si no lo hacemos, China lo hará" resucita el fantasma de la amenaza nuclear rusa
+
 ¿Y qué papel desempeña China en todo esto? El secretismo forma parte de la manera de funcionar del Partido Comunista
 Chino, ese es uno de los motivos por los que desde Occidente a menudo nos cuesta evaluar sus intenciones. Sabemos que
 **la gran potencia asiática apuesta fuerte por el desarrollo tecnológico** y compite con EEUU en numerosos campos,
@@ -124,6 +130,8 @@ posteriormente xAI, que **invirtió 277 millones de dólares durante la campaña
 ser la única, la aportación de Musk es una más entre las de Meta, Google, Palantir, Microsoft, Amazon o Apple por
 nombrar algunas. El objetivo de estas donaciones, así como su alcance real, son en gran parte un misterio para el resto
 de la población.
+
+> En EEUU, el sector tecnológico dona enormes sumas para impulsar regulaciones favorables
 
 El resultado es un campo carente de regulación, donde las empresas operan a sus anchas, sin dar explicaciones, y sin
 auditoría posible. En EEUU, las empresas que lideran este avance están sujetas a menos control que prácticamente
@@ -179,6 +187,8 @@ considere que el peligro es mínimo, y aplicando medidas de supervisión en el r
 general" como ChatGPT ocupan un apartado especial por conllevar a juicio de la UE **"riesgos sistémicos"** que podrían
 "afectar a la sociedad en su conjunto" (capítulo 1, artículo 3, punto 65).
 
+> El Reglamento Europeo sobre IA no pone trabas a los usos militares o relacionados con la seguridad nacional
+
 No obstante, el capítulo 1 también deja claro en su artículo 2.3 que **el Reglamento Europeo no afecta a sistemas de
 inteligencia artificial que se usen "con fines militares, de defensa o de seguridad nacional"**. Queda abierta la puerta
 por tanto a todo tipo de abusos cometidos bajo esa excusa. Y los derechos de los ciudadanos podrían diluirse todavía más
@@ -209,6 +219,8 @@ el rigor en el trabajo de los investigadores. Pero en la mayoría de casos fuera
 dominar el mercado, el dato se trata como una herramienta comercial y de inteligencia más. De nuevo, el conflicto reside
 en que desconocemos a cuántos datos tienen verdaderamente acceso estas empresas. Pero hay antecedentes que pueden
 suscitar cierta preocupación.
+
+> Asistimos a una búsqueda desesperada de datos para mejorar los modelos de inteligencia artificial
 
 Tal y como anunció el ex trabajador de la CIA Edward Snowden hace más de una década, grandes corporaciones trabajaban ya
 con agencias de la inteligencia estadounidense por aquel entonces. Con el pretexto de la seguridad nacional, o lo que
