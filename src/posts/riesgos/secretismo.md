@@ -38,7 +38,7 @@ intelectual**, hablando a su vez de la falta de ética por parte de la empresa.
 
 Al [incisivo artículo](https://www.nytimes.com/2024/10/23/technology/openai-copyright-law.html), publicado el 23 de
 octubre de 2024, le siguió una invitación para declarar en juicio. En este se investigarían las posibles violaciones de
-la propiedad intelectual ajena por parte de OpenAI.**El 26 de noviembre, el joven ingeniero fue encontrado sin vida en
+la propiedad intelectual ajena por parte de OpenAI. **El 26 de noviembre, el joven ingeniero fue encontrado sin vida en
 su piso**. Suchir afirmaba poseer documentos relevantes para respaldar sus acusaciones, los cuales pretendía llevar
 consigo al testificar. Hacía tan solo 5 días desde su cumpleaños. Había mantenido recientemente conversaciones con sus
 padres, quienes no vieron ningún comportamiento extraño por su parte.
