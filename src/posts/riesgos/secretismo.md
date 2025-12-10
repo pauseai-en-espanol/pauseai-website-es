@@ -31,13 +31,6 @@ titleFade={[0.1, 0.3]}
 {layers}
 />
 
-<div class="center">
-    <audio controls>
-      <source src="/riesgos/secretismo/secretismo.mp3" type="audio/mpeg">
-      Your browser does not support the audio element.
-    </audio>
-</div>
-
 A sus 26 años, Suchir Balaji contaba ya con 4 años de experiencia en la gigantesca empresa tecnológica OpenAI. Ni el
 éxito de esta, ni su impresionante sueldo le hicieron retroceder el día que fue al New York Times a denunciar las
 actividades de la empresa de Sam Altman, creadora de ChatGPT. Suchir destapó un **robo masivo de propiedad
