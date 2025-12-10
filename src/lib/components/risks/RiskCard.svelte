@@ -7,13 +7,22 @@
 </script>
 
 {#if risk.isPlaceholder}
-	<div class="risk-card placeholder" aria-label="Próximamente">
+	<div
+		class="risk-card placeholder"
+		aria-label="Próximamente"
+		style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(245,148,25, 0.8)), url('/favicon.png')"
+	>
 		<div class="card-content centered">
-			<h3 class="card-title">{risk.title}</h3>
+			<h3 class="card-title">{@html risk.title}</h3>
 		</div>
 	</div>
 {:else}
-	<a href="{baseUrl}/{risk.slug}" class="risk-card unlocked" aria-label={risk.title}>
+	<a
+		href="{baseUrl}/{risk.slug}"
+		class="risk-card unlocked"
+		aria-label={risk.title}
+		style="background-image: {risk.gradient}, url('{risk.cover}')"
+	>
 		<div class="card-content">
 			<h3 class="card-title">{risk.title}</h3>
 			{#if risk.brief}
@@ -25,12 +34,15 @@
 
 <style>
 	.risk-card {
+		background-size: cover;
+		background-position: center center;
+		background-repeat: no-repeat;
 		border: 2px solid var(--brand);
 		border-radius: 8px;
 		padding: var(--spacing-sm);
-		background: var(--bg);
+		background-color: var(--bg);
 		transition: all 0.3s ease;
-		min-height: 150px;
+		min-height: 163px;
 		display: flex;
 		flex-direction: column;
 		text-decoration: none;
@@ -49,9 +61,9 @@
 	}
 
 	.risk-card.placeholder {
-		opacity: 0.6;
+		background-size: cover;
+		opacity: 0.9;
 		border-color: var(--text-subtle);
-		background: var(--bg-subtle);
 		cursor: default;
 		justify-content: center;
 		align-items: center;
@@ -62,6 +74,7 @@
 		display: flex;
 		flex-direction: column;
 		width: 100%;
+		justify-content: center;
 	}
 
 	.card-content.centered {

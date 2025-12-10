@@ -3,6 +3,8 @@ import type { PageServerLoad } from './$types'
 export interface RiskArticle {
 	id: number
 	title: string
+	cover: string
+	gradient: string
 	brief: string
 	slug?: string
 	content?: string
@@ -53,6 +55,8 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 			id: id,
 			title: metadata.title || `Riesgo ${id}`,
 			brief: metadata.brief || '',
+			cover: metadata.cover || '',
+			gradient: metadata.gradient || '',
 			slug: metadata.slug || filename,
 			content: module.default ? module.default.render().html : undefined
 		})
@@ -62,7 +66,7 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 	risks.sort((a, b) => a.id - b.id)
 
 	const FUTURE_RISKS: Record<number, string> = {
-		2: 'Fake News'
+		2: 'Siguiente entrega: <br /><br /> Fake News'
 	}
 
 	// Fill with placeholders
@@ -72,6 +76,8 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 				id: i,
 				title: FUTURE_RISKS[i] || 'Próximamente',
 				brief: '',
+				gradient: '',
+				cover: '',
 				isPlaceholder: true
 			})
 			usedIds.add(i)

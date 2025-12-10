@@ -254,3 +254,11 @@ code {
 	margin-top: 0;
 	color: var(--brand);
 }
+
+.caption {
+	font-size: 0.9em;
+	text-align: center;
+	opacity: 0.7;
+	font-style: italic;
+	margin-top: 0.5rem;
+}

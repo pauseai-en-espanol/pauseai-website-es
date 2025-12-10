@@ -1,6 +1,8 @@
 ---
 title: Secretismo y ambición en la carrera armamentística de la IA
 description: El secretismo en las empresas de IA representa un obstáculo fundamental para la seguridad y la democracia.
+cover: /riesgos/secretismo/faces.png
+gradient: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 0, 0, 0.6))
 hideTitle: true
 ---
 
@@ -29,6 +31,13 @@ titleFade={[0.1, 0.3]}
 {layers}
 />
 
+<div class="center">
+    <audio controls>
+      <source src="/riesgos/secretismo/secretismo.mp3" type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
+</div>
+
 A sus 26 años, Suchir Balaji contaba ya con 4 años de experiencia en la gigantesca empresa tecnológica OpenAI. Ni el
 éxito de esta, ni su impresionante sueldo le hicieron retroceder el día que fue al New York Times a denunciar las
 actividades de la empresa de Sam Altman, creadora de ChatGPT. Suchir destapó un **robo masivo de propiedad
@@ -43,8 +52,8 @@ padres, quienes no vieron ningún comportamiento extraño por su parte.
 
 > El joven ingeniero Suchir Balaji afirmaba poseer documentos para respaldar sus acusaciones contra OpenAI
 
-Un criticado informe, emitido por las autoridades de San Francisco, **descartó rápidamente la posibilidad de que se t
-ratara de un homicidio**. Se habló de un joven, bajo el efecto de varias sustancias, que tomó su propia vida con un
+Un criticado informe, emitido por las autoridades de San Francisco, **descartó rápidamente la posibilidad de que se
+tratara de un homicidio**. Se habló de un joven, bajo el efecto de varias sustancias, que tomó su propia vida con un
 disparo. Todo encontrándose solo, en un apartamento cerrado con llave, y al cual nadie más había podido acceder.
 
 La falta inicial de detalles, así como la relevancia del hecho, llevaron a una ola de críticas hacia la resolución
@@ -157,6 +166,8 @@ hace indispensables para el funcionamiento de la nación**. Se genera así una d
 supervisión de su trabajo, así como la rendición de cuentas.
 
 ![reunion](/riesgos/secretismo/reunion.png)
+
+<p class="caption">Alex Wong—Getty Images</p>
 
 ## Las leyes que nos protegen
 
@@ -272,7 +283,7 @@ Esto comienza por entenderla.
 
 ---
 
-✍️Este documento fue redactado al 100% por humanos.
+✍️*Este documento fue redactado al 100% por humanos.*
 
 Secretismo y ambición es una pésima combinación que guía la carrera de la IA.
 [Únete a PauseAI](https://pauseai.es/inscripcion) y ayúdanos a impulsar una pausa en el desarrollo de los modelos

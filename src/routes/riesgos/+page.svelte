@@ -19,7 +19,7 @@
 	<header class="page-header">
 		<h1>Riesgos de la IA</h1>
 		<p class="subtitle">
-			Explora los diferentes riesgos que plantea la Inteligencia Artificial avanzada.
+			Explora con nosotros los riesgos que plantea la Inteligencia Artificial, y sus daños actuales
 		</p>
 	</header>
 
