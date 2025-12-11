@@ -74,9 +74,9 @@ inminentes riesgos de la IA, mientras cerraba de forma desesperada cualquier ví
 
 Este secretismo no era un caso aislado. Y uno puede averiguar rápidamente por qué. Por una parte, existían antecedentes
 legales que llevaron a todas las empresas a adoptar un perfil de absoluta confidencialidad. Por ejemplo, en 2009, una
-mujer de Minnesota recibió una multa de 1.900.000$ por descargar y distribuir 24 canciones. Esta alta suma se debe al
+mujer de Minnesota recibió una multa de US$ 1.900.000 por descargar y distribuir 24 canciones. Esta alta suma se debe al
 hecho de que en EEUU, donde muchas de las principales empresas de IA operan, la multa por usar material protegido de
-forma ilícita puede ascender hasta **150.000$ por cada infracción**.
+forma ilícita puede ascender hasta **US$ 150.000 por cada infracción**.
 
 Imaginemos que una empresa tecnológica, la cual ha accedido de forma no necesariamente legal a miles de millones de
 obras protegidas, tuviese que hacer frente a las consecuencias legales de sus actos. Esto supondría un coste inasumible:
@@ -85,7 +85,7 @@ conscientes de ello, la mayoría optan por no desvelar en ningún momento el ori
 ## La guerra FrÍA
 
 El porqué del secretismo no se limita a lo económico. En enero de 1961, durante su despedida, el presidente
-estadounidense Dwight D.Eisenhower alertó del auge del "complejo militar industrial". Este estaba viendo un crecimiento
+estadounidense Dwight D. Eisenhower alertó del auge del "complejo militar industrial". Este estaba viendo un crecimiento
 exponencial, avivado por las llamas de la Guerra Fría. De vuelta a la década del 2020, Joe Biden hace una declaración
 similar durante su salida de la Casa Blanca, hablando de un **"complejo industrial de tecnológicas"**. Sus palabras,
 puestas en el contexto de lo que se vivía entonces, rimaron con las de Eisenhower.
@@ -225,7 +225,7 @@ estas empresas pusieran pie en la industria militar**.
 
 Comportamientos similares venían sucedido durante tiempo en otros terrenos de las tecnologías de la información. Los
 perfiles de gustos de usuarios, el almacenamiento de biometrías, las redes de contactos, las interacciones con el
-contenido... Todos eran datos explotables, pero con implicaciones que no invitaban a la transparencia por parte de
+contenido... todos eran datos explotables, pero con implicaciones que no invitaban a la transparencia por parte de
 quienes lo hacían.
 
 No por gusto, **la IA es un fruto del dato**. Se basa en su recopilación y estudio en masa. La calidad y capacidad de
