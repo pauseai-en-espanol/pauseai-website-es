@@ -21,6 +21,7 @@ declare global {
 
 	interface Window {
 		twttr?: Twttr
+		plausible?: (event: string, options?: { props?: Record<string, string> }) => void
 	}
 }
 

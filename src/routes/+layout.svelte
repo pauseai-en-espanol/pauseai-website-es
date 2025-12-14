@@ -1,4 +1,5 @@
 <script lang="ts">
+	import { afterNavigate } from '$app/navigation'
 	import { page } from '$app/stores'
 	import Banner from '$lib/components/Banner.svelte'
 	import Hero from '$lib/components/Hero.svelte'
@@ -28,6 +29,14 @@
 	let geo: GeoApiResponse | null
 	// Show the hero on the homepage, but nowhere else
 	$: hero = deLocalizeHref($page.url.pathname) === '/'
+
+	// Track client-side navigations with Plausible
+	// Skip initial load (from === null) since the script auto-tracks it
+	afterNavigate(({ from }) => {
+		if (from && typeof window !== 'undefined' && window.plausible) {
+			window.plausible('pageview')
+		}
+	})
 </script>
 
 <h2 style="width: 0; height: 0; margin: 0; padding: 0; visibility: hidden;" data-pagefind-ignore>
