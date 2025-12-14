@@ -9,10 +9,6 @@ import { redirect } from '@sveltejs/kit'
 export const load: Load = async ({ url: { host, pathname }, fetch }) => {
 	handleRedirects(pathname)
 
-	if (host === 'pauseai.org') {
-		return redirect(301, 'https://pauseai.info' + pathname)
-	}
-
 	let localeAlert = null
 
 	// Check for environment vs runtime mismatches in development
