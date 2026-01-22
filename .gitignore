@@ -31,3 +31,7 @@ deno.lock
 #/l10n-cage
 
 /static/open-letter/portraits/original
+
+# Claude
+/.planning
+.claude
