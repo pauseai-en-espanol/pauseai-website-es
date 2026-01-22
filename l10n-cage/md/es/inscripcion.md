@@ -3,18 +3,22 @@ title: ¡Dale al botón de 'pause'!
 description: Guía para sumarte a PauseAI; inscripción, Discord, donaciones y actividades. Divulgación, protesta pacífica y consejos para escribir a representantes.
 ---
 
+<script>
+	import TallyEmbed from '$lib/components/TallyEmbed.svelte'
+</script>
+
 ![Protesta de PauseAI en Estados Unidos](/es/protestausa.jpg)
 _Protesta en Estados Unidos. Fuente: PauseAI_
 
 ¿Quieres unirte a nosotros? ¡Bienvenido! En primer lugar hemos de aclarar que nos regimos por la [política de privacidad](/privacidad) de PauseAI. Asimismo, te invitamos a leer el [acuerdo para voluntarios](/volunteer-agreement) y el [código de conducta](/protesters-code-of-conduct) de la organización.
 
-Después, [rellena el formulario de inscripción](https://pauseai.info/join) en la página internacional y súmate al [Discord de PauseAI](https://discord.gg/2XXWXvErfA), indicando tu país y que quieres participar en actividades.
+Después, rellena el formulario de inscripción a continuación y súmate al [Discord de PauseAI](https://discord.gg/2XXWXvErfA), indicando tu país y que quieres participar en actividades.
+
+<TallyEmbed formId="NpXX9b" />
 
 Muy pronto contactaremos contigo y te orientaremos para que te pongas en marcha con iniciativas útiles. Si tienes cualquier duda, escríbenos un [correo](mailto:contacto@pauseai.es).
 
 También puedes [hacer una donación](https://pauseai.info/donate). Ah, ¡y no olvides seguirnos en las redes sociales!
-
-> ![logo](/es/bullet.png) Recuerda: para inscribirte debes rellenar [este formulario](https://pauseai.info/join)
 
 ## Nuestras actividades {#actividades}
 
