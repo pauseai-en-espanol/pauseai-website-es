@@ -1,33 +1,36 @@
 ---
-title: Vacancies at PauseAI
-description: Job positions at PauseAI
+title: Vacantes abiertas (voluntarias) en PauseAI
+description: Empleos y puestos de voluntariado en PauseAI
 ---
 
-## Policy Director
+<!-- end of frontmatter metadata, dashes above need to stay -->
 
-- Lead regulatory analysis across the global AI governance landscape
-- Development of comprehensive policy positions relevant to national contexts
-- Build relationships with key stakeholders
-- Support development of PauseAI Global and its chapters as key voices in AI policy discussions
+- Trabajamos en [equipos](/teams)
+- Colaboramos principalmente en nuestro [servidor de Discord](https://discord.gg/y9hdAjD83e)
+- Conoce más sobre nuestra [organización](/organization)
 
-Apply [here](https://pauseai.info/policy-director-vacancy).
+## Miembro del equipo de incorporación {#onboarding-team-member}
 
-## PauseAI UK Director
+- 2 a 4 horas a la semana
+- Da la bienvenida a los nuevos miembros que se unen a través de Discord o el formulario.
+- Realiza llamadas individuales para encontrar el equipo adecuado para cada persona.
 
-- Design and implementation of PauseAI UK's national strategy
-- Build PauseAI as a key voice in the UK's AI policy landscape
-- Grow, train, and coordinate PauseAI UK's volunteer base
+¿Interesado? [Envía un correo electrónico a Will](mailto:will@pauseai.info)
 
-Apply [here](https://pauseai.info/pauseai-uk-director).
+## Miembro del equipo de divulgación {#outreach-team-member}
 
-## PauseIA France Director
+- Ayuda a PauseAI a llegar a nuevas comunidades, atraer miembros y concienciar sobre nuestra causa.
+- Puedes realizar esta tarea de forma independiente en tu tiempo libre, con poca necesidad de coordinación con otros.
+- Crea campañas para llegar a personas que te gustaría contactar y comunícate con ellas (ya sea por correo electrónico, teléfono, mensaje directo o en persona).
+- Si tienes un origen no tradicional o una ubicación única, considera unirte; esto podría ayudarnos a llegar a nuevos grupos.
 
-- Implementation of PauseIA France's national strategy
-- Build PauseAI as a key voice in France's AI policy landscape
-- Grow, train, and coordinate PauseIA France's volunteer base
+¿Interesado? [Envía un correo electrónico a Diego](mailto:diego@pauseai.info)
 
-Apply [here](https://pauseai.info/pauseia-france-director).
+## Miembro del equipo de software {#software-team-member}
 
-## Volunteer Vacancies
+- Empodera a los demás, brindándoles la ayuda que necesitan y la libertad que desean.
+- Asesora y asiste en las decisiones tecnológicas que toman los equipos y asegúrate de que todo funcione correctamente.
+- Sé estratégico: mantén las cosas simples y escalables; prioriza la compra sobre el desarrollo a menos que sea estrictamente necesario...
+- ...pero a veces es necesario. Así que adelante, desarrolladores: resuelve un problema y haz una diferencia.
 
-PauseAI is built upon our network of hundreds of volunteers across 13+ countries. You can join PauseAI [here](https://pauseai.info/join), or see our list of volunteer vacancies [here](https://pauseai.info/volunteer-vacancies).
+¿Interesado? [Envía un correo electrónico a Anthony](mailto:anthony@pauseai.info) (o envía un mensaje directo a anthonybailey.net en [Discord](https://discord.gg/y9hdAjD83e))

@@ -5,8 +5,7 @@
 import fs from 'fs'
 import path from 'path'
 import { removeMultiple } from './l10n/utils'
-import { hasEndangeredL10ns } from './l10n/branch-safety'
-import { L10N_CAGE_DIR, MESSAGE_L10NS } from '../src/lib/l10n'
+import { MESSAGE_L10NS } from '../src/lib/l10n'
 
 console.log('Cleaning generated files...')
 
@@ -17,16 +16,16 @@ if (fs.existsSync(enJsonSymlink) && fs.lstatSync(enJsonSymlink).isSymbolicLink()
 }
 
 // Check for endangered l10ns before cleaning
-const endangeredDetails = hasEndangeredL10ns(L10N_CAGE_DIR)
-if (endangeredDetails) {
-	console.error('\n🚨 WARNING: Endangered l10ns detected!')
-	console.error('The l10n cage contains uncommitted changes or unpushed commits that may be lost.')
-	console.error('\nDetails:')
-	console.error(endangeredDetails)
-	console.error('\nTo force clean anyway (MAY LOSE DATA):')
-	console.error(`  rm -rf ${L10N_CAGE_DIR}`)
-	process.exit(1)
-}
+// const endangeredDetails = hasEndangeredL10ns(L10N_CAGE_DIR)
+// if (endangeredDetails) {
+// 	console.error('\n🚨 WARNING: Endangered l10ns detected!')
+// 	console.error('The l10n cage contains uncommitted changes or unpushed commits that may be lost.')
+// 	console.error('\nDetails:')
+// 	console.error(endangeredDetails)
+// 	console.error('\nTo force clean anyway (MAY LOSE DATA):')
+// 	console.error(`  rm -rf ${L10N_CAGE_DIR}`)
+// 	process.exit(1)
+// }
 
 removeMultiple(
 	[
@@ -38,8 +37,8 @@ removeMultiple(
 		'.netlify',
 		'./static/pagefind',
 		// Our L10N generated files (keep old dir for migration compatibility)
-		'./src/temp/translations',
-		L10N_CAGE_DIR
+		'./src/temp/translations'
+		// L10N_CAGE_DIR
 	],
 	/* description */ undefined,
 	/* verbose */ true

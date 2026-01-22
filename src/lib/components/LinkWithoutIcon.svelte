@@ -9,6 +9,7 @@
 <script lang="ts">
 	import { onMount } from 'svelte'
 	import { page } from '$app/stores'
+	import { get } from 'svelte/store'
 	import { pushState } from '$app/navigation'
 	import { localizeHref, locales } from '$lib/paraglide/runtime'
 
@@ -50,9 +51,10 @@
 		if (href.startsWith('#') && anchor) {
 			anchor.addEventListener('click', (ev) => {
 				ev.preventDefault()
-				const url = $page.url
+				const p = get(page)
+				const url = p.url
 				url.hash = href
-				pushState(url, $page.state)
+				pushState(url, p.state)
 				const target = document.querySelector(href) as HTMLElement | null
 				if (!target) return
 				target.scrollIntoView({ behavior: 'smooth' })

@@ -1,52 +1,54 @@
 ---
-title: Donate to PauseAI
-description: With your financial support we can have a bigger impact.
+title: Donar a PauseAI
+description: Con tu apoyo financiero podemos lograr un mayor impacto.
 ---
+
+ <!-- end of frontmatter metadata, dashes above need to stay -->
 
 <script>
     import Donate from '$lib/components/Donate.svelte'
 </script>
 
-We started PauseAI as a group of volunteers, who work on it in their free time.
-Since February 2024, PauseAI is a [registered non-profit foundation](/legal).
+Comenzamos PauseAI como un grupo de voluntarios que trabajan en su tiempo libre.
+Desde febrero de 2024, PauseAI es una [fundación sin fines de lucro registrada](/legal).
 
 <Donate />
 
-## How we use your donations
+## Cómo utilizamos tus donaciones {#how-we-use-your-donations}
 
-- **Community projects**: our [microgrants](/microgrants) program supports various small-scale projects.
-- **Volunteer stipends**: volunteers can apply for a [stipend](/volunteer-stipends), which helps our community have a local impact and grow organically.
-- **Funding for local & [national](/national-groups) chapters**: we help PauseAI communities
-- **People**: build a stronger community, work on projects, organize protests, improve the website, etc.
-- **Events**: renting a location, catering, travel costs.
-- **Software**: email, website, etc.
-- **Campaigns**: online advertising, materials
-- **Legal & financial**: setting up the foundation (notary costs), bookkeeping.
+- **Proyectos comunitarios**: nuestro programa de [microsubvenciones](/microgrants) apoya diversos proyectos a pequeña escala.
+- **Estipendios para voluntarios**: los voluntarios pueden solicitar un [estipendio](/volunteer-stipends), lo que ayuda a nuestra comunidad a tener un impacto local y crecer orgánicamente.
+- **Financiamiento para capítulos locales y [nacionales](/national-groups)**: brindamos apoyo a las comunidades de PauseAI.
+- **Personas**: fortalecer nuestra comunidad, trabajar en proyectos, organizar protestas, mejorar el sitio web, etc.
+- **Eventos**: alquiler de espacios, catering, gastos de viaje.
+- **Software**: correo electrónico, sitio web, etc.
+- **Campañas**: publicidad en línea, materiales.
+- **Asuntos legales y financieros**: establecimiento de la fundación (gastos notariales), contabilidad.
 
-## What have we already achieved
+## Lo que ya hemos logrado {#what-have-we-already-achieved}
 
-- 1000+ people who have [joined](/join) PauseAI, many of whom are actively working on various projects
-- 100+ projects in our Discord server (websites, workshops, videos, responses to government consultations, etc.)
-- Organized 15+ [protests](/protests) in 7 countries.
-- 100+ other types of [events](/events) (lobby workshops, flyering sessions, action meetings, etc.)
-- 30+ [Media appearances](/press) on major news outlets, podcasts, documentaries, TV and more.
-- Many meetings with politicians and other stakeholders.
+- Más de 1000 personas que se han [unido](https://pauseai.info/join) a PauseAI, muchas de las cuales trabajan activamente en diversos proyectos.
+- Más de 100 proyectos en nuestro servidor de Discord (sitios web, talleres, videos, respuestas a consultas gubernamentales, etc.).
+- Hemos organizado más de 15 [protestas](/protests) en 7 países.
+- Más de 100 otros tipos de [eventos](/events) (talleres de cabildeo, sesiones de distribución de folletos, reuniones de acción, etc.).
+- Más de 30 [apariciones en medios](/press) en importantes medios de comunicación, podcasts, documentales, televisión y más.
+- Numerosas reuniones con políticos y otras partes interesadas.
 
-## Who is funding PauseAI
+## ¿Quién financia a PauseAI? {#who-is-funding-pauseai}
 
-See our [funding page](/funding) for more details on who donated how much money.
+Visita nuestra [página de financiamiento](/funding) para obtener más detalles sobre quién ha donado y cuánto.
 
-## What we're planning to do
+## Lo que planeamos hacer {#what-were-planning-to-do}
 
-See our [roadmap](/roadmap) for more details.
+Visita nuestra [hoja de ruta](/roadmap) para obtener más detalles.
 
-## How to donate to PauseAI
+## Cómo donar a PauseAI {#how-to-donate-to-pauseai}
 
-- By bank transfer. IBAN: NL31BUNQ2109903155 BIC/SWIFT: BUNQNL2AXXX (Stichting PauseAI). This is probably the cheapest way to transfer money to us.
-- [PayPal](https://www.paypal.com/donate/?hosted_button_id=4TWZXY62EM5VE). Supports recurring donations. [Transaction fees](https://www.paypal.com/webapps/mpp/merchant-fees) apply.
-- Through our [merchandise store](https://pauseai-shop.fourthwall.com/). All US-based credit card transactions have an added 2.9% + $0.30 payment processing fee. Non-US credit cards have a 3.9% +$0.30 payment processing fee.
-- Through [this link](https://bunq.me/pauseai) (Select Sofort - most banks and PayPal are supported)
-- Through Crypto:
+- Por transferencia bancaria. IBAN: NL31BUNQ2109903155 BIC/SWIFT: BUNQNL2AXXX (Stichting PauseAI). Probablemente, esta sea la forma más económica de transferirnos dinero.
+- [PayPal](https://www.paypal.com/donate/?hosted_button_id=4TWZXY62EM5VE). Admite donaciones recurrentes. Se aplican [comisiones por transacción](https://www.paypal.com/webapps/mpp/merchant-fees).
+- A través de nuestra [tienda de productos oficiales](https://pauseai-shop.fourthwall.com/). Todas las transacciones con tarjetas de crédito de EE. UU. tienen una tarifa adicional de procesamiento de pagos del 2,9% + $0,30. Las tarjetas de crédito de fuera de EE. UU. tienen una tarifa de procesamiento de pagos del 3,9% + $0,30.
+- A través de [este enlace](https://bunq.me/pauseai) (seleccione Sofort: la mayoría de los bancos y PayPal son compatibles).
+- A través de criptomonedas:
   - Solana `9isSiDuKRkpiui6LzHyVoFiJ3LuV5LVpsdpH2YzD13dy`
   - Ethereum `0x01c9646d376408cD77599d1a0860eC38E6928F1b`
   - Base `0x01c9646d376408cD77599d1a0860eC38E6928F1b`

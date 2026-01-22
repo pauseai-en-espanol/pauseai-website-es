@@ -1,9 +1,11 @@
 ---
-title: PauseAI Events
-description: Meetings, workshops, protests, and more!
+title: Eventos de PauseAI
+description: Reuniones, talleres, protestas y más
 ---
 
-## View all events [here](https://lu.ma/PauseAI)
+<!-- end of frontmatter metadata, dashes above need to stay -->
+
+## Ver todos los eventos [aquí](https://lu.ma/PauseAI) {#view-all-events-here}
 
 <iframe
   src="https://lu.ma/embed/calendar/cal-E1qhLPs5IvlQr8S/events?"
@@ -15,8 +17,8 @@ description: Meetings, workshops, protests, and more!
   tabindex="0"
 ></iframe>
 
-## Create an event
+## Organiza un evento {#create-an-event}
 
-If you want to organize an event, please [create an event on lu.ma](https://lu.ma/create) and press the "submit event" button on [our calendar page](https://lu.ma/PauseAI).
+Si deseas organizar un evento, crea uno en [lu.ma](https://lu.ma/create) y haz clic en el botón "enviar evento" en [nuestra página de calendario](https://lu.ma/PauseAI).
 
-Read more about [local organizing](/local-organizing).
+Más información sobre [organización local](/local-organizing).

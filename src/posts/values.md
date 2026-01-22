@@ -1,28 +1,28 @@
 ---
-title: PauseAI values
-description: How does PauseAI plan to achieve its mission?
+title: Valores de PauseAI
+description: ¿Cómo planea PauseAI lograr su misión?
 ---
 
-## What do we want?
+## ¿Qué queremos? {#what-do-we-want}
 
-Globally halt frontier AI development until we know how to do it safely and under democratic control. See our [proposal](/proposal).
+Detener a nivel mundial el desarrollo de inteligencia artificial fronteriza hasta que sepamos cómo hacerlo de forma segura y bajo control democrático. Consulta nuestra [propuesta](/proposal).
 
-## What are our values?
+## ¿Cuáles son nuestros valores? {#what-are-our-values}
 
-- **Humanity first**. We believe that AI should be developed in a way that benefits humanity, or not at all.
-- **Community**. A feeling of community doesn't just come from a shared goal (e.g. pausing AI) or values, but also from social activity. That's why it's important to get people to meet, organize events, have social gatherings and create IRL friendships. It's not just about constructive action, it's about making friends and feeling at home with a group.
-- **Anyone can contribute.** Many AI safety / AI governance organizations rely solely on their group of paid employees. This has its merits, but it leaves a gap of volunteers. That's where PauseAI is different. By fostering volunteers and encouraging action we can get stuff done even without a lot of funding.
-- **Transparency by default.** Do and discuss things publicly and openly, unless there's a good reason not to. Meetings are open to join, the website is open source, and the Discord server is joinable. Being approachable lowers the barrier to feel welcome and help out.
-- **Honesty.** We don't have any weird incentives (e.g. having a stake in an AI company), so we are free to say what we believe. We do not sugarcoat our message to make it more palatable.
-- **Diversity in risks, uniformity in desires.** Whether you're worried about x-risk, cybersecurity hazards or the impact of AI on our democracy: we are unified in our desire to pause AI development.
-- **No partisan politics**. Humans are tribal creatures, which causes us to bundle viewpoints into groups (left/right). AI safety is not _that_ partisan (yet), and we want to keep it that way. We do not let our other political views distract us from our combined goal.
-- **Using AI is ok**. Even though we want to halt frontier AI development, we're still OK with using AI in ways that helps us achieve our goals. AI models already translate our website and help to improve it technically. We don't want [purity spirals](https://en.wiktionary.org/wiki/purity_spiral) about being against AI.
+- **La humanidad es lo primero**. Creemos que la IA debe desarrollarse de una manera que beneficie a la humanidad o, de lo contrario, no desarrollarse en absoluto.
+- **Comunidad**. El sentimiento de comunidad no solo proviene de un objetivo compartido (por ejemplo, pausar la IA) o valores, sino también de la actividad social. Por eso es importante que las personas se reúnan, organicen eventos, tengan encuentros sociales y forjen amistades en la vida real. No se trata solo de actuar constructivamente, sino también de hacer amigos y sentirse como en casa dentro de un grupo.
+- **Cualquiera puede contribuir**. Muchas organizaciones de seguridad y gobernanza de IA dependen únicamente de su grupo de empleados remunerados. Esto tiene sus ventajas, pero deja un vacío en cuanto a voluntarios. Ahí es donde PauseAI es diferente. Al fomentar la participación de voluntarios y alentar la acción, podemos lograr cosas incluso sin mucha financiación.
+- **Transparencia por defecto**. Realizar y discutir las cosas públicamente y de manera abierta, a menos que haya una buena razón para no hacerlo. Las reuniones están abiertas a todos, el sitio web es de código abierto y el servidor de Discord es accesible. Ser accesibles reduce la barrera para que las personas se sientan bienvenidas y ayuden.
+- **Honestidad**. No tenemos incentivos extraños (por ejemplo, tener una participación en una empresa de IA), por lo que somos libres de decir lo que creemos. No edulcoramos nuestro mensaje para hacerlo más agradable.
+- **Diversidad en riesgos, uniformidad en deseos**. Ya sea que estés preocupado por el riesgo existencial, los peligros de la ciberseguridad o el impacto de la IA en nuestra democracia, estamos unificados en nuestro deseo de pausar el desarrollo de la IA.
+- **Sin política partidista**. Los seres humanos son criaturas tribales, lo que nos hace agrupar puntos de vista en grupos (izquierda/derecha). La seguridad de la IA no es tan partidista (todavía) y queremos mantenerlo así. No permitimos que nuestras otras opiniones políticas nos distraigan de nuestro objetivo común.
+- **Está bien usar IA**. Aunque queremos detener el desarrollo de IA fronteriza, seguimos estando de acuerdo en usar IA de maneras que nos ayuden a alcanzar nuestros objetivos. Los modelos de IA ya traducen nuestro sitio web y ayudan a mejorar su aspecto técnico. No queremos [espirales de pureza](https://es.wiktionary.org/wiki/espiral_de_pureza) sobre estar en contra de la IA.
 
-## What type of culture do we want to foster?
+## ¿Qué tipo de cultura queremos fomentar? {#what-type-of-culture-do-we-want-to-foster}
 
-- **Action-oriented**. We want to be a group that gets stuff done. The perfect is the enemy of the good. We cannot give in to the comfort of just talking about things. We need to act.
-- **Friendly**. We want to be a group that people like to be part of. We want to be welcoming to new members.
-- **Open**. We want to be open to new ideas, new people, new ways of doing things. We want to be open to criticism. Our goal is to prevent AI risks. We should be open to the possibility that we're wrong about how to do that.
-- **Reasonable**. Because our concerns are often dismissed as crazy, we need to be extra careful to not *look* crazy. Emphasize that many people in our group have technical backgrounds. Show that we know what we're talking about.
+- **Orientada a la acción**. Queremos ser un grupo que haga cosas. Lo perfecto es enemigo de lo bueno. No podemos sucumbir a la comodidad de simplemente hablar de las cosas. Necesitamos actuar.
+- **Amigable**. Queremos ser un grupo del cual a la gente le guste formar parte. Queremos dar la bienvenida a los nuevos miembros.
+- **Abiertos**. Queremos estar abiertos a nuevas ideas, nuevas personas, nuevas formas de hacer las cosas. Queremos estar abiertos a la crítica. Nuestro objetivo es prevenir los riesgos de la IA. Debemos estar abiertos a la posibilidad de que estemos equivocados sobre cómo hacerlo.
+- **Razonables**. Debido a que nuestras preocupaciones a menudo son desestimadas como locuras, debemos tener especial cuidado de no parecer locos. Enfatizamos que muchas personas en nuestro grupo tienen antecedentes técnicos. Demostramos que sabemos de lo que hablamos.
 
-_Related: our [Protesters Code of Conduct](/protesters-code-of-conduct)_
+_Relacionado: nuestro [Código de Conducta para Manifestantes](/protesters-code-of-conduct)_

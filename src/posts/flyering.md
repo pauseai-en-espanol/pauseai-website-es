@@ -1,180 +1,180 @@
 ---
-title: Flyering Guide
-description: How to distribute flyers for PauseAI
+title: Guía para repartir volantes
+description: Cómo repartir volantes para PauseAI
 ---
 
-## Why Flyering?
+## ¿Por qué repartir volantes? {#why-flyering}
 
-- The goal of flyering is to [create](/local-organizing) and grow a [local PauseAI community](/communities)
-- To accomplish that, the initial goal of flyering should be to announce a community meeting, for everyone who is interested to come and learn about PauseAI and what they can do to help
-- Later flyering efforts can center around informing the public, finding new members, spreading the word about an upcoming protest, getting petition signatures, etc., and many of these purposes can be easily pursued at the same time
+- El objetivo de repartir volantes es [crear](/local-organizing) y hacer crecer una [comunidad local de PauseAI](/communities)
+- Para lograr esto, el objetivo inicial de repartir volantes debe ser anunciar una reunión comunitaria, para que todos los interesados puedan asistir y aprender sobre PauseAI y cómo pueden ayudar
+- Los esfuerzos posteriores de repartir volantes pueden centrarse en informar al público, encontrar nuevos miembros, difundir la palabra sobre una próxima protesta, obtener firmas para una petición, etc., y muchos de estos propósitos pueden perseguirse fácilmente al mismo tiempo
 
-## Flyer contents
+## Contenido de los volantes {#flyer-contents}
 
-- Find existing materials in [the Flyers folder](https://drive.google.com/drive/folders/1MAU_bq31bEuylhzkt2NkZ_XRY6TlKaqZ?usp=drive_link).
-- Existing flyers can be edited to be more specific to your purpose. Use the [Figma template](https://www.figma.com/design/iQ4PHQTi1vAVmT9Lckazqt/PauseAI-designs---editable) to create your own.
+- Encuentra materiales existentes en [la carpeta de volantes](https://drive.google.com/drive/folders/1MAU_bq31bEuylhzkt2NkZ_XRY6TlKaqZ?usp=drive_link).
+- Los volantes existentes pueden editarse para ser más específicos para tu propósito. Utiliza la [plantilla de Figma](https://www.figma.com/design/iQ4PHQTi1vAVmT9Lckazqt/PauseAI-designs---editable) para crear tus propios volantes.
 
-The #1 most useful thing about a flyer is not its contents, but the engagement you get with the people you are distributing it to. The #2 most useful thing is a direct call to action, especially if it would result in a connection / getting their contact info. The contents themselves are still important, though. Take the time to consider your audience, consider your goal, and do what you can to bridge the gap between them.
+Lo más útil de un volante no es su contenido, sino la interacción que tienes con las personas a las que se los estás repartiendo. Lo segundo más útil es una llamada a la acción directa, especialmente si resulta en una conexión / obtener su información de contacto. El contenido en sí es importante, aunque. Tómate el tiempo para considerar a tu audiencia, considera tu objetivo y haz lo que puedas para cerrar la brecha entre ellos.
 
-**Things to always include:**
+**Cosas que siempre debes incluir:**
 
-- A direct call to action, made as legible and simple as possible
-  - (Learn more at this website!", "Find out how you can help!", "Join us!", "Call your representatives!", "Come to this meeting!", "Join this protest!")
+- Una llamada a la acción directa, hecha de manera clara y sencilla
+  - ("¡Aprende más en este sitio web!", "¡Descubre cómo puedes ayudar!", "¡Únete a nosotros!", "¡Llama a tus representantes!", "¡Ven a esta reunión!", "¡Únete a esta protesta!")
 
-- The time and place of your event, where applicable (We recommend the upcoming weekend)
-- A way to join your local group (e.g. a QR code to an easy sign-up list)
-- PauseAI branding
+- La hora y el lugar de tu evento, cuando sea aplicable (Recomendamos el próximo fin de semana)
+- Una forma de unirse a tu grupo local (por ejemplo, un código QR a una lista de inscripción fácil)
+- Marca de PauseAI
 
-**Other things to consider including:**
+**Otras cosas que debes considerar incluir:**
 
-- Something eye-catching / engaging / hooking
-- Something informative
-- A natural progression of concerns (toward x-risk)
-- Expert sources / quotes
-- A way to contact you
-- A very small gift, like a stapled piece of candy or a dime on double-sided tape
-  - Psychologically, when you give someone something, they are more likely to feel like they should give you something in return (their time, attention, consideration, etc.)
+- Algo llamativo / atractivo / interesante
+- Algo informativo
+- Una progresión natural de preocupaciones (hacia el riesgo existencial)
+- Fuentes expertas / citas
+- Una forma de contactarte
+- Un pequeño regalo, como un caramelo grapado o una moneda de diez centavos en cinta adhesiva doble
+  - Psicológicamente, cuando le das algo a alguien, es más probable que sientan que deberían darte algo a cambio (su tiempo, atención, consideración, etc.)
 
-## Flyer printing
+## Impresión de volantes {#flyer-printing}
 
-There are many, many options for printing flyers, depending on budget constraints and quality and timing requirements. Double-sided full-color printing can be pricey (on the order of $1 USD per page). On the lowest end (if a very good sale is on), under 10 cents per page is sometimes possible when bulk printing single-sided on small pages.
+Hay muchas opciones para imprimir volantes, dependiendo de las restricciones presupuestarias y los requisitos de calidad y tiempo. La impresión a doble cara y a todo color puede ser costosa (del orden de $1 USD por página). En el extremo más bajo (si hay una venta muy buena), a veces es posible imprimir a menos de 10 centavos por página cuando se imprime a granel en páginas pequeñas.
 
-- Volunteers have had success with online printing from stores like 48 Hour Print, VistaPrint, and Bizay
-- Check with your local print shop and compare prices to online stores
-- If you need a dirt-cheap option at low volume, consider printing single-sided flyers for the lowest print cost in your area
-- Make sure to get all your materials printed well in advance, taking delivery time into account
-- If you are tight on time, you can print at home, or use a local print shop, or print at your local library
+- Los voluntarios han tenido éxito con la impresión en línea de tiendas como 48 Hour Print, VistaPrint y Bizay
+- Verifica con tu tienda de impresión local y compara precios con tiendas en línea
+- Si necesitas una opción muy económica a bajo volumen, considera imprimir volantes de una sola cara para el costo de impresión más bajo en tu área
+- Asegúrate de imprimir todos tus materiales con anticipación, teniendo en cuenta el tiempo de entrega
+- Si estás apurado, puedes imprimir en casa, o usar una tienda de impresión local, o imprimir en tu biblioteca local
 
-## Flyering setup
+## Configuración para repartir volantes {#flyering-setup}
 
-- Even for a brief one-time outing, it’s a good idea to have at least 100 flyers. Better too many than too few!
-  - Caution: If your flyer has event-specific info on it, it will be useless after the event, so don't go too overboard
-  - Pro tip: you can staple a small slip of event-specific info to a larger evergreen flyer
+- Incluso para una salida breve y única, es una buena idea tener al menos 100 volantes. ¡Mejor tener demasiados que muy pocos!
+  - Precaución: Si tu volante tiene información específica del evento, será inútil después del evento, así que no te excedas
+  - Consejo profesional: puedes grapar un pequeño trozo de información específica del evento a un volante más grande y siempre verde
 
-- It can be very helpful to have an A-frame sign at your feet.
-  - It gives those who read it a chance to choose to engage you on their own
-  - It can make people think, even if they haven’t engaged with you
-  - See [A-Frame Flyering Signs (Google Drive)](https://drive.google.com/drive/folders/1VzYS-xQ44cqwVzb1hvtwkS7_Z9V4SLIw?usp=drive_link)
+- Puede ser muy útil tener un letrero de A en tus pies.
+  - Les da a aquellos que lo leen la oportunidad de elegir interactuar contigo por su cuenta
+  - Puede hacer que las personas piensen, incluso si no han interactuado contigo
+  - Ver [Letreros de A para repartir volantes (Google Drive)](https://drive.google.com/drive/folders/1VzYS-xQ44cqwVzb1hvtwkS7_Z9V4SLIw?usp=drive_link)
 
-- It's good to have a form that people can sign on the spot if they are interested in what you have to say and engage in a conversation
-  - If people fill out their info, it's much easier to contact them, invite them to events, and organize a local group; you can do this with a clipboard, pen, and printed sign-up form or petition
+- Es bueno tener un formulario que las personas puedan firmar en el acto si están interesadas en lo que tienes que decir y participar en una conversación
+  - Si las personas llenan su información, es mucho más fácil contactarlas, invitarlas a eventos y organizar un grupo local; puedes hacer esto con un portapapeles, un bolígrafo y un formulario de inscripción o petición impreso
 
-- It can be useful to have pre-generated and labeled QR codes in an album on your phone or in a printed trapper for any digital resources you might want to point people to during conversations (e.g. websites, articles, papers, podcasts, videos)
-- If you have two or more volunteers, you can split up the flyering effort to cover more area, or you can set up a table (where permitted)
-- Plan to stay out for a least a couple hours
-  - It can take time to find your feet
-  - If you get on a roll, and if you have the time and the energy, you might as well keep going!
+- Puede ser útil tener códigos QR pregenerados y etiquetados en un álbum en tu teléfono o en un trapper impreso para cualquier recurso digital que desees señalarar a las personas durante las conversaciones (por ejemplo, sitios web, artículos, documentos, podcasts, videos)
+- Si tienes dos o más voluntarios, puedes dividir el esfuerzo de repartir volantes para cubrir más área, o puedes configurar una mesa (donde esté permitido)
+- Planea quedarte al menos un par de horas
+  - Puede tomar tiempo encontrar tus pies
+  - Si te pones en marcha y si tienes el tiempo y la energía, ¡puedes seguir adelante!
 
-## Tips and Lessons Learned
+## Consejos y lecciones aprendidas {#tips-and-lessons-learned}
 
-### You can do this!
+### ¡Tú puedes hacer esto! {#you-can-do-this}
 
-Here’s a story from volunteer Nathan Metzger:
+Aquí hay una historia del voluntario Nathan Metzger:
 
-> I’m not the activist type. I’m an autistic introvert with high social anxiety. Thinking about engaging people on the street made me so nervous I felt physically ill. There are few things I was more afraid of than embarrassing myself in public, but the literal end of the world is one of those things. So, I put that fear to my back, and I let it push me forward. I did it anyway — I did it scared. I ordered all the supplies, planned a day and a place, and went alone. It took about an hour for me to feel like I knew what I was doing. After I had some positive and negative interactions, I noticed I was still alive, I stopped feeling scared, and against all expectations, I started having fun.
+> No soy el tipo de activista. Soy un introvertido autista con ansiedad social alta. Pensar en interactuar con personas en la calle me ponía tan nervioso que me sentía físicamente enfermo. Hay pocas cosas que me daban más miedo que avergonzarme en público, pero el fin literal del mundo es una de esas cosas. Así que puse ese miedo a mi espalda y lo dejé que me empujara hacia adelante. Lo hice de todos modos — lo hice asustado. Pedí todos los suministros, planeé un día y un lugar, y fui solo. Me tomó alrededor de una hora sentir que sabía lo que estaba haciendo. Después de tener algunas interacciones positivas y negativas, me di cuenta de que todavía estaba vivo, dejé de sentir miedo y, en contra de todas las expectativas, comencé a divertirme.
 
-### Location Matters
+### La ubicación es importante {#location-matters}
 
-1. **Public University campuses are ideal locations:**
-   - They have areas that are open to the public, where solicitation is allowed so long as the local laws and the campus’s rules of etiquette are followed
-   - They are full of curious, energetic people who may have time on their hands
-   - They can be predictably busy at specific times of day in specific locations
-   - Trying to target a specific subset of students isn’t necessary at all, since all kinds of people share these concerns
+1. **Los campus de universidades públicas son ubicaciones ideales:**
+   - Tienen áreas que están abiertas al público, donde se permite la solicitud siempre y cuando se sigan las leyes locales y las reglas de etiqueta del campus
+   - Están llenos de personas curiosas y enérgicas que pueden tener tiempo en sus manos
+   - Pueden estar predeciblemente ocupados en momentos específicos del día en ubicaciones específicas
+   - No es necesario intentar dirigirse a un subconjunto específico de estudiantes, ya que todas las personas comparten estas preocupaciones
 
-2. **Downtowns**
-   - The most important factor is whether the area has a lot of foot traffic; downtowns are especially great for this, especially in big cities
-   - You can find people of a wider range of demographics than college students
+2. **Centros de la ciudad**
+   - El factor más importante es si el área tiene mucho tráfico peatonal; los centros de la ciudad son especialmente geniales para esto, especialmente en las grandes ciudades
+   - Puedes encontrar personas de una amplia gama de demografías que no son estudiantes universitarios
 
-3. **Other busy walkable areas**
-   - Outdoor malls / markets / plazas
-   - Busy sidewalks
-   - Public parks
+3. **Otras áreas transitables concurridas**
+   - Centros comerciales al aire libre / mercados / plazas
+   - Aceras concurridas
+   - Parques públicos
 
-- **Always check your local laws and ordinances**
-  - When flyering, you can and should be effective without getting negative attention from security or police
-  - Your specific location may have additional rules and restrictions
-    - If any special permissions are needed, try to get approval well in advance.
+- **Siempre verifica las leyes y ordenanzas locales**
+  - Al repartir volantes, puedes y debes ser efectivo sin llamar la atención negativa de la seguridad o la policía
+  - Tu ubicación específica puede tener reglas y restricciones adicionales
+    - Si se necesitan permisos especiales, intenta obtener la aprobación con anticipación.
 
-- When you arrive, try to strike a balance between optimizing your location and actually doing the flyering.
-  - It is a good idea to look around to see where the high traffic is; you might double the number of flyers you’re handing out by moving to a slightly better spot
-  - However, traffic patterns can ebb and flow; if you move around too much, you will have less time for actually handing out flyers
-  - If you feel like you have found the best location, you can stay there the whole time
+- Cuando llegues, intenta encontrar un equilibrio entre optimizar tu ubicación y realmente repartir volantes.
+  - Es una buena idea mirar alrededor para ver dónde está el tráfico alto; puedes duplicar la cantidad de volantes que estás repartiendo al moverte a un lugar ligeramente mejor
+  - Sin embargo, los patrones de tráfico pueden disminuir y fluir; si te mueves demasiado, tendrás menos tiempo para repartir volantes
+  - Si sientes que has encontrado la mejor ubicación, puedes quedarte allí todo el tiempo
 
-- And of course: **Be safe!**
+- Y por supuesto: **¡Sé seguro!**
 
-### How to engage passersby
+### Cómo interactuar con los transeúntes {#how-to-engage-passersby}
 
-_Including overly-detailed instructions on how to behave like a person, for those of us who don’t automatically know how!_
+_Incluyendo instrucciones demasiado detalladas sobre cómo comportarse como una persona, para aquellos de nosotros que no sabemos automáticamente cómo hacerlo_
 
-(The information here is highly detailed, in case some of it is helpful to you. However, it is important to emphasize that “just doing it” is the best policy! It will be okay, and you will learn a lot of useful things quickly.)
+(La información aquí es muy detallada, en caso de que algo sea útil para ti. Sin embargo, es importante enfatizar que "simplemente hacerlo" es la mejor política. ¡Estará bien, y aprenderás muchas cosas útiles rápidamente!)
 
-1. Offer flyers to anyone who is not buried in their phone or in a conversation
-   - For those who look busy, some truly are busy and some are trying to avoid you; don’t waste your energy!
-   - However, if you are getting more "yes" than "no," then you should try engaging more people
+1. Ofrece volantes a cualquiera que no esté enterrado en su teléfono o en una conversación
+   - Para aquellos que parecen ocupados, algunos realmente están ocupados y otros están tratando de evitarte; ¡no desperdicies tu energía!
+   - Sin embargo, si estás obteniendo más "sí" que "no", entonces debes intentar interactuar con más personas
 
-2. **Be confident**, friendly, and non-threatening
-3. Look directly at a passerby, ask them if they want a flyer or if you can give them one, and hold the flyer out toward them
-4. If they accept and stick around for a moment, engage them further by asking them about their thoughts/concerns and start a conversation; if they say no, politely move on
-5. If someone is approaching and makes eye contact when they are less than 5 seconds away, then keep **eye contact** with them until they are within flyer-offering distance
-   - If you look away, that lowers your apparent interest in them and they likewise won’t be interested in you; on the other hand, don’t just stare at people
+2. **Sé confiado**, amigable y no amenazante
+3. Mira directamente a un transeúnte, pregúntale si quiere un volante o si puedes dárselo, y sostén el volante hacia ellos
+4. Si aceptan y se quedan un momento, interactúa con ellos más preguntándoles sobre sus pensamientos / preocupaciones y comienza una conversación; si dicen que no, muévete con educación
+5. Si alguien se acerca y hace contacto visual cuando está a menos de 5 segundos de distancia, entonces mantén **contacto visual** con ellos hasta que estén a una distancia de ofrecer volantes
+   - Si miras hacia otro lado, eso reduce tu interés aparente en ellos y ellos tampoco estarán interesados en ti; por otro lado, no simplemente mires fijamente a las personas
 
-6. Physical proximity matters; it's best to just **ignore people who are farther away** (>20ft or 6m) if you're in a wide space
-   - You can't physically reach them, and they might be intentionally avoiding you anyway; there are more fish in the sea!
+6. La proximidad física es importante; es mejor **ignorar a las personas que están más lejos** (>20ft o 6m) si estás en un espacio amplio
+   - No puedes alcanzarlos físicamente, y pueden estar evitándote intencionalmente de todos modos; ¡hay más peces en el mar!
 
-7. **Don’t get in the way** of passersby; you don’t need to do that to get the attention of the people you are trying to reach
-8. Seek out a balance between having conversations and handing out more flyers
-   - Having positive face-to-face conversations is very high-value for recruiting members
-   - If an interaction is going nowhere or is negative, find a way to politely disengage and hand out more flyers
-   - If you're able to go with at least one other person, it's easier to have conversations and continue distributing materials at the same time
+7. **No te interpongas** en el camino de los transeúntes; no necesitas hacer eso para llamar la atención de las personas que estás tratando de alcanzar
+8. Busca un equilibrio entre tener conversaciones y repartir más volantes
+   - Tener conversaciones cara a cara positivas es de muy alto valor para reclutar miembros
+   - Si una interacción no va a ninguna parte o es negativa, encuentra una manera de desvincularte con educación y repartir más volantes
+   - Si puedes ir con al menos otra persona, es más fácil tener conversaciones y seguir distribuyendo materiales al mismo tiempo
 
-9. **Aim to inform, not to persuade**
-   - Don’t necessarily set out to change minds; many people would be concerned if they knew what you know, and many people are already concerned but don’t know what to do about it. **Go find your people!**
-   - People tend to be curious when they hear that there is something that might affect them that they don’t know about
+9. **Apunta a informar, no a persuadir**
+   - No necesariamente te propongas cambiar mentes; muchas personas estarían preocupadas si supieran lo que sabes, y muchas personas ya están preocupadas pero no saben qué hacer al respecto. **¡Encuentra a tu gente!**
+   - Las personas tienden a ser curiosas cuando escuchan que hay algo que podría afectarlas que no saben
 
-10. **Engage with empathy**
-    - Many people have worries about AI that aren’t the same as your own. Don’t try to change what they’re worried about. Instead, acknowledge their concerns and invite them into the broad umbrella of PauseAI: people who want to put a pause on AI and its risks.
-    - Try not to snatch defeat from the jaws of victory. **Use “Yes And.”** If they have real concerns about AI that seem too mild to you or seem to be focused on the wrong things, don’t communicate that they are _wrong_; communicate that they are _more right than they know_.
-    - When engaging someone who appears to be very agreeable, it’s good to speak a little softer and act more gentle. Remember, to others, you are a stranger with an unknown agenda, and some people are more nervous to speak to you than you are to them
+10. **Interactúa con empatía**
+    - Muchas personas tienen preocupaciones sobre la IA que no son las mismas que las tuyas. No intentes cambiar lo que les preocupa. En su lugar, reconoce sus preocupaciones e invítalos al amplio paraguas de PauseAI: personas que quieren hacer una pausa en la IA y sus riesgos.
+    - Intenta no arrebatar la derrota de las fauces de la victoria. **Usa "Sí y".** Si tienen preocupaciones reales sobre la IA que parecen demasiado suaves para ti o parecen estar enfocadas en las cosas equivocadas, no comuniques que están _equivocados_; comunica que están _más en lo correcto de lo que saben_.
+    - Cuando interactúas con alguien que parece muy de acuerdo, es bueno hablar un poco más suave y actuar con más suavidad. Recuerda, para los demás, eres un extraño con una agenda desconocida, y algunas personas están más nerviosas por hablar contigo que tú por hablar con ellas
 
-### Some things to say
+### Algunas cosas que decir {#some-things-to-say}
 
-To get attention:
+Para llamar la atención:
 
-1. **“Can I get you a flyer?”**
-   - (Like you are doing them a favor, rather than trying to get them to do you a favor)
+1. **"¿Puedo darte un volante?"**
+   - (Como si estuvieras haciéndoles un favor, en lugar de intentar que te hagan un favor)
 
-2. “Do you want to know more about the dangers of AI?”
-3. “Want to know what's going on with AI?“
+2. "¿Quieres saber más sobre los peligros de la IA?"
+3. "¿Quieres saber qué está pasando con la IA?"
 
-When asked what this is all about:
+Cuando se te pregunte de qué se trata todo esto:
 
-1. **“PauseAI is a global grassroots movement working to mitigate the worst risks of AI“**
-2. **“Trying to close the gap between what the experts say about AI and what most people know”**
-3. “Maybe we shouldn't build powerful AI systems that we don't know how to control yet”
-4. “A global treaty to slow down AI development until it is safe”
-5. “We are a grassroots movement concerned about what experts are saying about the risks of AI”
+1. **"PauseAI es un movimiento global de base que trabaja para mitigar los peores riesgos de la IA"**
+2. **"Intentando cerrar la brecha entre lo que los expertos dicen sobre la IA y lo que la mayoría de las personas saben"**
+3. "Quizás no deberíamos construir sistemas de IA poderosos que no sabemos cómo controlar todavía"
+4. "Un tratado global para frenar el desarrollo de la IA hasta que sea seguro"
+5. "Somos un movimiento de base preocupado por lo que los expertos están diciendo sobre los riesgos de la IA"
 
-- Note that **arguments from authority carry weight**
-- Mentioning X-risk right at the start can be a turn-off, but leaving it out entirely usually isn't helpful either
-- In general, it’s good to have thought through what kinds of conversations you want to have, and have ready answers for most relevant things people might ask
+- Ten en cuenta que **los argumentos de autoridad tienen peso**
+- Mencionar el riesgo existencial justo al principio puede ser un desvío, pero dejarlo fuera por completo generalmente no es útil tampoco
+- En general, es bueno haber pensado en qué tipo de conversaciones deseas tener y tener respuestas listas para la mayoría de las cosas relevantes que las personas puedan preguntar
 
-### How people respond
+### Cómo responden las personas {#how-people-respond}
 
-1. Most people who would happily accept a flyer won't ask for one
-2. A small subset of people do engage of their own accord and ask for a flyer or start a conversation
-3. More people refuse a flyer than accept one, and that is perfectly okay
-   - In a space with a lot of people, the law of large numbers works for you
+1. La mayoría de las personas que aceptarían felizmente un volante no pedirán uno
+2. Un pequeño subconjunto de personas se involucra por su propia cuenta y pide un volante o inicia una conversación
+3. Más personas rechazan un volante que aceptan uno, y eso está perfectamente bien
+   - En un espacio con muchas personas, la ley de los grandes números funciona para ti
 
-4. Some people might say they agree with you, but still not want a flyer (and that is okay)
-5. In most places around the world, basically everyone is extremely polite!
-   - _(You may not have the same experience if you are in an area that is culturally known for being impolite.)_
+4. Algunas personas pueden decir que están de acuerdo contigo, pero aún así no quieren un volante (y eso está bien)
+5. En la mayoría de los lugares del mundo, ¡casi todos son extremadamente educados!
+   - _(Puede que no tengas la misma experiencia si estás en un área que es culturalmente conocida por ser descortés.)_
 
-6. The vast majority of interactions are positive rather than negative
-7. Of the people who stop to talk to you, many of them are likely to automatically treat you as if you know what you’re talking about
-   - And (hopefully) you _do_! You are taking time out of your day to communicate something to them that you think is important, and people often recognize that.
+6. La gran mayoría de las interacciones son positivas en lugar de negativas
+7. De las personas que se detienen a hablar contigo, muchas de ellas probablemente te tratarán automáticamente como si supieras de lo que estás hablando
+   - Y (con suerte) ¡lo sabes! Estás tomando tiempo de tu día para comunicar algo a ellos que crees que es importante, y las personas a menudo reconocen eso.
 
-8. An A-frame sign at your feet acts as an invitation: some percentage of people self-sort and avoid you if they are not interested (which can save you some energy), and some people engage you on their own
+8. Un letrero de A en tus pies actúa como una invitación: un porcentaje de personas se auto seleccionan y te evitan si no están interesadas (lo que puede ahorrarte algo de energía), y algunas personas interactúan contigo por su cuenta
 
-## Conclusion: Get on out there!
+## Conclusión: ¡Sal ahí! {#conclusion-get-on-out-there}
 
-This is a lot of information. It is meant to provide a frame, answer questions, and fill in knowledge gaps in order to raise your confidence for your first flyering outing. But all you _really_ need is a stack of flyers and willingness to try. This is something that almost everyone can do, and feeling intimidated or unsure is not disqualifying. You will learn a lot about outreach, about people, about the current limits of your knowledge, and about yourself. And after the first or second time you go out, you won't have any need for this guide. Let's do this — together!
+Esto es mucha información. Está destinado a proporcionar un marco, responder preguntas y llenar lagunas de conocimiento para aumentar tu confianza para tu primera salida de repartir volantes. Pero todo lo que _realmente_ necesitas es una pila de volantes y la voluntad de intentarlo. Esto es algo que casi todos pueden hacer, y sentirse intimidado o inseguro no es descalificador. Aprenderás mucho sobre divulgación, sobre personas, sobre los límites actuales de tu conocimiento y sobre ti mismo. ¡Y después de la primera o segunda vez que salgas, no necesitarás esta guía! ¡Vamos a hacer esto — juntos!

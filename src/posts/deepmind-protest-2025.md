@@ -1,54 +1,53 @@
 ---
-title: 'PauseAI presents: The Google DeepMind Protest'
+title: 'PauseAI presenta: La protesta contra Google DeepMind'
 slug: deepmind-protest-2025
-description: We are organising a protest to hold Google DeepMind to account for
-  their broken promises.
+description: Estamos organizando una protesta para exigir a Google DeepMind que cumpla con sus compromisos de seguridad incumplidos.
 date: 2025-06-30T17:00:00.000Z
 ---
 
-PauseAI held its biggest protest yet outside Google DeepMind's London office.
+PauseAI llevó a cabo su mayor protesta hasta la fecha frente a la oficina de Google DeepMind en Londres.
 
-## Media Coverage
+## Cobertura mediática {#media-coverage}
 
 - [Business Insider](https://www.businessinsider.com/protesters-accuse-google-deepmind-breaking-promises-ai-safety-2025-6)
 - [Islignton Tribune](https://www.islingtontribune.co.uk/article/stark-warning-from-protesters-calling-for-ai-pause-its-going-to-turn-out-bad)
 - [Times of India](https://www.islingtontribune.co.uk/article/stark-warning-from-protesters-calling-for-ai-pause-its-going-to-turn-out-bad)
 - [Tech Times](https://www.techtimes.com/articles/311120/20250701/google-deepmind-slammed-protesters-over-broken-ai-safety-promise.htm)
 
-## Google DeepMind have broken their promises
+## Google DeepMind ha incumplido sus compromisos de seguridad {#google-deepmind-have-broken-their-promises}
 
-In 2024, Google made a public commitment at the AI Summit in Seoul. They signed the Frontier AI Safety Commitments, pledging to conduct rigorous testing of their AI models. They said they would consider results from independent third-party evaluators as appropriate and provide full transparency about the process, including government involvement.
+En 2024, Google se comprometió públicamente en la Cumbre de Inteligencia Artificial en Seúl a realizar pruebas rigurosas de sus modelos de inteligencia artificial. Firmaron los Compromisos de Seguridad de la Inteligencia Artificial de Vanguardia, comprometiéndose a considerar los resultados de evaluadores independientes terceros cuando corresponda y a proporcionar transparencia total sobre el proceso, incluida la participación gubernamental.
 
-​Then came March 2025, when Google released Gemini 2.5 Pro - their most advanced AI model yet. When safety experts looked for the promised testing report, they found nothing. No external evaluation. No transparency report. Just silence.
+Sin embargo, en marzo de 2025, Google lanzó Gemini 2.5 Pro, su modelo de inteligencia artificial más avanzado hasta la fecha, sin cumplir con sus compromisos de seguridad. Los expertos en seguridad buscaron el informe de pruebas prometido, pero no encontraron nada. No había evaluación externa ni informe de transparencia. Solo silencio.
 
-​A month later, under pressure, Google published a barebones "model card" with some internal evaluations but no mention of external evaluations. They later added vague references to "external testers" but provided no details. When Fortune asked directly whether governments were involved, Google refused to answer - violating their transparency pledge.
+Un mes después, bajo presión, Google publicó una "tarjeta de modelo" básica con algunas evaluaciones internas, pero sin mencionar evaluaciones externas. Más tarde agregaron referencias vagas a "evaluadores externos", pero no proporcionaron detalles. Cuando Fortune preguntó directamente si los gobiernos estaban involucrados, Google se negó a responder, violando su compromiso de transparencia.
 
-​They made similar commitments to the White House in 2023 and signed the Hiroshima Process International Code of Conduct in 2025. With the Gemini 2.5 Pro release, Google appears to have also violated, at least in spirit, these other sets of safety commitments.
+Google había hecho compromisos similares con la Casa Blanca en 2023 y firmó el Código de Conducta Internacional del Proceso de Hiroshima en 2025. Con el lanzamiento de Gemini 2.5 Pro, Google parece haber violado, al menos en espíritu, estos otros conjuntos de compromisos de seguridad.
 
-Read the whole timeline of Google DeepMind's broken promises [here](https://pauseai.info/google-deepmind-broken-promises).
+Lee la cronología completa de los compromisos de seguridad incumplidos de Google DeepMind [aquí](https://pauseai.info/google-deepmind-broken-promises).
 
-## Unsafe AI development threatens us all
+## El desarrollo de inteligencia artificial insegura nos amenaza a todos {#unsafe-ai-development-threatens-us-all}
 
-​While today's AI models aren't dangerous enough to cause mass destruction, AI development is accelerating unpredictably. We need rigorous testing of each generation to avoid being caught off-guard by sudden leaps in capability. More importantly, Google's casual disregard for safety commitments sets a dangerous precedent.
+Aunque los modelos de inteligencia artificial actuales no son lo suficientemente peligrosos como para causar destrucción masiva, el desarrollo de inteligencia artificial se está acelerando de manera impredecible. Necesitamos pruebas rigurosas de cada generación para evitar ser sorprendidos por saltos repentinos en capacidad. La falta de respeto de Google por los compromisos de seguridad establece un precedente peligroso.
 
-​As AI becomes more powerful, competitive pressures will intensify and the stakes will grow higher. If we allow companies to ignore safety commitments now, when the risks are relatively low, what hope do we have of holding them accountable when AI systems could pose existential threats?
+A medida que la inteligencia artificial se vuelve más poderosa, las presiones competitivas se intensificarán y las apuestas serán más altas. Si permitimos que las empresas ignoren los compromisos de seguridad ahora, cuando los riesgos son relativamente bajos, ¿qué esperanza tenemos de responsabilizarlas cuando los sistemas de inteligencia artificial puedan plantear amenazas existenciales?
 
-​The norms we establish today will shape how the most powerful technology in human history is developed.
+Las normas que establezcamos hoy darán forma a cómo se desarrolla la tecnología más poderosa de la historia humana.
 
-## Let's hold DeepMind Accountable
+## Exijamos responsabilidad a DeepMind {#lets-hold-deepmind-accountable}
 
-​PauseAI is a growing movement refusing to accept that AI safety should be an afterthought. On June 30th, we're gathering outside Google DeepMind's London headquarters with a simple message: Stick to your commitments.
+PauseAI es un movimiento en crecimiento que se niega a aceptar que la seguridad de la inteligencia artificial sea un pensamiento posterior. El 30 de junio, nos reuniremos frente a la sede de Google DeepMind en Londres con un mensaje simple: Cumplan sus compromisos.
 
-​Our ask is simple - just that Google honour the promises they've already made. Publish timely and transparent reports on the results of their pre-deployment safety testing.
+Nuestra petición es simple: que Google cumpla los compromisos que ya ha hecho. Publique informes oportunos y transparentes sobre los resultados de las pruebas de seguridad previas a la implementación.
 
-​Our ultimate goal is a moratorium on frontier AI development until we can ensure advanced systems will be safe. But we need one thing right now: basic accountability from one of the world's most powerful AI companies.
+Nuestro objetivo final es un moratorio sobre el desarrollo de inteligencia artificial de vanguardia hasta que podamos asegurarnos de que los sistemas avanzados serán seguros. Pero necesitamos una cosa ahora mismo: responsabilidad básica de una de las empresas de inteligencia artificial más poderosas del mundo.
 
-​The future of AI will be shaped by the precedents we set today.
+El futuro de la inteligencia artificial será moldeado por los precedentes que establezcamos hoy.
 
-​**We call on Google DeepMind to:**
+**Llamamos a Google DeepMind a:**
 
-1. ​**Establish clear definitions** of "deployment" that align with common understanding - when a model is publicly accessible, it is deployed.
-2. ​**Publish a specific timeline** for when safety evaluation reports will be released for all future models.
-3. ​**Clarify unambiguously**, for each model release, which government agencies and independent third-parties are involved in testing, and the exact timelines of their testing procedures.
+1. **Establecer definiciones claras** de "implementación" que se alineen con la comprensión común: cuando un modelo es accesible públicamente, está implementado.
+2. **Publicar un cronograma específico** para cuando se publicarán los informes de evaluación de seguridad para todos los modelos futuros.
+3. **Aclarar de manera inequívoca**, para cada lanzamiento de modelo, qué agencias gubernamentales y terceros independientes están involucrados en las pruebas, y los cronogramas exactos de sus procedimientos de prueba.
 
-Join us in London on Monday, the 30th of June, by signing up [here](https://lu.ma/bvffgzmb).
+Únete a nosotros en Londres el lunes 30 de junio inscribiéndote [aquí](https://lu.ma/bvffgzmb).

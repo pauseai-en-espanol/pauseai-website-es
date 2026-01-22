@@ -1,38 +1,38 @@
 ---
-title: PauseAI MicroGrants
-description: Our community fund to support projects that align with our mission.
+title: Microsubvenciones de PauseAI
+description: Nuestro fondo comunitario para apoyar proyectos que se alinean con nuestra misión.
 ---
 
-We have a huge list of projects that our community is working on.
-There's so much to do.
-And sometimes we need funds to be more effective.
-But getting funding can be a hassle - especially if you've never applied to a grant.
+Tenemos una larga lista de proyectos en los que nuestra comunidad está trabajando.
+Hay mucho por hacer.
+Y a veces necesitamos financiamiento para ser más efectivos.
+Pero obtener fondos puede ser un desafío - especialmente si nunca has solicitado una subvención.
 
-This is where PauseAI MicroGrants come in handy!
-Small amounts of money (typically under 2000 EUR) for working on a project.
-We're pretty open about what types of projects could apply, as long as they align with our mission of mitigating catastrophic risks from AI.
+¡Aquí es donde entran en juego las Microsubvenciones de PauseAI!
+Pequeñas cantidades de dinero (normalmente menos de 2000 EUR) para trabajar en un proyecto.
+Somos flexibles en cuanto a los tipos de proyectos que pueden solicitar, siempre y cuando se alineen con nuestra misión de mitigar los riesgos catastróficos de la IA.
 
-Here's a list of examples:
+Aquí hay algunos ejemplos:
 
-- **Organize an event** (location rental, food & drinks)
-- **Make or promote videos** about why AI is dangerous or why we can pause it
-- **Work on a policy draft**, e.g. formalise our [proposal](/proposal)
-- **Perform market research**, e.g. a survey or message-testing study
-- **Write for media**, e.g. write an opinion piece for a national newspaper
-- **Set up a new organization** that aligns with our mission
+- **Organizar un evento** (alquiler de local, comida y bebida)
+- **Crear o promocionar videos** sobre por qué la IA es peligrosa o por qué podemos pausarla
+- **Desarrollar un borrador de política**, por ejemplo, formalizar nuestra [propuesta](/proposal)
+- **Realizar investigación de mercado**, por ejemplo, una encuesta o un estudio de prueba de mensajes
+- **Escribir artículos para medios**, por ejemplo, escribir un artículo de opinión para un periódico nacional
+- **Crear una nueva organización** que se alinee con nuestra misión
 
-## Limitations
+## Limitaciones {#limitations}
 
-- Do note that since we are a charity, we cannot provide a salary through this program.
-- Your project and its benefits to society should stand on its own - it is not a project for the benefit of PauseAI.
-- If you're planning on growing the PauseAI community by doing typical volunteer work, consider applying for a [volunteer stipend](/volunteer-stipends) instead.
+- Tenga en cuenta que, como somos una organización benéfica, no podemos proporcionar un salario a través de este programa.
+- Su proyecto y sus beneficios para la sociedad deben ser independientes - no es un proyecto para beneficio de PauseAI.
+- Si planea crecer la comunidad de PauseAI haciendo trabajo voluntario típico, considere solicitar una [subvención para voluntarios](/volunteer-stipends) en su lugar.
 
-## The process
+## El proceso {#the-process}
 
-- Describe your project in the `#💪projects` channel on our Discord server. Tell about the idea, what you want to do, where you want help and what amount of money you need. Mention `@microgrants` to notify the microgrants team!
-- Fill in the [MicroGrants Template](https://docs.google.com/document/d/1oPXezImarCY7MCYaT-lJb-uLNbbQ76O1FYNr-WTS6hI/edit?usp=sharing) and send it to [joep@pauseai.info](mailto:joep@pauseai.info).
-- We reach out to you. Either a) we give an OK right away, b) we want to see some changes/questions answered or c) give you a no.
-- Be sure to do this at least one month before you need the funds. Give us some time to discuss this in the team, give feedback or ask for clarification. Especially if the request is on the higher side.
-- We'll send you a Memorandum of Understanding (MoU) that you need to sign.
-- Get to work!
-- Tell us when you're done, and we'll send you the grant. If you need the money upfront, we can discuss that option, but it should not be the default.
+- Describa su proyecto en el canal `#projects` de nuestro servidor de Discord. Hable sobre la idea, lo que quiere hacer, dónde necesita ayuda y qué cantidad de dinero necesita. Mencione `@microgrants` para notificar al equipo de microsubvenciones.
+- Complete la [Plantilla de Microsubvenciones](https://docs.google.com/document/d/1oPXezImarCY7MCYaT-lJb-uLNbbQ76O1FYNr-WTS6hI/edit?usp=sharing) y envíela a [joep@pauseai.info](mailto:joep@pauseai.info).
+- Nos pondremos en contacto con usted. O bien a) le damos el visto bueno de inmediato, b) queremos ver algunos cambios/preguntas respondidas o c) le damos un no.
+- Asegúrese de hacer esto al menos un mes antes de necesitar los fondos. Déjenos tiempo para discutir esto en el equipo, dar retroalimentación o pedir aclaraciones. Especialmente si la solicitud es más alta.
+- Le enviaremos un Memorándum de Entendimiento (MoU) que necesita firmar.
+- ¡Póngase a trabajar!
+- Avísenos cuando haya terminado, y le enviaremos la subvención. Si necesita el dinero por adelantado, podemos discutir esa opción, pero no debería ser la opción predeterminada.

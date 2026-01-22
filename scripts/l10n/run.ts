@@ -187,9 +187,17 @@ const languageNamesInEnglish = new Intl.DisplayNames('en', { type: 'language' })
 			forceFiles: forceFiles
 		}
 
-		// Get non-English languages directly from compiled runtime
-		const targetLocales = Array.from(locales).filter((locale) => locale !== 'en')
+		// Get non-base languages directly from compiled runtime
+		// For Spanish-only sites, there are no target locales since Spanish is the base
+		const baseLocale = locales[0] // First locale is the base
+		const targetLocales = Array.from(locales).filter((locale) => locale !== baseLocale)
 		console.log(`Using target locales from compiled runtime: [${targetLocales.join(', ')}]`)
+
+		// If there are no target locales, skip the l10n process entirely
+		if (targetLocales.length === 0) {
+			console.log('✅ No target locales to process - using base locale content directly')
+			return
+		}
 
 		if (isOffline) {
 			console.log('🔒 L10n offline mode: using bundled cage assets without Git operations')
@@ -243,9 +251,15 @@ const languageNamesInEnglish = new Intl.DisplayNames('en', { type: 'language' })
 			})(),
 			(async () => {
 				const markdownPathsFromBase = await fs.readdir(MARKDOWN_SOURCE, { recursive: true })
-				const markdownPathsFromRoot = markdownPathsFromBase.map((file) =>
-					path.join(MARKDOWN_SOURCE, file)
-				)
+				const markdownPathsFromRoot = (
+					await Promise.all(
+						markdownPathsFromBase.map(async (file) => {
+							const fullPath = path.join(MARKDOWN_SOURCE, file)
+							const stat = await fs.stat(fullPath)
+							return stat.isFile() ? fullPath : null
+						})
+					)
+				).filter((p): p is string => p !== null)
 				return await retrieveMarkdown(
 					{
 						sourcePaths: markdownPathsFromRoot,

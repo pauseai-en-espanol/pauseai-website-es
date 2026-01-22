@@ -1,66 +1,66 @@
 ---
-title: Take action
-description: Ways to help reduce AI risk.
+title: Actúa
+description: Formas de ayudar a reducir el riesgo de la IA.
 ---
 
-AI won't get safer unless we act decisively to push for safety.
-Choose an activity below depending on your interests or skills.
+La IA no será más segura a menos que actuemos de manera decisiva para impulsar la seguridad.
+Elige una actividad a continuación según tus intereses o habilidades.
 
-## For everyone
+## Para todos {#for-everyone}
 
-### Demand government action
+### Exige acción gubernamental {#demand-government-action}
 
-- **Write to your politicians**: We've found emails are surprisingly effective and take relatively little effort. If you don’t feel confident about what to write, [start with our email builder](/email-builder). When you get a meeting, you should check out our [lobby tips](/lobby-tips).
-- **Call your politicians**: Try calling legislators' offices while having a set of talking points in view so you stay on topic.
-- **Protest**: Join [one of the protests](https://pauseai.info/protests) or [organize one yourself](https://pauseai.info/organizing-a-protest).
-- **Sign petitions**: [**Ours**](/statement), [Statement on Superintelligence](https://superintelligence-statement.org/), [International AI Treaty](https://aitreaty.org), [Demand responsible AI](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-91f0a02c-130a-46e1-9e55-70d6b274f4df).
+- **Escribe a tus representantes**: Hemos descubierto que los correos electrónicos son sorprendentemente efectivos y requieren relativamente poco esfuerzo. Si no te sientes seguro sobre qué escribir, [comienza con nuestro constructor de correos electrónicos](/email-builder). Cuando obtengas una reunión, debes consultar nuestros [consejos para reuniones con representantes](/lobby-tips).
+- **Llama a tus representantes**: Intenta llamar a las oficinas de los legisladores mientras tienes un conjunto de puntos de discusión a la vista para que te mantengas en tema.
+- **Participa en protestas**: Únete a [una de las protestas](https://pauseai.info/protests) o [organiza una tú mismo](https://pauseai.info/organizing-a-protest).
+- **Firma peticiones**: [**La nuestra**](/statement), [Tratado Internacional de IA](https://aitreaty.org), [Prohibir la superinteligencia](https://chng.it/Djjfj2Gmpk), [Exige IA responsable](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-91f0a02c-130a-46e1-9e55-70d6b274f4df).
 
-### Inform people around you
+### Informa a las personas que te rodean {#inform-people-around-you}
 
-- **Share about AI risk** on your social media. One of [these videos](https://www.youtube.com/watch?v=xBqU1QxCao8&list=PLI46NoubGtIJa0JVCBR-9CayxCOmU0EJt) or this website can be a good start. And don't forget to tag us in your posts.
-- **Talk to people in your life** about AI safety. Answer their questions, and encourage them to act too. Use our [counterarguments](/counterarguments) to help you be more persuasive.
-- **[Tabling](/tabling) and [flyering](/flyering)** are great ways to reach many people in a short amount of time.
-- **Attend local events**: Many cities have (free / low-cost) events about AI & technology policy. Attending these events is a great way to network and share your concerns.
+- **Comparte información sobre el riesgo de la IA** en tus redes sociales. Uno de [estos videos](https://www.youtube.com/watch?v=xBqU1QxCao8&list=PLI46NoubGtIJa0JVCBR-9CayxCOmU0EJt) o este sitio web pueden ser un buen comienzo. Y no olvides etiquetarnos en tus publicaciones.
+- **Habla con las personas en tu vida** sobre la seguridad de la IA. Responde a sus preguntas y anímalos a actuar también. Utiliza nuestros [contraargumentos](/counterarguments) para ayudarte a ser más persuasivo.
+- **Distribuye información**: [Distribuir folletos](/tabling) y [repartir volantes](/flyering) son excelentes formas de llegar a muchas personas en un corto período de tiempo.
+- **Asiste a eventos locales**: Muchas ciudades tienen eventos (gratuitos o de bajo costo) sobre política de IA y tecnología. Asistir a estos eventos es una excelente forma de establecer contactos y compartir tus inquietudes.
 
-### Support PauseAI
+### Apoya a PauseAI {#support-pauseai}
 
-- **Join or create a [local PauseAI community](/communities)**.
-- **Join the [Discord](https://discord.gg/T3YrWUJsJ5)**, where most of the collaboration happens.
-- **Protest or participate in [events](/events)**. If no protest is near you, consider [starting one](/organizing-a-protest).
-- **Look over our [vacancies](/vacancies)** to see if any of your skills match our organizational needs. We're often looking for people with experience in social media, communications, organizing, outreach, and software. Some positions are compensated.
-- **[Sign up as a volunteer](/join)** so we can find projects in your interest areas.
-- **[Donate](/donate)** to PauseAI or buy some merchandise in our [store](https://pauseai-shop.fourthwall.com/).
-- **Follow our [social media channels](https://linktr.ee/pauseai)** and stay updated. Your local PauseAI chapter may also have dedicated social media pages.
+- **Únete o crea una comunidad local de PauseAI**: [Únete o crea una comunidad local de PauseAI](/communities).
+- **Únete al Discord**: Únete al [Discord](https://discord.gg/T3YrWUJsJ5), donde se produce la mayoría de la colaboración.
+- **Participa en eventos**: Protesta o participa en [eventos](/events). Si no hay una protesta cerca de ti, considera [iniciar una](/organizing-a-protest).
+- **Revisa nuestras vacantes**: Revisa nuestras [vacantes](/vacancies) para ver si alguna de tus habilidades coincide con nuestras necesidades organizativas. A menudo estamos buscando personas con experiencia en redes sociales, comunicaciones, organización, divulgación y software. Algunos puestos están remunerados.
+- **Regístrate como voluntario**: [Regístrate como voluntario](https://pauseai.info/join) para que podamos encontrar proyectos en tus áreas de interés.
+- **Donación**: [Donación](/donate) a PauseAI o compra algunos productos en nuestra [tienda](https://pauseai-shop.fourthwall.com/).
+- **Sigue nuestros canales de redes sociales**: Sigue nuestros [canales de redes sociales](https://linktr.ee/pauseai) y mantente actualizado. Tu capítulo local de PauseAI también puede tener páginas de redes sociales dedicadas.
 
-## For specific people
+## Para personas específicas {#for-specific-people}
 
-### If you work in AI
+### Si trabajas en IA {#if-you-work-in-ai}
 
-- **Don't work towards better AI**: Do not work for AI companies or capabilities research. And do not spread ideas on how we can make AI systems faster or smarter.
-- **Talk to your management and colleagues** about the risks. Get them to take an institutional position toward mitigating risk over profit. Encourage implementation of standard risk mitigation procedures and anonymous reporting.
-- **Hold a seminar** on AI safety at your workplace. Check out these [slides](https://drive.google.com/drive/u/1/folders/1p9VtopzMV6Xpk4p6EGYUTna4fLE6G8hd) and [talks and videos](https://www.youtube.com/playlist?list=PLI46NoubGtIJa0JVCBR-9CayxCOmU0EJt) for inspiration.
-- **Sign** the [Statement on AI Risk](https://www.safe.ai/statement-on-ai-risk).
+- **No contribuyas a la creación de IA más avanzada**: No trabajes para empresas de IA o investigación de capacidades. Y no difundas ideas sobre cómo podemos hacer que los sistemas de IA sean más rápidos o más inteligentes.
+- **Habla con tu gerencia y colegas**: Habla con tu gerencia y colegas sobre los riesgos. Haz que tomen una posición institucional hacia la mitigación del riesgo sobre el beneficio. Anima la implementación de procedimientos estándar de mitigación de riesgos y denuncia anónima.
+- **Organiza un seminario**: Organiza un seminario sobre seguridad de la IA en tu lugar de trabajo. Consulta estos [diapositivas](https://drive.google.com/drive/u/1/folders/1p9VtopzMV6Xpk4p6EGYUTna4fLE6G8hd) y [charlas y videos](https://www.youtube.com/playlist?list=PLI46NoubGtIJa0JVCBR-9CayxCOmU0EJt) para inspirarte.
+- **Firma la Declaración sobre el riesgo de la IA**: Firma la [Declaración sobre el riesgo de la IA](https://www.safe.ai/statement-on-ai-risk).
 
-### If you are a politician or work in government
+### Si eres político o trabajas en el gobierno {#if-you-are-a-politician-or-work-in-government}
 
-- **Prepare for the next [AI safety summit](/summit)**. Form coalitions with other countries to share safety information and act quickly when harms arise. Work towards a global treaty.
-- **Invite (or subpoena) AI lab leaders** to parliamentary/congressional hearings to give their predictions and timelines of AI disasters.
-- **Establish a committee** to investigate the [risks of AI](/risks). Publish the findings, if feasible.
-- **Make AI safety a priority** in your party's platform, your government's policy, or just make sure it's on the agenda.
-- **Work with opposition politicians** to demonstrate that AI safety affects us all, regardless of political beliefs.
+- **Prepárate para la próxima cumbre de seguridad de la IA**: Prepárate para la próxima [cumbre de seguridad de la IA](/summit). Forma coaliciones con otros países para compartir información de seguridad y actuar rápidamente cuando surjan daños. Trabaja hacia un tratado global.
+- **Invita a líderes de laboratorios de IA**: Invita (o cita) a líderes de laboratorios de IA a audiencias parlamentarias/congresionales para que den sus predicciones y cronogramas de desastres de IA.
+- **Establece un comité**: Establece un comité para investigar los [riesgos de la IA](/risks). Publica los hallazgos, si es factible.
+- **Prioriza la seguridad de la IA**: Haz que la seguridad de la IA sea una prioridad en la plataforma de tu partido, la política de tu gobierno o simplemente asegúrate de que esté en la agenda.
+- **Trabaja con políticos de la oposición**: Trabaja con políticos de la oposición para demostrar que la seguridad de la IA nos afecta a todos, independientemente de las creencias políticas.
 
-### If you have experience with (international) law
+### Si tienes experiencia en derecho (internacional) {#if-you-have-experience-with-international-law}
 
-- **Help draft policy**. [Draft examples](https://www.campaignforaisafety.org/celebrating-the-winners-law-student-moratorium-treaty-competition/). ([some](https://futureoflife.org/wp-content/uploads/2023/04/FLI_Policymaking_In_The_Pause.pdf) [frameworks](https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/))
-- **Make submissions** to government requests for comment on AI policy ([example](https://ntia.gov/issues/artificial-intelligence/request-for-comments)).
+- **Ayuda a redactar políticas**: Ayuda a redactar políticas. [Ejemplos de borradores](https://www.campaignforaisafety.org/celebrating-the-winners-law-student-moratorium-treaty-competition/). ([algunos](https://futureoflife.org/wp-content/uploads/2023/04/FLI_Policymaking_In_The_Pause.pdf) [marcos](https://www.openphilanthropy.org/research/12-tentative-ideas-for-us-ai-policy/))
+- **Haz presentaciones**: Haz presentaciones a solicitudes gubernamentales de comentarios sobre política de IA ([ejemplo](https://ntia.gov/issues/artificial-intelligence/request-for-comments)).
 
-### If you are a university professor or work in an academic institution
+### Si eres profesor universitario o trabajas en una institución académica {#if-you-are-a-university-professor-or-work-in-an-academic-institution}
 
-- **Write op-eds** and articles for media outlets
-- **Mentor students** who are interested in this topic
-- **Organize a campus event** about AI risk, or an academic conference, panel, or symposium
-- **Submit a faculty senate resolution** on AI risk, or craft a university position statement
+- **Escribe artículos de opinión**: Escribe artículos de opinión y artículos para medios de comunicación
+- **Mentora a estudiantes**: Mentora a estudiantes que estén interesados en este tema
+- **Organiza un evento en el campus**: Organiza un evento en el campus sobre el riesgo de la IA, o una conferencia académica, panel o simposio
+- **Presenta una resolución del senado de la facultad**: Presenta una resolución del senado de la facultad sobre el riesgo de la IA, o redacta una declaración de posición de la universidad
 
-### If you work as a journalist or have a social media following
+### Si trabajas como periodista o tienes seguidores en las redes sociales {#if-you-work-as-a-journalist-or-have-a-social-media-following}
 
-- **Create content** about AI dangers or PauseAI. For more information, reach out to us through any of our [communication channels](/faq#do-you-have-social-media).
+- **Crea contenido**: Crea contenido sobre los peligros de la IA o PauseAI. Para obtener más información, comunícate con nosotros a través de cualquiera de nuestros [canales de comunicación](/faq#do-you-have-social-media).

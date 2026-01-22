@@ -1,47 +1,49 @@
 ---
-title: PauseAI protest @ Office for AI - June 29th
+title: Protesta de PauseAI en la Oficina de IA - 29 de junio
 ---
 
-- PauseAI protest, urging Rishi Sunak to implement a pause on AI development.
-- Where: Office for AI, Department for Science, Innovation and Technology, 100 Parliament Street, Westminster, London, SW1A 2BQ
-- When: 29th of June, 4 PM - 6 PM
-- [Sign up here](https://forms.gle/t1FvzqaEBmZuBuXS7)
+ <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->
 
-## Press Release
+- Protesta de PauseAI, instando a Rishi Sunak a implementar una pausa en el desarrollo de IA.
+- Dónde: Oficina de IA, Departamento de Ciencia, Innovación y Tecnología, 100 Parliament Street, Westminster, Londres, SW1A 2BQ
+- Cuándo: 29 de junio, 16:00 - 18:00
+- [Regístrate aquí](https://forms.gle/t1FvzqaEBmZuBuXS7)
 
-On Thursday, June 29th, volunteers from the new [PauseAI](http://pauseai.info) movement will gather at the Office for AI, Parliament Square, London to urge the UK government to take the lead on pausing the development of more powerful and dangerous AI systems.
+## Comunicado de prensa {#press-release}
 
-A large number of AI experts [signed a statement](https://www.safe.ai/statement-on-ai-risk) earlier this month that read:
+El jueves 29 de junio, voluntarios del movimiento [PauseAI](http://pauseai.info) se reunirán en la Oficina de IA, Plaza del Parlamento, Londres, para instar al gobierno del Reino Unido a tomar la iniciativa en la pausa del desarrollo de sistemas de IA más poderosos y peligrosos.
 
-> "Mitigating the risk of extinction from AI should be a global priority alongside other societal-scale risks such as pandemics and nuclear war."
+Un gran número de expertos en IA [firmaron una declaración](https://www.safe.ai/statement-on-ai-risk) a principios de este mes que afirma:
 
-This has been signed by virtually all AI labs (OpenAI, Google DeepMind, Anthropic) and hundreds of AI scientists including Geoffrey Hinton, the "Godfather of AI".
+> "Mitigar el riesgo de extinción por IA debe ser una prioridad global, al igual que otros riesgos a escala societal, como pandemias y guerras nucleares".
 
-AI safety researchers have not reached a consensus on how large the risk of human extinction will be.
-Results from the ["Existential risk from AI survey"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) show that estimates range from 2% to 98%, with an average of 30%.
+Esta declaración ha sido firmada por prácticamente todos los laboratorios de IA (OpenAI, Google DeepMind, Anthropic) y cientos de científicos de IA, incluyendo a Geoffrey Hinton, considerado el "Padre de la IA".
 
-The UK is currently taking the international lead on AI Safety regulations, as the government [announced on June 7th](https://www.gov.uk/government/news/uk-to-host-first-global-summit-on-artificial-intelligence) that it will be hosting the first AI Safety Summit this autumn.
+Los investigadores de seguridad de IA no han llegado a un consenso sobre la magnitud del riesgo de extinción humana.
+Los resultados de la ["Encuesta sobre riesgo existencial de IA"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) muestran que las estimaciones varían desde el 2% hasta el 98%, con un promedio del 30%.
 
-Last week, Rishi Sunak introduced the AI Safety Taskforce, with Ian Hogarth as its captain.
-This taskforce is backed with an initial £100 million of government funding.
+El Reino Unido está tomando actualmente la iniciativa internacional en regulaciones de seguridad de IA, ya que el gobierno [anunció el 7 de junio](https://www.gov.uk/government/news/uk-to-host-first-global-summit-on-artificial-intelligence) que organizará la primera Cumbre de Seguridad de IA este otoño.
 
-However, [Sunak tweeted](https://twitter.com/RishiSunak/status/1670355987457294337) that the goal of the AI Safety taskforce is also to "Dramatically speed up UK AI capability".
-This is in stark contrast to what the newly appointed lead of the AI Safety Taskforce, Ian Hogarth, wrote in May, in his Financial Times article "We Must Slow Down the Race to God-Like AI".
+La semana pasada, Rishi Sunak presentó la Fuerza de Tarea de Seguridad de IA, con Ian Hogarth como su director.
+Esta fuerza de tarea cuenta con una financiación inicial de £100 millones del gobierno.
 
-The protesters are urging Rishi Sunak to take the lead on global AI safety and pause the development of more dangerous AI systems in the UK.
+Sin embargo, [Sunak tuiteó](https://twitter.com/RishiSunak/status/1670355987457294337) que el objetivo de la Fuerza de Tarea de Seguridad de IA es también "Acelerar drásticamente la capacidad de IA del Reino Unido".
+Esto contrasta con lo que el recién nombrado director de la Fuerza de Tarea de Seguridad de IA, Ian Hogarth, escribió en mayo, en su artículo en el Financial Times "Debemos frenar la carrera hacia una IA similar a Dios".
 
-> "Accelerating right now is a dangerous strategy, and the wrong message to the nations at the AI safety summit. Rishi Sunak should lead by example and implement the Pause!" - PauseAI protesters
+Los manifestantes están instando a Rishi Sunak a tomar la iniciativa en la seguridad de IA global y a pausar el desarrollo de sistemas de IA más peligrosos en el Reino Unido.
 
-> "The UK is organising an AI safety summit at the end of this year, but that might be too late. We need to slow down right now." - PauseAI protesters
+> "Acelerar ahora es una estrategia peligrosa, y el mensaje equivocado para las naciones en la cumbre de seguridad de IA. Rishi Sunak debería liderar con el ejemplo y implementar la Pausa" - Manifestantes de PauseAI
 
-> "The UK is in a fantastic place to develop the concrete safety requirements that would set the precedent for the AI safety summit later this year. There is no other country that has this concentration of AI safety experts." - PauseAI protesters
+> "El Reino Unido está organizando una cumbre de seguridad de IA a finales de este año, pero puede ser demasiado tarde. Necesitamos frenar ahora mismo" - Manifestantes de PauseAI
 
-> "Implementing a national pause on AI development would be a bold move, but it would give us the time we need to get this right, and it would set a precedent for other countries to follow. This is essential for making the AI safety summit a success." - PauseAI protesters
+> "El Reino Unido está en una posición ideal para desarrollar los requisitos de seguridad concretos que sentarían un precedente para la cumbre de seguridad de IA más adelante este año. No hay otro país que tenga esta concentración de expertos en seguridad de IA" - Manifestantes de PauseAI
 
-> "AI companies are putting everything at risk; we're already seeing the damage, and it will get far worse. Technology development is not inevitable, and pausing should be considered a feasible option. We can't cede the future to a few CEOs who acknowledge they are willing to risk humanity for their dreams. We all deserve a say on our future, and a global pause gives us that chance. However, that global Pause becomes far more likely if we implement a national one first!" - PauseAI protesters
+> "Implementar una pausa nacional en el desarrollo de IA sería un paso audaz, pero nos daría el tiempo que necesitamos para hacerlo bien, y sentaría un precedente para que otros países sigan. Esto es esencial para que la cumbre de seguridad de IA sea un éxito" - Manifestantes de PauseAI
 
-> "We may not have the luxury of time. AI developments are happening at a frantic pace, and we need to act now to prevent the worst-case scenarios. The summit in autumn could be even too late to prevent the worst. We urge Rishi Sunak to halt AI developments before the summit. Even if only the UK and the US agree to pause until the summit, we will have made a huge step towards preventing the worst-case scenarios." - PauseAI protesters
+> "Las empresas de IA están poniendo todo en riesgo; ya estamos viendo el daño, y empeorará mucho más. El desarrollo de la tecnología no es inevitable, y la pausa debería considerarse una opción factible. No podemos ceder el futuro a unos pocos directivos que reconocen que están dispuestos a arriesgar la humanidad por sus sueños. Todos merecemos tener voz en nuestro futuro, y una pausa global nos da esa oportunidad. Sin embargo, esa pausa global se vuelve mucho más probable si implementamos una pausa nacional primero" - Manifestantes de PauseAI
 
-The PauseAI protesters have concrete [agenda suggestions](/summit) and [policy proposals](/proposal) for the summit.
+> "Puede que no tengamos el lujo del tiempo. Los desarrollos de IA están sucediendo a un ritmo frenético, y necesitamos actuar ahora para prevenir los escenarios más graves. La cumbre de otoño podría ser incluso demasiado tarde para prevenir lo peor. Instamos a Rishi Sunak a detener los desarrollos de IA antes de la cumbre. Incluso si solo el Reino Unido y EE. UU. acuerdan pausar hasta la cumbre, habremos dado un gran paso hacia la prevención de los escenarios más graves" - Manifestantes de PauseAI
 
-For more information, please visit [PauseAI.info](http://pauseai.info).
+Los manifestantes de PauseAI tienen [sugerencias concretas de agenda](/summit) y [propuestas de políticas](/proposal) para la cumbre.
+
+Para más información, por favor visite [PauseAI.info](http://pauseai.info).

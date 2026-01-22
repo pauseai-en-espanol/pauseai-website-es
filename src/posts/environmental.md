@@ -1,84 +1,82 @@
 ---
-title: Environmental impact of AI
-description: AI's environmental impact is a problem not just because of the immediate human cost, but because robots are fantastically energy-hungry and thus accelerate the unsustainable, insupportable damage we are doing to Earth.
+title: Impacto ambiental de la IA
+description: El impacto ambiental de la IA es un problema no solo por el costo humano inmediato, sino porque los robots consumen enormes cantidades de energía y aceleran el daño insostenible e insostenible que estamos causando a la Tierra.
 ---
 
-> ❝ The rise of the robots is a problem not just because of the immediate human cost, but
-> because robots are fantastically energy-hungry and thus accelerate the unsustainable,
-> insupportable damage we are doing to Earth.
-> – [Rupert Read](https://www.theguardian.com/theobserver/2016/mar/27/leters-robots-energy-consuming), past spokesperson of Extinction Rebellion
+> La llegada de los robots es un problema no solo por el costo humano inmediato, sino porque los robots consumen enormes cantidades de energía y aceleran el daño insostenible e insostenible que estamos causando a la Tierra.
+> – [Rupert Read](https://www.theguardian.com/theobserver/2016/mar/27/leters-robots-energy-consuming), ex portavoz de Extinction Rebellion
 
-Immediate harms are turning intense.
+Los daños inmediatos se están intensificando.
 
-Corporations feed our friends and family’s data into AI. Corporations refine AI to cheaply replace our long-time colleagues. Corporations sell bots used to manipulate and target us.
+Las corporaciones alimentan los datos de nuestros amigos y familiares a la IA. Las corporaciones refinan la IA para reemplazar barato a nuestros colegas de larga trayectoria. Las corporaciones venden bots utilizados para manipular y dirigirse a nosotros.
 
-It’s easy to miss AI’s most diffuse harm—to our environment.
+Es fácil pasar por alto el daño más difuso de la IA: el daño a nuestro medio ambiente.
 
-## Burning energy
+## Quemando energía {#burning-energy}
 
-Training just one AI model can gobble up more electricity than [100 US homes](https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure?sref=ixwpc5OO#xj4y7vzkg) use in one year – just to learn how to predict the next sentences from our online conversations.
-To generate those next sentences in replies to users, ChatGPT burns as much electricity as [a small city](https://archive.ph/20230917070741/https://kaspergroesludvigsen.medium.com/chatgpts-electricity-consumption-pt-ii-225e7e43f22b).
+Entrenar solo un modelo de IA puede consumir más electricidad que [100 hogares estadounidenses](https://www.bloomberg.com/news/articles/2023-03-09/how-much-energy-do-ai-and-chatgpt-use-no-one-knows-for-sure?sref=ixwpc5OO#xj4y7vzkg) en un año, solo para aprender a predecir las próximas oraciones de nuestras conversaciones en línea.
+Para generar esas próximas oraciones en respuestas a los usuarios, ChatGPT quema tanta electricidad como [una pequeña ciudad](https://archive.ph/20230917070741/https://kaspergroesludvigsen.medium.com/chatgpts-electricity-consumption-pt-ii-225e7e43f22b).
 
-By 2027, all AI may burn as much energy as [a nation](https://www.nytimes.com/2023/10/10/climate/ai-could-soon-need-as-much-electricity-as-an-entire-country.html), just to process our data in data centers.
+Para 2027, toda la IA puede quemar tanta energía como [un país](https://www.nytimes.com/2023/10/10/climate/ai-could-soon-need-as-much-electricity-as-an-entire-country.html), solo para procesar nuestros datos en centros de datos.
 
-Data centers that suck billions of [liters](https://www.theguardian.com/world/2023/jul/11/uruguay-drought-water-google-data-center) of drinking water, to cool AI’s overheating hardware.
-Data centers that emit billions of [tons](https://ainowinstitute.org/spotlight/climate) of carbon dioxide, warming the atmosphere.
+Centros de datos que consumen miles de millones de [litros](https://www.theguardian.com/world/2023/jul/11/uruguay-drought-water-google-data-center) de agua potable, para enfriar el hardware sobrecalentado de la IA.
+Centros de datos que emiten miles de millones de [toneladas](https://ainowinstitute.org/spotlight/climate) de dióxido de carbono, calentando la atmósfera.
 
-And yet, data centers are only one stage of AI’s lifecycle.
+Y sin embargo, los centros de datos son solo una etapa del ciclo de vida de la IA.
 
-## Hidden toxicity
+## Toxicidad oculta {#hidden-toxicity}
 
-Today’s AI is not “alive,” of course.
+La IA de hoy no está "viva", por supuesto.
 
-AI doesn’t look yet like the free-roaming robotics we see in movies. AI is stuck running in data centers, on hardware that wears down and gets replaced every ~4 years.
+La IA no se parece todavía a la robótica libre que vemos en las películas. La IA está atascada en centros de datos, en hardware que se desgasta y se reemplaza cada ~4 años.
 
-But producing that hardware takes [hundreds](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237170/#!po=17.9245) of [cancerous chemicals](https://www.bloomberg.com/news/features/2017-06-15/american-chipmakers-had-a-toxic-problem-so-they-outsourced-it).
-Materials needed were melted down and reassembled at blazing hot temperatures.
-Those materials were in turn extracted from mines, using drills and dissolving acids.
+Pero producir ese hardware requiere [cientos](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6237170/#!po=17.9245) de [químicos cancerígenos](https://www.bloomberg.com/news/features/2017-06-15/american-chipmakers-had-a-toxic-problem-so-they-outsourced-it).
+Los materiales necesarios se fundieron y se reensamblaron a temperaturas extremadamente altas.
+Esos materiales se extrajeron de minas, utilizando taladros y ácidos disolventes.
 
-Environmental scientists investigate all these stages. They call it the ‘hardware lifecycle’ of AI.
+Los científicos ambientales investigan todas estas etapas. Lo llaman el "ciclo de vida del hardware" de la IA.
 
-We don’t see the [mines](https://e360.yale.edu/features/china-wrestles-with-the-toxic-aftermath-of-rare-earth-mining), [refineries](https://www.youtube.com/watch?v=5eVsQSn_EWc), [production plants](https://sci-hub.wf/10.1080/10455752.2010.546647), [data centers](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/), and [waste dumps](https://www.sciencedirect.com/science/article/pii/S2352186421006970#d1e1833).
-We don’t see the bulldozed lands, the hellish infernos, the toxic chemicals, the climate gasses.
+No vemos las [minas](https://e360.yale.edu/features/china-wrestles-with-the-toxic-aftermath-of-rare-earth-mining), [refinerías](https://www.youtube.com/watch?v=5eVsQSn_EWc), [plantas de producción](https://sci-hub.wf/10.1080/10455752.2010.546647), [centros de datos](https://thereader.mitpress.mit.edu/the-staggering-ecological-impacts-of-computation-and-the-cloud/) y [vertederos de residuos](https://www.sciencedirect.com/science/article/pii/S2352186421006970#d1e1833).
+No vemos las tierras arrasadas, los infiernos infernales, los químicos tóxicos, los gases climáticos.
 
-AI is toxic to our environment. Corporations hide the toxicity, out of our sight.
+La IA es tóxica para nuestro medio ambiente. Las corporaciones ocultan la toxicidad, fuera de nuestra vista.
 
-## This boom is different
+## Este auge es diferente {#this-boom-is-different}
 
-Fortunately, climate activists woke up to the fact that AI burns an astounding amount of energy. States are forced to keep [coal power plants](https://futurism.com/the-byte/coal-plants-ai) running to cater to AI data centers.
-Even OpenAI’s CEO admits: “we still don't appreciate the energy needs of this technology.”
+Afortunadamente, los activistas climáticos se dieron cuenta de que la IA quema una cantidad asombrosa de energía. Los estados se ven obligados a mantener [centrales eléctricas de carbón](https://futurism.com/the-byte/coal-plants-ai) en funcionamiento para atender a los centros de datos de la IA.
+Incluso el CEO de OpenAI admite: "todavía no apreciamos las necesidades energéticas de esta tecnología".
 
-Climate activists are quicker on their feet this time.
-Years before, another tech boom began: Cryptocurrency.
-Hardware slurped [0.5%](https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/#:~:text=Crypto%2Dasset%20activity%20in%20the,railroads%20in%20the%20United%20States.) of US energy to compute crypto.
-It got so bad that Texas gave [millions in tax dollars](https://www.cbsnews.com/news/bitcoin-mining-cryptocurrency-riot-texas-power-grid/) to get a Bitcoin company to stop draining so much electricity.
+Los activistas climáticos están más rápidos esta vez.
+Años antes, comenzó otro auge tecnológico: la criptomoneda.
+El hardware consumió [0,5%](https://www.whitehouse.gov/ostp/news-updates/2022/09/08/fact-sheet-climate-and-energy-implications-of-crypto-assets-in-the-united-states/#:~:text=Crypto%2Dasset%20activity%20in%20the,railroads%20in%20the%20United%20States.) de la energía de EE. UU. para calcular criptomonedas.
+Se puso tan mal que Texas dio [millones de dólares en impuestos](https://www.cbsnews.com/news/bitcoin-mining-cryptocurrency-riot-texas-power-grid/) para que una empresa de Bitcoin dejara de drenar tanta electricidad.
 
-But here is the crucial difference:
+Pero aquí está la diferencia crucial:
 
-- Cryptocurrencies go bust. They produce little value, other than as alternative money.
-- AI can be used to automate economic production.
+- Las criptomonedas se estrellan. Producen poco valor, aparte de como dinero alternativo.
+- La IA se puede utilizar para automatizar la producción económica.
 
-AI is an ideal tool to centralize power.
-AI to extract, to exploit, to extract.
+La IA es una herramienta ideal para centralizar el poder.
+La IA para extraer, explotar, extraer.
 
-## A vicious cycle
+## Un ciclo vicioso {#a-vicious-cycle}
 
-- Corporations extract profit using untested bots
-- To reinvest in more toxic hardware factories
-- To build more energy-slurping data centers
-- To feed more of our free data into AI
-- To automate more work cheaply
-- To extract more profit
+- Las corporaciones extraen beneficios utilizando bots no probados
+- Para reinvertir en más fábricas de hardware tóxico
+- Para construir más centros de datos que consumen energía
+- Para alimentar más de nuestros datos gratuitos a la IA
+- Para automatizar más trabajo de manera barata
+- Para extraer más beneficios
 
-This is a vicious cycle.
+Este es un ciclo vicioso.
 
-After two centuries of competition for scaling resource-intensive machines, society is already nearing [collapse](https://youtu.be/vi166hJv6Qk).
-To protect society, why don’t we ease up on excessive corporate tech?
+Después de dos siglos de competencia por escalar máquinas intensivas en recursos, la sociedad ya está cerca del [colapso](https://youtu.be/vi166hJv6Qk).
+Para proteger a la sociedad, ¿por qué no reducimos la tecnología corporativa excesiva?
 
-AI corporations accelerate our climate crisis. They scale machine models to predict human behavior. They gradually automate the work needed to re-produce resource-intensive [machines](https://www.euronews.com/green/2020/05/06/a-robot-takeover-is-possible-so-what-about-the-planet).
+Las corporaciones de IA aceleran nuestra crisis climática. Escalan modelos de máquinas para predecir el comportamiento humano. Gradualmente automatizan el trabajo necesario para reproducir [máquinas](https://www.euronews.com/green/2020/05/06/a-robot-takeover-is-possible-so-what-about-the-planet) intensivas en recursos.
 
-## Act
+## Actúa {#act}
 
-- **Easy**: Listen to [researchers](https://shows.acast.com/the-data-fix/episodes/empathy-with-steven-gonzalez-monserrate) investigating AI’s lifecycle pollution.
-- **Intermediate**: Talk with [climate activists](https://rebellion.global/) about shared concerns.
-- **Game changer**:  Organize a [shared protest](https://blogs.lse.ac.uk/medialse/2022/11/02/big-techs-new-headache-data-centre-activism-flourishes-across-the-world/) at an AI data center.
+- **Fácil**: Escucha a [investigadores](https://shows.acast.com/the-data-fix/episodes/empathy-with-steven-gonzalez-monserrate) que investigan la contaminación del ciclo de vida de la IA.
+- **Intermedio**: Habla con [activistas climáticos](https://rebellion.global/) sobre preocupaciones compartidas.
+- **Cambio de juego**: Organiza una [protesta compartida](https://blogs.lse.ac.uk/medialse/2022/11/02/big-techs-new-headache-data-centre-activism-flourishes-across-the-world/) en un centro de datos de IA.

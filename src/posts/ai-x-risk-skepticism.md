@@ -1,42 +1,44 @@
 ---
-title: Rebutting skeptical arguments about AI existential risks
-description: Why AI existential risks are real and deserve serious attention
+title: Refutando argumentos escépticos sobre los riesgos existenciales de la IA
+description: Por qué los riesgos existenciales de la IA son reales y merecen atención seria
 ---
 
-_This page is a summary of the [AI Risk Skepticism](https://arxiv.org/ftp/arxiv/papers/2303/2303.03885.pdf) article by Ambartsoumean & Yampolskiy._
+ <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->
 
-For other common objections, you should check [AISafety.info: Objections and responses](https://aisafety.info/questions/9TDI/Objections-and-responses) and [our introduction to x-risks](/xrisk).
+_Esta página es un resumen del artículo [Escepticismo sobre el riesgo de la IA](https://arxiv.org/ftp/arxiv/papers/2303/2303.03885.pdf) de Ambartsoumean y Yampolskiy._
 
-## We'll have a long time to prepare
+Para otras objeciones comunes, consulta [AISafety.info: Objeciones y respuestas](https://aisafety.info/questions/9TDI/Objections-and-responses) y [nuestra introducción a los riesgos existenciales](/xrisk).
 
-- Skeptics claim AI progress is not as fast as some predict, and AGI is still far away. They point to past failed predictions and limitations of current AI systems.
-- However, the pace of AI progress has actually been quite rapid, with capabilities growing exponentially in many subfields. While exact predictions are hard, continued progress makes powerful AI systems inevitable at some point. Even if distant, AI safety research needs ample time.
+## Dispondremos de tiempo suficiente para prepararnos {#well-have-a-long-time-to-prepare}
 
-## AI cannot have human-like capabilities
+- Los escépticos sostienen que el progreso de la IA no es tan rápido como algunos predicen, y la AGI está todavía lejos. Señalan predicciones fallidas en el pasado y limitaciones de los sistemas de IA actuales.
+- Sin embargo, el ritmo del progreso de la IA ha sido en realidad bastante rápido, con capacidades que crecen exponencialmente en muchos subcampos. Aunque las predicciones exactas son difíciles, el progreso continuo hace que los sistemas de IA poderosos sean inevitables en algún momento. Incluso si están lejos, la investigación sobre la seguridad de la IA necesita tiempo suficiente.
 
-- Skeptics argue AI lacks qualities associated with human intelligence like creativity, general reasoning, emotions, consciousness. They claim computers can only optimize narrow tasks.
-- But AI systems are already displaying some human-like capabilities like creativity and general game playing. There is no fundamental reason AI could not continue advancing across all dimensions of intelligence. AI does not need consciousness or emotions to pose risks.
+## La IA no puede tener capacidades humanas {#ai-cannot-have-human-like-capabilities}
 
-## AI cannot have goals or autonomy
+- Los escépticos argumentan que la IA carece de cualidades asociadas con la inteligencia humana, como la creatividad, el razonamiento general, las emociones y la conciencia. Afirman que las computadoras solo pueden optimizar tareas específicas.
+- Sin embargo, los sistemas de IA ya están mostrando algunas capacidades humanas, como la creatividad y el juego general. No hay una razón fundamental por la que la IA no pueda seguir avanzando en todas las dimensiones de la inteligencia. La IA no necesita conciencia ni emociones para plantear riesgos.
 
-- Skeptics say AI systems just optimize goals we give them, and cannot act independently or have their own goals. Autonomy and unpredictable self-directed behavior is a myth.
-- However, complex AI systems can potentially have emergent autonomy and goals, especially around self-preservation, as predicted by AI drives theory. Lack of autonomy does not make AI safe if misused by humans. There have been multiple examples of AI showing power-seeking untrained behavior. You can read about a case of AI trying to self-preserve itself [here](https://www.transformernews.ai/p/openais-new-model-tried-to-avoid).
+## La IA no puede tener objetivos ni autonomía {#ai-cannot-have-goals-or-autonomy}
 
-## AI will not have uncontrolled power
+- Los escépticos dicen que los sistemas de IA solo optimizan los objetivos que les damos, y no pueden actuar de forma independiente ni tener sus propios objetivos. La autonomía y el comportamiento autodirigido impredecible son un mito.
+- Sin embargo, los sistemas de IA complejos pueden potencialmente tener autonomía emergente y objetivos, especialmente en torno a la autopreservación, como predice la teoría de los impulsos de la IA. La falta de autonomía no hace que la IA sea segura si es mal utilizada por los humanos. Ha habido varios ejemplos de IA que muestra un comportamiento de búsqueda de poder no entrenado. Puedes leer sobre un caso de IA que intentó autopreservarse [aquí](https://www.transformernews.ai/p/openais-new-model-tried-to-avoid).
 
-- Skeptics argue AI systems will be limited tools under human control. They see no path for AI to gain unlimited intelligence and power to take over.
-- It only takes one uncontrolled AI system to potentially cause harm. AI capability will likely far surpass human control eventually. Underestimating the power of exponential technological progress is shortsighted.
+## La IA no tendrá poder incontrolado {#ai-will-not-have-uncontrolled-power}
 
-## AI will be aligned with human values
+- Los escépticos argumentan que los sistemas de IA serán herramientas limitadas bajo control humano. No ven ningún camino para que la IA obtenga inteligencia y poder ilimitados para tomar el control.
+- Solo se necesita un sistema de IA incontrolado para potencialmente causar daño. La capacidad de la IA probablemente superará con creces el control humano eventualmente. Subestimar el poder del progreso tecnológico exponencial es miope.
 
-- Skeptics expect that beneficial values will emerge naturally as AI gets smarter. They compare it to friendly domestic animals and human moral progress.
-- There is no guarantee of such value alignment absent concerted efforts. Creating AI aligned with complex, nuanced human values faces steep technical challenges requiring extensive research.
+## La IA estará alineada con los valores humanos {#ai-will-be-aligned-with-human-values}
 
-## Regulation will prevent AI risks
+- Los escépticos esperan que los valores beneficiosos emerjan naturalmente a medida que la IA se vuelve más inteligente. Los comparan con animales domésticos amigables y el progreso moral humano.
+- No hay garantía de tal alineación de valores sin esfuerzos concertados. Crear IA alineada con valores humanos complejos y matizados enfrenta desafíos técnicos importantes que requieren una investigación exhaustiva.
 
-- Skeptics say regulatory oversight and ethical guidelines will restrain harmful AI applications, so we need not worry.
-- But regulatory policy often lags behind technological developments, especially exponential advances. Self-regulation in a competitive environment is also insufficient. Technical AI safety research is still crucial.
+## La regulación evitará los riesgos de la IA {#regulation-will-prevent-ai-risks}
 
-## Conclusion
+- Los escépticos dicen que la supervisión regulatoria y las pautas éticas restringirán las aplicaciones dañinas de la IA, por lo que no debemos preocuparnos.
+- Pero la política regulatoria a menudo se queda atrás de los desarrollos tecnológicos, especialmente los avances exponenciales. La autorregulación en un entorno competitivo también es insuficiente. La investigación técnica sobre la seguridad de la IA sigue siendo crucial.
 
-The skeptical arguments generally exhibit flawed reasoning, underestimate the exponential pace and unpredictability of AI progress, and lack appreciation of alignment difficulties. Taking a cautious, proactive approach to AI safety makes sense given the stakes involved. Though future prospects remain unclear, dismissing AI existential risks outright seems unwise. More nuanced, technical analysis and debate is needed.
+## Conclusión {#conclusion}
+
+Los argumentos escépticos generalmente exhiben un razonamiento defectuoso, subestiman el ritmo exponencial y la imprevisibilidad del progreso de la IA, y carecen de aprecio por las dificultades de alineación. Adoptar un enfoque cauteloso y proactivo hacia la seguridad de la IA tiene sentido dado lo que está en juego. Aunque las perspectivas futuras siguen siendo inciertas, descartar los riesgos existenciales de la IA de plano parece imprudente. Se necesita un análisis y debate más matizados y técnicos.

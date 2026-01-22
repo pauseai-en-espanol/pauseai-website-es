@@ -1,33 +1,34 @@
 ---
-title: PauseAI Funding & Donors
-description: A list of our largest donors.
-date: ""
+title: Financiación de PauseAI y donantes
+description: Lista de nuestros principales donantes.
+date: ''
 ---
 
-_Last update: 2025-09-18_
+ <!-- end of frontmatter metadata, dashes above need to stay -->
 
-PauseAI has received about €715k in donations so far.
+_Última actualización: 2025-07-27_
 
-## Largest donors
+Hasta la fecha, PauseAI ha recibido aproximadamente 312.000 euros en donaciones.
 
-- 422,961 (Future of Life Institute)
-- 95,000 (Greg Colbourn)
-- 80,000 ([Conjointly](https://conjointly.com/))
-- 36,952 (anonymous individual)
-- 27,528 (Lightspeed, through Greg Colbourn)
-- 18,410 ([Lightspeed](https://lightspeedgrants.org/))
-- 9,463 (Survival & Flourishing Fund)
-- 8,221 ([Manifund](https://manifund.org/projects/pauseai-local-communities---volunteer-stipends), various individuals)
-- 7,542 (anonymous individual)
-- 5,000 (anonymous individual)
-- 2,100 (Adam Dingle)
-- 1,000 (anonymous individual)
-- 1,000 (anonymous individual)
+## Principales donantes {#largest-donors}
 
-_Amounts are in euros. If the same individual made multiple donations, they appear as one and are summed._
+- 95.000 (Greg Colbourn)
+- 80.000 ([Conjointly](https://conjointly.com/))
+- 36.952 (donante anónimo)
+- 27.528 (Lightspeed, a través de Greg Colbourn)
+- 18.410 ([Lightspeed](https://lightspeedgrants.org/))
+- 9.463 (Fondo para la Supervivencia y el Desarrollo)
+- 8.221 ([Manifund](https://manifund.org/projects/pauseai-local-communities---volunteer-stipends), varios donantes)
+- 7.542 (donante anónimo)
+- 5.000 (donante anónimo)
+- 2.100 (Adam Dingle)
+- 1.000 (donante anónimo)
+- 1.000 (donante anónimo)
 
-## Related
+_Las cantidades están expresadas en euros. Si un mismo donante ha realizado varias donaciones, se muestran como una sola y se suman._
 
-- [Roadmap](/roadmap) for our plans
-- [Donate](/donate) to support us
-- [Legal](/legal) information
+## Relacionado {#related}
+
+- [Hoja de ruta](/roadmap) para nuestros planes
+- [Donar](/donate) para apoyarnos
+- [Información legal](/legal)

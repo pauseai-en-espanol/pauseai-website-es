@@ -1,28 +1,27 @@
 ---
-title: PauseAI protest @ FCDO, London, July 13th
-description: PauseAI protest, urging the United Nations Security Council to
-  implement a global pause on the largest AI training runs.
+title: Protesta de PauseAI en el FCDO, Londres, 13 de julio
+description: Protesta de PauseAI, instando al Consejo de Seguridad de las Naciones Unidas a implementar una pausa global en las ejecuciones de entrenamiento de IA más grandes.
 ---
 
-- PauseAI protest, urging the United Nations Security Council to implement a global pause on the largest AI training runs.
-- Where: outside the Foreign, Commonwealth and Development Office (FCDO), King Charles Street, Westminster, London, SW1A 2AH
-- When: 13th of July, 4.30 - 5.30 pm
-- [Sign up](https://docs.google.com/forms/d/e/1FAIpQLSfW_E_Q92EEdv6AwHdsEbyR66tOUByo-wFrc3SU4zIL6HTjxw/viewform?usp%253Dsf_link)
+- Protesta de PauseAI, instando al Consejo de Seguridad de las Naciones Unidas a implementar una pausa global en las ejecuciones de entrenamiento de IA más grandes.
+- Lugar: fuera de la Oficina de Relaciones Exteriores, Commonwealth y Desarrollo (FCDO), King Charles Street, Westminster, Londres, SW1A 2AH
+- Fecha y hora: 13 de julio, 16:30 - 17:30
+- [Inscríbete](https://docs.google.com/forms/d/e/1FAIpQLSfW_E_Q92EEdv6AwHdsEbyR66tOUByo-wFrc3SU4zIL6HTjxw/viewform?usp%253Dsf_link)
 
-## Contact
+## Contacto {#contact}
 
 - Alistair Steward ([twitter](https://twitter.com/alistair___s))
 
-## Press Release: PauseAI protests Foreign Office ahead of UN Security Council meeting on AI Risk
+## Comunicado de prensa: PauseAI protesta en la Oficina de Relaciones Exteriores antes de la reunión del Consejo de Seguridad de la ONU sobre el riesgo de la IA {#press-release-pauseai-protests-foreign-office-ahead-of-un-security-council-meeting-on-ai-risk}
 
-On Thursday, July 13th, volunteers from the new [PauseAI](http://pauseai.info/) movement will gather at the Foreign Office, London, to urge the UN Security Council to implement a Pause on the training runs of the most powerful AI systems. In a [press conference](https://youtu.be/USap-tFrTDc?t=3235) last week, UK Ambassador and President of the Security Council, Barbara Woodward stated: "Artificial intelligence is not itself an actor," demonstrating a lack of technical expertise which is typical among government officials, that causes risks from future AI systems to be severely underestimated. Many AI experts believe that superhuman AI could escape human control, with catastrophic consequences, including human extinction. The UN Secretary-General António Guterres [recently acknowledged this threat](https://press.un.org/en/2023/sgsm21832.doc.htm):
+El jueves 13 de julio, voluntarios del movimiento PauseAI se reunirán en la Oficina de Relaciones Exteriores, Londres, para instar al Consejo de Seguridad de la ONU a implementar una pausa en las ejecuciones de entrenamiento de los sistemas de IA más poderosos. En una [conferencia de prensa](https://youtu.be/USap-tFrTDc?t=3235) celebrada la semana pasada, la embajadora del Reino Unido y presidenta del Consejo de Seguridad, Barbara Woodward, declaró: "La inteligencia artificial no es un actor en sí misma", lo que demuestra una falta de comprensión técnica que es común entre los funcionarios gubernamentales y que lleva a subestimar gravemente los riesgos de los futuros sistemas de IA. Muchos expertos en IA creen que la IA superhumana podría escapar del control humano, con consecuencias catastróficas, incluyendo la extinción humana. El Secretario General de la ONU, António Guterres, [reconoció recientemente esta amenaza](https://press.un.org/en/2023/sgsm21832.doc.htm):
 
-> "Alarm bells over the latest form of artificial intelligence --- generative AI --- are deafening, and they are loudest from the developers who designed it. These scientists and experts have called on the world to act, declaring AI an existential threat to humanity on a par with the risk of nuclear war."
+> "Las alarmas sobre la última forma de inteligencia artificial --- la IA generativa --- son ensordecedoras, y son más fuertes entre los desarrolladores que la diseñaron. Estos científicos y expertos han llamado a la acción al mundo, declarando que la IA es una amenaza existencial para la humanidad al mismo nivel que el riesgo de la guerra nuclear".
 
-The United Nations Security Council will have an unprecedented meeting to discuss these AI risks on July 18th. Chaired by UK Foreign Secretary James Cleverly, the Security Council meeting will provide an opportunity to listen to expert views on AI and start a discussion among the 15 council members on its implications. An [open letter](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) (published in April) calling for AI companies to pause their training runs has been signed by over 33,000 people, including many AI researchers and tech leaders. Not one AI company has yet obliged.
+El Consejo de Seguridad de la ONU celebrará una reunión sin precedentes para discutir estos riesgos de la IA el 18 de julio. Presidida por el Secretario de Relaciones Exteriores del Reino Unido, James Cleverly, la reunión del Consejo de Seguridad brindará la oportunidad de escuchar las opiniones de expertos sobre la IA y comenzar una discusión entre los 15 miembros del Consejo sobre sus implicaciones. Una [carta abierta](https://futureoflife.org/open-letter/pause-giant-ai-experiments/) (publicada en abril) que pide a las empresas de IA que pausen sus ejecuciones de entrenamiento ha sido firmada por más de 33.000 personas, incluyendo a muchos investigadores de IA y líderes tecnológicos. Ninguna empresa de IA ha cumplido aún.
 
-> "We cannot expect AI companies to voluntarily stop training new AI models - there is too much competitive pressure. National governments have a similar problem, as nations compete as well. We need global measures. The UNSC is one of the very few bodies where such an international treaty could be formed. We are urging our leaders to take this unique opportunity to act and pause AI training runs." - PauseAI members
+> "No podemos esperar que las empresas de IA detengan voluntariamente el entrenamiento de nuevos modelos de IA - la presión competitiva es demasiado fuerte. Los gobiernos nacionales enfrentan un problema similar, ya que las naciones también compiten. Necesitamos medidas globales. El Consejo de Seguridad de la ONU es uno de los pocos órganos donde se podría formar un tratado internacional de este tipo. Estamos instando a nuestros líderes a aprovechar esta oportunidad única para actuar y pausar las ejecuciones de entrenamiento de IA". - Miembros de PauseAI
 
-The UK is currently taking the international lead on AI Safety regulations, as the government [announced on June 7th](https://www.gov.uk/government/news/uk-to-host-first-global-summit-on-artificial-intelligence) that it will be hosting the first AI Safety Summit this autumn. However, the protestors worry that there will be too little action, too late:
+El Reino Unido está liderando actualmente la regulación de la seguridad de la IA a nivel internacional, ya que el gobierno [anunció el 7 de junio](https://www.gov.uk/government/news/uk-to-host-first-global-summit-on-artificial-intelligence) que organizará la primera Cumbre de Seguridad de la IA este otoño. Sin embargo, los manifestantes se preocupan de que habrá demasiada poca acción, demasiado tarde:
 
-> "Predicting how fast AI will progress is incredibly difficult. We need to err on the side of caution and prepare for a scenario where we get dangerous levels of intelligence in months - not years. The UNSC meeting is the first moment where a global Pause could be decided upon." - PauseAI members
+> "Predecir cuán rápido avanzará la IA es extremadamente difícil. Debemos errar en el lado de la precaución y prepararnos para un escenario en el que obtenemos niveles peligrosos de inteligencia en meses - no años. La reunión del Consejo de Seguridad de la ONU es el primer momento en que se podría decidir una pausa global". - Miembros de PauseAI

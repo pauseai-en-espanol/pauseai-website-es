@@ -1,55 +1,57 @@
 ---
-title: Organizing Director Vacancy at PauseAI Global (Position Filled)
-description: PauseAI is looking for an Organizing Director to help manage the organization and support local groups.
+title: Vacante de Director de Organización en PauseAI Global (Puesto cubierto)
+description: PauseAI busca un Director de Organización para ayudar a gestionar la organización y apoyar a los grupos locales.
 ---
 
-_Update 2024-12-04: This position has been filled._
+<!-- end of frontmatter metadata, dashes above need to stay -->
 
-Do you want to make an impact and work on the most important issue on Earth?
+_Actualización 2024-12-04: Este puesto ha sido cubierto._
 
-## About PauseAI
+¿Quieres tener un impacto significativo y trabajar en el tema más importante del planeta?
 
-PauseAI is a young, international non-profit organization with the goal of preventing the creation of AI that is (much) more intelligent than humanity.
-A staggering [86% of AI scientists](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai) believe that if we reach this point, there is a chance we could lose control.
-The [three biggest AI scientists](https://twitter.com/PauseAI/status/1734641804245455017) have long been warning us: this could mean the end of humanity.
+## Acerca de PauseAI {#about-pauseai}
 
-PauseAI started in April 2023 and has since grown to 2000 members, over 100 registered volunteers, and dozens of [local groups](/communities) across the world.
+PauseAI es una organización sin fines de lucro internacional y joven, cuyo objetivo es prevenir la creación de inteligencia artificial (IA) que supere significativamente la inteligencia humana.
+Un asombroso [86% de científicos de IA](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai) cree que si llegamos a este punto, existe el riesgo de perder el control.
+Los [tres científicos de IA más destacados](https://twitter.com/PauseAI/status/1734641804245455017) nos han estado advirtiendo durante mucho tiempo: esto podría tener consecuencias catastróficas para la humanidad.
 
-## Your Role
+PauseAI se inició en abril de 2023 y desde entonces ha crecido a 2000 miembros, más de 100 voluntarios registrados y decenas de [grupos locales](/communities) en todo el mundo.
 
-Although many volunteers contribute to PauseAI (some even full-time), PauseAI currently has no paid staff.
-You will be the first hire and play a crucial role in how the organization grows and evolves.
-You will work closely with the founder, Joep Meindertsma.
-Be aware that PauseAI may grow very quickly in the near future, both in terms of members and funding.
+## Tu papel {#your-role}
 
-### Tasks & Responsibilities
+Aunque muchos voluntarios contribuyen a PauseAI (algunos incluso a tiempo completo), PauseAI actualmente no tiene personal remunerado.
+Serás el primer contratado y desempeñarás un papel crucial en el crecimiento y la evolución de la organización.
+Trabajarás estrechamente con el fundador, Joep Meindertsma.
+Ten en cuenta que PauseAI puede experimentar un crecimiento rápido en el futuro cercano, tanto en términos de miembros como de financiamiento.
 
-- Maintaining contact with and managing various volunteers and [teams](/teams) within PauseAI.
-- Coaching and supporting teams and leaders of [local](/communities) and [national groups](/national-groups).
-- Designing and implementing an [organizational structure](/organization) and strategy for effective collaboration with local groups.
-- Developing and managing materials for local and national PauseAI groups.
-- Creating social media content (text, video) to inform, motivate, and inspire members.
+### Tareas y responsabilidades {#tasks--responsibilities}
 
-### Skills & Attributes
+- Mantener contacto con y gestionar a varios voluntarios y [equipos](/teams) dentro de PauseAI.
+- Capacitar y apoyar a equipos y líderes de [grupos locales](/communities) y [grupos nacionales](/national-groups).
+- Diseñar e implementar una [estructura organizativa](/organization) y estrategia para una colaboración efectiva con grupos locales.
+- Desarrollar y gestionar materiales para grupos locales y nacionales de PauseAI.
+- Crear contenido de redes sociales (texto, video) para informar, motivar e inspirar a los miembros.
 
-- A generalist with leadership experience.
-- Experience with activism and community building.
-- Excellent communication skills, both verbal and written.
-- Supports the idea of an AI Pause, but open to different perspectives (such as threat models or policies).
-- Proactive and entrepreneurial.
-- Preferably based in the Netherlands, but remote work is also possible.
-- Understanding of AI safety; expertise is not required, but must be a fast learner.
-- Knowledge of legal/AI governance is a plus.
-- Experience with video content creation is a plus.
-- Lobbying experience is a plus.
+### Habilidades y atributos {#skills--attributes}
 
-### Conditions
+- Un profesional con experiencia en liderazgo y gestión.
+- Experiencia en activismo y construcción de comunidades.
+- Excelentes habilidades de comunicación, tanto verbales como escritas.
+- Apoya la idea de una pausa en la IA, pero abierto a diferentes perspectivas (como modelos de amenaza o políticas).
+- Proactivo y emprendedor.
+- Preferiblemente con sede en los Países Bajos, pero también es posible trabajar a distancia.
+- Comprensión de la seguridad de la IA; no se requiere experiencia, pero debe ser un aprendiz rápido.
+- Conocimiento de la gobernanza legal/IA es un plus.
+- Experiencia en la creación de contenido de video es un plus.
+- Experiencia en lobby es un plus.
 
-- Remote work or in-person in Utrecht.
-- Full-time position, 32 hours per week negotiable.
-- Salary range: 40k - 60k EUR per year, depending on experience.
-- Referral bonus: 500 EUR for a successful hire!
+### Condiciones {#conditions}
 
-## Apply
+- Trabajo a distancia o en persona en Utrecht.
+- Puesto a tiempo completo, 32 horas a la semana negociables.
+- Rango salarial: 40k - 60k EUR al año, dependiendo de la experiencia.
+- Bono de recomendación: 500 EUR por una contratación exitosa.
 
-If you are interested in this vacancy, please send a short motivation letter and your CV to [joep@pauseai.info](mailto:joep@pauseai.info) as soon as possible.
+## Aplicar {#apply}
+
+Si estás interesado en esta vacante, por favor envía una carta de motivación breve y tu CV a [joep@pauseai.info](mailto:joep@pauseai.info) lo antes posible.

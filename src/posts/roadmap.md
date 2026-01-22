@@ -1,61 +1,61 @@
 ---
-title: PauseAI Roadmap and Funding Scenarios
-description: What are we planning to do and what could we do with more funding?
+title: Hoja de ruta de PauseAI y escenarios de financiación
+description: ¿Qué estamos planeando hacer y qué podríamos hacer con más financiación?
 ---
 
-## Current situation
+## Situación actual {#current-situation}
 
-- See our [funding page](/funding) for up-to-date info on how much we've received and from whom.
-- We have two paid FTEs: an Organizing Director and a Communications Director. All others are volunteers.
+- Consulta nuestra [página de financiación](/funding) para obtener información actualizada sobre cuánto hemos recibido y de quién.
+- Contamos con dos empleados a tiempo completo remunerados: un Director de Organización y un Director de Comunicaciones. Todos los demás son voluntarios.
 
-## Funding Scenarios
+## Escenarios de financiación {#funding-scenarios}
 
-### Scenario 0: No additional funding
+### Escenario 0: Sin financiación adicional {#scenario-0-no-additional-funding}
 
-Almost every person working on PauseAI is doing so voluntarily, so our burn rate is very low.
-We have around €90k in the bank.
+La mayoría de las personas que trabajan en PauseAI lo hacen de forma voluntaria, por lo que nuestros gastos son muy bajos.
+Disponemos de alrededor de 90.000 € en el banco.
 
-- Facilitate the formation of new National and Local groups. Provide them with help, guidance, materials and funding.
-- Organize protests and other events to raise awareness about the issue and grow our community.
-- Organize letter writing workshops to push the national-level politicians to initialize treaty negotiations.
-- Build alliances with other organizations and overlapping cause areas to amplify our impact. E.g. artists, concerned parents, climate activists, job unions, etc.
-- Grow our social media presence through regular posts and engagement.
-- Participate in more [podcasts and interviews](/press).
-- Create more video content (focused on shorts) to reach a wider audience.
-- Get (paid) help from experts in various fields (marketing, policy, AI safety, community organizing, protesting, etc.) to learn from their experience and improve our work.
-- Experiment with social media ads to grow our community and learn what works.
-- Reach out to politicians and influencers.
-- Spend our remaining budget on PauseAI community projects through our MicroGrants program.
+- Facilitar la creación de nuevos grupos nacionales y locales, proporcionándoles ayuda, orientación, materiales y financiación.
+- Organizar protestas y otros eventos para concienciar sobre el tema y hacer crecer nuestra comunidad.
+- Organizar talleres de redacción de cartas para presionar a los políticos a nivel nacional para que inicien negociaciones de tratados.
+- Establecer alianzas con otras organizaciones y áreas de causa superpuestas para amplificar nuestro impacto. Por ejemplo, artistas, padres preocupados, activistas climáticos, sindicatos laborales, etc.
+- Incrementar nuestra presencia en las redes sociales a través de publicaciones y participación regulares.
+- Participar en más [podcasts y entrevistas](/press).
+- Crear más contenido de video (centrado en cortos) para llegar a un público más amplio.
+- Recibir ayuda (remunerada) de expertos en diversos campos (marketing, políticas, seguridad de la IA, organización comunitaria, protestas, etc.) para aprender de su experiencia y mejorar nuestro trabajo.
+- Experimentar con anuncios en las redes sociales para hacer crecer nuestra comunidad y aprender qué funciona.
+- Contactar con políticos e influencers.
+- Destinar nuestro presupuesto restante a proyectos comunitarios de PauseAI a través de nuestro programa de MicroSubvenciones.
 
-### Scenario 1: €200k funding
+### Escenario 1: Financiación de 200.000 € {#scenario-1-200k-funding}
 
-- All of the above, plus:
-- Hire **National / Regional directors** for our most impactful areas (UK, France).
-- Organize more [PauseCon](https://pausecon.org/) events to train our volunteers/organizers.
-- Set up an international pipeline for (video) content. Make it easier for national groups to consistently post high-quality, translated content to grow their impact.
-- Increase our spending on Ads on various social media platforms.
-- Increase our MicroGrants budget, allowing us to fund more community projects.
+- Todo lo anterior, más:
+- Contratar **directores nacionales / regionales** para nuestras áreas más impactantes (Reino Unido, Francia).
+- Organizar más eventos de [PauseCon](https://pausecon.org/) para capacitar a nuestros voluntarios/organizadores.
+- Establecer un canal internacional para contenido (de video). Facilitar que los grupos nacionales publiquen contenido de alta calidad y traducido de forma consistente para aumentar su impacto.
+- Incrementar nuestro gasto en anuncios en varias plataformas de redes sociales.
+- Aumentar nuestro presupuesto de MicroSubvenciones, lo que nos permitirá financiar más proyectos comunitarios.
 
-### Scenario 2: €600k funding
+### Escenario 2: Financiación de 600.000 € {#scenario-2-600k-funding}
 
-- All of the above, plus:
-- Hire a **policy director** who will help us strategize and execute our policy goals. This person should help us educate volunteers on how to lobby effectively and help us with our policy proposals. This person needs to have international legal expertise and preferably knowledge in AI or technology policy/governance.
-- Hire a **press director** who will help us get more media coverage. This person should have experience in PR and media relations.
-- Drastically increased ads & MicroGrants budgets, leading to more growth and impactful community projects.
+- Todo lo anterior, más:
+- Contratar un **director de políticas** que nos ayudará a estrategizar y ejecutar nuestros objetivos de políticas. Esta persona debería ayudarnos a educar a los voluntarios sobre cómo hacer lobby de manera efectiva y ayudarnos con nuestras propuestas de políticas. Esta persona necesita tener experiencia legal internacional y preferiblemente conocimientos en políticas de IA o gobernanza tecnológica.
+- Contratar un **director de prensa** que nos ayudará a obtener más cobertura mediática. Esta persona debería tener experiencia en relaciones públicas y medios de comunicación.
+- Aumento significativo de los presupuestos de anuncios y MicroSubvenciones, lo que conduce a un mayor crecimiento y proyectos comunitarios más impactantes.
 
-### Scenario 3: €1.2M+ funding
+### Escenario 3: Financiación de 1,2 millones de euros o más {#scenario-3-12m-funding}
 
-- All of the above, plus:
-- Have more funding available for [national](https://pauseai.info/national-groups) and local PauseAI chapters.
-- Hire a PR agency to help us set up a large-scale international media campaign with a petition, advertisements.
+- Todo lo anterior, más:
+- Disponer de más financiación para [grupos nacionales](https://pauseai.info/national-groups) y locales de PauseAI.
+- Contratar una agencia de relaciones públicas para ayudarnos a establecer una campaña mediática internacional a gran escala con una petición y anuncios.
 
-## Related documents
+## Documentos relacionados {#related-documents}
 
-- [Growth strategy](/growth-strategy)
-- [Proposal](/proposal)
-- [Values](/values)
-- [Donate](/donate)
-- [Legal](/legal)
-- [MicroGrants](/microgrants)
-- [Theory of Change](/theory-of-change)
-- [Funding](/funding)
+- [Estrategia de crecimiento](/growth-strategy)
+- [Propuesta](/proposal)
+- [Valores](/values)
+- [Donar](/donate)
+- [Información legal](/legal)
+- [MicroSubvenciones](/microgrants)
+- [Teoría del cambio](/theory-of-change)
+- [Financiación](/funding)

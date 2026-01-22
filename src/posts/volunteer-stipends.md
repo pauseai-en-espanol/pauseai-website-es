@@ -1,23 +1,23 @@
 ---
-title: PauseAI Volunteer Stipends
-description: How to apply for a volunteer stipend
+title: Estipendios para voluntarios de PauseAI
+description: Cómo solicitar un estipendio para voluntarios
 ---
 
-The PauseAI volunteer stipend program is a way to support volunteers who contribute to the PauseAI community.
-It's not a salary, but it can help cover some of your costs (including your time).
-If you're planning on doing a one-off large event, or a time-bound project, consider applying for a [Microgrant](/microgrants) instead.
+El programa de estipendios para voluntarios de PauseAI es una forma de apoyar a los voluntarios que contribuyen a la comunidad de PauseAI.
+No se trata de un salario, sino de una ayuda para cubrir algunos de tus gastos, incluyendo el tiempo dedicado.
+Si estás planeando organizar un evento grande o un proyecto con plazo determinado, considera solicitar una [Microsubvención](/microgrants) en su lugar.
 
-## Conditions
+## Condiciones {#conditions}
 
-- 2100 EUR per year for an average of 8 hours a week.
-- No US citizens or residents (PauseAI US manages US volunteers)
-- Should cover your time as well as other expenses (travel, flyers, events). We are not legally allowed to reimburse additional costs.
-- Tax free in the Netherlands, but it could be that you have to pay taxes in your country of residence
-- For the complete and formal list of conditions, see [the Volunteer Stipend Agreement](https://docs.google.com/document/d/1HHgKsEj1fEpMEcYZXnZQ41tuXMLvwcbXqgrX1f2JxZc/edit)
+- 2100 EUR al año por un promedio de 8 horas de dedicación semanal.
+- No está abierto a ciudadanos o residentes de EE. UU. (PauseAI EE. UU. se encarga de gestionar a los voluntarios de EE. UU.)
+- El estipendio debe cubrir tanto tu tiempo como otros gastos relacionados (viajes, materiales, eventos). No estamos autorizados a reembolsar gastos adicionales.
+- Está exento de impuestos en los Países Bajos, aunque es posible que debas pagar impuestos en tu país de residencia.
+- Para consultar la lista completa y formal de condiciones, visita [el Acuerdo de Estipendio para Voluntarios](https://docs.google.com/document/d/1HHgKsEj1fEpMEcYZXnZQ41tuXMLvwcbXqgrX1f2JxZc/edit)
 
-## Application process
+## Proceso de solicitud {#application-process}
 
-- [Sign up](/join) as a PauseAI volunteer
-- Make sure you're on the [PauseAI Discord](https://discord.gg/X9TYc3vs7j)
-- Copy [the Volunteer Stipend Agreement](https://docs.google.com/document/d/1HHgKsEj1fEpMEcYZXnZQ41tuXMLvwcbXqgrX1f2JxZc/edit)
-- Send it to [joep@pauseai.info](mailto:joep@pauseai.info)
+- [Regístrate](https://pauseai.info/join) como voluntario de PauseAI
+- Asegúrate de estar registrado en el [Discord de PauseAI](https://discord.gg/X9TYc3vs7j)
+- Copia [el Acuerdo de Estipendio para Voluntarios](https://docs.google.com/document/d/1HHgKsEj1fEpMEcYZXnZQ41tuXMLvwcbXqgrX1f2JxZc/edit)
+- Envíalo a [joep@pauseai.info](mailto:joep@pauseai.info)

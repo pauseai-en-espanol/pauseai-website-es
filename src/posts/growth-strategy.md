@@ -1,36 +1,36 @@
 ---
-title: How we grow the PauseAI movement
-description: What's the strategy to grow the PauseAI movement?
+title: Cómo crecemos el movimiento PauseAI
+description: ¿Cuál es la estrategia para crecer el movimiento PauseAI?
 ---
 
-Our core goal is to implement our proposal and prevent AI catastrophe.
-But how do we get there?
-Individually, we can only do so much.
-This is why we are a _movement_, a _community_ something bigger than ourselves.
+Nuestro objetivo principal es implementar nuestra propuesta y prevenir la catástrofe de la inteligencia artificial.
+Pero, ¿cómo llegamos allí?
+Individualmente, podemos hacer muy poco.
+Por eso somos un _movimiento_, una _comunidad_, algo más grande que nosotros mismos.
 
-## Growth strategy
+## Estrategia de crecimiento {#growth-strategy}
 
-- **Be visible**. We cannot grow if we are not seen. We need to be present in the places where people are. We need to be visible in the media, in the streets, and in the halls of power.
-- **Be active**. We inspire action by taking action.
-- **Be transparent**. Do as much in public as possible. Share your resources (images, documents, website) under open licenses. Make them easy to discover and re-use. Prefer public channels over DMs. Make digital meetings public. That way, people can chime in and help out. It also makes it easier to trust us.
-- **Be local**. Movements mostly grow through face-to-face, personal interactions. That's why we encourage each other to organize local social events, protests, lectures and workshops. PauseAI Global helps to set up [local communities](/communities).
-- **Be courageous**. We don't just speak up, we act. Protesting is scary and costly, but it's necessary. We need to be brave and take risks. Courage inspires courage.
-- **Be welcoming**. We want to be a group that people like to be part of. Make a good first impression to new people. Allow people to join, even if your opinions differ from theirs. We're united by our goal.
-- **Be recognizable**. We have a clear, visual brand with a recognizable logo and color scheme. Our name says what we want: PauseAI. Our assets are free to use and can be easily found.
-- **Give people responsibility**. We give up some of our control to let others grow. We make big asks and give big responsibilities. When people feel in control, they are more likely to act.
-- **Help others grow**. Nobody is born an activist or a lobbyist, but we can learn to become one. Share your lessons and experiences, and help others to grow.
-- **Be personal**. We share our personal stories and emotions. People connect with people, not with abstract ideas.
-- **Build alliances**. We are not alone. We need to work with other groups and movements. We can learn from them and they can learn from us. Find common ground and common interests. Do not push them away if they do not share all our our ideas.
+- **Sé visible**. No podemos crecer si no tenemos presencia. Necesitamos estar presentes en los lugares donde están las personas, en los medios de comunicación, en las calles y en los centros de poder.
+- **Sé activo**. Inspiramos acción a través de nuestra propia acción.
+- **Sé transparente**. Realiza la mayor parte de tus actividades en público. Comparte tus recursos (imágenes, documentos, sitio web) bajo licencias abiertas. Haz que sean fáciles de encontrar y reutilizar. Prefiere canales públicos a mensajes directos. Haz que las reuniones digitales sean públicas. De esta manera, las personas pueden unirse y ayudar. También facilita la confianza en nosotros.
+- **Sé local**. Los movimientos crecen principalmente a través de interacciones personales y cara a cara. Por eso nos animamos mutuamente a organizar eventos sociales, protestas, conferencias y talleres locales. PauseAI Global ayuda a establecer [comunidades locales](/communities).
+- **Sé valiente**. No solo hablamos, actuamos. Protestar puede ser aterrador y costoso, pero es necesario. Necesitamos ser valientes y asumir riesgos. La valentía inspira valentía.
+- **Sé acogedor**. Queremos ser un grupo al que las personas les guste pertenecer. Haz una buena primera impresión a las personas nuevas. Permite que las personas se unan, incluso si tus opiniones difieren de las suyas. Estamos unidos por nuestro objetivo.
+- **Sé reconocible**. Tenemos una marca visual clara con un logotipo y un esquema de colores reconocibles. Nuestro nombre dice lo que queremos: PauseAI. Nuestros activos son gratuitos y fáciles de encontrar.
+- **Delega responsabilidades**. Cedemos algo de nuestro control para dejar que otros crezcan. Hacemos grandes peticiones y damos grandes responsabilidades. Cuando las personas se sienten en control, es más probable que actúen.
+- **Ayuda a otros a crecer**. Nadie nace activista o lobista, pero podemos aprender a serlo. Comparte tus lecciones y experiencias, y ayuda a otros a crecer.
+- **Sé personal**. Compartimos nuestras historias y emociones personales. Las personas se conectan con personas, no con ideas abstractas.
+- **Construye alianzas**. No estamos solos. Necesitamos trabajar con otros grupos y movimientos. Podemos aprender de ellos y ellos pueden aprender de nosotros. Encuentra un terreno común y intereses comunes. No los alejes si no comparten todas nuestras ideas.
 
-## Member journey
+## Trayectoria del miembro {#member-journey}
 
-1. **Hear about PauseAI**. Perhaps through our social media channels, an article in a newspaper, through one of our podcasts, or by finding one of our pages on a search engine. Our messages often are designed to explain the problem, explain the solution, and inspire action. As people want to find out more, we direct people towards our website. Check out our [communication strategy](/communication-strategy) for more information.
-1. **Visit the website**. The website is firstly designed to inform people about the thing they want to learn more about. But it does not stop there - every page is also designed to steer people towards [joining PauseAI](/join).
-1. **Join PauseAI**. People fill in the form, and become members. We ask them a couple of questions (where they are from, how they can help). We invite people to join the discord - this is where most of the collaboration happens.
-1. **Onboarding team reaches out**. A special group of volunteers is responsible for making new members feel welcome, and turn interested members into contributing activists. They reach out through email or Discord DMs, and match new members with [vacancies](/vacancies) and [teams](/teams).
-1. **Become a volunteer**. If the volunteer has found a team to join, and if that member is willing to contribute time and sign the agreement, they formally become a volunteer.
-1. **Join a team**. The volunteer should join one or more [teams](/teams) and contribute there!
+1. **Descubre PauseAI**. Tal vez a través de nuestros canales de redes sociales, un artículo en un periódico, a través de uno de nuestros podcasts, o encontrando una de nuestras páginas en un motor de búsqueda. Nuestros mensajes suelen estar diseñados para explicar el problema, explicar la solución y inspirar acción. A medida que las personas quieren saber más, dirigimos a las personas hacia nuestro sitio web. Consulta nuestra [estrategia de comunicación](/communication-strategy) para obtener más información.
+1. **Visita el sitio web**. El sitio web está diseñado principalmente para informar a las personas sobre lo que quieren saber más. Pero no se detiene allí: cada página también está diseñada para dirigir a las personas hacia [unirse a PauseAI](https://pauseai.info/join).
+1. **Únete a PauseAI**. Las personas rellenan el formulario y se convierten en miembros. Les hacemos un par de preguntas (de dónde son, cómo pueden ayudar). Invitamos a las personas a unirse a Discord: es donde sucede la mayor parte de la colaboración.
+1. **El equipo de incorporación se pone en contacto**. Un grupo especial de voluntarios es responsable de hacer que los nuevos miembros se sientan bienvenidos y convertir a los miembros interesados en activistas contribuyentes. Se ponen en contacto a través de correo electrónico o mensajes directos de Discord, y emparejan a los nuevos miembros con [vacantes](/vacancies) y [equipos](/teams).
+1. **Conviértete en voluntario**. Si el voluntario ha encontrado un equipo para unirse y si ese miembro está dispuesto a contribuir tiempo y firmar el acuerdo, se convierte formalmente en voluntario.
+1. **Únete a un equipo**. El voluntario debe unirse a uno o más [equipos](/teams) y contribuir allí.
 
-## Help out
+## Ayuda {#help-out}
 
-[Join](/join) our discord server and see what you can do to help us grow.
+[Únete](https://pauseai.info/join) a nuestro servidor de Discord y vea qué puedes hacer para ayudarnos a crecer.

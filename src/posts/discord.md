@@ -1,9 +1,9 @@
 ---
-title: PauseAI Discord server
-description: Invitation link to PauseAI's Discord server
+title: Servidor de Discord de PauseAI
+description: Enlace de invitación al servidor de Discord de PauseAI
 ---
 
-Our Discord server is the place where our community is by far the most active and where most of our actions are coordinated.
-You can join the server using the link below.
+Nuestro servidor de Discord es el corazón de nuestra comunidad, donde se producen la mayoría de nuestras interacciones y se coordinan nuestras acciones.
+Puedes unirte al servidor mediante el enlace que se encuentra a continuación.
 
-[Join](https://discord.gg/2XXWXvErfA)
+[Únete](https://discord.gg/2XXWXvErfA)

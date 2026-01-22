@@ -1,474 +1,472 @@
 ---
-title: 'Running a local PauseAI Community: A Guide to Local Organizing'
-description: How can you set up a community and make an impact, locally?
+title: 'Crear una comunidad local de PauseAI: Una guía para la organización local'
+description: ¿Cómo puedes crear una comunidad y tener un impacto a nivel local?
 ---
 
 <script>
   import SimpleToc from '$lib/components/simple-toc/SimpleToc.svelte'
 </script>
 
-## Why is local organizing important?
+## ¿Por qué es importante la organización local? {#why-is-local-organizing-important}
 
-Local organizing–working with groups of volunteers in local communities to advance a cause–is the heart and soul of the PauseAI movement.
-Right now, we have volunteers in [dozens of cities around the world](/communities), and we expect this number to grow.
+La organización local - trabajar con grupos de voluntarios en comunidades locales para avanzar en una causa - es el corazón y el alma del movimiento PauseAI.
+En este momento, tenemos voluntarios en [decenas de ciudades de todo el mundo](/communities), y esperamos que este número crezca.
 
-Effective local organizing can be much more impactful than ineffective local organizing. We’ve seen the kind of impact that effective organizing can have, as shown by the grassroots movements that have changed the course of history. In other words, it’s important to do this right.
+La organización local efectiva puede ser mucho más impactante que la organización local ineficaz. Hemos visto el tipo de impacto que la organización efectiva puede tener, como lo demuestran los movimientos de base que han cambiado el curso de la historia. En otras palabras, es importante hacer esto bien.
 
-This guide will walk you through the ins and outs of local organizing, such as recruiting volunteers, staging events, building coalitions, and more. You should come away from this guide armed with these tools and prepared to become a local organizer.
+Esta guía te guiará a través de los detalles de la organización local, como reclutar voluntarios, organizar eventos, construir coaliciones y más. Deberías salir de esta guía armado con estas herramientas y preparado para convertirte en un organizador local.
 
-Good luck. The future is yours.
+Buena suerte. El futuro es tuyo.
 
 <SimpleToc />
 
-## Set up the basics
+## Establecer los conceptos básicos {#set-up-the-basics}
 
-1. **Set up a chat group**. Use a tool that's popular in your area. WhatsApp, Telegram, and Signal are all good options. Make sure there is an invite link that you can share to easily invite others.
-2. **Add your group** to the `local-communities` channel on our [Discord](https://discord.gg/6ag3uceR5m). Add the invite link from that chat group in the thread on Discord. The moderators will add your local group to the [communities page](/communities) on this website, and use your link.
-3. **Find a partner**. Find someone to help you. It's much easier and more fun to organize with a partner.
-4. **Get training**. There are [over 70 organizations](https://activisthandbook.org/trainings) around the globe that can train you or your group!
-5. **Reach out to your [National Group](/national-groups)** if it exists!
+1. **Establecer un grupo de chat**. Utiliza una herramienta que sea popular en tu área. WhatsApp, Telegram y Signal son todas buenas opciones. Asegúrate de que haya un enlace de invitación que puedas compartir para invitar fácilmente a otros.
+2. **Añadir tu grupo** al canal `local-communities` en nuestro [Discord](https://discord.gg/6ag3uceR5m). Añade el enlace de invitación de ese grupo de chat en el hilo en Discord. Los moderadores añadirán tu grupo local a la [página de comunidades](/communities) en este sitio web y utilizarán tu enlace.
+3. **Encontrar un compañero**. Encuentra a alguien que te ayude. Es mucho más fácil y divertido organizar con un compañero.
+4. **Recibir capacitación**. Hay [más de 70 organizaciones](https://activisthandbook.org/trainings) en todo el mundo que pueden capacitarte a ti o a tu grupo.
+5. **Ponerse en contacto con tu [Grupo Nacional](/national-groups)** si existe.
 
-## Developing a Local Campaign Plan
+## Desarrollar un plan de campaña local {#developing-a-local-campaign-plan}
 
-One pitfall that organizers sometimes make is that they’ll start taking action without any clear plan.
-This can lead to unfocused organizing efforts which are less effective than they could be.
-As you’re thinking through the change you want to make in your community, it’s important to come up with a plan: what are your goals, and what steps are you going to take in order to get there?
+Un obstáculo que los organizadores a veces cometen es que comienzan a tomar medidas sin un plan claro.
+Esto puede llevar a esfuerzos de organización desenfocados que son menos efectivos de lo que podrían ser.
+Mientras estás pensando en el cambio que deseas hacer en tu comunidad, es importante elaborar un plan: ¿cuáles son tus objetivos y qué pasos vas a dar para llegar allí?
 
-### Goals
+### Objetivos {#goals}
 
-What do you ultimately want to accomplish? These are your goals.
-Possible goals could include:
+¿Qué deseas lograr en última instancia? Estos son tus objetivos.
+Los objetivos posibles podrían incluir:
 
-- Raising awareness of AI risks in your community
-- Convincing elected officials to publicly support an AI moratorium
-- Building public support and generating public attention around an AI moratorium
+- Sensibilizar sobre los riesgos de la IA en tu comunidad
+- Convencer a los funcionarios electos para que apoyen públicamente una moratoria de la IA
+- Generar apoyo público y atención pública en torno a una moratoria de la IA
 
-### Tactics
+### Tácticas {#tactics}
 
-Working backwards from these goals, how will you accomplish them? These are your tactics.
-Your specific tactics come from the strategy you choose. Initial strategies can be fairly high-level, e.g. “I will build up a team of volunteers and get them to help run public outreach events.”
+Trabajando hacia atrás desde estos objetivos, ¿cómo los lograrás? Estas son tus tácticas.
+Tus tácticas específicas provienen de la estrategia que elijas. Las estrategias iniciales pueden ser bastante generales, por ejemplo, "Construiré un equipo de voluntarios y los haré ayudar a organizar eventos de divulgación pública".
 
-Possible tactics could include:
+Las tácticas posibles podrían incluir:
 
-- Working with teams of volunteers
-- Building alliances with community groups
-- Running public education events on AI risk
-- Generating letters, phone calls, and public comments to elected officials
-- Writing to news outlets
-- Meeting directly with elected officials’ offices
+- Trabajar con equipos de voluntarios
+- Construir alianzas con grupos comunitarios
+- Organizar eventos de educación pública sobre el riesgo de la IA
+- Generar cartas, llamadas telefónicas y comentarios públicos a funcionarios electos
+- Escribir a los medios de comunicación
+- Reunirse directamente con las oficinas de los funcionarios electos
 
-### Personal Fit
+### Ajuste personal {#personal-fit}
 
-Where do you fit into all of this? You don’t want to bite off more than you can chew. Useful questions to ask yourself include:
+¿Dónde encajas en todo esto? No deseas morder más de lo que puedes masticar. Preguntas útiles para hacerte a ti mismo incluyen:
 
-- How many hours per week do I want to spend on this? Knowing this can help provide a clear sense of what you can expect to accomplish on a weekly basis.
-- What are my skills? Knowing this can help you determine which aspects of your plan you want to focus on, vs. which aspects to delegate to others. Make sure you have at least some skill in the areas of the campaign that you want to implement.
-- What are my shortcomings? Answering this question can help you find volunteers who are strongest in areas where you’re weakest.
+- ¿Cuántas horas a la semana deseas dedicar a esto? Saber esto puede ayudar a proporcionar una idea clara de lo que puedes esperar lograr en una base semanal.
+- ¿Cuáles son mis habilidades? Saber esto puede ayudarte a determinar qué aspectos de tu plan deseas enfocarte en, versus qué aspectos delegar a otros. Asegúrate de tener al menos alguna habilidad en las áreas de la campaña que deseas implementar.
+- ¿Cuáles son mis debilidades? Contestar a esta pregunta puede ayudarte a encontrar voluntarios que sean más fuertes en áreas donde tú eres más débil.
 
-### Other best practices for campaign planning
+### Otras mejores prácticas para la planificación de campañas {#other-best-practices-for-campaign-planning}
 
-- Make sure that each of your preferred tactics fits into your overall goal. For instance, if your goal is to convince elected officials to act and your tactics include building alliances with community groups, you should have a clear sense of why and how building alliances with community groups can lead to elected officials being convinced to act.
-- Assigning a numerical value to your goals and tactics can help make your planning more concrete. For example, your tactics might include building a team of 10 volunteers, writing 50 letters to Congressional offices, publishing 3 articles in local news outlets, etc.
-- Your campaign plan doesn’t need to be extremely specific. The overall idea is to get some clearer sense of what you’re trying to accomplish and how you envision getting there.
+- Asegúrate de que cada una de tus tácticas preferidas se ajuste a tu objetivo general. Por ejemplo, si tu objetivo es convencer a los funcionarios electos para que actúen y tus tácticas incluyen construir alianzas con grupos comunitarios, debes tener una idea clara de por qué y cómo construir alianzas con grupos comunitarios puede llevar a los funcionarios electos a ser convencidos para actuar.
+- Asignar un valor numérico a tus objetivos y tácticas puede ayudar a hacer que tu planificación sea más concreta. Por ejemplo, tus tácticas podrían incluir construir un equipo de 10 voluntarios, escribir 50 cartas a las oficinas del Congreso, publicar 3 artículos en medios de comunicación locales, etc.
+- Tu plan de campaña no necesita ser extremadamente específico. La idea general es obtener una idea más clara de lo que estás tratando de lograr y cómo te imaginas llegar allí.
 
-### Sample Campaign Plan
+### Plan de campaña de muestra {#sample-campaign-plan}
 
-Here is an abridged sample campaign plan, for additional guidance:
+Aquí hay un plan de campaña de muestra abreviado, para una guía adicional:
 
-**Goal**: Convince my U.S. Representative and Senators to publicly support an international treaty establishing a moratorium on frontier AI development.
+**Objetivo**: Convencer a mi Representante y Senadores de EE. UU. para que apoyen públicamente un tratado internacional que establezca una moratoria sobre el desarrollo de la IA de vanguardia.
 
-**Strategy**:
+**Estrategia**:
 
-1. Build public visibility of AI risk.
-2. Directly pressure elected officials to support an AI moratorium.
-   (Assumption: elected officials are more likely to respond to highly-visible cause areas with substantial public pressure).
+1. Generar visibilidad pública del riesgo de la IA.
+2. Presionar directamente a los funcionarios electos para que apoyen una moratoria de la IA.
+   (Suposición: los funcionarios electos son más propensos a responder a causas altamente visibles con una presión pública sustancial).
 
-**Tactics**:
+**Tácticas**:
 
-- Publish 10 op-eds and letters to the editor in local newspapers.
-- Generate 50 phone calls and 50 letters from constituents to their Congressional offices.
-- Hold events, such as talks and protests, open to the public and meant to receive media coverage.
-- Meet directly with Congressional offices and introduce our policy proposals.
+- Publicar 10 artículos de opinión y cartas al editor en periódicos locales.
+- Generar 50 llamadas telefónicas y 50 cartas de constituyentes a sus oficinas del Congreso.
+- Organizar eventos, como charlas y protestas, abiertos al público y destinados a recibir cobertura de los medios.
+- Reunirse directamente con las oficinas del Congreso y presentar nuestras propuestas de políticas.
 
-**What I can do, as a local organizer**:
+**Lo que puedo hacer, como organizador local**:
 
-- Recruit volunteers to help implement these tactics.
-- Delegate tasks to volunteers.
-- Plan events with volunteer buy-in.
-- Schedule meetings with Congressional offices.
+- Reclutar voluntarios para ayudar a implementar estas tácticas.
+- Delegar tareas a voluntarios.
+- Planificar eventos con la participación de voluntarios.
+- Programar reuniones con las oficinas del Congreso.
 
-## Recruiting Volunteers
+## Reclutar voluntarios {#recruiting-volunteers}
 
-Once you have a clearer sense of your plan, it’s time to find volunteers for your local group.
+Una vez que tengas una idea más clara de tu plan, es hora de encontrar voluntarios para tu grupo local.
 
-### Online recruitment
+### Reclutamiento en línea {#online-recruitment}
 
-Spreading the word about your group online can help you reach audiences more easily.
-You can create pages for your group on platforms like Facebook, Instagram, TikTok and EventBrite.
-A general best practice is to include information about your group, its goals and initiatives, and how community members can get involved.
-Be sure to include posts on upcoming events and share these with your network.
+Difundir la palabra sobre tu grupo en línea puede ayudarte a llegar a audiencias más fácilmente.
+Puedes crear páginas para tu grupo en plataformas como Facebook, Instagram, TikTok y EventBrite.
+Una buena práctica es incluir información sobre tu grupo, sus objetivos e iniciativas, y cómo los miembros de la comunidad pueden involucrarse.
+Asegúrate de incluir publicaciones sobre próximos eventos y compartirlos con tu red.
 
-Here are links to [PauseAI’s Facebook page](https://www.facebook.com/PauseAI) and [PauseAI NYC’s Eventbrite](https://www.eventbrite.com/e/pauseai-global-protest-nyc-tickets-886528309037) page for inspiration.
-You can use similar structures for your local group.
+Aquí hay enlaces a la [página de Facebook de PauseAI](https://www.facebook.com/PauseAI) y la [página de Eventbrite de PauseAI NYC](https://www.eventbrite.com/e/pauseai-global-protest-nyc-tickets-886528309037) para inspiración.
+Puedes utilizar estructuras similares para tu grupo local.
 
-You should also add events to our [Luma](https://lu.ma/PauseAI), so people can be notified and find it on our [Events page](/events).
+También debes agregar eventos a nuestro [Luma](https://lu.ma/PauseAI), para que las personas puedan ser notificadas y encontrarlo en nuestra [página de eventos](/events).
 
-### One-on-one outreach
+### Difusión personal {#one-on-one-outreach}
 
-Often, the best volunteers will be people you already know – friends, classmates, coworkers, colleagues. Part of this is simply due to shared interests, part is because good organizing includes a strong social element (i.e. attending a group meeting and getting drinks afterward).
+A menudo, los mejores voluntarios serán personas que ya conoces - amigos, compañeros de clase, colegas de trabajo, colegas. Parte de esto se debe simplemente a intereses compartidos, parte se debe a que una buena organización incluye un fuerte elemento social (es decir, asistir a una reunión de grupo y tomar algo después).
 
-Generally, this kind of personal contact works best to move people to action and is a great way to start building your group.
-You can introduce PauseAI to your personal network the same way that you’d introduce any group or club you’re interested in, and get interested people more involved.
+En general, este tipo de contacto personal funciona mejor para mover a las personas a la acción y es una excelente manera de comenzar a construir tu grupo.
+Puedes presentar PauseAI a tu red personal de la misma manera que presentarías cualquier grupo o club en el que estés interesado, y hacer que las personas interesadas se involucren más.
 
-All recruitment should have a clear ask to get volunteers immediately involved – i.e. “tomorrow at 7pm I’m organizing our welcome meeting at the library– would you like to join us?”
+Todo reclutamiento debe tener una solicitud clara para que los voluntarios se involucren inmediatamente - es decir, "mañana a las 7 pm estoy organizando nuestra reunión de bienvenida en la biblioteca - ¿te gustaría unirte a nosotros?"
 
-### Flyering and tabling
+### Repartir folletos y tener un stand {#flyering-and-tabling}
 
-Flyering involves handing out flyers to passersby with more information about PauseAI and how to get involved. Tabling is similar, but you have a more visible presence (plus, you get to sit down).
+Repartir folletos implica entregar folletos a los transeúntes con más información sobre PauseAI y cómo involucrarse. Tener un stand es similar, pero tienes una presencia más visible (además, puedes sentarte).
 
-This is an effective way to recruit volunteers because you get to talk to potentially dozens of people in a few hours.
-For more information on how to make these efforts go well, please read our [flyering guide](/flyering).
+Esta es una forma efectiva de reclutar voluntarios porque puedes hablar con docenas de personas en unas pocas horas.
+Para obtener más información sobre cómo hacer que estos esfuerzos salgan bien, por favor lee nuestra [guía de reparto de folletos](/flyering).
 
-Remember to tailor your message to your local group. Make sure your flyers include information on upcoming events and how local volunteers can get involved.
+Recuerda adaptar tu mensaje a tu grupo local. Asegúrate de que tus folletos incluyan información sobre próximos eventos y cómo los voluntarios locales pueden involucrarse.
 
-### Outreach to other groups and organizations
+### Difusión a otros grupos y organizaciones {#outreach-to-other-groups-and-organizations}
 
-You are probably surrounded by many existing advocacy groups. These groups already have members who are motivated and actively volunteering– some of whom might want to get involved with PauseAI.
+Probablemente estés rodeado de muchos grupos de defensa existentes. Estos grupos ya tienen miembros que están motivados y voluntariamente activos - algunos de los cuales podrían querer involucrarse con PauseAI.
 
-Types of groups to reach out to include, but are not limited to:
+Tipos de grupos para contactar incluyen, pero no se limitan a:
 
-- [AI safety groups](https://www.aisafety.com/communities) (i.e. discussion groups on AI safety).
-- Environmental and climate policy groups, including local chapters of national organizations. (These groups are already familiar with existential risk from climate change, and might be more receptive to existential risk from AI).
-- [Local Effective Altruism chapters](https://forum.effectivealtruism.org/groups#local).
-- Labor organizations. (These groups might be concerned with job loss and automation from advanced AI systems).
-- Other advocacy groups.
+- [Grupos de seguridad de la IA](https://www.aisafety.com/communities) (es decir, grupos de discusión sobre seguridad de la IA).
+- Grupos de política ambiental y climática, incluyendo capítulos locales de organizaciones nacionales. (Estos grupos ya están familiarizados con el riesgo existencial del cambio climático y podrían ser más receptivos al riesgo existencial de la IA).
+- [Capítulos locales de Altruismo Efectivo](https://forum.effectivealtruism.org/groups#local).
+- Organizaciones laborales. (Estos grupos podrían estar preocupados por la pérdida de empleos y la automatización de los sistemas de IA avanzados).
+- Otros grupos de defensa.
 
-#### Finding groups to reach out to
+#### Encontrar grupos para contactar {#finding-groups-to-reach-out-to}
 
-You can simply search the internet for groups, by searching “environmental policy groups in (my city),” or going on websites like Facebook and Meetup to find active groups.
-If you are a college student, your college or university might have a public list of student organizations which you can sort by category.
+Puedes simplemente buscar en Internet grupos, buscando "grupos de política ambiental en (mi ciudad)", o ir a sitios web como Facebook y Meetup para encontrar grupos activos.
+Si eres un estudiante universitario, tu universidad podría tener una lista pública de organizaciones estudiantiles que puedes ordenar por categoría.
 
-#### Crafting a compelling outreach message
+#### Crear un mensaje de difusión convincente {#crafting-a-compelling-outreach-message}
 
-When reaching out to a group, you want your initial message to:
+Cuando te dirijas a un grupo, deseas que tu mensaje inicial:
 
-- explain PauseAI and your goals as a local chapter;
-- explain how your local chapter relates to the objectives of the group you’re contacting and why members might be interested;
-- close with an “ask” and some next steps. This “ask” can include requesting a meeting to discuss collaboration in more detail, asking the group to share information about PauseAI to their volunteer list, asking to speak at an upcoming group meeting, etc.
+- explique PauseAI y tus objetivos como capítulo local;
+- explique cómo tu capítulo local se relaciona con los objetivos del grupo que estás contactando y por qué los miembros podrían estar interesados;
+- cierre con una "solicitud" y algunos pasos siguientes. Esta "solicitud" puede incluir solicitar una reunión para discutir la colaboración en más detalle, pedir al grupo que comparta información sobre PauseAI con su lista de voluntarios, pedir hablar en una próxima reunión del grupo, etc.
 
-Here’s a sample message for inspiration:
+Aquí hay un mensaje de muestra para inspiración:
 
-**Sample message to climate policy group**:
+**Mensaje de muestra para un grupo de política climática**:
 
-Good afternoon,
+Buenas tardes,
 
-I hope you’re doing well! I’m reaching out on behalf of [PauseAI](https://pauseai.info/). We are a grassroots movement with the goal of achieving an [international moratorium](https://pauseai.info/proposal) on the development of human-level Artificial Intelligence.
-We recently started a chapter in (city), and I wanted to discuss the possibility of working together on this issue.
+Espero que estés bien. Me dirijo a ti en nombre de [PauseAI](https://pauseai.info/). Somos un movimiento de base con el objetivo de lograr una [moratoria internacional](https://pauseai.info/proposal) sobre el desarrollo de la Inteligencia Artificial a nivel humano.
+Recientemente comenzamos un capítulo en (ciudad), y quería discutir la posibilidad de trabajar juntos en este tema.
 
-Just as fossil-fuel companies have undermined efforts to curb emissions, so too are AI companies funding efforts to achieve human-level AI as quickly as possible, despite experts [admitting](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things) that these systems could threaten civilization. This issue intersects with climate risk more directly, since AI training runs require vast amounts of energy, often sourced from fossil fuels.
+Al igual que las empresas de combustibles fósiles han socavado los esfuerzos para reducir las emisiones, las empresas de IA también están financiando esfuerzos para lograr la IA a nivel humano lo más rápido posible, a pesar de que los expertos [admiten](https://blog.aiimpacts.org/p/2023-ai-survey-of-2778-six-things) que estos sistemas podrían amenazar la civilización. Este tema se cruza con el riesgo climático de manera más directa, ya que las ejecuciones de entrenamiento de la IA requieren grandes cantidades de energía, a menudo provenientes de combustibles fósiles.
 
-We need to pressure our elected officials to regulate these technologies. Given the work your organization has done in achieving climate policy, I thought some of your members might be interested in this opportunity.
+Necesitamos presionar a nuestros funcionarios electos para que regulen estas tecnologías. Dado el trabajo que tu organización ha realizado para lograr políticas climáticas, pensé que algunos de tus miembros podrían estar interesados en esta oportunidad.
 
-Can you share our information with your volunteer list? Below is a link to our public page. I’d also be happy to schedule a call and discuss this further.
+¿Puedes compartir nuestra información con tu lista de voluntarios? A continuación, te dejo un enlace a nuestra página pública. También estaré encantado de programar una llamada y discutir esto más a fondo.
 
-Thank you so much for your time, and I look forward to hearing from you soon!
+¡Muchas gracias por tu tiempo, y espero con interés saber de ti pronto!
 
-(include link to e.g. your local group’s meetup page, plus a brief description of how volunteers can get involved.)
+(incluye enlace a, por ejemplo, la página de Meetup de tu grupo local, más una breve descripción de cómo los voluntarios pueden involucrarse).
 
-### Speaking at group meetings
+### Hablar en reuniones de grupos {#speaking-at-group-meetings}
 
-Another way to recruit volunteers from existing groups is to try to get yourself invited to speak at these groups’ meetings.
-This will likely come later– after you’ve exchanged a few emails with group leaders– but can be an impactful way to get your message out there.
+Otra forma de reclutar voluntarios de grupos existentes es tratar de que te inviten a hablar en las reuniones de estos grupos.
+Esto probablemente vendrá más adelante - después de que hayas intercambiado algunos correos electrónicos con los líderes del grupo - pero puede ser una forma impactante de difundir tu mensaje.
 
-#### Giving a pitch
+#### Dar un discurso {#giving-a-pitch}
 
-Speaking at group meetings– or any public event– will give you the opportunity to pitch people on joining PauseAI.
-It’s important to have a strong and memorable pitch. These can vary in length but generally follow the same structure:
+Hablar en reuniones de grupos - o en cualquier evento público - te dará la oportunidad de presentar a las personas la idea de unirse a PauseAI.
+Es importante tener un discurso fuerte y memorable. Estos pueden variar en longitud, pero generalmente siguen la misma estructura:
 
-- **Introduction**: Who you are and why you’re here.
-  - Why are you motivated to act, as an individual? What is your story?
-  - Example: I just started my city’s chapter of PauseAI, and I’m here to share more about the risks of advanced AI, how we can prevent these risks, and how you can help get involved.
-- **Problem**: What is the problem, and why should your audience care about it? How does the problem intersect with the interests of your audience?
-  - What common values are threatened? Why should the audience be motivated to act? (You can tailor this section to the interests of your audience. For instance, if speaking to a labor group, you might want to talk more about automation/job loss from AI.)
-  - Example: AI systems are advancing rapidly. AI companies have the goal of building systems more intelligent and capable than humans, despite safety experts telling us that we don’t know how to control these systems. Human disempowerment or extinction is a possible outcome of superhuman-level AI.
-- **Solution**: How can we fix the problem? (This section is more about the big-picture vision and less about specific tactics.)
-  - Example: We need a global moratorium on frontier AI development, in order to prevent companies from racing ahead to human-level AI and to give us more time to figure out how to make these systems safe.
-- **Strategy**: How do we achieve our proposed solution? What does our group have to offer to help make this solution happen?
-  - Example: We need to build grassroots support and buy-in from elected officials for a moratorium. We can do this by educating the public on the risks of AI and meeting with elected officials directly.
-- **Urgency**: Why should people get involved now? What makes this cause urgent?
-  - Example: We might not have much time. As AI systems become more capable, preventing their further development will be a harder sell. Experts are telling us that human-level AI might only be a few years away, and we need policies to catch up to the rate of progress.
-- **Call to Action**: How can your audience get involved immediately?
-  - Example: Join our local group’s meeting next Saturday to find out more about how you can get involved.
+- **Introducción**: Quién eres y por qué estás aquí.
+  - ¿Por qué estás motivado para actuar, como individuo? ¿Cuál es tu historia?
+  - Ejemplo: Acabo de comenzar el capítulo de mi ciudad de PauseAI, y estoy aquí para compartir más sobre los riesgos de la IA avanzada, cómo podemos prevenir estos riesgos y cómo puedes ayudar a involucrarte.
+- **Problema**: ¿Cuál es el problema y por qué debería importarle a tu audiencia? ¿Cómo se cruza el problema con los intereses de tu audiencia?
+  - ¿Qué valores comunes están amenazados? ¿Por qué debería la audiencia estar motivada para actuar? (Puedes adaptar esta sección a los intereses de tu audiencia. Por ejemplo, si hablas con un grupo laboral, podrías querer hablar más sobre la automatización/pérdida de empleos debido a la IA).
+  - Ejemplo: Los sistemas de IA están avanzando rápidamente. Las empresas de IA tienen el objetivo de construir sistemas más inteligentes y capaces que los humanos, a pesar de que los expertos en seguridad nos dicen que no sabemos cómo controlar estos sistemas. La desempoderación o extinción humana es un resultado posible de la IA a nivel superhumano.
+- **Solución**: ¿Cómo podemos solucionar el problema? (Esta sección se trata más de la visión a gran escala y menos de tácticas específicas).
+  - Ejemplo: Necesitamos una moratoria global sobre el desarrollo de la IA de vanguardia, para evitar que las empresas se apresuren a alcanzar la IA a nivel humano y darnos más tiempo para averiguar cómo hacer que estos sistemas sean seguros.
+- **Estrategia**: ¿Cómo logramos nuestra solución propuesta? ¿Qué tiene nuestro grupo para ofrecer para ayudar a que esta solución suceda?
+  - Ejemplo: Necesitamos generar apoyo y aceptación de los funcionarios electos para una moratoria. Podemos hacer esto educando al público sobre los riesgos de la IA y reuniéndonos directamente con los funcionarios electos.
+- **Urgencia**: ¿Por qué las personas deberían involucrarse ahora? ¿Qué hace que esta causa sea urgente?
+  - Ejemplo: Podríamos no tener mucho tiempo. A medida que los sistemas de IA se vuelven más capaces, evitar su desarrollo posterior será una venta más difícil. Los expertos nos dicen que la IA a nivel humano podría estar a solo unos años de distancia, y necesitamos políticas para ponerse al día con la tasa de progreso.
+- **Llamado a la acción**: ¿Cómo puede tu audiencia involucrarse inmediatamente?
+  - Ejemplo: Únete a la reunión de nuestro grupo local el próximo sábado para saber más sobre cómo puedes involucrarte.
 
-### Outreach to college professors
+### Difusión a profesores universitarios {#outreach-to-college-professors}
 
-Some of the best volunteers come from colleges and universities. College students are often eager to get involved, and colleges provide a good environment for all kinds of groups. You can reach out to college professors from relevant departments and ask them to spread the word about your group.
+Algunos de los mejores voluntarios provienen de universidades y colegios. Los estudiantes universitarios a menudo están ansiosos por involucrarse, y las universidades proporcionan un buen entorno para todo tipo de grupos. Puedes contactar a profesores universitarios de departamentos relevantes y pedirles que difundan la palabra sobre tu grupo.
 
-Many colleges and universities have public directories listing course offerings and faculty contacts. Relevant departments and courses to consider reaching out to include:
+Muchas universidades tienen directorios públicos que enumeran las ofertas de cursos y contactos de la facultad. Los departamentos y cursos relevantes para considerar contactar incluyen:
 
-- Computer science departments
-- Political science departments
-- Courses on AI law and policy
-- Courses on AI and society
+- Departamentos de ciencias de la computación
+- Departamentos de ciencias políticas
+- Cursos sobre derecho y política de la IA
+- Cursos sobre la IA y la sociedad
 
-When emailing a professor, your email can be pretty straightforward:
+Cuando envíes un correo electrónico a un profesor, tu correo electrónico puede ser bastante directo:
 
-1. Introduce yourself and your local PauseAI group
-2. Explain why the professor’s students might be interested in PauseAI (i.e. its relevance to the class)
-3. Ask the professor to forward information on your PauseAI chapter to their class
+1. Preséntate y a tu grupo local de PauseAI
+2. Explica por qué los estudiantes del profesor podrían estar interesados en PauseAI (es decir, su relevancia para la clase)
+3. Pide al profesor que envíe información sobre tu capítulo de PauseAI a su clase
 
-Here’s a sample email for more inspiration:
+Aquí hay un correo electrónico de muestra para inspiración:
 
-**SUBJ**: AI policy opportunity to share with students
+**ASUNTO**: Oportunidad de política de IA para compartir con estudiantes
 
-Good morning (professor),
+Buenos días (profesor),
 
-I hope you’re doing well. I’m reaching out on behalf of PauseAI, an organization dedicated to advancing policies to curb dangerous and unethical misuses of advanced artificial intelligence.
+Espero que estés bien. Me dirijo a ti en nombre de PauseAI, una organización dedicada a avanzar en políticas para frenar los usos peligrosos y poco éticos de la inteligencia artificial avanzada.
 
-We have recently founded a local chapter in (city), and I thought some of your students might be interested. We will be meeting to discuss AI policy proposals, holding educational events on mitigating the dangers of AI, writing to news outlets and elected officials, and more. Further information below.
+Recientemente fundamos un capítulo local en (ciudad), y pensé que algunos de tus estudiantes podrían estar interesados. Nos reuniremos para discutir propuestas de política de IA, realizar eventos educativos sobre la mitigación de los peligros de la IA, escribir a medios de comunicación y funcionarios electos, y más. Más información a continuación.
 
-Could you share the message below with your students or others who might be interested?
+¿Podrías compartir el mensaje a continuación con tus estudiantes o con otros que podrían estar interesados?
 
-I’d also be happy to answer any questions you might have. Thanks so much for your time.
+También estaré encantado de responder a cualquier pregunta que tengas. Muchas gracias por tu tiempo.
 
-**PauseAI (City)**: opportunity to get involved with local AI policy chapter
+**PauseAI (Ciudad)**: oportunidad de involucrarse con el capítulo local de política de IA
 
-Are you interested in learning more about AI policy? Curious about how we should respond to emerging AI technologies? Get involved with PauseAI (City)!
+¿Estás interesado en aprender más sobre la política de IA? ¿Curioso sobre cómo debemos responder a las tecnologías de IA emergentes? ¡Involúcrate con PauseAI (Ciudad)!
 
-PauseAI is an international movement to mitigate the risks from powerful Artificial Intelligence until we know how to make it safe. Our city chapter will hold educational events on AI policy, spread awareness of AI risks through media, and contact our elected officials to support robust policy solutions to AI harms.
+PauseAI es un movimiento internacional para mitigar los riesgos de la Inteligencia Artificial poderosa hasta que sepamos cómo hacerla segura. Nuestro capítulo de la ciudad realizará eventos educativos sobre política de IA, difundirá la conciencia sobre los riesgos de la IA a través de los medios de comunicación y contactará a nuestros funcionarios electos para apoyar soluciones políticas robustas a los daños de la IA.
 
-We will be meeting regularly through the summer and are looking for volunteers to get involved.
+Nos reuniremos regularmente durante el verano y estamos buscando voluntarios para involucrarse.
 
-If you’re interested, please sign up here (include link)!
+Si estás interesado, por favor regístrate aquí (incluye enlace).
 
-## Working with volunteers
+## Trabajar con voluntarios {#working-with-volunteers}
 
-Once you’ve recruited a group of volunteers, it’s time to work with them on the campaign.
+Una vez que hayas reclutado un grupo de voluntarios, es hora de trabajar con ellos en la campaña.
 
-### Characteristics of a Well-Run Local Group
+### Características de un grupo local bien dirigido {#characteristics-of-a-well-run-local-group}
 
-A well-run group of volunteers means that every volunteer:
+Un grupo bien dirigido de voluntarios significa que cada voluntario:
 
-- Has a clear sense of their responsibilities to make local organizing efforts go well;
-- Is plugged into the group as a whole, attends group meetings, and works well with other volunteers;
-- Works on a subset of tasks that interests them and that they enjoy;
-- Feels empowered and agentic, that they have a stake in the movement as a whole.
+- Tiene una idea clara de sus responsabilidades para que los esfuerzos de organización local salgan bien;
+- Está conectado al grupo en su conjunto, asiste a reuniones del grupo y trabaja bien con otros voluntarios;
+- Trabaja en un subconjunto de tareas que le interesan y que disfruta;
+- Se siente empoderado y agente, que tiene una participación en el movimiento en su conjunto.
 
-Having a well-run local group will require you to meet and check in with individual volunteers on a regular basis, as well as run group meetings that all volunteers can attend.
+Tener un grupo local bien dirigido requerirá que te reúnas y te pongas al día con voluntarios individuales de manera regular, así como que dirijas reuniones del grupo que todos los voluntarios puedan asistir.
 
-### One-on-one meetings with volunteers
+### Reuniones individuales con voluntarios {#one-on-one-meetings-with-volunteers}
 
-Early on, it’s important to meet with new volunteers who are just getting started with PauseAI. These initial meetings have several key goals:
+Al principio, es importante reunirse con nuevos voluntarios que acaban de comenzar con PauseAI. Estas reuniones iniciales tienen varios objetivos clave:
 
-- Get to know volunteers on an individual level; understand their interests and motivations in joining PauseAI.
-- Provide additional context and share a vision of what your local group is trying to accomplish.
-- Determine what kind(s) of work volunteers are interested in getting involved with, and in what capacity.
-- Pitch volunteers on specific roles and responsibilities, based on their interests.
+- Conocer a los voluntarios a nivel individual; entender sus intereses y motivaciones para unirse a PauseAI.
+- Proporcionar contexto adicional y compartir una visión de lo que tu grupo local está tratando de lograr.
+- Determinar qué tipo de trabajo les interesa a los voluntarios y en qué capacidad.
+- Presentar a los voluntarios roles y responsabilidades específicas, basadas en sus intereses.
 
-The overall goal is to come out of these meetings with 1) a clear understanding of each volunteer’s role and responsibilities and 2) specific next steps volunteers can take.
+El objetivo general es salir de estas reuniones con 1) una comprensión clara del rol y las responsabilidades de cada voluntario y 2) pasos específicos siguientes que los voluntarios pueden tomar.
 
-### Team-wide meetings
+### Reuniones del equipo {#team-wide-meetings}
 
-In addition to individual meetings with specific volunteers, it’s important to get the whole group together periodically.
-This gives you a chance to share team-wide updates, discuss priorities, and plan events and initiatives.
+Además de las reuniones individuales con voluntarios específicos, es importante reunir a todo el grupo periódicamente.
+Esto te da la oportunidad de compartir actualizaciones del equipo, discutir prioridades y planificar eventos e iniciativas.
 
-Ideally, these meetings should last around an hour. Depending on volunteer interest and planned events, meetings can occur anywhere from weekly to monthly.
+Idealmente, estas reuniones deberían durar alrededor de una hora. Dependiendo del interés de los voluntarios y los eventos planificados, las reuniones pueden ocurrir en cualquier lugar desde semanalmente hasta mensualmente.
 
-A good meeting both: 1) covers the group’s goals and initiatives, and how volunteers can get involved, and 2) gives volunteers the space to share their perspective and provide new ideas.
+Una buena reunión cubre los objetivos y las iniciativas del grupo y cómo los voluntarios pueden involucrarse, y da a los voluntarios el espacio para compartir su perspectiva y proporcionar nuevas ideas.
 
-A good meeting requires [good facilitation](https://activisthandbook.org/organising/facilitating). This includes:
+Una buena reunión requiere [buena facilitación](https://activisthandbook.org/organising/facilitating). Esto incluye:
 
-- Setting standards around decision-making – having clear expectations on how to make decisions about what to do as a group. (does there need to be unanimous agreement? majority vote? Or do you, as the facilitator, make the decision? Of course, this may depend on the importance of the decision.)
-- Regulating the flow of discussion, making sure one person isn’t dominating the conversation and that everyone has a chance to voice their perspectives.
-- Keeping the meeting focused on one item at a time until the issue is resolved.
-- Keeping the meeting on time, and ensuring that a written record is kept of any meeting notes and decisions.
-- Introducing open questions to the group to explore ideas further, and asking clarifying questions to get a better understanding of what someone is saying.
+- Establecer estándares sobre la toma de decisiones - tener expectativas claras sobre cómo tomar decisiones sobre qué hacer como grupo. (¿Se necesita un acuerdo unánime? ¿Votación mayoritaria? ¿O tú, como facilitador, tomas la decisión? Por supuesto, esto puede depender de la importancia de la decisión).
+- Regular el flujo de la discusión, asegurándote de que una persona no domine la conversación y que todos tengan la oportunidad de expresar sus perspectivas.
+- Mantener la reunión enfocada en un tema a la vez hasta que se resuelva el tema.
+- Mantener la reunión a tiempo y asegurándote de que se mantenga un registro escrito de cualquier nota y decisión de la reunión.
+- Presentar preguntas abiertas al grupo para explorar ideas más a fondo y hacer preguntas aclaratorias para obtener una mejor comprensión de lo que alguien está diciendo.
 
-Additional meeting tools include:
+Herramientas adicionales de reunión incluyen:
 
-- **Go-rounds**: Hearing from everyone in turn on a certain question or topic.
-- **Ideastorms**: Give a clear question and encourage people to come up with as many ideas as possible.
-- **Small groups or pairs**: Give people a chance to work out their thoughts on something before returning to a large-group discussion.
+- **Rondas**: Escuchar a todos por turno sobre una pregunta o tema determinado.
+- **Tormentas de ideas**: Dar una pregunta clara y animar a las personas a generar tantas ideas como sea posible.
+- **Grupos pequeños o parejas**: Dar a las personas la oportunidad de trabajar en sus pensamientos sobre algo antes de regresar a una discusión en grupo grande.
 
-### Sample team meeting agenda
+### Agenda de reunión de equipo de muestra {#sample-team-meeting-agenda}
 
-Here is a sample team meeting agenda for inspiration:
+Aquí hay una agenda de reunión de equipo de muestra para inspiración:
 
-- **Updates from the previous week(s)**
-  - Each volunteer shares what they’ve been working on since the previous meeting
-  - Discuss how these updates fit into the group’s overall goals
-- **Discuss current priorities and strategy**
-  - What are the group’s current goals? Describe ongoing projects and events that volunteers can get plugged into.
-  - Discuss upcoming events and initiatives - priorities for the coming weeks
-  - Lay out a vision of the group’s goals, including upcoming events and projects.
-- **Brainstorming session** – get volunteers to share ideas for other events and initiatives that the group can take on.
-- **Next steps**
-  - Make sure everyone has a clear sense of what they will be doing in the coming weeks in order to help the group achieve its goals.
-  - Each volunteer shares what they’ll do before the next meeting.
+- **Actualizaciones de la semana anterior**
+  - Cada voluntario comparte en lo que ha estado trabajando desde la reunión anterior
+  - Discutir cómo estas actualizaciones se ajustan a los objetivos generales del grupo
+- **Discutir prioridades y estrategia actuales**
+  - ¿Cuáles son los objetivos actuales del grupo? Describe los proyectos y eventos en curso en los que los voluntarios pueden involucrarse.
+  - Discutir próximos eventos e iniciativas - prioridades para las próximas semanas
+  - Presentar una visión de los objetivos del grupo, incluyendo próximos eventos y proyectos.
+- **Sesión de tormenta de ideas** - hacer que los voluntarios compartan ideas para otros eventos e iniciativas que el grupo puede asumir.
+- **Pasos siguientes**
+  - Asegurarte de que todos tengan una idea clara de lo que harán en las próximas semanas para ayudar al grupo a lograr sus objetivos.
+  - Cada voluntario comparte lo que hará antes de la próxima reunión.
 
-### Team member responsibilities and division of labor
+### Responsabilidades de los miembros del equipo y división del trabajo {#team-member-responsibilities-and-division-of-labor}
 
-As your team grows, different volunteers will want to get involved in different ways. Encouraging this is a great way to make your group stronger, so that each volunteer has their own way of contributing to the movement.
+A medida que tu equipo crece, diferentes voluntarios querrán involucrarse de diferentes maneras. Fomentar esto es una excelente manera de hacer que tu grupo sea más fuerte, para que cada voluntario tenga su propia forma de contribuir al movimiento.
 
-One way to enable this is with a list of roles and responsibilities that different volunteers have chosen to take on. As you learn about volunteers’ interests and how they’d like to contribute, you can pitch them on specific roles.
+Una forma de permitir esto es con una lista de roles y responsabilidades que diferentes voluntarios han elegido asumir. A medida que aprendes sobre los intereses de los voluntarios y cómo les gustaría contribuir, puedes presentarles roles específicos.
 
-Here is a sample table of roles for inspiration:
-(This is only meant to provide an illustrative example of possible roles; different groups might have very different roles depending on their priorities and interests.)
+Aquí hay una tabla de muestra de roles para inspiración:
+(Esto solo pretende proporcionar un ejemplo ilustrativo de roles posibles; diferentes grupos pueden tener roles muy diferentes dependiendo de sus prioridades e intereses).
 
-| Person | Role                              | Responsibilities                                                                                                                                                                                                                         | Hours/week |
-| ------ | --------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------- |
-|        | Media outreach coordinator        | Writes letters to the editor and op-eds to local newspapers, and encourages others to do the same. Maintains contact with local journalists. Sends press releases prior to big events (e.g. protests) in order to ensure media coverage. |            |
-|        | Coalition builder                 | Reaches out to other groups to share news and information about PauseAI. Speaks at other groups’ meetings. Shares info about upcoming events and recruits attendees from other groups.                                                   |            |
-|        | Congressional outreach specialist | Plans letter-writing and phone campaigns to Congressional offices. Organizes events encouraging the public to call their Congressmembers about AI. Schedules meetings with Congressional offices to discuss PauseAI’s treaty proposal.   |            |
-|        | Events planner                    | Plans public-facing events, e.g. protests and educational sessions. Recruits attendees from public groups, flyering sessions, etc.                                                                                                       |            |
+| Persona | Rol                                        | Responsabilidades                                                                                                                                                                                                                                                          | Horas/semana |
+| ------- | ------------------------------------------ | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------ |
+|         | Coordinador de divulgación en medios       | Escribe cartas al editor y artículos de opinión a periódicos locales, y anima a otros a hacer lo mismo. Mantiene contacto con periodistas locales. Envía comunicados de prensa antes de grandes eventos (por ejemplo, protestas) para asegurar la cobertura de los medios. |              |
+|         | Constructor de coaliciones                 | Se pone en contacto con otros grupos para compartir noticias y información sobre PauseAI. Habla en reuniones de otros grupos. Comparte información sobre próximos eventos y recluta asistentes de otros grupos.                                                            |              |
+|         | Especialista en divulgación en el Congreso | Planea campañas de cartas y llamadas telefónicas a las oficinas del Congreso. Organiza eventos que animan al público a llamar a sus congresistas sobre la IA. Programa reuniones con las oficinas del Congreso para discutir la propuesta de tratado de PauseAI.           |              |
+|         | Planificador de eventos                    | Planea eventos públicos, por ejemplo, protestas y sesiones educativas. Recluta asistentes de grupos públicos, sesiones de reparto de folletos, etc.                                                                                                                        |              |
 
-## Events and initiatives for local organizers
+## Eventos e iniciativas para organizadores locales {#events-and-initiatives-for-local-organizers}
 
-So, you have a well-organized group of volunteers, eager to get involved and with a clear sense of their responsibilities. Now what?
+Entonces, tienes un grupo bien organizado de voluntarios, ansiosos por involucrarse y con una idea clara de sus responsabilidades. ¿Ahora qué?
 
-There are many different ways to achieve your goals as a local group.
-Check out our [events page](/events) for ideas of the next events that are planned. Whenever you decide to organize one, don't forget to add it there!
-In addition to them, the following list is not meant to be exhaustive, but rather to provide inspiration as you begin planning your campaign.
+Hay muchas formas diferentes de lograr tus objetivos como grupo local.
+Consulta nuestra [página de eventos](/events) para obtener ideas de los próximos eventos que están planificados. Cada vez que decidas organizar uno, no te olvides de agregarlo allí.
+Además de ellos, la siguiente lista no pretende ser exhaustiva, sino proporcionar inspiración a medida que comienzas a planificar tu campaña.
 
-### Social events & having drinks
+### Eventos sociales y tomar algo {#social-events--having-drinks}
 
-Social, fun events are a great way to build a sense of community among your volunteers.
-Even if you don't make a direct impact with such an event, you are strengthening the bonds between your volunteers, which can make your group more effective in the long run.
-Some things you can do:
+Los eventos sociales y divertidos son una excelente manera de construir un sentido de comunidad entre tus voluntarios.
+Incluso si no tienes un impacto directo con dicho evento, estás fortaleciendo los lazos entre tus voluntarios, lo que puede hacer que tu grupo sea más efectivo a largo plazo.
+Algunas cosas que puedes hacer:
 
-- **Happy hours**: Meet at a local bar or restaurant for drinks and socializing.
-- **Potlucks**: Have volunteers bring food to share at a local park or community center.
-- **Game nights**: Host a game night at someone’s house or a local game store.
-- **Movie nights**: Watch a documentary or movie (maybe AI related!) together at someone’s house or a local theater.
+- **Horas felices**: Reunirse en un bar o restaurante local para tomar algo y socializar.
+- **Comidas compartidas**: Pedir a los voluntarios que traigan comida para compartir en un parque o centro comunitario local.
+- **Noches de juegos**: Organizar una noche de juegos en la casa de alguien o en una tienda de juegos local.
+- **Noches de cine**: Ver un documental o película (¡quizás relacionada con la IA!) juntos en la casa de alguien o en un teatro local.
 
-### Public teach-ins and action sessions on AI risk
+### Sesiones públicas de enseñanza y acción sobre el riesgo de la IA {#public-teach-ins-and-action-sessions-on-ai-risk}
 
-Invite members of the general public to attend an open session where they can learn more about AI risk and PauseAI’s treaty proposal, followed by taking some concrete action related to PauseAI’s mission.
+Invita a miembros del público en general a asistir a una sesión abierta donde puedan aprender más sobre el riesgo de la IA y la propuesta de tratado de PauseAI, seguida de tomar alguna acción concreta relacionada con la misión de PauseAI.
 
-Actions can include e.g. writing letters or making phone calls to their Congressional office supporting AI regulation.
+Las acciones pueden incluir, por ejemplo, escribir cartas o hacer llamadas telefónicas a su oficina del Congreso para apoyar la regulación de la IA.
 
-#### Sample event agenda (for an action session on Congressional outreach)
+#### Agenda de evento de muestra (para una sesión de acción sobre divulgación en el Congreso) {#sample-event-agenda-for-an-action-session-on-congressional-outreach}
 
-- **Introduction / social mingling**
-- **Presentation session**
-  - Introduce PauseAI
-  - Discuss AI risks
-  - Describe PauseAI’s treaty proposal
-  - Explain the importance of Congressional outreach
-- **Letter-writing session**
-  - Go over best practices for writing to your Congressperson
-  - Have attendees hand-write letters to their Congressperson
-  - Provide envelopes and stamps for attendees to mail letters
-- **Invite attendees to get involved with PauseAI**
+- **Introducción / socialización**
+- **Sesión de presentación**
+  - Presentar PauseAI
+  - Discutir los riesgos de la IA
+  - Describir la propuesta de tratado de PauseAI
+  - Explicar la importancia de la divulgación en el Congreso
+- **Sesión de escritura de cartas**
+  - Repasar las mejores prácticas para escribir a tu congresista
+  - Pedir a los asistentes que escriban cartas a mano a su congresista
+  - Proporcionar sobres y sellos para que los asistentes envíen cartas
+- **Invitar a los asistentes a involucrarse con PauseAI**
 
-### Movie (documentary) screenings on AI risk
+### Proyecciones de películas (documentales) sobre el riesgo de la IA {#movie-documentary-screenings-on-ai-risk}
 
-Similar to a public teach-in, but with a documentary instead of a presentation. This can be a good way to engage the public. Bonus points if you procure popcorn and snacks.
-Just like a teach-in, you should ask attendees to take action immediately following the screening, i.e. by writing or calling their Congressperson.
-See [here](/learn) for a list of videos and documentaries to consider screening.
+Similar a una sesión de enseñanza pública, pero con un documental en lugar de una presentación. Esto puede ser una buena manera de involucrar al público. Puntos extra si consigues palomitas de maíz y refrigerios.
+Al igual que en una sesión de enseñanza, debes pedir a los asistentes que tomen medidas inmediatamente después de la proyección, es decir, escribiendo o llamando a su congresista.
+Ver [aquí](/learn) para obtener una lista de videos y documentales para considerar proyectar.
 
-### Letter to the Editor Writing Workshops
+### Talleres de escritura de cartas al editor {#letter-to-the-editor-writing-workshops}
 
-Walk volunteers through how to write a Letter to the Editor (LTE) or Op-Ed to local newspapers. This works better with volunteers who are already bought into PauseAI’s mission and understand the basic arguments, rather than members of the general public.
+Guía a los voluntarios a través de cómo escribir una carta al editor (LTE) o un artículo de opinión a periódicos locales. Esto funciona mejor con voluntarios que ya están comprometidos con la misión de PauseAI y entienden los argumentos básicos, en lugar de miembros del público en general.
 
-#### Sample event agenda
+#### Agenda de evento de muestra {#sample-event-agenda}
 
-- **Explain the importance of media outreach**
-- **Go over best practices for writing to media outlets**
-- **Have a writing session (20-30 minutes)**
-  - Ask volunteers to draft LTEs and provide feedback on each others’ writing
-  - Ask volunteers to submit their LTEs to specific newspapers
+- **Explicar la importancia de la divulgación en los medios**
+- **Repasar las mejores prácticas para escribir a los medios de comunicación**
+- **Tener una sesión de escritura (20-30 minutos)**
+  - Pedir a los voluntarios que redacten LTE y proporcionar retroalimentación sobre la escritura de cada uno
+  - Pedir a los voluntarios que envíen sus LTE a periódicos específicos
 
-### Flyering & Tabling Sessions
+### Sesiones de reparto de folletos y tener un stand {#flyering--tabling-sessions}
 
-Even after you have a base of volunteers, you can continue flyering and [tabling](/tabling) to get the word out to the public.
-In this context, flyering and tabling can be combined with a specific “ask,” i.e. asking people to write to their elected officials about AI
-Flyers can be modified to include QR codes to relevant resources, such as a letter-writing guide.
-Please read our [Flyering Guide](/flyering) for more information on how to do this well.
+Incluso después de tener una base de voluntarios, puedes seguir repartiendo folletos y [teniendo un stand](/tabling) para difundir la palabra al público.
+En este contexto, repartir folletos y tener un stand se pueden combinar con una "solicitud" específica, es decir, pedir a las personas que escriban a sus funcionarios electos sobre la IA.
+Los folletos se pueden modificar para incluir códigos QR a recursos relevantes, como una guía de escritura de cartas.
+Por favor, lee nuestra [Guía de reparto de folletos](/flyering) para obtener más información sobre cómo hacer esto bien.
 
-### Protests
+### Protestas {#protests}
 
-Many PauseAI chapters have already organized protests, especially in response to specific events and developments around AI.
-These can be a great way to promote PauseAI and gain media coverage for the cause.
+Muchos capítulos de PauseAI ya han organizado protestas, especialmente en respuesta a eventos y desarrollos específicos en torno a la IA.
+Estas pueden ser una excelente manera de promover PauseAI y obtener cobertura de los medios para la causa.
 
-Please read our [Guide to Organizing a Protest](/organizing-a-protest) to learn how to do this.
+Por favor, lee nuestra [Guía para organizar una protesta](/organizing-a-protest) para aprender a hacer esto.
 
-### Meetings with Congressional Offices (US)
+### Reuniones con oficinas del Congreso (EE. UU.) {#meetings-with-congressional-offices-us}
 
-If you are in the US, organizing a meeting with your Congressional office is one of the highest-impact things you can do.
-You can talk directly with someone who works for your U.S. Representative or Senator, and help introduce PauseAI’s priorities on a national level.
+Si estás en EE. UU., organizar una reunión con tu oficina del Congreso es una de las cosas de mayor impacto que puedes hacer.
+Puedes hablar directamente con alguien que trabaja para tu Representante o Senador de EE. UU., y ayudar a presentar las prioridades de PauseAI a nivel nacional.
 
-This is also a good fit for teams of committed volunteers.
-It’s ideal to have multiple people attending these meetings and offering unique perspectives on why they care about AI risks and support a pause.
+Esto también es adecuado para equipos de voluntarios comprometidos.
+Es ideal tener varias personas asistiendo a estas reuniones y ofreciendo perspectivas únicas sobre por qué les importan los riesgos de la IA y apoyan una pausa.
 
-Please read our [US Lobby Guide](/us-lobby-guide) to learn more about how to do this well.
+Por favor, lee nuestra [Guía de lobby en EE. UU.](/us-lobby-guide) para aprender más sobre cómo hacer esto bien.
 
-**Note**: If you live in another (democratic) country, some of the processes are likely similar, but the details may differ on accessibility of meetings and how to set these up.
-You can find out more about the process in your country by e.g. exploring government websites and learning how to request meetings with your elected officials.
+**Nota**: Si vives en otro país (democrático), algunos de los procesos son probablemente similares, pero los detalles pueden diferir en cuanto a la accesibilidad de las reuniones y cómo establecerlas.
+Puedes averiguar más sobre el proceso en tu país, por ejemplo, explorando sitios web gubernamentales y aprendiendo a solicitar reuniones con tus funcionarios electos.
 
-### Note: Finding space for public, in-person events
+### Nota: Encontrar espacio para eventos públicos y en persona {#note-finding-space-for-public-in-person-events}
 
-There are several ways to procure free or cheap meeting spaces, as long as you plan ahead of time. Here are some ideas.
+Hay varias formas de obtener espacios de reunión gratuitos o baratos, siempre y cuando planifiques con anticipación. Aquí hay algunas ideas.
 
-- **Public Libraries**: Many libraries offer free meeting rooms for community groups, nonprofit organizations, and educational sessions. You may need to book in advance and comply with the library’s policies.
-- **Community Centers**: Local community centers often have rooms available for use at no cost. These centers aim to support local activities and may prioritize local residents and community groups.
-- **Universities and Colleges**: Educational institutions sometimes provide free space for meetings, particularly for alumni or community-oriented events. Contact the institution’s events department or community relations office for more information.
-- **Local Businesses and Cafés**: Some businesses, like cafes and bookstores, have spaces that can be used for meetings during off-peak hours. It's often expected that participants will buy something from the establishment.
-- **Online Platforms**: Websites like EventBrite or Facebook Groups can be resources for finding shared spaces that are available for free. Community boards often list available spaces.
-- **Municipal Buildings**: Town halls and other municipal buildings frequently have rooms available for public use. These are typically available free of charge but might require proof that the meeting serves a community benefit.
-- **Churches and Religious Centers**: Many religious centers are happy to offer their space for community or nonprofit gatherings. They might not advertise this widely, so it’s worth asking directly.
-- **Parks and Outdoor Venues**: For less formal meetings or gatherings, consider a local park. Ensure you check if you need a permit, especially for larger groups or special setups.
+- **Bibliotecas públicas**: Muchas bibliotecas ofrecen salas de reunión gratuitas para grupos comunitarios, organizaciones sin fines de lucro y sesiones educativas. Es posible que debas reservar con anticipación y cumplir con las políticas de la biblioteca.
+- **Centros comunitarios**: Los centros comunitarios locales a menudo tienen salas disponibles para uso gratuito. Estos centros apoyan actividades locales y pueden priorizar a residentes y grupos comunitarios.
+- **Universidades y colegios**: Las instituciones educativas a veces proporcionan espacio gratuito para reuniones, particularmente para eventos de ex alumnos o comunitarios. Contacta con el departamento de eventos o la oficina de relaciones comunitarias de la institución para obtener más información.
+- **Empresas y cafés locales**: Algunas empresas, como cafés y librerías, tienen espacios que se pueden utilizar para reuniones durante horas no pico. A menudo se espera que los participantes compren algo en el establecimiento.
+- **Plataformas en línea**: Sitios web como EventBrite o Facebook Groups pueden ser recursos para encontrar espacios compartidos que están disponibles de forma gratuita. Los tableros comunitarios a menudo enumeran espacios disponibles.
+- **Edificios municipales**: Los ayuntamientos y otros edificios municipales con frecuencia tienen salas disponibles para uso público. Estos suelen estar disponibles de forma gratuita, pero es posible que debas demostrar que la reunión beneficia a la comunidad.
+- **Iglesias y centros religiosos**: Muchos centros religiosos están dispuestos a ofrecer su espacio para reuniones comunitarias o sin fines de lucro. Es posible que no lo anuncien ampliamente, así que vale la pena preguntar directamente.
+- **Parques y lugares al aire libre**: Para reuniones o reuniones menos formales, considera un parque local. Asegúrate de verificar si necesitas un permiso, especialmente para grupos más grandes o configuraciones especiales.
 
-When using free spaces, it’s good etiquette to leave the space as you found it and to thank the provider. This maintains a good relationship and increases the likelihood that the space will be available for future use.
+Cuando utilices espacios gratuitos, es una buena práctica dejar el espacio como lo encontraste y agradecer al proveedor. Esto mantiene una buena relación y aumenta la probabilidad de que el espacio esté disponible para uso futuro.
 
-### Note: Best practices for event planning
+### Nota: Mejores prácticas para la planificación de eventos {#note-best-practices-for-event-planning}
 
-- Invite attendees to public events. If hosting a public-facing event, it’s important to do this well in advance. You can set up a Facebook or Meetup event, promote the event by sharing it with other groups, and build attendance.
-- Make sure the address you're providing people gives instructions beyond a street address, if needed. For instance, if you’re tabling but don’t have exact directions to your table inside the building, a surprising number of new members will just give up. A table sign (print photos at Walmart for $1 each) can also help significantly.
-- Include a social element to events. Make sure there’s time for social mingling and building a sense of community. Include unstructured time on the event agenda for people to introduce themselves and mingle.
-- You can also host 100% social events – where there is no agenda or presentation, just getting together for food or drinks. Having these events occasionally can be a good idea.
-- Always include follow-up and next steps at the end of the event. Give attendees a clear sense of what they can do, going forward, to remain involved with PauseAI.
+- Invita a asistentes a eventos públicos. Si estás organizando un evento público, es importante hacer esto con anticipación. Puedes configurar un evento en Facebook o Meetup, promocionar el evento compartiéndolo con otros grupos y generar asistencia.
+- Asegúrate de que la dirección que estás proporcionando a las personas dé instrucciones más allá de una dirección de la calle, si es necesario. Por ejemplo, si estás teniendo un stand pero no tienes instrucciones exactas para llegar a tu stand dentro del edificio, un número sorprendente de nuevos miembros simplemente se rendirá. Un letrero de stand (imprime fotos en Walmart por $1 cada una) también puede ayudar significativamente.
+- Incluye un elemento social en los eventos. Asegúrate de que haya tiempo para socializar y construir un sentido de comunidad. Incluye tiempo no estructurado en la agenda del evento para que las personas se presenten y se mezclen.
+- También puedes organizar eventos 100% sociales: donde no hay agenda o presentación, solo reunirse para comida o bebida. Tener estos eventos ocasionalmente puede ser una buena idea.
+- Siempre incluye un seguimiento y pasos siguientes al final del evento. Dale a los asistentes una idea clara de lo que pueden hacer, en el futuro, para permanecer involucrados con PauseAI.
 
-## Overcoming Obstacles in Local Organizing
+## Superar obstáculos en la organización local {#overcoming-obstacles-in-local-organizing}
 
-### Obstacle 1: Difficulty getting your group off the ground
+### Obstáculo 1: Dificultad para poner en marcha tu grupo {#obstacle-1-difficulty-getting-your-group-off-the-ground}
 
-You might have a hard time finding volunteers to begin with. Maybe the people you’re talking to don’t seem interested, your flyering sessions aren’t going well, and you can’t seem to get any existing local groups to return your emails.
+Puedes tener dificultades para encontrar voluntarios al principio. Tal vez las personas con las que hablas no parecen interesadas, tus sesiones de reparto de folletos no salen bien y no puedes parecer obtener que los grupos locales existentes te devuelvan los correos electrónicos.
 
-**How to Overcome**:
+**Cómo superarlo**:
 
-- Use your personal network as much as possible. Reach out to anyone you know who you think might be interested in getting involved, and ask them if they know anyone you might talk to. Similarly, if you know anyone in a local group, reach out to them personally.
-- Make sure you have a very strong “pitch” when flyering. If your pitch seems unfocused, weak, or tepid, this could be contributing to your lack of interest. [Read this guide](/flyering) to learn more about developing a strong pitch.
-- Make sure you’re flyering in a high population-density area with lots of potential volunteers.
-- Make sure your messages and emails to groups are clear and direct, with a specific request. You can also send your email drafts to the PauseAI Discord and receive feedback.
-- If groups aren’t getting back to you, you might not be casting a wide enough net. Consider reaching out to more groups, even if their focus seems only loosely or tangentially related to AI.
+- Utiliza tu red personal tanto como sea posible. Ponte en contacto con cualquier persona que creas que podría estar interesada en involucrarse y pregúntale si conoce a alguien con quien podrías hablar. De manera similar, si conoces a alguien en un grupo local, ponte en contacto con ellos personalmente.
+- Asegúrate de tener un "discurso" muy fuerte cuando repartas folletos. Si tu discurso parece desenfocado, débil o tibio, esto podría estar contribuyendo a tu falta de interés. [Lee esta guía](/flyering) para aprender más sobre cómo desarrollar un discurso fuerte.
+- Asegúrate de que estés repartiendo folletos en un área con alta densidad de población y muchos voluntarios potenciales.
+- Asegúrate de que tus mensajes y correos electrónicos a los grupos sean claros y directos, con una solicitud específica. También puedes enviar tus borradores de correo electrónico al Discord de PauseAI y recibir retroalimentación.
+- Si los grupos no te responden, es posible que no estés lanzando una red lo suficientemente amplia. Considera contactar a más grupos, incluso si su enfoque parece solo vagamente o tangencialmente relacionado con la IA.
 
-### Obstacle 2: Lack of focus
+### Obstáculo 2: Falta de enfoque {#obstacle-2-lack-of-focus}
 
-You might have an influx of volunteers who vaguely want to get involved, but don’t have a clear sense of how they want to help.
-This can make your team disorganized, with lots of ideas but without a clear plan to follow through.
+Puedes tener un flujo de voluntarios que vagamente quieren involucrarse, pero no tienen una idea clara de cómo quieren ayudar.
+Esto puede hacer que tu equipo esté desorganizado, con muchas ideas pero sin un plan claro para seguir adelante.
 
-**How to Overcome**:
+**Cómo superarlo**:
 
-- Initial meetings with volunteers might not provide a clear enough sense of what their roles and responsibilities could be. In this case, you can schedule additional one-on-one meetings and dive deeper into these questions. The goals of these additional one-on-ones should be to firm up understanding of how, specifically, each volunteer can get involved, and to create a specific follow-up plan to ensure accountability.
-- If team meetings are “too much talk and not enough action,” you might need to restructure the meeting agenda to include more time at the end for concrete planning. Ask volunteers to go around the room and list what, specifically, they’ll do before the following
+- Las reuniones iniciales con voluntarios pueden no proporcionar una idea lo suficientemente clara de cuáles podrían ser sus roles y responsabilidades. En este caso, puedes programar reuniones individuales adicionales y profundizar en estas preguntas. Los objetivos de estas reuniones individuales adicionales deben ser afianzar la comprensión de cómo, específicamente, cada voluntario puede involucrarse y crear un plan de seguimiento específico para garantizar la responsabilidad.
+- Si las reuniones del equipo son "demasiado hablar y no suficiente acción", es posible que debas reestructurar la agenda de la reunión para incluir más tiempo al final para la planificación concreta. Pide a los voluntarios que vayan alrededor de la sala y enumeren qué, específicamente, harán antes de la siguiente reunión.
 
-meeting.
+- También ayuda verificar con los voluntarios entre reuniones para ver cómo les va en términos de sus responsabilidades y si tienen alguna pregunta o necesitan ayuda con algo. Esto incluso puede ser solo un mensaje de texto rápido de verificación.
 
-- It also helps to check in with volunteers between meetings to see how they’re doing in terms of their responsibilities, and if they have any questions or need help with anything. This can even just take the form of a quick check-in text.
+### Obstáculo 3: tu grupo "se desvanece" debido a la disminución del interés de los voluntarios {#obstacle-3-your-group-fizzles-out-due-to-waning-interest-from-volunteers}
 
-### Obstacle 3: your group “fizzles out” due to waning interest from volunteers
+Los voluntarios pueden estar inicialmente emocionados de involucrarse pero perder interés con el tiempo.
+Esto puede suceder porque los voluntarios no se sienten motivados, no les gustan las acciones que les interesan o simplemente se dan cuenta de que el voluntariado no es para ellos.
 
-Volunteers might be initially excited to get involved but lose interest over time.
-This can happen because volunteers don't feel motivated, don't like the actions that interest them, or simply realize that volunteering isn’t for them.
+Parte de esto es inevitable: no todos permanecerán invertidos en todo momento, pero mucho se puede evitar.
 
-Some of this is inevitable– not everyone will remain invested at all times– but much can be averted.
+**Cómo superarlo**:
 
-**How to Overcome**:
+- Asegúrate de que los voluntarios se sientan empoderados y agentes. Los voluntarios necesitan sentir que tienen una participación en lo que está sucediendo y que su perspicacia importa. Esta es otra razón por la que las reuniones individuales son tan importantes; puedes comprender las motivaciones de los voluntarios y trabajar con ellos en consecuencia. De manera similar, durante las reuniones del equipo, siempre proporciona tiempo suficiente para que los voluntarios propongan ideas y proporcionen retroalimentación sobre los planes.
+- Haz actividades divertidas juntos. Los eventos sociales pueden ser una excelente manera de construir un sentido de comunidad entre tus voluntarios.
+- Asegúrate de que los voluntarios estén involucrados en acciones que realmente disfrutan. No hagas que la persona que disfruta organizando protestas escriba artículos de opinión y que la persona que disfruta escribiendo organice protestas. Ajusta las tareas a las personas interesadas en asumirlas.
+- Mantén una estrategia de reclutamiento continuo. En lugar de tener un solo estallido de reclutamiento al principio y luego no hacer ningún reclutamiento después, es mejor reclutar periódicamente. De esta manera, incluso si algunas personas pierden interés con el tiempo, puedes incorporar nuevos voluntarios al grupo.
 
-- Make sure volunteers feel empowered and agentic. Volunteers need to feel that they have a stake in what’s going on, and that their insight matters. This is another reason why one-on-one meetings are so important; you can understand volunteers’ motivations and work with them accordingly. Similarly, during team meetings, always provide ample time for volunteers to propose ideas and provide feedback on plans.
-- Do fun activities together. Social events can be a great way to build a sense of community among your volunteers.
-- Make sure volunteers are involved with actions they actually enjoy. Don’t have the person who enjoys protest organizing write op-eds and the person who enjoys writing organize protests. Match tasks with the people interested in taking them on.
-- Keep a strategy of continuous recruitment. Rather than having a single recruiting burst at the beginning and then not doing any recruitment afterwards, it’s better to recruit periodically. This way, even if some people lose interest over time, you can bring new volunteers into the fold.
-
-If you’re struggling with any aspect of local organizing, you can also discuss this in the local-organizers channel on the [PauseAI Discord](https://discord.gg/6ag3uceR5m), and others will be happy to help you out and provide feedback.
+Si estás luchando con algún aspecto de la organización local, también puedes discutir esto en el canal de organizadores locales en el [Discord de PauseAI](https://discord.gg/6ag3uceR5m), y otros estarán encantados de ayudarte y proporcionarte retroalimentación.

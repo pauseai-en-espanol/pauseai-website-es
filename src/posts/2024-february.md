@@ -1,44 +1,46 @@
 ---
-title: PauseAI / No AGI Protest @ OpenAI San Francisco - February 12th, 2024
-description: We are organizing a protest to demand a pause on dangerous AI development.
+title: PauseAI / No AGI Protesta en OpenAI San Francisco - 12 de febrero de 2024
+description: Estamos organizando una protesta para exigir una pausa en el desarrollo peligroso de inteligencia artificial.
 ---
+
+ <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->
 
 <script>
     import WidgetConsent from '$lib/components/widget-consent/WidgetConsent.svelte'
 </script>
 
-- Where: San Francisco, OpenAI HQ
-- When: 12th of February 2024, 16:30 - 18:00
-- [Facebook event](https://fb.me/e/78BzWmaaj)
-- [Website](https://openaiprotest.com/)
+- Dónde: San Francisco, sede de OpenAI
+- Cuándo: 12 de febrero de 2024, 16:30 - 18:00
+- [Evento de Facebook](https://fb.me/e/78BzWmaaj)
+- [Sitio web](https://openaiprotest.com/)
 
-Other International Locations / Times:
-UK (exact location TBD) / 4:00 pm GMT
+Otras ubicaciones y horarios internacionales:
+Reino Unido (ubicación exacta por determinar) / 16:00 GMT
 
-## Why we are protesting OpenAI
+## Por qué protestamos contra OpenAI {#why-we-are-protesting-openai}
 
-OpenAI is trying to build an AI smarter than humans.
-Hundreds of scientists are warning that this could cause the end of humanity.
-This is why over 33,000 people have signed the Pause letter, urging AI companies like OpenAI to halt their advancements.
-Even Sam Altman himself, the CEO of OpenAI, has said that we should hit the brakes ["if AI models are improving in ways that we don’t fully understand"](https://time.com/6288584/openai-sam-altman-full-interview/).
-In a different interview, Sam mentioned that predicting capabilities is a ["fun guessing game"](https://www.ft.com/content/dd9ba2f6-f509-42f0-8e97-4271c7b84ded) for OpenAI employees.
-In other words: even OpenAI does not understand how their models improve.
-The time to hit the brakes is _now_.
+OpenAI está intentando crear una inteligencia artificial más inteligente que los humanos.
+Cientos de científicos advierten que esto podría causar el fin de la humanidad.
+Es por eso que más de 33.000 personas han firmado la carta de Pause, instando a empresas de inteligencia artificial como OpenAI a detener sus avances.
+Incluso el propio Sam Altman, director ejecutivo de OpenAI, ha dicho que debemos frenar ["si los modelos de inteligencia artificial están mejorando de maneras que no entendemos completamente"](https://time.com/6288584/openai-sam-altman-full-interview/).
+En una entrevista diferente, Sam mencionó que predecir capacidades es un ["juego de adivinanzas divertido"](https://www.ft.com/content/dd9ba2f6-f509-42f0-8e97-4271c7b84ded) para los empleados de OpenAI.
+En otras palabras: incluso OpenAI no entiende cómo mejoran sus modelos.
+Es hora de frenar _ahora_.
 
-## Join us and tell OpenAI "Stop working with the Pentagon!"
+## Únete a nosotros y dile a OpenAI "¡Detén el trabajo con el Pentágono!" {#join-us-and-tell-openai-stop-working-with-the-pentagon}
 
-On January 10th, without any announcement, OpenAI deleted the language in its usage policy\* that had stated that OpenAI doesn’t allow its models to be used for “activities that have a high chance of causing harm” such as “military and warfare”. Then, on January 17th, TIME reported that OpenAI would be taking the Pentagon as a client. On 2/12, we will demand that OpenAI end its relationship with the Pentagon and not take any military clients. If their ethical and safety boundaries can be revised out of convenience, they cannot be trusted.
+El 10 de enero, sin previo aviso, OpenAI eliminó el lenguaje en su política de uso\* que establecía que OpenAI no permite que sus modelos se utilicen para "actividades que tienen una alta probabilidad de causar daño", como "militares y guerra". Luego, el 17 de enero, TIME informó que OpenAI aceptaría al Pentágono como cliente. El 12 de febrero, exigiremos que OpenAI termine su relación con el Pentágono y no acepte clientes militares. Si sus límites éticos y de seguridad pueden revisarse por conveniencia, no son confiables.
 
-AI is rapidly becoming more powerful, far faster than virtually any AI scientist has predicted. Billions are being poured into AI capabilities, and the results are staggering. New models are outperforming humans in many domains. As capabilities increase, so do the risks. Scientists are even warning that AI might end up destroying humanity.
+La inteligencia artificial se está volviendo cada vez más poderosa, mucho más rápido de lo que cualquier científico de inteligencia artificial había predicho. Se están invirtiendo miles de millones en capacidades de inteligencia artificial y los resultados son asombrosos. Los nuevos modelos están superando a los humanos en muchos campos. A medida que aumentan las capacidades, también aumentan los riesgos. Los científicos incluso advierten que la inteligencia artificial podría acabar destruyendo la humanidad.
 
-According to their charter, “OpenAI’s mission is to ensure that artificial general intelligence (AGI)—by which we mean highly autonomous systems that outperform humans at all economically valuable work—benefits all of humanity.” But many humans value their work and find meaning in it, and hence do not want their jobs to be done by an AGI instead. What protest co-organizer Sam Kirchner of No AGI calls “the Psychological Threat” applies even if AGI doesn't kill us.
+Según su carta fundacional, "la misión de OpenAI es asegurar que la inteligencia artificial general (AGI), a la que nos referimos como sistemas altamente autónomos que superan a los humanos en todo trabajo económicamente valioso, beneficie a toda la humanidad". Pero muchos humanos valoran su trabajo y encuentran sentido en él, y por lo tanto no quieren que sus empleos sean realizados por una AGI en su lugar. Lo que el coorganizador de la protesta Sam Kirchner de No AGI llama "la Amenaza Psicológica" se aplica incluso si la AGI no nos mata.
 
-## Contact
+## Contacto {#contact}
 
 - Holly Elmore ([Twitter](https://twitter.com/ilex_ulmus))
 - Sam Kirchner ([Twitter](https://twitter.com/No_AGI_))
 
-## Media Coverage
+## Cobertura mediática {#media-coverage}
 
 - [Bloomberg](https://www.bloomberg.com/news/newsletters/2024-02-13/ai-protest-at-openai-hq-in-san-francisco-focuses-on-military-work)
 - [ReadWrite](https://readwrite.com/stop-working-with-pentagon-openai-staff-face-protests/)
