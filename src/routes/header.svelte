@@ -40,7 +40,8 @@
 		<NavLink {inverted} href="/riesgos">Riesgos</NavLink>
 		<NavLink {inverted} href="/pausa">La pausa</NavLink>
 		<NavLink {inverted} href="/debate">IA con ñ</NavLink>
-		<NavLink {inverted} href="https://pauseaispanish.substack.com" target="_blank">Noticias</NavLink
+		<NavLink {inverted} external href="https://pauseaispanish.substack.com" target="_blank"
+			>Noticias</NavLink
 		>
 		<NavLink {inverted} c2a href="/inscripcion">Únete</NavLink>
 		<LanguageSwitcher {inverted} />
