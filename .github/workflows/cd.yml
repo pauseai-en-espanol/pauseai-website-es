@@ -1,0 +1,91 @@
+name: CD
+
+on:
+  workflow_run:
+    workflows: ['CI']
+    branches: [main]
+    types: [completed]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  packages: write
+
+jobs:
+  cd:
+    if: |
+      github.event_name == 'workflow_dispatch' ||
+      github.event.workflow_run.conclusion == 'success'
+    runs-on: [self-hosted, juggernaut]
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.PAT_TOKEN }}
+          persist-credentials: true
+
+      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-node
+
+      - name: Generate environment variables
+        id: env
+        run: |
+          SHORT_SHA=$(git rev-parse --short HEAD)
+          VERSION=$(node -p "require('./package.json').version")
+
+          echo "DOCKER_TAG_SUFFIX=${SHORT_SHA}" >> "$GITHUB_ENV"
+          echo "DOCKER_PLATFORM=${DOCKER_PLATFORM:-linux/amd64}" >> "$GITHUB_ENV"
+          echo "IMAGE_TAG=${VERSION}.${SHORT_SHA}" >> "$GITHUB_ENV"
+          echo "version=${VERSION}" >> "$GITHUB_OUTPUT"
+          echo "image_tag=${VERSION}.${SHORT_SHA}" >> "$GITHUB_OUTPUT"
+
+      - name: Prepare Buildx
+        uses: docker/setup-buildx-action@v3
+        with:
+          driver: docker
+          use: true
+
+      - name: Build Docker image
+        run: pnpm docker:build
+
+      - name: Push Docker image
+        run: pnpm docker:push
+
+      - name: Install yq
+        run: |
+          if ! command -v yq >/dev/null 2>&1; then
+            mkdir -p ~/.local/bin
+            ARCH=$(uname -m); case "$ARCH" in aarch64|arm64) YQ_ARCH=arm64 ;; *) YQ_ARCH=amd64 ;; esac
+            curl -sL "https://github.com/mikefarah/yq/releases/latest/download/yq_linux_${YQ_ARCH}" -o ~/.local/bin/yq
+            chmod +x ~/.local/bin/yq
+            echo "$HOME/.local/bin" >> "$GITHUB_PATH"
+          fi
+
+      - name: Update chart values with new image tag
+        run: |
+          export IMAGE_REPO="${DOCKER_REGISTRY}/pauseai-es/pauseai-website-es"
+          yq e -i '.image.repository = strenv(IMAGE_REPO)' charts/pauseai-website-es/values.yaml
+          yq e -i '.image.tag = strenv(IMAGE_TAG)' charts/pauseai-website-es/values.yaml
+
+      - name: Commit chart update
+        env:
+          GITHUB_ACTOR: ${{ github.actor }}
+        run: |
+          git config user.name "$GITHUB_ACTOR"
+          git config user.email "$GITHUB_ACTOR@users.noreply.github.com"
+          git add charts/pauseai-website-es/values.yaml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update image tag to ${IMAGE_TAG} [skip ci]"
+            git push origin HEAD:main
+          fi
+
+      - name: Output image tag
+        run: |
+          echo "## Docker Image Published & Deployed" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "**Image:** \`${DOCKER_REGISTRY}/pauseai-es/pauseai-website-es:${{ steps.env.outputs.image_tag }}\`" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "ArgoCD will auto-sync the new image tag from \`charts/pauseai-website-es/values.yaml\`." >> $GITHUB_STEP_SUMMARY

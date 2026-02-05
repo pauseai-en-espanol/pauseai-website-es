@@ -1,0 +1,10 @@
+name: Setup Node
+description: Install Node.js with pnpm caching
+runs:
+  using: composite
+  steps:
+    - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
+      with:
+        node-version: 24.13.0
+        cache: 'pnpm'
+        cache-dependency-path: '**/pnpm-lock.yaml'
