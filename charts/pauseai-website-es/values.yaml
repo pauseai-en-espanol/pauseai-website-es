@@ -1,29 +1,22 @@
 replicaCount: 1
-
 image:
   repository: harbor.danilupion.com/pauseai-es/pauseai-website-es
-  tag: 1.1.7.77ac2d7
+  tag: 1.1.7.db519ac
   pullPolicy: IfNotPresent
-
 imagePullSecrets: []
 nameOverride: ''
 fullnameOverride: ''
-
 podAnnotations: {}
 podLabels: {}
-
 podSecurityContext: {}
-
 securityContext:
   runAsNonRoot: true
   runAsUser: 1000
   runAsGroup: 1000
-
 service:
   type: ClusterIP
   port: 80
   targetPort: 3000
-
 ingress:
   enabled: false
   className: ''
@@ -34,7 +27,6 @@ ingress:
         - path: /
           pathType: Prefix
   tls: []
-
 resources:
   requests:
     cpu: 100m
@@ -42,7 +34,6 @@ resources:
   limits:
     cpu: 500m
     memory: 512Mi
-
 env:
   - name: PARAGLIDE_LOCALES
     value: 'es'
