@@ -42,4 +42,4 @@ description: Cómo nos comunicamos sobre la pausa en el desarrollo de la intelig
 - **Grupos que están en fuerte desacuerdo con nosotros**. e/accs, por ejemplo. Ya han tomado su decisión. Darles atención solo desperdiciará nuestro tiempo.
 - **Geeks de la IA**. Probablemente ya están familiarizados con los argumentos y hasta con PauseAI. Pasar demasiado tiempo con ellos no es efectivo.
 
-Gran parte de nuestra estrategia se deriva de nuestros [valores](https://pauseai.info/values).
+Gran parte de nuestra estrategia se deriva de nuestros [valores](/values).

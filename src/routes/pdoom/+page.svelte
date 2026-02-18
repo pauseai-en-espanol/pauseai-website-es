@@ -29,5 +29,5 @@
 <p>
 	Independiente de tu p(doom), seguramente estás de acuerdo en que no deberíamos permitir que las
 	empresas de desarrollo de IA jueguen con nuestro futuro.
-	<Link href="https://pauseai.info/inscripcion">Únete a PauseAI</Link> para evitarlo.
+	<Link href="https://pauseai.es/inscripcion">Únete a PauseAI</Link> para evitarlo.
 </p>

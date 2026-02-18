@@ -35,7 +35,7 @@ En PauseAI tenemos un doble objetivo: [promover la pausa](/pausa) en el desarrol
 
 Tanto si eres miembro de PauseAI como si no, una aportación sencilla y útil es firmar peticiones en favor de la seguridad en la IA. En la mayoría de casos es cuestión de un par de minutos.
 
-- [Declaración de PauseAI](https://pauseai.info/statement)
+- [Declaración de PauseAI](/statement)
 - [Declaración sobre los riesgos de la inteligencia artificial](https://aistatement.com), del Center For AI Safety
 - [Recogida de firmas para prohibir la superinteligencia](https://superintelligence-statement.org), del Future Of Life Institute
 - [Petición para un desarrollo responsable de la IA](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-2a2f1a13-b63a-4d8c-979b-b144bded2f48), en change.org

@@ -16,7 +16,7 @@
 
 <SvelteMarkdown
 	source={`
-PauseAI consists almost exclusively of volunteers ([sign up here](https://pauseai.info/join)).
+PauseAI consists almost exclusively of volunteers ([sign up here](https://pauseai.es/inscripcion)).
 We are organized in teams,
 each working on a different aspect of our movement.
 Every team has a leader, members, a Google Drive folder and a Role + private channel on the [discord server](https://discord.gg/asphJbnQb8).
@@ -41,7 +41,7 @@ If you want to create a new team, reach out to the Oversight team leader (see be
 
 <p>
 	If you want to join one of the teams, reach out to the team leader and <Link
-		href="https://pauseai.info/join">sign up as a volunteer!</Link
+		href="https://pauseai.es/inscripcion">sign up as a volunteer!</Link
 	>
 </p>
 

@@ -61,4 +61,4 @@ Los organizadores de la cumbre de París han creado un programa que cubrirá el 
 PauseAI Global es una organización de voluntarios ubicada en todo el mundo que busca implementar una pausa en el entrenamiento de sistemas de IA más poderosos que la IA más avanzada, hasta que sepamos cómo construirlos de manera segura y mantenerlos bajo control humano.
 Nuestros miembros se coordinan para asegurarse de que el desarrollo de sistemas de IA se entienda y se discuta en la esfera pública, para que todos podamos influir en nuestros tomadores de decisiones para pausar el desarrollo hasta que la seguridad sea una prioridad.
 
-Únete a nosotros y participa en nuestras protestas internacionales durante la Cumbre de IA de París: regístrate [aquí](https://pauseai.info/join) y únete a nuestros eventos de protesta [aquí](https://lu.ma/PauseAI).
+Únete a nosotros y participa en nuestras protestas internacionales durante la Cumbre de IA de París: regístrate [aquí](/inscripcion) y únete a nuestros eventos de protesta [aquí](https://lu.ma/PauseAI).
