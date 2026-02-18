@@ -12,7 +12,7 @@
 	<div class="details">
 		<div class="name-title">
 			<p class="name">
-				{name}
+				{name === 'Anonymous' ? 'Anónimo' : name}
 			</p>
 			{#if country}
 				<div class="country">{country}</div>

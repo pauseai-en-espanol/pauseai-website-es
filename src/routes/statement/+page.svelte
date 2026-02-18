@@ -22,7 +22,7 @@
 	}
 
 	// Milestone goals for signatures
-	const milestones = [25, 50, 100, 200, 300, 400, 500, 600, 700, 800, 900, 1000, 1500]
+	const milestones = [2000, 2500, 3000, 4000, 5000, 10000, 15000, 20000, 25000, 30000]
 	// Find the next milestone goal
 	const nextGoal = milestones.find((goal) => totalCount < goal) || milestones[milestones.length - 1]
 </script>
@@ -31,29 +31,36 @@
 
 <h1>{title}</h1>
 
+<p class="intro">
+	Esta declaración resume lo que los voluntarios y simpatizantes de PauseAI buscan a través de la
+	Campaña PauseAI. Firma a continuación para sumar tu voz y fortalecer nuestra fuerza colectiva.
+</p>
+
 <blockquote class="statement">
-	We call on the governments of the world to sign an international treaty implementing a 
-	pause on the training of the most powerful general AI systems, until we know how to build them
-	safely and keep them under democratic control.
+	Hacemos un llamado a los gobiernos del mundo para que firmen un tratado internacional que
+	implemente una pausa en el entrenamiento de los sistemas de IA general más poderosos, hasta que
+	sepamos cómo desarrollarlos de manera segura y mantenerlos bajo control democrático.
 </blockquote>
 
 <!-- Signatories Counter and Goal -->
 <div class="signatories-counter">
-	<p>We've collected {totalCount} signatures so far— help us reach our first {nextGoal}!</p>
+	<p>
+		Hemos recolectado {totalCount} firmas hasta ahora. ¡Ayúdanos a alcanzar nuestra próxima meta de {nextGoal}!
+	</p>
 </div>
 
-<TallyEmbed formId="315xdg" />
+<TallyEmbed formId="q4GG7k" />
 
 <div class="signatories-header">
-	<h2>Signatories ({totalCount})</h2>
-	<button class="expand-all" on:click={toggleShowAll} aria-label="Expand all signatories and bios">
-		{showAll ? 'Collapse All' : 'Expand All'}
+	<h2>Firmas ({totalCount})</h2>
+	<button class="expand-all" on:click={toggleShowAll} aria-label="Expandir todas las firmas">
+		{showAll ? 'Contraer todo' : 'Expandir todo'}
 	</button>
 </div>
 
 <section data-pagefind-ignore>
 	{#if visibleSignatories.length === 0}
-		<p>No signatories found</p>
+		<p>No se encontraron firmas</p>
 	{/if}
 	<ul class="signatories">
 		{#each visibleSignatories as { name, country, bio }}
@@ -63,15 +70,26 @@
 
 	<!-- Button to toggle between limited and full list -->
 	<button on:click={toggleShowAll}>
-		{showAll ? 'Show Less' : 'Show All Signatories'}
+		{showAll ? 'Mostrar menos' : 'Mostrar todas las firmas'}
 	</button>
 </section>
 
 <style>
+	/* Style for the intro paragraph */
+	.intro {
+		margin: 1rem auto 1.5rem auto;
+		font-size: 1.2rem;
+		line-height: 1.75;
+		color: var(--text);
+		font-weight: 200;
+		text-align: left;
+		max-width: 800px;
+	}
+
 	/* Style for the statement */
 	.statement {
-		margin: 2rem 0;
-		padding: 1rem;
+		margin: 1rem 0;
+		padding: 0.7rem 1.8rem;
 		font-weight: normal;
 		border-left: 4px solid var(--brand);
 		background-color: var(--text-subtle);
