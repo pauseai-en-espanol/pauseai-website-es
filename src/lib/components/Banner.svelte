@@ -9,31 +9,34 @@
 	export let target: string | null = null
 	export let id: string | null = null
 	export let hidden = false
+	export let fixed = false
 
-	// Function to check localStorage on mount
+	let bannerEl: HTMLDivElement
+	let bannerHeight = 0
+
 	function checkStoredState() {
 		if (browser && id) {
 			const storedState = localStorage.getItem(`banner_${id}_hidden`)
 			if (storedState === 'true') {
 				hidden = true
-				console.log(`Banner ${id} restored from storage as hidden`)
 			}
 		}
 	}
 
-	// Simplest possible click handler
 	function closeClick() {
-		console.log('Close button clicked! ' + new Date().toISOString())
 		hidden = true
-
-		// Save state if we have an ID
 		if (browser && id) {
 			try {
 				localStorage.setItem(`banner_${id}_hidden`, 'true')
-				console.log('Saved to localStorage')
 			} catch (e) {
 				console.error(e)
 			}
+		}
+	}
+
+	function updateHeight() {
+		if (bannerEl) {
+			bannerHeight = bannerEl.offsetHeight
 		}
 	}
 
@@ -44,48 +47,56 @@
 
 	onMount(() => {
 		checkStoredState()
-
-		// Debug info
-		console.log('Banner component mounted')
-
-		// Extra safety - add global click handler in case event bubbling is an issue
-		if (browser) {
-			const closeBtn = document.querySelector('.banner-close-btn')
-			if (closeBtn) {
-				closeBtn.addEventListener('click', (e) => {
-					e.preventDefault()
-					e.stopPropagation()
-					console.log('Direct DOM click handler fired')
-					closeClick()
-				})
-			}
-		}
+		updateHeight()
 	})
 </script>
 
 {#if !hidden}
-	<div class="banner" class:contrast transition:fade={{ duration: 200 }}>
-		<span class="content">
-			<slot />
-		</span>
-
-		<!-- Simple button with minimal attributes -->
-		<button class="close banner-close-btn" on:click={closeClick}>
-			<X size="1.2em" />
-			<span class="sr-only">Close</span>
-		</button>
-	</div>
+	{#if fixed}
+		<div class="banner fixed" bind:this={bannerEl} transition:fade={{ duration: 200 }}>
+			<span class="content">
+				<slot />
+			</span>
+			<button class="close" on:click={closeClick}>
+				<X size="1.2em" />
+				<span class="sr-only">Close</span>
+			</button>
+		</div>
+		<div class="spacer" style="height: {bannerHeight}px" />
+	{:else}
+		<div class="banner" class:contrast transition:fade={{ duration: 200 }}>
+			<span class="content">
+				<slot />
+			</span>
+			<button class="close" on:click={closeClick}>
+				<X size="1.2em" />
+				<span class="sr-only">Close</span>
+			</button>
+		</div>
+	{/if}
 {/if}
 
 <style>
 	.banner {
 		position: relative;
 		display: flex;
+		align-items: center;
 		justify-content: center;
 		width: 100%;
 		background-color: var(--brand);
-		padding: 0.5em;
+		color: #1a1a1a;
+		padding: 0.6em 1em;
 		box-sizing: border-box;
+		font-size: 0.9rem;
+		font-weight: 500;
+		letter-spacing: 0.01em;
+	}
+
+	.banner.fixed {
+		position: fixed;
+		top: 0;
+		left: 0;
+		z-index: 100;
 	}
 
 	.banner.contrast {
@@ -103,55 +114,56 @@
 	}
 
 	.banner :global(a) {
-		color: unset;
+		color: inherit;
+		text-decoration: none;
 	}
 
-	.banner :global(a:hover),
-	.close:hover {
-		color: var(--brand-subtle);
+	.banner :global(a:hover) {
+		text-decoration: underline;
+	}
+
+	.banner.contrast :global(a:hover),
+	.banner.contrast .close:hover {
+		color: var(--brand);
 	}
 
 	.content {
 		text-align: center;
-		margin-inline: 3rem;
+		margin-inline: 2.5rem;
 	}
 
 	@media (max-width: 40rem) {
 		.content {
-			margin-left: 1rem;
+			margin-inline: 0.5rem 2rem;
 		}
-	}
-
-	.content::selection {
-		color: var(--text);
-		background-color: var(--bg-subtle);
 	}
 
 	.close {
 		position: absolute;
 		top: 0;
-		right: 0.75em;
+		right: 0.5em;
 		bottom: 0;
 		display: flex;
 		align-items: center;
 		background: transparent;
 		border: none;
 		cursor: pointer;
-		padding: 0.75em;
+		padding: 0.5em;
 		color: inherit;
 		border-radius: 50%;
+		opacity: 0.6;
+		transition: opacity 0.15s;
 	}
 
 	.close:hover {
-		opacity: 0.8;
-		background-color: rgba(0, 0, 0, 0.1);
+		opacity: 1;
 	}
 
-	.close:focus {
+	.close:focus-visible {
 		outline: 2px solid currentColor;
+		outline-offset: -2px;
 	}
 
-	/* Accessibility hidden text */
 	.sr-only {
 		position: absolute;
 		width: 1px;

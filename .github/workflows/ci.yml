@@ -1,0 +1,55 @@
+name: CI
+
+on:
+  workflow_dispatch:
+  pull_request:
+    paths-ignore:
+      - 'charts/**'
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'charts/**'
+
+concurrency:
+  group: ci-${{ github.event_name }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  ci:
+    # Skip forks (security: prevent external code from running on self-hosted runner)
+    if: |
+      (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository) &&
+      !contains(github.event.head_commit.message, 'skip ci') &&
+      !(
+        github.event_name == 'pull_request' &&
+        (
+          contains(github.event.pull_request.title, 'wip') ||
+          contains(github.event.pull_request.title, 'draft')
+        )
+      )
+    runs-on: [self-hosted, juggernaut]
+    env:
+      L10N_OFFLINE: 'true'
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+
+      - uses: ./.github/actions/setup-pnpm
+      - uses: ./.github/actions/setup-node
+      - uses: ./.github/actions/install-pnpm-dependencies
+
+      - name: Copy environment file
+        run: cp template.env .env
+
+      - name: Compile Paraglide
+        run: pnpm inlang:settings
+
+      # TODO: Re-enable lint and check once codebase issues are fixed
+      # - name: Run lint
+      #   run: pnpm lint
+      # - name: Run check
+      #   run: pnpm check
+
+      - name: Build
+        run: pnpm build

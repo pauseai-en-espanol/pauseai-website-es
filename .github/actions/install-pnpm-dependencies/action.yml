@@ -1,0 +1,28 @@
+name: Install Dependencies
+description: Install pnpm dependencies with optimizations
+runs:
+  using: composite
+  steps:
+    # NOTE: The pnpm store cache is commented out because our self-hosted runners
+    # (Kubernetes pods on juggernaut cluster) have a persistent hostPath volume
+    # mounted at /opt/pnpm-store, making GitHub's cache redundant.
+    #
+    # For GitHub-hosted runners (ephemeral environments), uncomment this cache step
+    # as it provides significant speedup by persisting the pnpm store between runs.
+    #
+    # - name: Detect pnpm store path
+    #   id: pnpm-store
+    #   run: echo "store=$(pnpm store path --silent)" >> "$GITHUB_OUTPUT"
+    #   shell: bash
+    #
+    # - name: PNPM store cache
+    #   uses: actions/cache@5a3ec84eff668545956fd18022155c47e93e2684 # v4.2.3
+    #   with:
+    #     path: ${{ steps.pnpm-store.outputs.store }}
+    #     key: pnpm-store-${{ runner.os }}-${{ runner.arch }}-${{ hashFiles('pnpm-lock.yaml') }}
+    #     restore-keys: |
+    #       pnpm-store-${{ runner.os }}-${{ runner.arch }}
+
+    - name: Install Dependencies
+      run: pnpm install --frozen-lockfile --prefer-offline
+      shell: bash

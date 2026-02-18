@@ -67,7 +67,8 @@ function regenerateSettings(verbose = false): void {
 	}
 
 	// Force-remove cached l10n-cage in CI to prevent broken Git state
-	if (process.env.CI === 'true' && fs.existsSync(L10N_CAGE_DIR)) {
+	// But skip this if we're in offline mode - we need the bundled files!
+	if (process.env.CI === 'true' && !offlineL10n && fs.existsSync(L10N_CAGE_DIR)) {
 		console.log('🧹 CI: Force-removing cached l10n-cage (prevents broken Git state)')
 		fs.rmSync(L10N_CAGE_DIR, { recursive: true, force: true })
 	}
