@@ -39,7 +39,7 @@ Nuestro objetivo es prevenir los riesgos catastróficos de la inteligencia artif
 
 - Crear una comunidad de voluntarios para abogar por la seguridad de la inteligencia artificial.
 - Informar al público a través de las redes sociales, escribir artículos, participar en [entrevistas/podcasts](/press) y organizar eventos.
-- Facilitar el crecimiento de la comunidad [crecimiento](/growth-strategy) organizando eventos sociales.
+- Facilitar el crecimiento de la comunidad organizando eventos sociales.
 - Distribuir [donaciones](/donate) a proyectos que se alineen con nuestros objetivos.
 - Organizar [protestas](/protests) y otras formas de activismo para concienciar sobre los riesgos de la inteligencia artificial.
 - Educar a [voluntarios](/inscripcion) sobre cómo convertirse en defensores más efectivos.

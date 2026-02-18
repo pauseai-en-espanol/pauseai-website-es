@@ -63,7 +63,7 @@ Ver nuestra [página de financiamiento](/funding)
 
 ## ¿Cuáles son sus planes? {#what-are-your-plans}
 
-Centrarnos en [hacer crecer el movimiento](/growth-strategy), organizar protestas, presionar a los políticos y informar al público.
+Centrarnos en hacer crecer el movimiento, organizar protestas, presionar a los políticos e informar al público.
 
 Consulte nuestro [plan de acción](/roadmap) para una visión general detallada de nuestros planes y lo que podríamos hacer con más financiamiento.
 
