@@ -124,19 +124,19 @@
 <ul>
 	<li>
 		<b>Sales de tu burbuja.</b> Si hablas de los riesgos de la IA o de la pausa en un servidor de Discord
-		o en Twitter, lo más probable es que estés predicando para el coro. Con el correo, puedes llegar
-		a personas que no leen sobre estas cosas todo el día.
+		o en Twitter, lo más probable es que les estés hablando a los ya convencidos. Con el correo, puedes
+		llegar a personas que no leen sobre estos temas normalmente.
 	</li>
 	<li>
-		<b>Es el medio de los profesionales.</b> Políticos, periodistas, lobistas: todos usan el correo electrónico.
+		<b>Es el medio de los profesionales.</b> Políticos, periodistas, lobistas: todos usan correos electrónicos.
 		Si quieres que te tomen en serio, tú también deberías usarlo.
 	</li>
 	<li>
-		<b>Hacer que el riesgo de la IA sea conocimiento "común y corriente" es clave.</b> Necesitamos
-		que todos sepan que todos los demás saben sobre el riesgo de la IA, para que se convierta en
-		conocimiento común. Además de convencer a personas influyentes, como políticos, periodistas y
-		lobistas. (Vea la explicación de Connor sobre por qué hacer que el riesgo de la IA sea
-		"conocimiento común" es súper importante
+		<b>Hacer que el riesgo de la IA sea de público conocimiento es clave.</b> Necesitamos que todos
+		sepan que todos los demás saben sobre el riesgo de la IA, para que sea de conocimiento común y
+		la gente se sienta más cómoda hablando de ello. No sólo convencer a personas influyentes, como
+		políticos, periodistas y lobistas. (Vea la explicación de Connor sobre por qué hacer que el
+		riesgo de la IA sea de público conocimiento es súper importante
 		<Link href="https://youtu.be/OUjnVeydhCM?t=1969">aquí</Link> y
 		<Link href="https://youtu.be/1j--6JYRLVk?t=5716">aquí</Link>.)
 	</li>
@@ -152,9 +152,9 @@
 <h2>A quién enviárselo</h2>
 <ul>
 	<li>
-		<b>Idealmente, a alguien que pueda asistir a la próxima cumbre.</b> Muchos países asistirán a la
-		próxima Cumbre de Seguridad de la IA. ¿Quién es probable que represente a su país? ¿Quizás un ministro
-		de Asuntos Exteriores o de Ciencia?
+		<b>Idealmente, a alguien que pueda asistir a la próxima <Link href="/summit">cumbre</Link>.</b> Muchos
+		países asistirán a la próxima Cumbre de Seguridad de la IA. ¿Quién es probable que represente a su
+		país? ¿Quizás un ministro de Asuntos Exteriores o de Ciencia?
 	</li>
 	<li>
 		<b>Alguien que sea propenso a actuar.</b> ¿Hay algún político que esté a menudo al frente del debate
@@ -163,8 +163,8 @@
 		a los demás?
 	</li>
 	<li>
-		<b>Alguien que te represente políticamente.</b> Quizás un político en el parlamento del partido
-		que votaste. <Link
+		<b>Alguien que te represente políticamente.</b> Quizás un político de un partido por el que
+		votaste. <Link
 			href="https://github.com/Campaign-for-AI-Safety-archive/.github/tree/main/email-templates#email-your-politician"
 			>Encuentra su dirección de correo electrónico</Link
 		>.
@@ -219,7 +219,7 @@
 </p>
 <ul>
 	<li>
-		<b>Conoce a tu audiencia.</b> Infórmate sobre la persona a la que envías la carta. ¿En qué están
+		<b>Conoce a tu destinatario.</b> Infórmate sobre la persona a la que envías la carta. ¿En qué están
 		trabajando? ¿Qué opinan sobre la IA? ¿Qué ha sucedido en su vida profesional las últimas semanas?
 	</li>
 	<li>
@@ -227,8 +227,8 @@
 		tiempo de enviar esta carta?
 	</li>
 	<li>
-		<b>Hazlo noticioso.</b> El modelo de correo no siempre está actualizado. Asegúrate de mencionar los
-		avances recientes en políticas de IA (especialmente los locales).
+		<b>Hazlo noticioso.</b> La plantilla de correo no siempre está actualizada. Asegúrate de mencionar
+		los avances recientes en políticas de IA (especialmente los locales).
 	</li>
 </ul>
 <p>
@@ -269,26 +269,26 @@
 					href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known"
 					>estimaba</a
 				>
-				que una IA superaría los exámenes de ingreso a la universidad para 2050. Este objetivo se
-				logró en marzo de 2023. Ahora, la IA ya está escribiendo
+				que una IA superaría los exámenes de ingreso a la universidad para 2050. Este objetivo se logró
+				en marzo de 2023. Ahora, la IA ya está escribiendo
 				<a href="https://www.youtube.com/watch?t=1042&v=wUOjTR1511M&feature=youtu.be"
 					>hasta el 90 %</a
 				>
 				del código en las empresas de IA. En algún momento, posiblemente en un futuro cercano, la IA
-				podrá construir directamente IA más poderosas, lo que conducirá a un aumento rápido de las
-				capacidades de la IA. Miles de expertos han
+				podrá construir directamente IA más poderosas, lo que conducirá a un aumento rápido de las capacidades
+				de la IA. Miles de expertos han
 				<a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
 					>pedido una pausa</a
 				>
-				en el desarrollo de la IA de frontera, y también parece haber un amplio apoyo para frenar el
+				en el desarrollo de la IA más avanzada, y también parece haber un amplio apoyo para frenar el
 				desarrollo de la IA entre el público. Una
 				<a
 					href="https://www.vox.com/future-perfect/2023/9/19/23879648/americans-artificial-general-intelligence-ai-policy-poll"
 					>encuesta</a
 				>
 				indica que el 63 % de los estadounidenses apoya regulaciones para evitar que las empresas de
-				IA construyan IA superinteligente. Más de 100 000 personas (incluidos los investigadores de
-				IA más citados) han firmado una
+				IA construyan IA superinteligente. Más de 100 000 personas (incluidos los investigadores de IA
+				más citados) han firmado una
 				<a href="https://superintelligence-statement.org/"
 					>declaración sobre la prohibición del desarrollo de una superinteligencia</a
 				>.
