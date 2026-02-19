@@ -48,7 +48,14 @@ const REDIRECTS: Record<string, string> = {
 	'/urgencia': '/urgency',
 	'/valores': '/values',
 	'/vacantes': '/vacancies',
-	'/riesgo-existencial': '/xrisk'
+	'/riesgo-existencial': '/xrisk',
+	'/plantilla': '/email-builder',
+	'/plantilla-de-emails': '/email-builder',
+	'/plantilla-de-correos': '/email-builder',
+	'/plantilla-de-correos-electronicos': '/email-builder',
+	'/constructor-de-emails': '/email-builder',
+	'/constructor-de-correos': '/email-builder',
+	'/constructor-de-correos-electronicos': '/email-builder'
 }
 
 export function handleRedirects(path: string) {
