@@ -1,52 +1,53 @@
 <!-- eslint-disable svelte/no-restricted-html-elements -- 
  No link l10n needed, Link component messes up the rich text -->
 <p>
-	The latest AI systems can already analyze and write software. They <a
+	Los sistemas de IA más recientes ya pueden analizar y escribir software. <a
 		href="https://betterprogramming.pub/i-used-gpt-3-to-find-213-security-vulnerabilities-in-a-single-codebase-cc3870ba9411"
-		>can find vulnerabilities</a
+		>Pueden encontrar vulnerabilidades</a
 	>
-	in software, and
+	en el software, y
 	<a
 		href="https://blog.checkpoint.com/2023/03/15/check-point-research-conducts-initial-security-analysis-of-chatgpt4-highlighting-potential-scenarios-for-accelerated-cybercrime/"
-		>they could be used to exploit them</a
-	>. As AI capabilities grow, so will the vulnerabilities they can detect and the exploits they can
-	create. They are not yet as good at this as the best humans are, so right now the danger is
-	limited. However, capabilities are rapidly increasing.
+		>podrían utilizarse para explotarlas</a
+	>. A medida que crecen las capacidades de la IA, también lo harán las vulnerabilidades que puedan
+	detectar y los exploits que puedan crear. Todavía no son tan buenos en esto como los mejores
+	humanos, por lo que en este momento el peligro es limitado. Sin embargo, las capacidades están
+	aumentando rápidamente.
 </p>
 <p>
-	Note that AI also enables completely novel types of attacks. For example, AI can be used to <a
+	Tenga en cuenta que la IA también permite tipos de ataques completamente novedosos. Por ejemplo,
+	la IA se puede utilizar para <a
 		href="https://beebom.com/ai-crack-password-listening-keyboard-sounds/"
-		>hear the password you typed from an online call</a
+		>escuchar la contraseña que escribió desde una llamada en línea</a
 	>
-	or use
+	o usar
 	<a
 		href="https://www.marktechpost.com/2023/02/15/cmu-researchers-create-an-ai-model-that-can-detect-the-pose-of-multiple-humans-in-a-room-using-only-the-signals-from-wifi/"
-		>Wi-Fi to see humans through walls</a
-	>. AI can also be used to make
+		>Wi-Fi para ver a los humanos a través de las paredes</a
+	>. La IA también se puede utilizar para crear
 	<a href="https://www.hyas.com/blog/blackmamba-using-ai-to-generate-polymorphic-malware"
-		>self-modifying malware</a
-	>, which makes it far harder to detect.
+		>malware que se modifica a sí mismo</a
+	>, lo que lo hace mucho más difícil de detectar.
 </p>
 <p>
-	There will most likely come a point where an AI is better at hacking than the best human hackers.
-	This can go wrong in many ways.
+	Es muy probable que llegue un punto en el que una IA sea mejor hackeando que los mejores hackers
+	humanos. Esto puede salir mal de muchas maneras.
 </p>
 <ul>
 	<li>
-		<strong>Infrastructure</strong>: Cyberweapons can be used to gain access to or disable critical
-		infrastructure, such as
-		<a href="https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack">oil pipelines</a>.
+		<strong>Infraestructura</strong>: Las ciberarmas se pueden utilizar para obtener acceso o
+		deshabilitar infraestructuras críticas, como
+		<a href="https://en.wikipedia.org/wiki/Colonial_Pipeline_ransomware_attack">oleoductos</a>.
 	</li>
 	<li>
-		<strong>Financial</strong>: Cyberweapons can be used to
+		<strong>Financiero</strong>: Las ciberarmas se pueden utilizar para
 		<a href="https://en.wikipedia.org/wiki/2015%E2%80%932016_SWIFT_banking_hack"
-			>steal money from banks</a
-		>, or to
-		<a href="https://en.wikipedia.org/wiki/2010_flash_crash">manipulate the stock market</a>.
+			>robar dinero de los bancos</a
+		>, o para
+		<a href="https://en.wikipedia.org/wiki/2010_flash_crash">manipular el mercado de valores</a>.
 	</li>
 	<li>
-		<strong>Military</strong>: Equipment such as weapons and sensors are increasingly dependent on
-		wireless connectivity and complex software.
+		<strong>Militar</strong>: Equipos como armas y sensores dependen cada vez más de la conectividad
+		inalámbrica y software complejo.
 	</li>
-	<ul></ul>
 </ul>

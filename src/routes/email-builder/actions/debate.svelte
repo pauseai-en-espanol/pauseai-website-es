@@ -1,4 +1,4 @@
 <p>
-	As far as I know, there have been no debates in parliament about AI safety so far. I would like to
-	ask you to consider proposing a session about this urgent topic.
+	Que yo sepa, no ha habido debates en el parlamento sobre la seguridad de la IA hasta el momento.
+	Me gustaría pedirle que considere proponer una sesión sobre este tema urgente.
 </p>

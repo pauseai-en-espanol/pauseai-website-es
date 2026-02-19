@@ -39,50 +39,46 @@
 				if (placeholders && placeholders.length > 0) {
 					const uniquePlaceholders = [...new Set(placeholders)]
 					toast.error(
-						`Letter copied, but ${uniquePlaceholders.length} placeholder(s) still need to be replaced: ${uniquePlaceholders.join(', ')}`,
+						`¡Carta copiada! Pero aún falta reemplazar ${uniquePlaceholders.length} términos temporales: ${uniquePlaceholders.join(', ')}`,
 						{
 							duration: 5000
 						}
 					)
 				} else {
-					toast.success('Letter copied to clipboard!')
+					toast.success('¡Carta copiada al portapapeles!')
 				}
 			})
 			.catch((err) => {
-				window.alert(`Failed to copy: ${err}`)
+				window.alert(`Error al copiar: ${err}`)
 			})
 	}
 
 	const concerns: Section[] = [
 		{
-			name: 'Existential risk',
+			name: 'Riesgo existencial',
 			section: Xrisk
 		},
-		// {
-		// 	name: 'Bio risk',
-		// 	section: Bio
-		// },
 		{
-			name: 'Cybersecurity risk',
+			name: 'Riesgo de ciberseguridad',
 			section: Cyber
 		}
 	]
 
 	const actions: Section[] = [
 		{
-			name: 'Prepare treaty for summit',
+			name: 'Preparar tratado para la cumbre',
 			section: Treaty
 		},
 		{
-			name: 'Acknowledge x-risk',
+			name: 'Reconocer el riesgo existencial',
 			section: Acknowledge
 		},
 		{
-			name: 'Have a meeting with you',
+			name: 'Tener una reunión con usted',
 			section: Meeting
 		},
 		{
-			name: 'Organize a debate',
+			name: 'Organizar un debate',
 			section: Debate
 		}
 	]
@@ -124,68 +120,70 @@
 	<em>{description}</em>
 </div>
 
-<h2>Why sending an email is awesome</h2>
+<h2>Por qué enviar un email es genial</h2>
 <ul>
 	<li>
-		<b>Exit your filter bubble.</b> If you're talking about AI risks or pausing in a discord server or
-		twitter, you're mostly preaching to the choir. With email, you can reach people who don't read about
-		this stuff all day.
+		<b>Sales de tu burbuja.</b> Si hablas de los riesgos de la IA o de la pausa en un servidor de Discord
+		o en Twitter, lo más probable es que estés predicando para el coro. Con el correo, puedes llegar
+		a personas que no leen sobre estas cosas todo el día.
 	</li>
 	<li>
-		<b>It's the medium for the pros.</b> Politicians, journalists, lobbyists - all of them use email.
-		If you want to be taken seriously, you should use email too.
+		<b>Es el medio de los profesionales.</b> Políticos, periodistas, lobistas: todos usan el correo electrónico.
+		Si quieres que te tomen en serio, tú también deberías usarlo.
 	</li>
 	<li>
-		<b>Making AI Risk "common knowledge" is key.</b> We need to get everyone to know that everyone
-		else knows about AI risk, so it becomes "common knowledge". As well as, convincing influential
-		people, like politicians, journalists, and lobbyists. (E.g. See Connor's explanation as to why
-		making AI Risk "common knowledge" is super important
-		<Link href="https://youtu.be/OUjnVeydhCM?t=1969">here</Link> and
-		<Link href="https://youtu.be/1j--6JYRLVk?t=5716">here</Link>.)
+		<b>Hacer que el riesgo de la IA sea conocimiento "común y corriente" es clave.</b> Necesitamos
+		que todos sepan que todos los demás saben sobre el riesgo de la IA, para que se convierta en
+		conocimiento común. Además de convencer a personas influyentes, como políticos, periodistas y
+		lobistas. (Vea la explicación de Connor sobre por qué hacer que el riesgo de la IA sea
+		"conocimiento común" es súper importante
+		<Link href="https://youtu.be/OUjnVeydhCM?t=1969">aquí</Link> y
+		<Link href="https://youtu.be/1j--6JYRLVk?t=5716">aquí</Link>.)
 	</li>
 	<li>
-		<b>No social pressure.</b> If you post something publicly, a politician might be hesitant to respond
-		to a topic they haven't made up their mind on.
+		<b>Sin presión social.</b> Si publicas algo abiertamente, un político puede dudar en responder a
+		un tema sobre el cual aún no ha tomado una decisión.
 	</li>
 	<li>
-		<b>Not many people actually do it.</b> That means that your email will stand out.
+		<b>No mucha gente lo hace realmente.</b> Eso significa que tu correo electrónico destacará.
 	</li>
 </ul>
 
-<h2>Who to send to</h2>
+<h2>A quién enviárselo</h2>
 <ul>
 	<li>
-		<b>Ideally, someone who might visit the next Summit. </b> The next AI Safety Summit will be attended
-		by many countries. Who is likely to represent your country? Maybe a minister of foreign affairs or
-		science?
+		<b>Idealmente, a alguien que pueda asistir a la próxima cumbre.</b> Muchos países asistirán a la
+		próxima Cumbre de Seguridad de la IA. ¿Quién es probable que represente a su país? ¿Quizás un ministro
+		de Asuntos Exteriores o de Ciencia?
 	</li>
 	<li>
-		<b>Someone who is likely to act.</b> Is there a politician who's often at the forefront of discussing
-		new digital / science topics? Perhaps even someone who's already shared concerns about AI? Or someone
-		who's just good at pitching new, controversial topics and convincing others?
+		<b>Alguien que sea propenso a actuar.</b> ¿Hay algún político que esté a menudo al frente del debate
+		sobre nuevos temas digitales o científicos? ¿Quizás incluso alguien que ya haya compartido inquietudes
+		sobre la IA? ¿O alguien que simplemente sea bueno presentando temas nuevos y controversiales y convenciendo
+		a los demás?
 	</li>
 	<li>
-		<b>Someone who politically represents you.</b> Maybe a politician in parliament from the party
-		that you voted for. <Link
+		<b>Alguien que te represente políticamente.</b> Quizás un político en el parlamento del partido
+		que votaste. <Link
 			href="https://github.com/Campaign-for-AI-Safety-archive/.github/tree/main/email-templates#email-your-politician"
-			>Find their email address</Link
+			>Encuentra su dirección de correo electrónico</Link
 		>.
 	</li>
 </ul>
 
-<h2>Pick a concern</h2>
+<h2>Elige una preocupación</h2>
 <ul>
 	<li>
-		<b>What are you most concerned about?</b> Don't be afraid of being judged for your concerns. It's
-		the job of politicians to represent you - including the things that you worry about.
+		<b>¿Qué es lo que más te preocupa?</b> No tengas miedo de ser juzgado por tus inquietudes. El trabajo
+		de los políticos es representarte, incluyendo las cosas que te preocupan.
 	</li>
 	<li>
-		<b>Consider the person</b> who you're writing to, and what they may already believe. If you're writing
-		to someone who's already worked on IT and cybersecurity issues before, consider focsing on that particular
-		issue.
+		<b>Ten en cuenta a la persona</b> a la que escribes y lo que ya puede creer. Si estás escribiendo
+		a alguien que ya ha trabajado en temas de TI y ciberseguridad, considera enfocarte en ese tema en
+		particular.
 	</li>
 	<li>
-		<b>Select one:</b>
+		<b>Selecciona una:</b>
 		{#each concerns as section}
 			<button
 				class={selectedConcern == section ? 'tag tag--selected' : 'tag'}
@@ -195,15 +193,15 @@
 	</li>
 </ul>
 
-<h2>Pick an action</h2>
+<h2>Elige una acción</h2>
 <ul>
 	<li>
-		What do you want the recipient to do after receiving your mail? Prepare for the summit, organize
-		a debate, have a meeting? As with every section, you can replace the suggested text if you have
-		a better idea.
+		¿Qué quieres que haga el destinatario después de recibir tu correo? ¿Preparar para la cumbre,
+		organizar un debate, tener una reunión? Al igual que con cada sección, puedes reemplazar el
+		texto sugerido si tienes una mejor idea.
 	</li>
 	<li>
-		<b>Select one:</b>
+		<b>Selecciona una:</b>
 		{#each actions as section}
 			<button
 				class={selectedAction == section ? 'tag tag--selected' : 'tag'}
@@ -213,37 +211,38 @@
 	</li>
 </ul>
 
-<h2>Last steps</h2>
+<h2>Últimos pasos</h2>
 <p>
-	Before sending the email you need to manually replace the placeholders "__NAME__", "__THING__",
-	"__COUNTRY__" and "__YOUR NAME__". It can also be effective to further personalize the message.
-	Here are some tips:
+	Antes de enviar el correo electrónico, debes reemplazar manualmente los placeholders "__NOMBRE__",
+	"__TEMA__", "__PAÍS__" y "__TU NOMBRE__". También puede ser eficaz personalizar aún más el
+	mensaje. Aquí tienes algunos consejos:
 </p>
 <ul>
 	<li>
-		<b>Know your audience.</b> Read up about the person you're sending a letter to. What are they working
-		on? How do they think about AI? What has happened in their professional life the last weeks?
+		<b>Conoce a tu audiencia.</b> Infórmate sobre la persona a la que envías la carta. ¿En qué están
+		trabajando? ¿Qué opinan sobre la IA? ¿Qué ha sucedido en su vida profesional las últimas semanas?
 	</li>
 	<li>
-		<b>Share something about yourself.</b> Why do you care about AI safety? Why did you take the time
-		to send this letter?
+		<b>Comparte algo sobre ti.</b> ¿Por qué te importa la seguridad de la IA? ¿Por qué te tomaste el
+		tiempo de enviar esta carta?
 	</li>
 	<li>
-		<b>Make it newsworthy.</b> The mail template is not always up-to-date. Make sure you mention recent
-		AI policy advancements (especially local ones).
+		<b>Hazlo noticioso.</b> El modelo de correo no siempre está actualizado. Asegúrate de mencionar los
+		avances recientes en políticas de IA (especialmente los locales).
 	</li>
 </ul>
 <p>
-	For more information, you can take a look at our page on <Link href="/writing-a-letter"
-		>how to write a letter or email to someone in power</Link
+	Para obtener más información, puedes echar un vistazo a nuestra página sobre <Link
+		href="/writing-a-letter"
+		>cómo escribir una carta o un correo electrónico a alguien en el poder</Link
 	>.
 </p>
 
 <!-- eslint-disable svelte/no-restricted-html-elements -- 
  No link l10n needed, Link component messes up the rich text -->
 
-<h2>Result</h2>
-<p>You can edit the message directly in the browser.</p>
+<h2>Resultado</h2>
+<p>Puedes editar el mensaje directamente en el navegador.</p>
 <div>
 	<Card className="letter">
 		<div
@@ -254,69 +253,71 @@
 			role="document"
 			tabindex="-1"
 		>
-			<p>Dear __NAME__,</p>
+			<p>Estimado/a __NOMBRE__,</p>
 			<p>
-				First of all, thank you very much for everything you have done for __THING__. I am emailing
-				you today to bring an issue to your attention, in which I believe __COUNTRY__ and you in
-				particular can play a very important role. The issue is the existential threat of artificial
-				intelligence.
+				En primer lugar, muchas gracias por todo lo que ha hecho por __TEMA__. Le escribo hoy para
+				llamar su atención sobre un asunto en el que creo que __PAÍS__ y usted en particular pueden
+				desempeñar un papel muy importante. El tema es la amenaza existencial de la inteligencia
+				artificial.
 			</p>
 
 			<svelte:component this={selectedConcern.section} />
 
 			<p>
-				The advancements in the AI landscape have progressed much faster than anticipated. In 2020,
-				it was
-				<a href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known"
-					>estimated</a
+				Los avances en el panorama de la IA han progresado mucho más rápido de lo previsto. En 2020,
+				se <a
+					href="https://www.metaculus.com/questions/3479/date-weakly-general-ai-is-publicly-known"
+					>estimaba</a
 				>
-				that an AI would pass university entrance exams by 2050. This goal was achieved in March 2023.
-				Now, AI is already writing
-				<a href="https://www.youtube.com/watch?t=1042&v=wUOjTR1511M&feature=youtu.be">up to 90%</a>
-				of the code at AI companies. At some point, possibly in the near future, AI will be able to directly
-				build more powerful AI, leading to a rapid increase in AI capabilities. Thousands of experts
-				have
+				que una IA superaría los exámenes de ingreso a la universidad para 2050. Este objetivo se
+				logró en marzo de 2023. Ahora, la IA ya está escribiendo
+				<a href="https://www.youtube.com/watch?t=1042&v=wUOjTR1511M&feature=youtu.be"
+					>hasta el 90 %</a
+				>
+				del código en las empresas de IA. En algún momento, posiblemente en un futuro cercano, la IA
+				podrá construir directamente IA más poderosas, lo que conducirá a un aumento rápido de las
+				capacidades de la IA. Miles de expertos han
 				<a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
-					>called for a pause</a
+					>pedido una pausa</a
 				>
-				in frontier AI development, and there seems to be broad support for slowing down AI development
-				among the public, too. A
+				en el desarrollo de la IA de frontera, y también parece haber un amplio apoyo para frenar el
+				desarrollo de la IA entre el público. Una
 				<a
 					href="https://www.vox.com/future-perfect/2023/9/19/23879648/americans-artificial-general-intelligence-ai-policy-poll"
-					>poll</a
+					>encuesta</a
 				>
-				indicates that 63% of American support regulations to prevent AI companies from building superintelligent
-				AI. Over 100.000 people (including the most cited AI researchers) have signed a
+				indica que el 63 % de los estadounidenses apoya regulaciones para evitar que las empresas de
+				IA construyan IA superinteligente. Más de 100 000 personas (incluidos los investigadores de
+				IA más citados) han firmado una
 				<a href="https://superintelligence-statement.org/"
-					>statement on banning the development of superintelligence</a
+					>declaración sobre la prohibición del desarrollo de una superinteligencia</a
 				>.
 			</p>
 
 			<p>
-				Even among AI company CEOs, there is
-				<a
+				Incluso entre los directores ejecutivos de las empresas de IA, hay un <a
 					href="https://www.pbs.org/newshour/politics/watch-overwhelming-consensus-for-artificial-intelligence-regulation-musk-says-after-senate-tech-meeting"
-					>“overwhelming consensus”</a
-				>
-				that regulation is needed, but it seems that companies are not willing to jeopardise their competitive
-				position by voluntarily halting development. A pause would need to be imposed by a government.
-				Unfortunately, the race dynamics don't just apply to companies: countries also have incentives
-				to not fall behind in AI capabilities, and prioritize growth over safety. These dynamics are
-				the reason why we urgently need an international solution. We need international coordination,
-				we need politicians to initialize treaty negotiations.
+					>“consenso abrumador”</a
+				> de que la regulación es necesaria, pero parece que las empresas no están dispuestas a poner
+				en peligro su posición competitiva deteniendo voluntariamente el desarrollo. Un gobierno tendría
+				que imponer una pausa. Desafortunadamente, la dinámica de carrera no solo se aplica a las empresas:
+				los países también tienen incentivos para no quedarse atrás en las capacidades de IA y priorizan
+				el crecimiento sobre la seguridad. Estas dinámicas son la razón por la que necesitamos urgentemente
+				una solución internacional. Necesitamos coordinación internacional, necesitamos que los políticos
+				inicien negociaciones de tratados.
 			</p>
 
 			<svelte:component this={selectedAction.section} />
 
-			<p>Best regards,</p>
+			<p>Atentamente,</p>
 
-			<p>__YOUR NAME__</p>
+			<p>__TU NOMBRE__</p>
 		</div>
 	</Card>
 </div>
 
 <div class="actionBar">
-	<Button on:click={() => copyHTMLWithoutStyles()}>Copy</Button>
+	<Button on:click={() => copyHTMLWithoutStyles()}>Copiar</Button>
 </div>
 
 <style>
