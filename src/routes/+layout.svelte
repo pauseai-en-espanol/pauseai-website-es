@@ -43,13 +43,6 @@
 	(Top)
 </h2>
 
-<Banner fixed id="change-org-cumbre-india">
-	<a href="https://www.change.org/es-ia-cumbre-india" target="_blank" rel="noopener noreferrer">
-		<strong>Firma la petición:</strong> España debe liderar la seguridad en IA en la Cumbre de India
-		→
-	</a>
-</Banner>
-
 {#if data.localeAlert}
 	<Banner
 		contrast={data.localeAlert.isDev}
