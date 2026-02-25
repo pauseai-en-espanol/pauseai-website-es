@@ -51,7 +51,6 @@ Disponemos de alrededor de 90.000 € en el banco.
 
 ## Documentos relacionados {#related-documents}
 
-- [Estrategia de crecimiento](/growth-strategy)
 - [Propuesta](/proposal)
 - [Valores](/values)
 - [Donar](/donate)

@@ -1,9 +1,9 @@
 import type { Post } from '$lib/types'
 
 export const meta: Post = {
-	title: 'Email Builder',
+	title: 'Plantilla de correos electrónicos',
 	slug: 'email-builder',
-	description: 'A web app to help you write an email to a politician. Convince them to Pause AI!',
+	description: 'Crea un email para enviar a tus representantes políticos.',
 	date: '2023-12-08',
 	categories: []
 }

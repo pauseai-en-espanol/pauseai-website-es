@@ -1,13 +1,15 @@
+<!-- eslint-disable svelte/no-restricted-html-elements -- 
+ No link l10n needed, Link component messes up the rich text -->
 <p>
-	I would like to ask you to work towards treaty negotiations for compute governance, which would
-	prevent the worst of the risks that AI poses. The upcoming San Francisco AI Safety Conference on
-	November 20th-22nd is a great opportunity to do so. One country should take the lead, and at this
-	moment, not a single one is doing so.
+	Me gustaría pedirle que considere trabajar para entablar negociaciones de un tratado para la
+	gobernanza del cómputo, lo que evitaría los peores riesgos que plantea la IA. Un país debería
+	tomar la iniciativa, y en este momento, ninguno lo está haciendo.
 </p>
 <p>
-	The most important part of such a document is that there should be some mechanism in place that
-	can pause dangerous training runs. Ideally, this happens before a model is trained, as AI
-	accidents might happen during lab tests. Implementations of this idea can be found <a
-		href="https://pauseai.info/building-the-pause-button">here</a
+	La parte más importante de dicho documento es que debería haber algún mecanismo implementado que
+	pueda pausar los entrenamientos más peligrosos. Idealmente, esto sucede antes de que se entrene un
+	modelo, ya que los accidentes de IA podrían ocurrir durante las pruebas de laboratorio. Se pueden
+	encontrar implementaciones de esta idea <a href="https://pauseai.es/building-the-pause-button"
+		>aquí</a
 	>.
 </p>

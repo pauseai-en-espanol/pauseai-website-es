@@ -26,7 +26,7 @@ description: ¿Qué significa ser un Grupo Nacional en la red de PauseAI?
 - **Financiación** para actividades a nivel nacional. Los grupos nacionales pueden solicitar [Microsubvenciones](/microgrants) de PauseAI Global para financiar todo tipo de actividades. No obstante, se anima a los grupos nacionales a recaudar fondos para sus propias actividades.
 - **Asesoramiento** y **seguimiento** para garantizar que los grupos nacionales tengan éxito y se alineen con la estrategia global.
 - **Materiales de marketing** como folletos, carteles, contenido para redes sociales, etc.
-- **Estrategia**. Se espera que los grupos nacionales sigan la estrategia de PauseAI ([Teoría del Cambio](/theory-of-change), [Estrategia de Comunicación](/communication-strategy), [Estrategia de Crecimiento](/growth-strategy)). Sin embargo, se espera que los grupos nacionales realicen ajustes en la estrategia para adaptarla a su contexto local.
+- **Estrategia**. Se espera que los grupos nacionales sigan la estrategia de PauseAI ([Teoría del Cambio](/theory-of-change) y [Estrategia de Comunicación](/communication-strategy)). Sin embargo, se espera que los grupos nacionales realicen ajustes en la estrategia para adaptarla a su contexto local.
 
 ## Cómo establecer un Grupo Nacional de PauseAI {#how-to-set-up-a-pauseai-national-group}
 

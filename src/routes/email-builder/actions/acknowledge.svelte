@@ -1,6 +1,6 @@
 <p>
-	As far as I know, our country has not yet formally acknowledged the existential risk of AI.
-	Without that acknowledgement, it is unlikely that we will be able to take the necessary steps to
-	mitigate this risk. I would like to ask you to consider proposing a motion to acknowledge the
-	existential risk of AI.
+	Que yo sepa, nuestro país aún no ha reconocido formalmente el riesgo existencial de la IA. Sin ese
+	reconocimiento, es poco probable que podamos tomar las medidas necesarias para mitigar este
+	riesgo. Me gustaría pedirle que considere proponer una moción para reconocer el riesgo existencial
+	de la IA.
 </p>

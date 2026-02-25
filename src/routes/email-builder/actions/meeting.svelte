@@ -1,4 +1,4 @@
 <p>
-	I would appreciate it if you could spend 30 minutes of your time to discuss this urgent topic with
-	me.
+	Le agradecería mucho si pudiera dedicar 30 minutos de su tiempo para discutir conmigo este tema
+	urgente.
 </p>

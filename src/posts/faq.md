@@ -63,7 +63,7 @@ Ver nuestra [página de financiamiento](/funding)
 
 ## ¿Cuáles son sus planes? {#what-are-your-plans}
 
-Centrarnos en [hacer crecer el movimiento](/growth-strategy), organizar protestas, presionar a los políticos y informar al público.
+Centrarnos en hacer crecer el movimiento, organizar protestas, presionar a los políticos e informar al público.
 
 Consulte nuestro [plan de acción](/roadmap) para una visión general detallada de nuestros planes y lo que podríamos hacer con más financiamiento.
 
@@ -176,7 +176,7 @@ Porque reconocer que _estamos en peligro_ es algo muy, muy aterrador.
 
 Hay muchas [cosas que puedes hacer](/action).
 Por tu cuenta, puedes escribir una [carta](/writing-a-letter), publicar [volantes](/flyering), [aprender](/learn) e informar a otros, unirte a una [protesta](/protests), o [donar](/donate) algo de dinero.
-Pero aún más importante: puedes [unirte a PauseAI](https://pauseai.info/join) y coordinar con otros que están tomando medidas.
+Pero aún más importante: puedes [unirte a PauseAI](/inscripcion) y coordinar con otros que están tomando medidas.
 Consulta si hay [comunidades locales](/communities) en tu área.
 Si deseas contribuir más, puedes convertirte en voluntario y unirte a uno de nuestros [equipos](/teams), o [establecer una comunidad local](/local-organizing).
 

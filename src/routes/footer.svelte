@@ -16,7 +16,7 @@
 	</div>
 
 	<div class="joinbar">
-		<Link class="c2a" href="https://pauseai.info/join">{m.footer_join()}</Link>
+		<Link class="c2a" href="/inscripcion">{m.footer_join()}</Link>
 		<div class="socials">
 			<Socials />
 		</div>

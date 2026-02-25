@@ -43,7 +43,7 @@ Podemos llegar allí de dos maneras:
 
 ## ¿Qué hacemos para llegar allí? {#what-do-we-do-to-get-there}
 
-1. **Hacer crecer el movimiento**. Cuanto más grande sea nuestro grupo, más podremos hacer. Hacemos crecer nuestro movimiento a través de la transparencia radical, la creación de comunidades en línea y el fomento de [comunidades locales](/communities). Empoderamos a nuestros voluntarios para que tomen medidas y les facilitamos que lo hagan. Lea más sobre [nuestra estrategia de crecimiento](/growth-strategy) sobre cómo lo hacemos.
+1. **Hacer crecer el movimiento**. Cuanto más grande sea nuestro grupo, más podremos hacer. Hacemos crecer nuestro movimiento a través de la transparencia radical, la creación de comunidades en línea y el fomento de [comunidades locales](/communities). Empoderamos a nuestros voluntarios para que tomen medidas y les facilitamos que lo hagan.
 2. **Protestas**. Las [protestas](/protests) han demostrado aumentar la conciencia pública y el apoyo. También son una excelente manera de reclutar nuevos miembros y mejorar la sensación de comunidad. Debido a que nuestro tema es relativamente nuevo, incluso las protestas pequeñas pueden obtener una muy buena [cobertura de los medios](/press). Animamos a nuestros miembros a [organizar protestas](/organizing-a-protest) en sus propias ciudades proporcionándoles las herramientas y el conocimiento que necesitan.
 3. **Cabildeo**. _Cada voluntario puede convertirse en un cabildero aficionado_. Enviamos [correos electrónicos a los políticos](/email-builder), nos reunimos con ellos y nos mantenemos en contacto. Les pedimos que pongan los riesgos de la IA en la agenda, redacten un tratado. El problema central que estamos tratando de resolver es la _falta de información_ y la _falta de [internalización emocional](/psychology-of-x-risk)_ y comprensión en la esfera política.
 4. **Informar al público**. Hacemos que las personas sean conscientes de los [riesgos](/risks) que enfrentamos y [lo que podemos hacer](/action) para prevenirlos. Hacemos esto públicamente publicando artículos, videos, imágenes y publicaciones en las redes sociales. Nos unimos a podcasts, damos charlas y organizamos eventos. También nos comunicamos con organizaciones asociadas, influencers, instituciones educativas y otros grupos que pueden desempeñar un papel en la conciencia pública. Lea sobre nuestra [estrategia de comunicación](/communication-strategy).
@@ -56,4 +56,4 @@ Podemos llegar allí de dos maneras:
 
 ## Vamos a ello {#lets-get-to-it}
 
-[Únete](https://pauseai.info/join) a PauseAI y [toma medidas](/action)!
+[Únete](/inscripcion) a PauseAI y [toma medidas](/action)!
