@@ -43,6 +43,7 @@ export const load: PageLoad = async ({ params }) => {
 			brief: metadata.brief || '',
 			slug: metadata.slug || slug,
 			date: metadata.date,
+			image: metadata.image,
 			hideTitle: metadata.hideTitle,
 			content: matchedModule.default
 		}

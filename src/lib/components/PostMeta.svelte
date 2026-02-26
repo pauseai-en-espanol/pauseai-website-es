@@ -4,10 +4,11 @@
 	export let description: string
 	export let date: string | undefined = undefined
 	/** URL or relative path to cover / preview image */
-	export let image = '/Cover.jpg'
-	const imageUrl = image.startsWith('/') ? `${url}${image}` : image
+	export let image: string | undefined = undefined
+	$: _image = image || '/Cover.jpg'
+	$: imageUrl = _image.startsWith('/') ? `${url}${_image}` : _image
 
-	const schemaOrgMarkup = {
+	$: schemaOrgMarkup = {
 		'@context': 'https://schema.org/',
 		'@type': 'BlogPosting',
 		headline: title,
