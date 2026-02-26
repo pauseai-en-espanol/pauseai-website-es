@@ -26,6 +26,8 @@ const REDIRECTS: Record<string, string> = {
 	'/volunteer-vacancies': '/join#volunteer-vacancies',
 	'/contact': '/contact-us',
 
+	'/riesgos/secretismo': '/riesgos/la-carrera',
+
 	// Spanish <-> English redirects
 	// English -> Spanish
 	'/about': '/nosotros',

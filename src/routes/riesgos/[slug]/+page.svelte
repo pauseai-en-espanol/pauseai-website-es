@@ -5,7 +5,7 @@
 	export let data: PageData
 </script>
 
-<PostMeta title={data.title} description={data.brief} date={data.date} />
+<PostMeta title={data.title} description={data.brief} date={data.date} image={data.image} />
 
 <article>
 	<a href="/riesgos">Volver a Riesgos</a>

@@ -1,7 +1,8 @@
 ---
 title: Secretismo y ambición en la carrera armamentística de la IA
 description: El secretismo en las empresas de IA representa un obstáculo fundamental para la seguridad y la democracia.
-cover: /riesgos/secretismo/faces.png
+cover: /riesgos/la-carrera/faces.png
+image: /riesgos/la-carrera/social.png
 gradient: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 0, 0, 0.6))
 hideTitle: true
 ---
@@ -10,7 +11,7 @@ hideTitle: true
 	import ParallaxHero from '$lib/components/ParallaxHero.svelte'
 
 	const title = 'Secretismo y ambición en la carrera armamentística de la IA'
-	const basePath = '/riesgos/secretismo'
+	const basePath = '/riesgos/la-carrera'
 	// from: direction layer enters from (left, right, up, down)
 	// travel: distance to travel (1 = 100% of container size)
 	const layers = [
@@ -57,7 +58,7 @@ rigor en la evaluación oficial del caso.
 
 <div class="center">
 
-![Prueba del delito](/riesgos/secretismo/chalk.png)
+![Prueba del delito](/riesgos/la-carrera/chalk.png)
 
 </div>
 
@@ -120,7 +121,7 @@ Organization (WAICO)**. El tiempo dirá si esta es una iniciativa sincera que pu
 actual de EEUU, o se enmarca simplemente en el interés del Gobierno de Xi Jinping por incrementar su influencia
 internacional.
 
-![caras](/riesgos/secretismo/faces.png)
+![caras](/riesgos/la-carrera/faces.png)
 
 Volvamos a Silicon Valley. La competencia allí es feroz, no se cortan a la hora de robar todos los datos a su alcance, o
 tomar todos los atajos posibles. En 2025 **fueron el principal lobby del país americano**. Particulares y empresas del
@@ -158,7 +159,7 @@ Educación, sanidad, economía, seguridad... **Poco a poco, han conseguido acapa
 hace indispensables para el funcionamiento de la nación**. Se genera así una dependencia mutua que dificulta la
 supervisión de su trabajo, así como la rendición de cuentas.
 
-![reunion](/riesgos/secretismo/reunion.png)
+![reunion](/riesgos/la-carrera/reunion.png)
 
 <p class="caption">Alex Wong—Getty Images</p>
 
@@ -275,6 +276,15 @@ como prometen, deberíamos tener todos el derecho y la capacidad de dar forma a 
 Esto comienza por entenderla.
 
 ---
+
+<iframe
+  src="https://www.youtube-nocookie.com/embed/5xwor_ysVkU"
+  title="La carrera armamentística de la IA"
+  frameborder="0"
+  style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
 
 ✍️*Este documento fue redactado al 100% por humanos.*
 
