@@ -31,14 +31,15 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 
 	for (const path in modules) {
 		const module = modules[path] as any
+		const metadata = module.metadata || {}
 
 		let id = 0
 		const match = path.match(/dia-(\d+)\.md$/)
 		if (match) {
 			id = parseInt(match[1], 10)
+		} else if (metadata.id) {
+			id = metadata.id
 		} else {
-			// fallback for files not matching the pattern (like secretismo.md)
-			// assign ID 1 if available, otherwise find next slot
 			id = 1
 		}
 
@@ -48,7 +49,6 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 		}
 		usedIds.add(id)
 
-		const metadata = module.metadata || {}
 		const filename = path.split('/').pop()?.replace('.md', '') || ''
 
 		risks.push({
@@ -65,9 +65,7 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 	// Sort by id
 	risks.sort((a, b) => a.id - b.id)
 
-	const FUTURE_RISKS: Record<number, string> = {
-		2: 'Siguiente entrega: <br /><br /> Fake News'
-	}
+	const FUTURE_RISKS: Record<number, string> = {}
 
 	// Fill with placeholders
 	for (let i = 1; i <= TOTAL_RISKS; i++) {
