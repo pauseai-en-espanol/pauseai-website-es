@@ -33,6 +33,8 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 		const module = modules[path] as any
 		const metadata = module.metadata || {}
 
+		if (metadata.hidden) continue
+
 		let id = 0
 		const match = path.match(/dia-(\d+)\.md$/)
 		if (match) {
