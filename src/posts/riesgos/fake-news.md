@@ -1,5 +1,5 @@
 ---
-title: Fake News y desinformación en la era de la IA
+title: 'Fake news: la realidad sintética'
 description: La inteligencia artificial amplifica la desinformación a una escala sin precedentes.
 id: 2
 gradient: linear-gradient(rgba(255, 255, 255, 0.6), rgba(220, 38, 38, 0.6))
