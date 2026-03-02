@@ -32,12 +32,12 @@
 	{#if date}
 		<meta property="article:published_time" content={date} />
 	{/if}
-	<meta property="twitter:title" content={title} />
-	<meta property="twitter:card" content="summary_large_image" />
-	<meta property="twitter:image" content={imageUrl} />
-	<meta property="twitter:description" content={description} />
-	<meta property="twitter:site" content="@PauseAI" />
-	<meta property="twitter:creator" content="@PauseAI" />
+	<meta name="twitter:title" content={title} />
+	<meta name="twitter:card" content="summary_large_image" />
+	<meta name="twitter:image" content={imageUrl} />
+	<meta name="twitter:description" content={description} />
+	<meta name="twitter:site" content="@pauseai_es" />
+	<meta name="twitter:creator" content="@pauseai_es" />
 	<!-- eslint-disable-next-line svelte/no-at-html-tags (static content) @typescript-eslint/no-unused-expressions (false positive) -->
 	{@html '<script type="application/ld+json">' + JSON.stringify(schemaOrgMarkup) + '</script>'}
 </svelte:head>
