@@ -11,6 +11,7 @@
 	import Telegram from './icons/telegram.svelte'
 	import Bluesky from './icons/bluesky.svelte'
 	import Whatsapp from './icons/whatsapp.svelte'
+	import Spotify from './icons/spotify.svelte'
 </script>
 
 <div class="social">
@@ -31,13 +32,16 @@
 		<Instagram />
 	</a>
 	<a href="https://www.youtube.com/@pauseai-es" target="_blank" title="YouTube"> <Youtube /></a>
-	<a href="https://substack.com/@pauseai" target="_blank" title="Substack"><Substack /></a>
+	<a href="https://pauseaispanish.substack.com/" target="_blank" title="Substack"><Substack /></a>
 	<a href="https://www.reddit.com/r/PauseAI/" target="_blank" title="Reddit"><Reddit /></a>
 	<a href="https://t.me/+UeTsIsNkmt82ZmQ8" target="_blank" title="Telegram"><Telegram /></a>
 	<!--	<a href="https://chat.whatsapp.com/JgcAbjqRr8X3tvrXdeQvfj" target="_blank" title="Whatsapp"-->
 	<!--		><Whatsapp /></a-->
 	<!--	>-->
 	<a href="https://bsky.app/profile/pauseai.bsky.social"><Bluesky /></a>
+	<a href="https://open.spotify.com/show/59tP3Q3B4MS70s58IKnvVe" target="_blank" title="Spotify"
+		><Spotify /></a
+	>
 </div>
 
 <style>

@@ -64,6 +64,15 @@ El límite de esta herramienta y su mal uso es aquel de la creatividad de quiene
 
 La simultánea adopción y rechazo de la IA tiene una explicación: Las personas están preocupadas por las noticias falsas, pero tienden a pensar que no les afectan a ellos sino a los demás. Son conscientes de la existencia de deepfakes, pero descartan haber sido víctimas de su uso. Por desgracia, lo son. Actualmente la capacidad humana para detectar deepfakes es similar a la probabilidad de acertar cara o cruz al tirar una moneda (55-60%). En el caso de la falsificación de imágenes faciales, la IA ya logra resultados que son percibidos como más realistas que la propia realidad.
 
+<iframe
+  src="https://www.youtube-nocookie.com/embed/g_31_Kj0-NE"
+  title="Will Smith comiendo espaguetis - Evolución de los deepfakes"
+  frameborder="0"
+  style="width: 100%; aspect-ratio: 16/9; border-radius: 8px;"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+  allowfullscreen
+></iframe>
+
 La tecnología avanza a un ritmo incesante, y nuestra limitada capacidad para identificar deepfakes pronto será nula. Sin embargo nuestras herramientas para combatir este fenómeno no avanzan al mismo ritmo, nuestra sociedad no es capaz de combatir la proliferación de contenido falso. Si bien puede demostrarse que un contenido es artificial, es muy difícil borrar el impacto que ciertas imágenes, vídeos o audios tienen en la opinión pública. Los contenidos sensacionalistas tienden a lograr un alcance mucho mayor que las explicaciones que los siguen.
 
 ## La otra cara de las mentiras, el Dividendo del Mentiroso
@@ -83,6 +92,14 @@ Llegado 2026, se ha dado un paso más allá, catalogando la difamación mediante
 
 A nivel europeo, se han tomado medidas como la obligada inclusión de marcas de agua que identifiquen los contenidos sintéticos como falsos. Aunque, por desgracia, esto puede ser facilmente eludido mediante el uso de otros modelos de IA especializados en eliminar dicha marca. Introducida en el AI Act, esta ley escuda aquellos contenidos que tengan un fin artístico, creativo o satírico.
 
+<div class="info-box">
+
+#### ¿Deepfakes para hacer justicia? {#deepfakes-justicia}
+
+En términos generales, podríamos calificar de bienintencionado el Reglamento Europeo de la IA o AI Act, pero en sus más de cien artículos figuran algunos pasajes preocupantes, cuando no surrealistas. Por ejemplo, los primeros dos puntos del artículo 50, que establecen que puede haber sistemas de IA "autorizados por ley para detectar, prevenir, investigar o enjuiciar delitos". Si se diera ese caso, no habría obligación de informar a las personas de que están interactuando con una inteligencia artificial (punto 1), a no ser que esas personas usen el sistema para denunciar crímenes. Y por si fuera poco, con los fines antes citados se permite generar deepfakes (punto 2) no etiquetados como tales. Las consecuencias que esto puede tener hielan la sangre a poco que lo pensemos.
+
+</div>
+
 Desde febrero de 2025, queda también prohibido el uso de sistemas de IA para "técnicas subliminales o manipuladoras" que tengan el objetivo de distorsionar el comportamiento de la población, o sistemas que exploten vulnerabilidades de ciertos grupos demográficos.
 
 En EEUU, existe una creciente tensión entre libertad de expresión y protección de la población. En este país se ha tratado de prohibir la distribución de deepfakes políticos en los 120 días previos a una elección. Esto se hizo mediante la ley AB 2839, la cual fue rápidamente tumbada bajo el pretexto de proteger la libertad de expresión. Si bien no han logrado aprobar restricciones penales contundentes en torno al uso de deepfakes, en EEUU se ha abierto un medio para la demanda a nivel individual de contenidos digitales explícitos en los que uno figure.
@@ -94,3 +111,5 @@ El sistema más estricto es sin duda el de China. Desde enero de 2023, los prove
 Encontramos un pequeño margen para la esperanza en la respuesta que ciertas naciones están dando a los deepfakes. Pese a esto, es una realidad a la que aún no hemos logrado adaptarnos del todo. La clave reside en un equilibrio entre responsabilidad, rendición de cuentas, y alfabetización de la sociedad. Ya que los propios sistemas de detección de deepfakes de las redes sociales actuales han mostrado ser incapaces de lidiar con este tema, la solución probablemente pase por limitar la propia creación de los deepfakes, y obligar a su identificación como tal.
 
 Mientras tanto, lo que sí podemos hacer es informarnos respecto al tema y hacer saber del alcance de los deepfakes, sobre todo a aquellos grupos más vulnerables.
+
+✍️*Este documento fue redactado al 100% por humanos.*
