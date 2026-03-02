@@ -59,8 +59,7 @@ async function loadRiskArticles(): Promise<RiskArticle[]> {
 			brief: metadata.brief || '',
 			cover: metadata.cover || '',
 			gradient: metadata.gradient || '',
-			slug: metadata.slug || filename,
-			content: module.default ? module.default.render().html : undefined
+			slug: metadata.slug || filename
 		})
 	}
 
