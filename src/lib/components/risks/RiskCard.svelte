@@ -7,47 +7,27 @@
 </script>
 
 {#if risk.isPlaceholder}
-	<div
-		class="risk-card placeholder"
-		aria-label="Próximamente"
-		style="background-image: linear-gradient(rgba(255, 255, 255, 0.8), rgba(245,148,25, 0.8)), url('/favicon.png')"
-	>
-		<div class="card-content centered">
-			<h3 class="card-title">{@html risk.title}</h3>
-		</div>
+	<div class="risk-card placeholder" aria-label="Próximamente">
+		<img src="/favicon.png" alt="" class="placeholder-logo" />
+		<h3 class="placeholder-title">{@html risk.title}</h3>
 	</div>
 {:else}
-	<a
-		href="{baseUrl}/{risk.slug}"
-		class="risk-card unlocked"
-		aria-label={risk.title}
-		style="background-image: {risk.gradient}, url('{risk.cover}')"
-	>
-		<div class="card-content">
-			<h3 class="card-title">{risk.title}</h3>
-			{#if risk.brief}
-				<p class="card-brief">{risk.brief}</p>
-			{/if}
-		</div>
+	<a href="{baseUrl}/{risk.slug}" class="risk-card unlocked" aria-label={risk.title}>
+		{#if risk.cover}
+			<img src={risk.cover} alt={risk.title} class="card-cover" />
+		{/if}
 	</a>
 {/if}
 
 <style>
 	.risk-card {
-		background-size: cover;
-		background-position: center center;
-		background-repeat: no-repeat;
-		border: 2px solid var(--brand);
-		border-radius: 8px;
-		padding: var(--spacing-sm);
-		background-color: var(--bg);
+		border-radius: 12px;
+		overflow: hidden;
 		transition: all 0.3s ease;
-		min-height: 163px;
-		display: flex;
-		flex-direction: column;
 		text-decoration: none;
 		color: inherit;
 		position: relative;
+		aspect-ratio: 1;
 	}
 
 	.risk-card.unlocked {
@@ -55,45 +35,36 @@
 	}
 
 	.risk-card.unlocked:hover {
-		box-shadow: 0 4px 12px rgba(255, 148, 22, 0.3);
-		transform: translateY(-2px);
-		color: inherit;
+		box-shadow: 0 6px 20px rgba(255, 148, 22, 0.4);
+		transform: translateY(-3px);
+	}
+
+	.card-cover {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		display: block;
 	}
 
 	.risk-card.placeholder {
-		background-size: cover;
-		opacity: 0.9;
-		border-color: var(--text-subtle);
-		cursor: default;
-		justify-content: center;
-		align-items: center;
-	}
-
-	.card-content {
-		flex: 1;
+		background: linear-gradient(135deg, var(--brand) 0%, #c45a00 100%);
 		display: flex;
 		flex-direction: column;
-		width: 100%;
-		justify-content: center;
-	}
-
-	.card-content.centered {
 		align-items: center;
 		justify-content: center;
-		text-align: center;
+		gap: 0.75rem;
 	}
 
-	.card-title {
+	.placeholder-logo {
+		width: 80px;
+		height: 80px;
+	}
+
+	.placeholder-title {
 		font-family: var(--font-heading);
 		font-size: 1.4rem;
-		margin: 0 0 var(--spacing-xs) 0;
-		color: var(--text);
-	}
-
-	.card-brief {
-		margin: 0 0 var(--spacing-xs) 0;
-		color: var(--text);
-		font-size: 0.95rem;
-		line-height: 1.5;
+		color: white;
+		margin: 0;
+		text-align: center;
 	}
 </style>

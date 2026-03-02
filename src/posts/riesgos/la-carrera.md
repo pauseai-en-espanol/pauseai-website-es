@@ -1,7 +1,7 @@
 ---
 title: Secretismo y ambición en la carrera armamentística de la IA
 description: El secretismo en las empresas de IA representa un obstáculo fundamental para la seguridad y la democracia.
-cover: /riesgos/la-carrera/faces.png
+cover: /riesgos/la-carrera/cover.png
 image: /riesgos/la-carrera/social.png
 gradient: linear-gradient(rgba(255, 255, 255, 0.6), rgba(255, 0, 0, 0.6))
 hideTitle: true
