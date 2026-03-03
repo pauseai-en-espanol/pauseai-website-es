@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit'
 import type { PageLoad, EntryGenerator } from './$types'
 
-export const load: PageLoad = async ({ params }) => {
+export const load: PageLoad = async ({ params, data }) => {
 	const { slug } = params
 
 	const modules = import.meta.glob('/src/posts/riesgos/*.md', { eager: true })
@@ -15,6 +15,7 @@ export const load: PageLoad = async ({ params }) => {
 
 		if (effectiveSlug === slug) {
 			return {
+				...data,
 				content: module.default
 			}
 		}
