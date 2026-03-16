@@ -3,12 +3,12 @@ title: ¿Qué es PauseAI?
 description: ¿Qué es PauseAI? Organización internacional que impulsa pausar la IA avanzada hasta demostrar seguridad; valores (no violencia, apartidismo), logros globales y cómo unirte.
 ---
 
-![Protesta de PauseAI en Reino Unido](/es/protestauk.jpg)
-_Protesta en Reino Unido. Fuente: PauseAI_
+![Voluntarios de PauseAI En Español durante una protesta ante el Parlamento Europeo, en febrero de 2026.](/es/pancartas.jpg)
+_Voluntarios de PauseAI En Español durante una protesta ante el Parlamento Europeo, en febrero de 2026. Fuente: PauseAI_
 
 La web que estás leyendo agrupa a los voluntarios hispanohablantes de [PauseAI](https://pauseai.info), una organización internacional sin ánimo de lucro que [promueve la pausa](/pausa) en el desarrollo de modelos de inteligencia artificial avanzada hasta que se demuestre que son seguros.
 
-PauseAI fue fundada en 2023 en los Países Bajos por el diseñador de software Joep Meindertsma.
+PauseAI fue fundada en 2023 en los Países Bajos por el diseñador de software **Joep Meindertsma**. A finales de 2025 el líder de la rama francesa de PauseAI, **Maxime Fournes**, asumió la dirección internacional de la organización.
 
 ## Nuestros valores {#valores}
 
@@ -21,13 +21,13 @@ PauseAI fue fundada en 2023 en los Países Bajos por el diseñador de software J
 
 ## Logros de la organización {#logros}
 
-- Cuenta con cientos de voluntarios activos en diversas partes del mundo y grupos nacionales en once países: Países Bajos, España, [Estados Unidos](https://www.pauseai-us.org), Reino Unido, [Francia](https://pauseia.fr), [Australia](https://pauseai.info/australia), [Serbia](https://pauseai.rs/), República Checa, Alemania, Kenia y Rumanía.
-- PauseAI ha organizado [protestas pacíficas](https://pauseai.info/protests) en más de quince ciudades.
+- Cuenta con cientos de voluntarios activos, y grupos nacionales en diversas partes del mundo 
 - En junio de 2025, PauseAI celebró en Londres su primera conferencia, PauseCon, con la participación de expertos como Connor Leahy y Rob Miles. La PauseCon culminó con [la mayor protesta](https://pauseai.substack.com/p/we-held-the-largest-ai-safety-protest) de la organización hasta la fecha ante la sede de Google DeepMind.
 - PauseAI impulsó en Reino Unido [una petición](https://pauseai.info/dear-sir-demis-2025), suscrita por 63 parlamentarios de distintos partidos políticos, para que Google DeepMind cumpla con sus compromisos en seguridad de la IA.
 - La organización [apoyó la difusión](https://pauseai.substack.com/p/say-no-to-superintelligent-ai) del libro _If Anyone Builds It, Everyone Dies_ con una fiesta de lanzamiento en Londres y lecturas públicas en varios países, además de la campaña para un mural de fotografías selfies [_Di 'no' a la IA superinteligente_](https://pauseai.info/sayno).
+- En febrero de 2026, PauseAI organizó en el Parlamento Europeo un debate [en el que participaron varios eurodiputados](https://pauseai.substack.com/p/eu-parliamentarians-acknowledge-the) junto a Stuart Russell, uno de los mayores expertos mundiales en IA.
 
-> ![logo](/es/bullet.png) Únete al [Discord de PauseAI](https://discord.gg/2XXWXvErfA) para estar al tanto de más actividades
+> ![logo](/es/bullet.png) Únete al [Discord de PauseAI](https://discord.gg/2XXWXvErfA) y nuestro [canal de WhatsApp](https://chat.whatsapp.com/KEgD22LEo6xEVvjH4fD8br) en español para estar al tanto de más actividades
 
 ![Fiesta de lanzamiento del libro 'If Anyone Builds It, Everyone Dies'](/es/lecturaifanyone.jpg)
 _Fiesta de lanzamiento del libro 'If Anyone Builds It, Everyone Dies'. Fuente: PauseAI_
@@ -43,3 +43,5 @@ Entre los miembros de PauseAI en España e Hispanoamérica, figuran trabajadores
 ---
 
 ✍️*Esta página fue redactada al 100% por un humano*.
+
+**¿Tienes dudas o preguntas? Escríbenos [aquí](mailto:contacto@pauseai.es).**
