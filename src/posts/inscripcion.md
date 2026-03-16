@@ -12,34 +12,37 @@ _Protesta en Estados Unidos. Fuente: PauseAI_
 
 ¿Quieres unirte a nosotros? ¡Bienvenido! En primer lugar hemos de aclarar que nos regimos por la [política de privacidad](/privacidad) de PauseAI. Asimismo, te invitamos a leer el [acuerdo para voluntarios](/volunteer-agreement) y el [código de conducta](/protesters-code-of-conduct) de la organización.
 
-Después, rellena el formulario de inscripción a continuación y súmate al [Discord de PauseAI](https://discord.gg/2XXWXvErfA), indicando tu país y que quieres participar en actividades.
+Después, rellena el siguiente formulario de inscripción.
 
 <TallyEmbed formId="NpXX9b" />
 
-Muy pronto contactaremos contigo y te orientaremos para que te pongas en marcha con iniciativas útiles. Si tienes cualquier duda, escríbenos un [correo](mailto:contacto@pauseai.es).
+Muy pronto contactaremos contigo y te orientaremos para que te pongas en marcha con iniciativas útiles.
 
-También puedes [hacer una donación](https://pauseai.info/donate). Ah, ¡y no olvides seguirnos en las redes sociales!
+Mientras tanto, te invitamos a sumarte a nuestro [canal de WhatsApp](https://chat.whatsapp.com/KEgD22LEo6xEVvjH4fD8br) en español. Y puedes entrar en el [Discord de PauseAI](https://discord.gg/2XXWXvErfA), indicando tu país y que quieres participar en actividades.
 
 ## Nuestras actividades {#actividades}
 
-En PauseAI tenemos un doble objetivo: [promover la pausa](/pausa) en el desarrollo de la IA avanzada, y sensibilizar sobre los riesgos e impactos (socioeconómicos, medioambientales y éticos) asociados a esta tecnología. Para ello, llevamos a cabo acciones como las siguientes:
+En PauseAI tenemos un doble objetivo: [promover la pausa](/pausa) en el desarrollo de la IA avanzada, y mitigar los riesgos e impactos (socioeconómicos, medioambientales y éticos) asociados a esta tecnología. Para ello, llevamos a cabo acciones como las siguientes:
 
 - Labores de **divulgación** a través de charlas, páginas web, redes sociales, etc.
 - Colaboración con otras organizaciones, instituciones y personas interesadas en un enfoque de la IA respetuoso de manera efectiva con **los derechos humanos y la preservación del planeta**.
 - Promover que dicho enfoque se plasme en los programas educativos, la investigación científica, las políticas públicas y la legislación.
 - Actos de **protesta cívica y pacífica**.
 
-> ![logo](/es/bullet.png) ¿Te interesaría [coordinar un podcast](/debate#falta-info) sobre los riesgos de la IA?
+> ![logo](/es/bullet.png) ¿Te interesaría coordinar un grupo local de PauseAI en tu municipio? Es muy sencillo, escríbenos un [correo](mailto:contacto@pauseai.es) y te asesoramos
+
+![Voluntarios de PauseAI preparando pancartas para una protesta.](/es/actividades.jpg)
+_Voluntarios de PauseAI preparando pancartas para una protesta. Fuente: PauseAI_
 
 ## Firma de peticiones {#peticiones}
 
 Tanto si eres miembro de PauseAI como si no, una aportación sencilla y útil es firmar peticiones en favor de la seguridad en la IA. En la mayoría de casos es cuestión de un par de minutos.
 
-- [Declaración de PauseAI](/statement)
-- [Declaración sobre los riesgos de la inteligencia artificial](https://aistatement.com), del Center For AI Safety
-- [Recogida de firmas para prohibir la superinteligencia](https://superintelligence-statement.org), del Future Of Life Institute
-- [Petición para un desarrollo responsable de la IA](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-2a2f1a13-b63a-4d8c-979b-b144bded2f48), en change.org
-- [Carta abierta en favor de un tratado internacional](https://aitreaty.org/)
+- [Petición de PauseAI](https://www.change.org/es-ia-cumbre-india)
+- [Declaración sobre los riesgos de la inteligencia artificial](https://aistatement.com)
+- [Recogida de firmas para prohibir la superinteligencia](https://superintelligence-statement.org)
+- [Declaración para una IA en favor de los humanos](https://humanstatement.org/)
+- [Petición para un desarrollo responsable de la IA](https://www.change.org/p/artificial-intelligence-time-is-running-out-for-responsible-ai-development-2a2f1a13-b63a-4d8c-979b-b144bded2f48)
 
 ## Consejos para escribir a políticos {#escribir}
 
@@ -69,3 +72,5 @@ _Protesta en Reino Unido. Fuente: PauseAI_
 ---
 
 ✍️*Esta página fue redactada al 100% por un humano*
+
+**¿Tienes dudas o preguntas? Escríbenos [aquí](mailto:contacto@pauseai.es).**

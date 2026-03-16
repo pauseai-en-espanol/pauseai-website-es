@@ -25,12 +25,16 @@ _Reunión en la ONU sobre IA. Fuente: Ministerio del Interior de España_
 
 Somos conscientes de que la carrera de la IA (que supone una grave amenaza para el futuro cercano de la humanidad) mayormente **no forma parte del debate público** en los países hispanohablantes. Esto se debe en gran parte a la falta de contenidos de calidad y accesibles disponibles en nuestro idioma. En otros países, el tema se discute en los programas de televisión, y libros muy críticos con las grandes empresas de la IA entran en la lista de más vendidos.
 
-Queremos ayudar a remediar esta situación, y también animamos al público a recurrir a las herramientas de traducción y subtitulado automático de vídeos y páginas web: a menudo basta con un par de clics para sacarles partido.
+Queremos ayudar a remediar esta situación, por eso hemos puesto en marcha varias iniciativas:
 
-Por cierto, uno de nuestros proyectos de comunicación es un podcast mensual sobre los riesgos de la IA que sirva de vía para que los miembros hispanohablantes de la organización expresen sus puntos de vista en un ambiente distendido. **Necesitamos a una persona con ganas de coordinar el podcast**, ¿te animas? Escríbenos [aquí](mailto:contacto@pauseai.es).
+- Una [serie de artículos](https://pauseai.es/riesgos) en profundidad sobre los riesgos de la IA.
+- Un podcast con charlas sobre esos mismos artículos, así como entrevistas. Disponible en [YouTube](https://www.youtube.com/@pauseai-es), [Spotify](https://open.spotify.com/show/59tP3Q3B4MS70s58IKnvVe?si=MbC9c1imSv-lnJRcvQClbQ) e [iVoox](https://www.ivoox.com/en/podcast-pauseai-espanol_sq_f13114812_1.html).
+- [Un Substack](https://pauseaispanish.substack.com/) con un boletín mensual de noticias y otros contenidos.
 
 > ![logo](/es/bullet.png) Si quieres, [te informamos](/inscripcion#actividades) sobre otras formas de contribuir en PauseAI
 
 ---
 
 ✍️*Esta página fue redactada al 100% por un humano*
+
+**¿Tienes dudas o preguntas? Escríbenos [aquí](mailto:contacto@pauseai.es).**
