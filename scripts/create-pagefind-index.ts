@@ -5,7 +5,7 @@ import type { Post } from '../src/lib/types'
 const POSTS_PATH = 'build/prerendered/api/posts'
 const INPUT_PATH = 'build/prerendered'
 const STATIC_PATH = 'static/pagefind'
-const BUILD_PATH = 'build/pagefind'
+const BUILD_PATH = 'build/client/pagefind'
 
 const { index, errors } = await pagefind.createIndex({
 	rootSelector: 'html',
