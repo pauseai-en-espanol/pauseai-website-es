@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Capacidades de IA de última generación frente a humanos
 description: ¿Qué tan inteligentes son los últimos modelos de IA en comparación con los humanos?
+=======
+title: State-of-the-art AI Capabilities vs Humans
+description: How smart are the latest AI models compared to humans?
+>>>>>>> upstream/main
 ---
 
  <!-- end of frontmatter metadata, dashes above need to stay -->
@@ -13,11 +18,15 @@ _Última actualización: 2025-06-28_
 
 ## Superhumano (Mejor que todos los humanos) {#superhuman-better-than-all-humans}
 
+<<<<<<< HEAD
 - **Juegos**: En muchos juegos ([Ajedrez, Go](https://en.wikipedia.org/wiki/AlphaGo_Zero), Starcraft, Dota, [Gran Turismo](https://www.technologyreview.com/2022/07/19/1056176/sonys-racing-ai-destroyed-its-human-competitors-by-being-nice-and-fast/) etc.), la mejor IA supera a los mejores humanos.
 - **Memoria de trabajo**: Un humano promedio puede recordar alrededor de 7 elementos (como números) a la vez. Gemini 1.5 Pro [puede leer y recordar el 99% de 7 millones de palabras](https://blog.google/technology/ai/google-gemini-next-generation-model-february-2024/#sundar-note).
 - **Velocidad de lectura**: Un modelo como Gemini 1.5 Pro puede leer un libro entero en 30 segundos. Puede aprender un idioma completamente nuevo y traducir textos en medio minuto.
 - **Velocidad de escritura**: Los modelos de IA pueden escribir a velocidades que superan con creces a cualquier humano, escribiendo programas de computadora completos en segundos.
 - **Cantidad de conocimiento**: Los modelos de lenguaje grandes (LLM) modernos saben mucho más que cualquier humano, abarcando prácticamente todos los campos. No hay humano cuyo alcance de conocimiento se acerque.
+=======
+## Better than most humans
+>>>>>>> upstream/main
 
 # Mejor que la mayoría de los humanos {#better-than-most-humans}
 

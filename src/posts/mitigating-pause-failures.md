@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Pausar el desarrollo de la IA podría salir mal. ¿Cómo mitigar los riesgos?
 description: Este artículo aborda algunos de los riesgos de pausar el desarrollo de la IA y cómo mitigarlos.
+=======
+title: Pausing AI Development Might Go Wrong. How to Mitigate the Risks?
+description: This article addresses some of the risks of pausing AI development, and how to mitigate them.
+>>>>>>> upstream/main
 ---
 
 Estamos presionando para una pausa en el desarrollo de grandes modelos de IA generales.
@@ -39,10 +44,17 @@ Además, solo proponemos prohibir el desarrollo de modelos muy específicos: los
 
 ## La centralización de la IA podría empeorar los riesgos de toma de control {#centralization-of-ai-might-make-takeover-risks-worse}
 
+<<<<<<< HEAD
 No proponemos una centralización del desarrollo de la IA en una sola organización. Eso haría que el desarrollo de la IA fuera más controlable, pero también crearía un solo punto de falla, que la codicia y la estupidez humanas podrían aprovechar.
 Decidir si un proyecto tipo CERN/Apolo/Manhattan sería bueno o no debería discutirse multilateralmente, una vez que ya hayamos colaborado en una pausa y estemos fuera de una carrera.
 
 ## La descentralización hará que actores menos conscientes de la seguridad lideren la carrera {#descentralization-will-cause-less-safety-minded-actors-to-lead-the-race}
+=======
+We don't propose a centralization of AI development in a single organization. That would make AI development more controllable but it would also create a single point of failure, which human greed and stupidity could take advantage of.
+Deciding if a CERN/ Apollo/ Manhattan type project would be good or not should be discussed multilaterally, once we have already collaborated in a pause and are outside a race.
+
+## Decentralization will cause less safety-minded actors to lead the race
+>>>>>>> upstream/main
 
 Si se sumerge en la historia de OpenAI, DeepMind y Anthropic, encontrará que todos ellos fueron fundados por personas que están muy preocupadas por los riesgos de la IA.
 De alguna manera, somos afortunados de que las mayores empresas de IA en este momento tengan la seguridad de la IA como parte de su cultura.

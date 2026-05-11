@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: ¡Bienvenido a la comunidad de PauseAI!
 description: Gracias por unirte y consejos para revisar tu bandeja de entrada
+=======
+title: Welcome to the PauseAI Community!
+description: Thanks for joining and advice on checking inbox
+>>>>>>> upstream/main
 ---
 
 ¡Muchas gracias por enviar el formulario y participar!

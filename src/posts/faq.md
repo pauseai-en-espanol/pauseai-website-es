@@ -16,9 +16,16 @@ description: Preguntas frecuentes sobre PauseAI y los riesgos de la inteligencia
 
 ## ¿Quiénes somos? {#who-are-you}
 
+<<<<<<< HEAD
 Somos una comunidad de voluntarios y [comunidades locales](/communities) coordinadas por una [organización sin fines de lucro](/organization) que busca mitigar los [riesgos de la IA](/risks) (incluyendo el [riesgo de extinción humana](/xrisk)).
 Nuestro objetivo es convencer a nuestros gobiernos para que intervengan y [pausen el desarrollo de la IA superhumana](/proposal).
 Lo hacemos informando al público, hablando con los tomadores de decisiones y organizando [eventos](/events).
+=======
+We are a community of volunteers and [local communities](/communities) coordinated by a [non-profit organization](/organization) that aims to mitigate the [risks of AI](/risks).
+We aim to convince our governments to step in and [pause the development of superhuman AI](/proposal).
+We do this by informing the public, talking to decision-makers, and organizing [events](/communities#events).
+If you want to learn more about our history and the people behind PauseAI, check out our [about us](/about) page.
+>>>>>>> upstream/main
 
 ## ¿Tienen redes sociales? {#do-you-have-social-media}
 
@@ -38,7 +45,11 @@ No, solo el desarrollo de los sistemas de IA de propósito general más grandes 
 Casi toda la IA existente sería legal bajo [nuestra propuesta](/proposal), y la mayoría de los modelos de IA futuros seguirán siendo legales también.
 Estamos pidiendo una prohibición de los sistemas de IA más poderosos, hasta que sepamos cómo construir una IA segura y la tengamos bajo control democrático.
 
+<<<<<<< HEAD
 ## ¿Creen que GPT-4 va a matarnos? {#do-you-believe-gpt-4-is-going-to-kill-us}
+=======
+## Do you believe ChatGPT is going to kill us?
+>>>>>>> upstream/main
 
 No, no pensamos que los [modelos de IA actuales](/sota) sean una amenaza existencial.
 Parece probable que la mayoría de los próximos modelos de IA no lo sean tampoco.
@@ -63,7 +74,11 @@ Ver nuestra [página de financiamiento](/funding)
 
 ## ¿Cuáles son sus planes? {#what-are-your-plans}
 
+<<<<<<< HEAD
 Centrarnos en hacer crecer el movimiento, organizar protestas, presionar a los políticos e informar al público.
+=======
+Focus on growing the movement, organizing protests, lobbying politicians, and informing the public.
+>>>>>>> upstream/main
 
 Consulte nuestro [plan de acción](/roadmap) para una visión general detallada de nuestros planes y lo que podríamos hacer con más financiamiento.
 
@@ -174,10 +189,18 @@ Porque reconocer que _estamos en peligro_ es algo muy, muy aterrador.
 
 ## ¡Está bien, quiero ayudar! ¿Qué puedo hacer? {#ok-i-want-to-help-what-can-i-do}
 
+<<<<<<< HEAD
 Hay muchas [cosas que puedes hacer](/action).
 Por tu cuenta, puedes escribir una [carta](/writing-a-letter), publicar [volantes](/flyering), [aprender](/learn) e informar a otros, unirte a una [protesta](/protests), o [donar](/donate) algo de dinero.
 Pero aún más importante: puedes [unirte a PauseAI](/inscripcion) y coordinar con otros que están tomando medidas.
 Consulta si hay [comunidades locales](/communities) en tu área.
 Si deseas contribuir más, puedes convertirte en voluntario y unirte a uno de nuestros [equipos](/teams), o [establecer una comunidad local](/local-organizing).
+=======
+There are many [things that you can do](/action).
+On your own, you can write a [letter](/writing-a-letter), post [flyers](/flyering), [learn](/learn) and inform others, join a [protest](/protests), or [donating](/donate) some money!
+But even more important: you can [join PauseAI](/join) and coordinate with others who are taking action.
+Check out if there are [local communities](/communities) in your area.
+If you want to contribute more, you can become a volunteer and join one of our teams, or [set up a local community](/local-organizing)!
+>>>>>>> upstream/main
 
 Incluso cuando enfrentamos el fin del mundo, todavía puede haber esperanza y un trabajo muy gratificante que hacer.

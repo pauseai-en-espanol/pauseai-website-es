@@ -1,0 +1,119 @@
+<script lang="ts">
+	import { page } from '$app/stores'
+	import Link from '$lib/components/Link.svelte'
+	import Logo from '$lib/components/logo.svelte'
+	import { emulateCqwIfNeeded } from '$lib/container-query-units'
+	import { localizeHref } from '$lib/paraglide/runtime'
+	import { onMount } from 'svelte'
+
+	export let inverted = false
+
+	$: logo_animate = localizeHref($page.url.pathname) != '/'
+
+	let nav: HTMLElement
+
+	onMount(() => {
+		return emulateCqwIfNeeded(nav)
+	})
+</script>
+
+<nav class:inverted-header={inverted} bind:this={nav}>
+	<div class="logo-container">
+		<div class="compensate-min-space-between"></div>
+		<div class="compensate-offset"></div>
+		<Link href="/" class="logo">
+			<Logo animate={logo_animate} {inverted} />
+		</Link>
+		<div class="min-space-between"></div>
+		<div class="space-between"></div>
+	</div>
+
+	<div class="nav-links">
+		<slot></slot>
+	</div>
+</nav>
+
+<style>
+	:root {
+		--logo-offset: 2.4rem;
+		--logo-width-big: 11rem;
+		--logo-width-small: 10rem;
+		--min-space-between: 1rem;
+
+		--cqw: 1cqw;
+
+		/* Vertical spacing: smooth transition from max→min below 600px viewport width */
+		--vspace-max: 3rem;
+		--vspace-min: 1.5rem;
+		--vspace-threshold: 600px;
+		--vspace: clamp(
+			var(--vspace-min),
+			calc(var(--vspace-min) + (100vw - var(--vspace-threshold)) / 2),
+			var(--vspace-max)
+		);
+	}
+
+	.inverted-header {
+		color: white;
+		z-index: 1;
+	}
+
+	nav {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: center;
+		flex-wrap: wrap;
+		container-type: inline-size;
+		padding: var(--vspace) 0;
+	}
+
+	nav > * {
+		margin-bottom: 0.25rem;
+	}
+
+	.logo-container {
+		flex-grow: 1;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+
+		/* 0px or 9999px: wide value when nav wraps, else 0 */
+		--wide-if-nav-wrapped: clamp(0px, calc(9999 * (105% - 100 * var(--cqw))), 9999px);
+		--wide-if-nav-not-wrapped: calc(9999px - var(--wide-if-nav-wrapped));
+		--max-space-between-compensation: calc((100 * var(--cqw) - var(--logo-width)) / 2);
+	}
+
+	.compensate-min-space-between {
+		width: min(var(--wide-if-nav-wrapped), var(--min-space-between));
+		max-width: var(--max-space-between-compensation);
+	}
+
+	.compensate-offset {
+		width: min(var(--wide-if-nav-wrapped), var(--logo-offset));
+	}
+
+	.logo-container > :global(.logo) {
+		width: clamp(var(--logo-width-small), var(--wide-if-nav-not-wrapped), var(--logo-width-big));
+		margin-left: calc(-1 * var(--logo-offset));
+		z-index: 1;
+	}
+
+	.min-space-between {
+		width: var(--min-space-between);
+		max-width: var(--max-space-between-compensation);
+	}
+
+	.space-between {
+		flex-grow: 1;
+		max-width: var(--wide-if-nav-not-wrapped);
+	}
+
+	.nav-links {
+		position: relative;
+		display: flex;
+		text-transform: uppercase;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+</style>

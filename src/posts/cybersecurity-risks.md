@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Riesgos de ciberseguridad de los modelos de IA de vanguardia
 description: Cómo la IA podría ser utilizada para hackear todos los dispositivos.
+=======
+title: Cybersecurity Risks from Frontier AI Models
+description: How AI could be used to hack all devices.
+>>>>>>> upstream/main
 ---
 
 Prácticamente todas nuestras actividades diarias dependen de alguna manera de las computadoras.

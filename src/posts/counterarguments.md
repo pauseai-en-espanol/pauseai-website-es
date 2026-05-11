@@ -56,18 +56,33 @@ Lea más sobre [cuán buenos son los mejores modelos de inteligencia artificial]
 
 ## ¿Por qué una inteligencia artificial odiaría a los humanos y querría matarnos? {#why-would-an-ai-hate-humans-and-want-to-kill-us}
 
+<<<<<<< HEAD
 No tiene que ser mala o odiar a los humanos para ser peligrosa para los humanos.
 No odiamos a los chimpancés, pero aún así destruimos sus bosques.
 Queremos aceite de palma, así que tomamos su bosque. Somos más inteligentes, así que los chimpancés no pueden detenernos.
 Una inteligencia artificial podría querer más poder de computación para ser mejor en lograr algún otro objetivo, así que destruye nuestro entorno para construir una mejor computadora.
 Esto se llama _convergencia instrumental_, [este video lo explica muy bien](https://www.youtube.com/watch?v=ZeecOKBus3Q).
+=======
+It doesn’t have to be evil or hate humans to be dangerous to humans.
+We don’t hate chimpanzees, but we still destroy their forests.
+We want palm oil, so we take their forest. We’re smarter, so chimps can’t stop us.
+An AI might want more compute power to be better at achieving some other goal, so it destroys our environment to build a better computer.
+This is called _instrumental convergence_, [this video explains it very nicely](https://www.youtube.com/watch?v=ZeecOKBus3Q).
+>>>>>>> upstream/main
 
 ## Las inteligencias artificiales que conozco no tienen voluntad propia - solo hacen lo que se les pide {#the-ais-that-i-know-dont-have-a-will-of-their-own---they-just-do-what-theyre-asked}
 
+<<<<<<< HEAD
 Incluso si no tiene objetivos propios, y solo sigue órdenes, alguien va a hacer algo peligroso con ella eventualmente.
 Incluso hubo un bot llamado ChaosGPT que fue diseñado explícitamente para hacer tanto daño como fuera posible a los humanos.
 Estaba buscando armas de destrucción masiva en Google de forma autónoma, pero no llegó muy lejos.
 La cosa es que lo único que nos protege ahora es que la inteligencia artificial no es muy inteligente todavía.
+=======
+Even if it has no goals of its own, and it just follows order, someone is going to do something dangerous with it eventually.
+There even was a bot called ChaosGPT which was tasked explicitly to make humanity extinct.
+It was autonomously searching for weapons of mass-destruction on google, but it didn’t get very further than that.
+The thing is, the only thing that is protecting us right now is that AI isn’t very smart yet.
+>>>>>>> upstream/main
 
 ## Tomará al menos muchas décadas antes de que una inteligencia artificial sea lo suficientemente inteligente como para ser peligrosa para los humanos. {#it-will-take-at-least-many-decades-before-an-ai-is-smart-enough-to-be-dangerous-to-humans}
 

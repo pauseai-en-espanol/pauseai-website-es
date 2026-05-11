@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en La Haya, Países Bajos - 11 de agosto
 description: Estamos organizando una protesta para exigir una pausa en el desarrollo de inteligencia artificial peligrosa.
+=======
+title: PauseAI Protest @ The Hague, Netherlands - August 11th
+description: We are organizing a protest to demand a pause on dangerous AI development.
+>>>>>>> upstream/main
 ---
 
  <!-- end of frontmatter metadata, dashes above need to stay -->

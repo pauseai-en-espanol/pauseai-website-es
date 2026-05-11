@@ -92,7 +92,11 @@ Las empresas más importantes en este campo son:
 Cuando un chip sale de una fábrica, necesita ser "empaquetado".
 ASE es probablemente la empresa de interconexión más grande para chips de IA.
 
+<<<<<<< HEAD
 #### Fabricación: TSMC, Samsung y SMIC {#fabrication-tsmc-samsung-amd-smic}
+=======
+#### Fabrication: TSMC, Samsung and SMIC
+>>>>>>> upstream/main
 
 Construir una "fábrica" (una fábrica de chips) es asombrosamente difícil: no tolera partículas de polvo, requiere el equipo de alta tecnología más caro y tiene una cadena de suministro muy compleja.
 Una fábrica moderna cuesta alrededor de 10 a 20 mil millones de dólares para fabricar.
@@ -125,10 +129,17 @@ En particular, algunas de estas empresas utilizan procesos relativamente obsolet
 
 ### Gobernanza en el chip {#on-chip-governance}
 
+<<<<<<< HEAD
 - El artículo ["Chips seguros y gobernables"](https://www.cnas.org/publications/reports/secure-governable-chips) propone un nuevo enfoque para la gobernanza de la IA.
 - **[Informe de servidor](https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location)**. Los chips podrían responder a mensajes de servidores de confianza para demostrar que están dentro de una cierta distancia de una ubicación de confianza. Esto puede ser preciso dentro de decenas de kilómetros.
 - **[flexHEGs](https://yoshuabengio.org/wp-content/uploads/2024/09/FlexHEG-Interim-Report_2024.pdf)**: Un nuevo tipo de chip que puede ser programado para autodestruirse cuando se cumplen ciertas condiciones. Esto todavía está en la fase de investigación y podría tardar mucho tiempo en desarrollarse.
 - **[Informe basado en firmware](https://arxiv.org/abs/2404.18308)**: Al instalar un firmware personalizado en las GPU, los usuarios necesitarían obtener una licencia para utilizar la GPU durante más de x ciclos. Esto es una solución más a corto plazo y podría implementarse "dentro de un año".
+=======
+- The article ["Secure, Governable Chips"](https://www.cnas.org/publications/reports/secure-governable-chips) proposes a new approach to AI governance.
+- **[Server reporting](https://www.lesswrong.com/posts/uSSPuttae5GHfsNQL/ai-compute-governance-verifying-ai-chip-location)**. Chips could respond to messages from trusted servers to prove they are within a certain distance of a trusted location. This can be accurate to within tens of kilometers.
+- **[flexHEGs](https://yoshuabengio.org/wp-content/uploads/2024/09/FlexHEG-Interim-Report_2024.pdf)**: A new type of chip that can be programmed to self-destruct when certain conditions are met. This is still in the research phase and could take a long time to develop.
+- **[Firmware-based reporting](https://arxiv.org/abs/2404.18308)**: By installing a custom firmware on GPUs, users would be required to get a license to use the GPU for more than x cycles. This is a more near-term solution, and could be implemented "within a year"
+>>>>>>> upstream/main
 
 1. **[Seguimiento GPS](https://arxiv.org/abs/2408.16074)**: Al instalar un firmware personalizado en las GPU, los usuarios necesitarían obtener una licencia para utilizar la GPU durante más de x ciclos. Esto es una solución más a corto plazo y podría implementarse "dentro de un año"
 
@@ -154,7 +165,11 @@ El documento ["Métodos de verificación para acuerdos internacionales de IA"](h
 
 Cada método tiene sus fortalezas y debilidades, y a menudo requiere enfoques complementarios o cooperación internacional para una implementación efectiva.
 
+<<<<<<< HEAD
 Una institución internacional podría establecerse para monitorear estos métodos de verificación y hacer cumplir la pausa.
+=======
+An international institution could be set up to monitor these verification methods, and to enforce the Pause.
+>>>>>>> upstream/main
 
 ## Gobernanza de software {#software-governance}
 

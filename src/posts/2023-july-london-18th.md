@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en el FCDO, Londres, 18 de julio
+=======
+title: PauseAI Protest @ FCDO, London, July 18th
+>>>>>>> upstream/main
 ---
 
 <script>
@@ -20,7 +24,7 @@ title: Protesta de PauseAI en el FCDO, Londres, 18 de julio
 
 ## Contacto {#contact}
 
-- Alistair Steward ([twitter](https://twitter.com/alistair___s))
+- Alistair Stewart ([twitter](https://twitter.com/alistair___s))
 
 ## Comunicado de prensa: PauseAI protesta en la Oficina de Relaciones Exteriores antes de la reunión del Consejo de Seguridad de la ONU sobre el riesgo de la IA {#press-release-pauseai-protests-foreign-office-ahead-of-un-security-council-meeting-on-ai-risk}
 

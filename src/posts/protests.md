@@ -5,14 +5,24 @@ description: Una lista de próximas protestas y protestas anteriores.
 
 ## Próximas protestas {#upcoming-protest}
 
+<<<<<<< HEAD
 **Consulta nuestros [eventos](/events) para conocer las próximas protestas.**
+=======
+**See our [events](/communities#events) for upcoming protests.**
+>>>>>>> upstream/main
 
 ## Protestas anteriores {#past-protests}
 
 ### 2025 {#2025}
 
+<<<<<<< HEAD
 - [30 de junio, Londres](https://pauseai.info/deepmind-protest-2025)
 - [7-11 de febrero, más de 15 ciudades](/2025-febrero)
+=======
+- [13th of December, Amsterdam](/amsterdam-protest-2025-december)
+- [30th of June, London](/deepmind-protest-2025)
+- [7th - 11th of February, 15+ cities](/2025-february)
+>>>>>>> upstream/main
 
 ### 2024 {#2024}
 

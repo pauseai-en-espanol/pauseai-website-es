@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Regulación de capacidades peligrosas en la IA
 description: Cuanto más poderosa se vuelve la IA en dominios específicos, mayores son los riesgos. ¿Cómo podemos prevenir que estas capacidades peligrosas aparezcan o se propaguen?
+=======
+title: Regulating Dangerous Capabilities in AI
+description: The more powerful AI becomes in specific domains, the larger the risks become. How do we prevent these dangerous capabilities from appearing or spreading?
+>>>>>>> upstream/main
 ---
 
 En este artículo, discutiremos:

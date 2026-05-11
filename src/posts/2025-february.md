@@ -52,9 +52,13 @@ Los organizadores de la cumbre de París han creado un programa que cubrirá el 
 
 **Proponemos que los organizadores y los delegados gubernamentales en la cumbre hagan de la seguridad de la IA el enfoque principal trabajando en lo siguiente:**
 
+<<<<<<< HEAD
 - Colaborar en la creación de tratados y regulaciones globales para mitigar los riesgos graves y existenciales de la IA, y frenar a las empresas y organizaciones que están construyendo sistemas de IA cada vez más capaces y peligrosos.
 - Planificar el establecimiento de organismos internacionales para hacer cumplir dichos tratados y regulaciones.
 - Compartir y revisar las mejores prácticas sobre cómo cada nación puede contribuir al desafío de proteger el mundo que compartimos.
+=======
+**We propose that the organizers and the government delegates at the summit make AI Safety the focus of the summit by working on the following:**
+>>>>>>> upstream/main
 
 ## Únete a PauseAI — la organización detrás de esta protesta {#join-pauseai--the-organization-behind-this-protest}
 

@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en Google DeepMind - 19-22 de mayo
 description: Estamos organizando una protesta en Google DeepMind para exigir una cumbre para pausar el desarrollo de la inteligencia artificial.
+=======
+title: PauseAI Protest @ Google DeepMind - May 19th - 22nd
+description: We are organising a protest at Google DeepMind to demand a summit to pause AI development.
+>>>>>>> upstream/main
 ---
 
 <script>
@@ -131,4 +136,8 @@ Pegatinas y insignias
 
 ## Contacto {#contact}
 
+<<<<<<< HEAD
 Alistair Steward ([correo electrónico](mailto:achoto@protonmail.com), [Twitter](https://twitter.com/alistair___s))
+=======
+Alistair Stewart ([email](mailto:achoto@protonmail.com), [twitter](https://twitter.com/alistair___s))
+>>>>>>> upstream/main

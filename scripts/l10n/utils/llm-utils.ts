@@ -1,0 +1,268 @@
+/**
+ * LLM utilities including error handling and billing information
+ * Provides utilities for LLM API interactions, error analysis, and account management
+ */
+
+import type { AxiosHeaderValue, AxiosInstance } from 'axios'
+import type { OpenRouterErrorResponse } from './llm-client'
+
+type RequestConfigPayload = {
+	model?: string
+	provider?: {
+		order?: string[]
+	}
+}
+
+type OpenRouterCreditsResponse = {
+	total_credits?: number
+	total_usage?: number
+}
+
+type OpenRouterKeyData = {
+	limit?: number | string
+	limit_remaining?: number | string
+	rate_limit?: {
+		requests?: number
+		interval?: string
+	}
+}
+
+type OpenRouterKeyResponse = {
+	data?: OpenRouterKeyData
+}
+
+function isRecord(value: unknown): value is Record<string, unknown> {
+	return typeof value === 'object' && value !== null
+}
+
+function parseRequestConfigData(configData: unknown): RequestConfigPayload | null {
+	if (typeof configData === 'string') {
+		try {
+			const parsed = JSON.parse(configData) as unknown
+			return isRecord(parsed) ? parsed : null
+		} catch {
+			return null
+		}
+	}
+
+	return isRecord(configData) ? configData : null
+}
+
+/**
+ * Extracted error information from LLM API responses
+ */
+export interface LlmErrorInfo {
+	status?: number
+	statusText?: string
+	provider?: string
+
+	// OpenRouter-specific error details
+	authMessage?: AxiosHeaderValue
+	authReason?: AxiosHeaderValue
+	authStatus?: AxiosHeaderValue
+	rateLimitRemaining?: AxiosHeaderValue
+	rateLimitReset?: AxiosHeaderValue
+	retryAfter?: AxiosHeaderValue
+	errorDetails?: unknown
+
+	// Request context
+	model?: string
+	requestProvider?: string
+	url?: string
+
+	// Full response for non-OpenRouter errors
+	fullResponse?: unknown
+}
+
+/**
+ * Extracts useful error information from an LLM API error response
+ *
+ * @param error - The error object from the LLM API call
+ * @param requestData - The original request data for context
+ * @returns Structured error information for logging
+ */
+function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
+	const response = error.response
+	const config = error.config
+
+	// Determine if this is an OpenRouter error
+	const isOpenRouter =
+		config?.baseURL?.includes('openrouter.ai') || config?.url?.includes('openrouter.ai')
+
+	const errorInfo: LlmErrorInfo = {
+		status: response?.status,
+		statusText: response?.statusText,
+		provider: isOpenRouter ? 'OpenRouter' : 'Unknown',
+		url: config?.url
+	}
+
+	if (isOpenRouter) {
+		// Extract OpenRouter-specific information
+		const headers = (response?.headers as Record<string, AxiosHeaderValue | undefined>) ?? {}
+
+		errorInfo.authMessage = headers['x-clerk-auth-message']
+		errorInfo.authReason = headers['x-clerk-auth-reason']
+		errorInfo.authStatus = headers['x-clerk-auth-status']
+		errorInfo.rateLimitRemaining = headers['x-ratelimit-remaining']
+		errorInfo.rateLimitReset = headers['x-ratelimit-reset']
+		errorInfo.retryAfter = headers['retry-after']
+		errorInfo.errorDetails = response?.data?.error
+
+		// Extract request context
+		if (config && config.data) {
+			const parsedData = parseRequestConfigData(config.data)
+			errorInfo.model = parsedData?.model
+			errorInfo.requestProvider = parsedData?.provider?.order?.[0]
+		}
+	} else {
+		// For non-OpenRouter providers, include the full response for debugging
+		errorInfo.fullResponse = {
+			status: response?.status,
+			statusText: response?.statusText,
+			headers: response?.headers,
+			data: response?.data,
+			config: {
+				method: config?.method,
+				url: config?.url,
+				baseURL: config?.baseURL
+			}
+		}
+	}
+
+	return errorInfo
+}
+
+/**
+ * Formats LLM error information for logging
+ *
+ * @param errorInfo - The extracted error information
+ * @returns A formatted string suitable for console logging
+ */
+function formatLlmError(errorInfo: LlmErrorInfo): string {
+	const parts: string[] = []
+
+	// Basic error info
+	parts.push(`${errorInfo.provider} Error: ${errorInfo.status} ${errorInfo.statusText}`)
+
+	if (errorInfo.provider === 'OpenRouter') {
+		// OpenRouter-specific formatting
+		if (errorInfo.authMessage || errorInfo.authReason) {
+			const authReason = JSON.stringify(errorInfo.authReason)
+			const authMessage = JSON.stringify(errorInfo.authMessage)
+			parts.push(`Auth Issue: ${authReason} - ${authMessage}`)
+		}
+
+		if (errorInfo.rateLimitRemaining || errorInfo.retryAfter) {
+			const rateLimitRemaining = JSON.stringify(errorInfo.rateLimitRemaining)
+			const retryAfter = JSON.stringify(errorInfo.retryAfter)
+			parts.push(`Rate Limit: ${rateLimitRemaining} remaining, retry after ${retryAfter}`)
+		}
+
+		if (errorInfo.model || errorInfo.requestProvider) {
+			parts.push(`Request: ${errorInfo.model} via ${errorInfo.requestProvider}`)
+		}
+
+		if (errorInfo.errorDetails) {
+			parts.push(`Details: ${JSON.stringify(errorInfo.errorDetails)}`)
+		}
+	} else {
+		// Non-OpenRouter: include full response
+		parts.push(`Full Response: ${JSON.stringify(errorInfo.fullResponse, null, 2)}`)
+	}
+
+	return parts.join('\n  ')
+}
+
+/**
+ * Convenience function to extract and format LLM error for immediate logging
+ *
+ * @param error - The error object from the LLM API call
+ * @param requestData - The original request data for context
+ * @returns A formatted error string ready for logging
+ */
+export function formatLlmErrorForLogging(error: OpenRouterErrorResponse): string {
+	const errorInfo = extractLlmErrorInfo(error)
+	return formatLlmError(errorInfo)
+}
+
+/**
+ * A point-in-time snapshot of OpenRouter billing state.
+ */
+export interface BillingSnapshot {
+	limitRemaining: number | null
+	totalUsage: number | null
+}
+
+function toNumberOrNull(value: number | string | undefined): number | null {
+	if (typeof value === 'number') return value
+	if (typeof value === 'string') {
+		const n = Number(value)
+		return Number.isFinite(n) ? n : null
+	}
+	return null
+}
+
+/**
+ * Fetches OpenRouter billing as raw numbers without printing. For computing
+ * spend deltas across a run.
+ */
+export async function getBillingSnapshot(client: AxiosInstance): Promise<BillingSnapshot> {
+	try {
+		const [keyResponse, creditsResponse] = await Promise.all([
+			client.get<OpenRouterKeyResponse>('/auth/key').catch(() => null),
+			client.get<OpenRouterCreditsResponse>('/credits').catch(() => null)
+		])
+		return {
+			limitRemaining: toNumberOrNull(keyResponse?.data?.data?.limit_remaining),
+			totalUsage: toNumberOrNull(creditsResponse?.data?.total_usage)
+		}
+	} catch {
+		return { limitRemaining: null, totalUsage: null }
+	}
+}
+
+/**
+ * Fetches and displays billing information for OpenRouter API key
+ *
+ * @param client - Axios client configured for the LLM API
+ * @returns Promise that resolves when billing info is logged
+ */
+export async function fetchAndDisplayBilling(client: AxiosInstance): Promise<void> {
+	try {
+		// Fetch both key info and credits
+		const [keyResponse, creditsResponse] = await Promise.all([
+			client.get<OpenRouterKeyResponse>('/auth/key').catch(() => null),
+			client.get<OpenRouterCreditsResponse>('/credits').catch(() => null)
+		])
+
+		console.error('\nOpenRouter Account Status:')
+
+		// Display credits information if available
+		if (creditsResponse?.data) {
+			const credits = creditsResponse.data
+			const totalCredits = credits.total_credits ?? 0
+			const totalUsage = credits.total_usage ?? 0
+			const balance = totalCredits - totalUsage
+			console.error(`  Balance: $${balance.toFixed(2)}`)
+			console.error(`  Total Credits: $${totalCredits}`)
+			console.error(`  Total Usage: $${totalUsage}`)
+		}
+
+		// Display key information if available
+		if (keyResponse?.data?.data) {
+			const keyInfo = keyResponse.data.data
+			console.error(`  Spend Limit: $${keyInfo.limit ?? 'Unknown'}`)
+			console.error(`  Limit Remaining: $${keyInfo.limit_remaining ?? 'Unknown'}`)
+			if (keyInfo.rate_limit) {
+				const requests = keyInfo.rate_limit.requests ?? 'Unknown'
+				const interval = keyInfo.rate_limit.interval ?? 'Unknown interval'
+				console.error(`  Rate Limit: ${requests} requests per ${interval}`)
+			}
+		}
+	} catch (billingError: unknown) {
+		if (billingError instanceof Error)
+			console.error('Could not fetch billing information:', billingError.message)
+		else
+			console.error('Could not fetch billing information because of unknown error:', billingError)
+	}
+}

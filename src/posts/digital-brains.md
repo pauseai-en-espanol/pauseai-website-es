@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Los modelos de IA son cerebros digitales impredecibles
 description: Nadie entiende cómo funcionan los modelos de IA, nadie puede predecir su comportamiento y nadie podrá controlarlos.
+=======
+title: AI Models Are Unpredictable Digital Brains
+description: Nobody understands how AI models work, nobody can predict their behavior, and nobody will be able to control them.
+>>>>>>> upstream/main
 ---
 
 **No comprendemos el funcionamiento interno de los modelos de IA a gran escala, no podemos predecir lo que pueden hacer a medida que crecen y no podemos controlar su comportamiento.**
@@ -31,7 +36,11 @@ Se estima que los cerebros humanos tienen alrededor de [100 billones de conexion
 
 Los LLM actuales de vanguardia (por ejemplo, GPT4, Claude3, Gemini, etc.) tienen [cientos de miles de millones de "parámetros"](https://en.wikipedia.org/wiki/Large_language_model#List). Estos "parámetros" se consideran análogos a las "sinapsis" en el cerebro humano. Así, se espera que los modelos del tamaño de GPT4 sean aproximadamente el 1% del tamaño de un cerebro humano.
 
+<<<<<<< HEAD
 Dada la velocidad de las nuevas tarjetas de entrenamiento de IA de GPU (por ejemplo, Nvidia H100, DGX BG200, etc.), es razonable suponer que GPT5 o GPT6 podrían ser 10 veces más grandes que GPT4. También se cree que gran parte del conocimiento/información en el cerebro humano no se utiliza para el lenguaje y el razonamiento superior, por lo que estos sistemas pueden (y actualmente lo hacen) a menudo funcionar a niveles iguales o incluso superiores a los humanos para muchas funciones importantes, incluso en su tamaño actualmente más pequeño.
+=======
+Given the speed of new AI training GPU cards (e.g. Nvidia H100s, DGX BG200, etc), it's reasonable to assume that GPT5 or GPT6 could be 10x the size of GPT4. It is also thought that much of the knowledge/information in the human brain is not used for language and higher reasoning, so these systems can (and currently do) often perform at, or even higher than, human levels for many important functions even at their currently smaller size.
+>>>>>>> upstream/main
 
 En lugar de ser entrenados con entradas visuales, de audio y otros sentidos, como los cerebros humanos, los LLM actuales se entrenan exclusivamente utilizando casi todos los libros y textos de calidad disponibles en Internet. Esta cantidad de texto tardaría [170.000 años en ser leída por un humano](https://twitter.com/ylecun/status/1750614681209983231?lang=en).
 
@@ -112,8 +121,13 @@ Incluso OpenAI no espera que este enfoque se amplíe a medida que sus cerebros d
 >
 > - [Jaan Tallinn, Fundador, Instituto para el Futuro de la Vida, Centro para el Estudio del Riesgo Existencial, Skype, Kazaa](https://youtu.be/Dmh6ciu24v0?t=966)
 
+<<<<<<< HEAD
 A medida que hacemos que estos cerebros digitales sean más grandes y poderosos, podrían volverse más difíciles de controlar. ¿Qué pasa si uno de estos sistemas de IA superinteligentes decide que no quiere ser apagado? Esto no es un problema de fantasía, el 86% de los investigadores de IA creen que el problema del control es [real e importante](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai).
 Si no podemos controlar los futuros sistemas de IA, podría ser [el fin del juego para la humanidad](/xrisk).
+=======
+As we make these digital brains bigger and more powerful, they could become harder to control. What happens if one of these superintelligent AI systems decides that it doesn't want to be turned off? This isn't some fantasy problem - 86% of AI researchers believe that the alignment problem is [real and important](https://wiki.aiimpacts.org/ai_timelines/predictions_of_human-level_ai_timelines/ai_timeline_surveys/2023_expert_survey_on_progress_in_ai).
+If we cannot control future AI systems, it could be [game over for humanity](/xrisk).
+>>>>>>> upstream/main
 
 Pero hay varias [acciones](/action) que podemos tomar para evitar que esto suceda.
 

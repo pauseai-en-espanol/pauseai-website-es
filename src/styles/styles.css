@@ -8,13 +8,13 @@ html {
 	--font-heading: 'Saira Condensed', Impact, sans-serif;
 
 	/* Major theme stuff */
-	--page-width: 40rem; /* Please update in media queries and $lib/components/custom/img.svelte */
+	--page-width: 40rem; /* Please update in media queries and $lib/config.ts */
 
 	/* Colors */
-	--t-color-main: #ff9416; /* Default main color, approximately hsl(32, 100%, 54%)*/
+	--t-color-main: #f68b1e; /* Default main color - saturated orange */
 
 	/* dark */
-	--brand-dark: hsl(32, 100%, 44%);
+	--brand-dark: #f68b1e;
 
 	/* light */
 	--brand-light: var(--t-color-main);
@@ -27,6 +27,8 @@ html {
 	--spacing-sm: 1rem;
 	--spacing-md: 2rem;
 	--spacing-lg: 4rem;
+
+	--hero-min-height: 500px;
 }
 
 :root {
@@ -86,6 +88,16 @@ html {
 	font-size: 1.2rem;
 }
 
+html[data-waiting='true'],
+html[data-waiting='true'] * {
+	cursor: progress !important;
+}
+
+html[data-waiting='true'] body {
+	opacity: 0.85;
+	transition: opacity 0.2s ease-in-out;
+}
+
 img {
 	border-radius: var(--radius-3);
 }
@@ -108,6 +120,7 @@ h5 {
 	font-family: var(--font-heading);
 	font-weight: 700;
 	line-height: 1em;
+	scroll-margin-top: 3rem;
 }
 
 h1 {
@@ -164,9 +177,16 @@ p {
 }
 
 .prose :is(ul, ol) {
-	list-style-type: disc;
-	padding-left: 1rem;
+	padding-left: 2rem;
 	line-height: 1.5;
+}
+
+.prose ul {
+	list-style-type: disc;
+}
+
+.prose ol {
+	list-style-type: decimal;
 }
 
 .prose :is(ul, ol) li {

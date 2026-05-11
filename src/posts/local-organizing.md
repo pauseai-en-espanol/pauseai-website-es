@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: 'Crear una comunidad local de PauseAI: Una guía para la organización local'
 description: ¿Cómo puedes crear una comunidad y tener un impacto a nivel local?
+=======
+title: 'Running a Local PauseAI Community: A Guide to Local Organizing'
+description: How can you set up a community and make an impact, locally?
+>>>>>>> upstream/main
 ---
 
 <script>
@@ -111,7 +116,11 @@ Asegúrate de incluir publicaciones sobre próximos eventos y compartirlos con t
 Aquí hay enlaces a la [página de Facebook de PauseAI](https://www.facebook.com/PauseAI) y la [página de Eventbrite de PauseAI NYC](https://www.eventbrite.com/e/pauseai-global-protest-nyc-tickets-886528309037) para inspiración.
 Puedes utilizar estructuras similares para tu grupo local.
 
+<<<<<<< HEAD
 También debes agregar eventos a nuestro [Luma](https://lu.ma/PauseAI), para que las personas puedan ser notificadas y encontrarlo en nuestra [página de eventos](/events).
+=======
+You should also add events to our [Luma](https://lu.ma/PauseAI), so people can be notified and find it on our [Groups page](/communities#events).
+>>>>>>> upstream/main
 
 ### Difusión personal {#one-on-one-outreach}
 
@@ -326,9 +335,15 @@ Aquí hay una tabla de muestra de roles para inspiración:
 
 Entonces, tienes un grupo bien organizado de voluntarios, ansiosos por involucrarse y con una idea clara de sus responsabilidades. ¿Ahora qué?
 
+<<<<<<< HEAD
 Hay muchas formas diferentes de lograr tus objetivos como grupo local.
 Consulta nuestra [página de eventos](/events) para obtener ideas de los próximos eventos que están planificados. Cada vez que decidas organizar uno, no te olvides de agregarlo allí.
 Además de ellos, la siguiente lista no pretende ser exhaustiva, sino proporcionar inspiración a medida que comienzas a planificar tu campaña.
+=======
+There are many different ways to achieve your goals as a local group.
+Check out our [events](/communities#events) for ideas of the next events that are planned. Whenever you decide to organize one, don't forget to add it there!
+In addition to them, the following list is not meant to be exhaustive, but rather to provide inspiration as you begin planning your campaign.
+>>>>>>> upstream/main
 
 ### Eventos sociales y tomar algo {#social-events--having-drinks}
 
@@ -391,7 +406,11 @@ Por favor, lee nuestra [Guía de reparto de folletos](/flyering) para obtener m�
 Muchos capítulos de PauseAI ya han organizado protestas, especialmente en respuesta a eventos y desarrollos específicos en torno a la IA.
 Estas pueden ser una excelente manera de promover PauseAI y obtener cobertura de los medios para la causa.
 
+<<<<<<< HEAD
 Por favor, lee nuestra [Guía para organizar una protesta](/organizing-a-protest) para aprender a hacer esto.
+=======
+Please read our [Guide to Organizing a Protest](/organizing-a-protest) to learn how to do this. Make sure all participants are aware of the [Protesters Code of Conduct](/protesters-code-of-conduct).
+>>>>>>> upstream/main
 
 ### Reuniones con oficinas del Congreso (EE. UU.) {#meetings-with-congressional-offices-us}
 
@@ -421,7 +440,15 @@ Hay varias formas de obtener espacios de reunión gratuitos o baratos, siempre y
 
 Cuando utilices espacios gratuitos, es una buena práctica dejar el espacio como lo encontraste y agradecer al proveedor. Esto mantiene una buena relación y aumenta la probabilidad de que el espacio esté disponible para uso futuro.
 
+<<<<<<< HEAD
 ### Nota: Mejores prácticas para la planificación de eventos {#note-best-practices-for-event-planning}
+=======
+### Note: Safeguarding and Code of Conduct
+
+All event organisers should be familiar with PauseAI's [Code of Conduct](/code-of-conduct) and [Safeguarding Protocol](/safeguarding-protocol). Make sure participants are informed about the Code of Conduct, reporting contacts are visible, and you know how to handle a disclosure. See the [Event Operations Checklist](/safeguarding-protocol#14-event-operations-checklist) in the Safeguarding Protocol for a full pre-event checklist.
+
+### Note: Best practices for event planning
+>>>>>>> upstream/main
 
 - Invita a asistentes a eventos públicos. Si estás organizando un evento público, es importante hacer esto con anticipación. Puedes configurar un evento en Facebook o Meetup, promocionar el evento compartiéndolo con otros grupos y generar asistencia.
 - Asegúrate de que la dirección que estás proporcionando a las personas dé instrucciones más allá de una dirección de la calle, si es necesario. Por ejemplo, si estás teniendo un stand pero no tienes instrucciones exactas para llegar a tu stand dentro del edificio, un número sorprendente de nuevos miembros simplemente se rendirá. Un letrero de stand (imprime fotos en Walmart por $1 cada una) también puede ayudar significativamente.

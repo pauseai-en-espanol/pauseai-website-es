@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Redactar comunicados de prensa para protestas
 description: Cómo ser efectivo al redactar un comunicado de prensa para cubrir una protesta.
+=======
+title: Writing Press Releases for Protests
+description: How to be effective at writing a press release to cover a protest.
+>>>>>>> upstream/main
 ---
 
 Cuando se organiza una protesta, se busca la mayor visibilidad posible. Un comunicado de prensa es una forma probada y efectiva de presentar una noticia ante los periodistas objetivo de manera clara, rápida y utilizable.

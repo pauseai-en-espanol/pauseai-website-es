@@ -5,11 +5,8 @@ import fs from 'fs'
 import path from 'path'
 import { defineConfig } from 'vite'
 import lucidePreprocess from 'vite-plugin-lucide-preprocess'
-import { importRuntimeWithoutVite } from './scripts/l10n/utils'
-import { isDev } from './src/lib/env'
 import { MARKDOWN_L10NS } from './src/lib/l10n'
-
-const { locales: compiledLocales } = await importRuntimeWithoutVite()
+import { locales as compiledLocales } from './src/lib/paraglide/runtime.js'
 
 function getLocaleExcludePatterns(): RegExp[] {
 	const md = path.resolve(MARKDOWN_L10NS)
@@ -33,11 +30,6 @@ export default defineConfig(() => {
 	dotenv.config({ override: true })
 
 	return {
-		define: {
-			// Make PARAGLIDE_LOCALES accessible to browser code via import.meta.env
-			'import.meta.env.PARAGLIDE_LOCALES': JSON.stringify(process.env.PARAGLIDE_LOCALES)
-		},
-
 		server: {
 			port: 37572,
 			fs: {
@@ -52,14 +44,9 @@ export default defineConfig(() => {
 			reportCompressedSize: false,
 			// Increase warning limit to reduce output
 			chunkSizeWarningLimit: 5000,
-			// Hide output for assets smaller than 1MB
-			assetsInlineLimit: 1024 * 1024,
-			// Enable multi-threading with esbuild for faster builds
-			minify: 'esbuild',
 			// Improve cache usage
 			cssCodeSplit: true,
-			// Generate sourcemaps in development, disable in production unless explicitly enabled
-			sourcemap: isDev() || !process.env.VITE_DISABLE_SOURCEMAPS,
+			sourcemap: true,
 			// Exclude repos locale paths not in runtime.locales
 			rollupOptions: {
 				external: getLocaleExcludePatterns()

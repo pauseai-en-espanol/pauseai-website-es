@@ -1,12 +1,18 @@
 /* https://sveltejs.github.io/eslint-plugin-svelte/user-guide/ */
 import js from '@eslint/js'
 import markdown from '@eslint/markdown'
+import { getIgnores } from './scripts/utils/ignores.js'
 import prettier from 'eslint-config-prettier'
 import svelte from 'eslint-plugin-svelte'
 import { defineConfig, globalIgnores } from 'eslint/config'
 import globals from 'globals'
 import ts from 'typescript-eslint'
+import emptyMarkdownLinks from './eslint/plugin-empty-markdown-links.js'
+import markdownScripts from './eslint/plugin-markdown-scripts.js'
 import svelteConfig from './svelte.config.js'
+
+// See https://typescript-eslint.io/troubleshooting/typed-linting/performance#changes-to-extrafileextensions-with-projectservice
+const EXTRA_FILE_EXTENSIONS = ['.svelte']
 
 export default defineConfig(
 	js.configs.recommended,
@@ -17,18 +23,60 @@ export default defineConfig(
 			globals: {
 				...globals.browser,
 				...globals.node
+			},
+			parserOptions: {
+				extraFileExtensions: EXTRA_FILE_EXTENSIONS,
+				project: ['./tsconfig.check.json']
 			}
 		}
 	},
 	{
+		ignores: getIgnores()
+	},
+	{
+		ignores: ['**/*.md'],
+		extends: [
+			// Just warn about type-checked rules for now
+			ts.configs.recommendedTypeCheckedOnly.map((config) => {
+				if (!config.rules) return config
+
+				const warnedRules = Object.fromEntries(
+					Object.entries(config.rules).map(([key, value]) => [key, value.replace('error', 'warn')])
+				)
+
+				return { ...config, rules: warnedRules }
+			})
+		]
+	},
+	{
 		files: ['**/*.md'],
 		extends: [markdown.configs.recommended],
+		plugins: {
+			emptyMarkdownLinks
+		},
 		rules: {
 			'markdown/fenced-code-language': 'off',
 			'markdown/no-missing-atx-heading-space': 'off', // rule is broken
 			'markdown/no-missing-label-refs': 'off',
 			'markdown/require-alt-text': 'warn',
-			'no-irregular-whitespace': 'off' // not supported by markdown parser
+			'no-irregular-whitespace': 'off', // not supported by markdown parser
+			'emptyMarkdownLinks/no-empty-link-text': 'error'
+		}
+	},
+	{
+		files: ['src/posts/**/*.md'],
+		plugins: {
+			markdownScripts
+		},
+		rules: {
+			'markdownScripts/no-script-with-src': 'error',
+			'no-restricted-syntax': [
+				'error',
+				{
+					selector: 'heading[depth=1]',
+					message: 'h1 is disallowed in posts. The title is already provided in the frontmatter.'
+				}
+			]
 		}
 	},
 	{
@@ -37,8 +85,9 @@ export default defineConfig(
 		// See more details at: https://typescript-eslint.io/packages/parser/
 		languageOptions: {
 			parserOptions: {
-				projectService: true,
-				extraFileExtensions: ['.svelte'], // Add support for additional file extensions, such as .svelte
+				project: ['./tsconfig.check.json'],
+				// Defined globally instead:
+				// extraFileExtensions: ['.svelte'], // Add support for additional file extensions, such as .svelte
 				parser: ts.parser,
 				// Specify a parser for each language, if needed:
 				// parser: {
@@ -61,6 +110,7 @@ export default defineConfig(
 			// disabled
 			'svelte/no-navigation-without-resolve': 'off',
 			'svelte/require-each-key': 'off',
+			'no-useless-assignment': 'off', // False positive due to Svelte's reactive syntax
 
 			// enabled
 			'svelte/no-restricted-html-elements': [
@@ -71,6 +121,7 @@ export default defineConfig(
 						'Use $lib/components/Link.svelte or $lib/components/LinkWithoutIcon.svelte instead'
 				}
 			],
+			'svelte/html-self-closing': 'warn',
 			'no-restricted-imports': [
 				'error',
 				{
@@ -97,11 +148,34 @@ export default defineConfig(
 			]
 		}
 	},
+	{
+		files: ['src/**/*'],
+		rules: {
+			'no-restricted-properties': [
+				'error',
+				{
+					object: 'process',
+					property: 'env',
+					message: 'Use $env/static/private or $env/dynamic/private (or $lib/env.server) instead'
+				}
+			],
+			'no-restricted-syntax': [
+				'error',
+				{
+					// selector for import.meta.env
+					selector: 'MemberExpression[object.type="MetaProperty"][property.name="env"]',
+					message: 'Use $env/static/public or $env/dynamic/public (or $lib/env) instead'
+				},
+				{
+					selector:
+						'CallExpression[callee.name=/^(asError|redirectAsError)$/]:not(ThrowStatement > CallExpression)',
+					message:
+						'Use asError and redirectAsError only as `throw asError(...)` or `throw redirectAsError(...)`.'
+				}
+			]
+		}
+	},
 	globalIgnores([
-		'.netlify/',
-		'.svelte-kit/',
-		'build/',
-		'static/',
 		// TODO remove when done
 		'src/routes/api/write',
 		'src/routes/write'

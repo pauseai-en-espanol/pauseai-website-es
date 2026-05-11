@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en Microsoft Bruselas - 23 de mayo de 2023
 description: Estamos organizando una protesta en Microsoft para exigir una cumbre que pause el desarrollo de la inteligencia artificial.
+=======
+title: PauseAI Protest @ Microsoft Brussels - May 23rd, 2023
+description: We are organizing a protest at Microsoft to demand a summit to pause AI development.
+>>>>>>> upstream/main
 ---
 
 <script>

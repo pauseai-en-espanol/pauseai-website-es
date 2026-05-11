@@ -1,8 +1,16 @@
-<script>
-	export let quote
+<script lang="ts">
+	import type { CarouselQuote } from '$lib/types'
+
+	export let quote: CarouselQuote
 </script>
 
-<div class="quote-card">
+<svelte:element
+	this={quote.href ? 'a' : 'div'}
+	class="quote-card"
+	href={quote.href}
+	target={quote.href ? '_blank' : undefined}
+	rel={quote.href ? 'noopener noreferrer' : undefined}
+>
 	<div class="quote-text">
 		{quote.text}
 	</div>
@@ -14,14 +22,14 @@
 				sizes="(max-width: 850px) 4rem, 7rem"
 				alt={quote.author}
 				class="author-image"
-			/>
+			></enhanced:img>
 		{/if}
 		<div class="author-info">
 			<h2 class="author-name">{quote.author}</h2>
 			<p class="author-title">{quote.title}</p>
 		</div>
 	</div>
-</div>
+</svelte:element>
 
 <style>
 	.quote-card {
@@ -30,6 +38,8 @@
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
+		color: inherit;
+		text-decoration: none;
 	}
 
 	.quote-text {

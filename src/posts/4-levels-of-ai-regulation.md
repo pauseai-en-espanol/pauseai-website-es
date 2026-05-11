@@ -1,7 +1,13 @@
 ---
+<<<<<<< HEAD
 title: 4 Niveles de regulación de la seguridad de la IA
 description: Un marco para pensar en cómo mitigar los riesgos de los sistemas de IA potentes
+=======
+title: 4 Levels of AI Safety Regulation
+description: A framework for thinking about how to mitigate the risks from powerful AI systems
+>>>>>>> upstream/main
 image: /4levels.png
+showImage: false
 ---
 
 A medida que aumentan las capacidades de la IA, también aumentan los riesgos que estos sistemas plantean para la humanidad.
@@ -9,7 +15,17 @@ Muchos científicos ya han advertido sobre el [riesgo de extinción humana](/xri
 
 En este artículo, examinaremos nuestro marco de 4 niveles para pensar en cómo se puede regular la seguridad de la IA.
 
+<<<<<<< HEAD
 ## La cadena de creación de IA como marco para la gobernanza de la seguridad {#ai-pipeline-as-a-framework-for-safety-governance}
+=======
+<div style="max-width: 500px">
+
+![4 Levels of AI safety regulation](/4levels-cropped.png)
+
+</div>
+
+## AI pipeline as a framework for safety governance
+>>>>>>> upstream/main
 
 La cadena de creación de IA consta de varios pasos, cada uno de los cuales se puede regular de diferentes maneras.
 Esta cadena consta de:
@@ -23,9 +39,13 @@ Cuanto más tarde se regule en la cadena, mayores son los riesgos que se enfrent
 Si se desea un alto nivel de seguridad, es necesario regular más temprano en la cadena.
 Por eso, cuando se asciende a los 4 niveles de regulación de la IA, se retrocede en la cadena de creación de IA.
 
+<<<<<<< HEAD
 ![4 Niveles de regulación de la seguridad de la IA](/4levels.png)
 
 ## Nivel 1: Regular el uso {#level-1-regulate-usage}
+=======
+## Level 1: Regulate usage
+>>>>>>> upstream/main
 
 Ejemplos:
 

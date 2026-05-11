@@ -1,4 +1,5 @@
 ---
+<<<<<<< HEAD
 title: Financiación de PauseAI y donantes
 description: Lista de nuestros principales donantes.
 date: ''
@@ -7,10 +8,27 @@ date: ''
  <!-- end of frontmatter metadata, dashes above need to stay -->
 
 _Última actualización: 2025-07-27_
+=======
+title: PauseAI Funding & Donors
+description: A list of our largest donors.
+---
+
+<script>
+	import FundingDonorsList from '$lib/components/FundingDonorsList.svelte'
+</script>
+
+_Last update: 2025-12-02_
+
+Since its launch in 2023, PauseAI has received €715k in donations.
+>>>>>>> upstream/main
 
 Hasta la fecha, PauseAI ha recibido aproximadamente 312.000 euros en donaciones.
 
+<<<<<<< HEAD
 ## Principales donantes {#largest-donors}
+=======
+<FundingDonorsList />
+>>>>>>> upstream/main
 
 - 95.000 (Greg Colbourn)
 - 80.000 ([Conjointly](https://conjointly.com/))

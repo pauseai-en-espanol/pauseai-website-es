@@ -1,56 +1,64 @@
 <script lang="ts">
+	import type { GeoApiResponse } from '$api/geo/+server'
+	import Link from '$lib/components/Link.svelte'
 	import distance from '@turf/distance'
 	import { onMount } from 'svelte'
-	import Banner from './Banner.svelte'
-	import ExternalLink from '$lib/components/Link.svelte'
-	import type { CalendarResponse, Event } from '../../routes/api/calendar/+server'
-	import type { GeoApiResponse } from '$api/geo/+server'
+	import type { CalendarResponse, Event } from '$api/calendar/+server'
+	import Banner from '$lib/components/Banner.svelte'
 
 	export let contrast: boolean
 	export let eventFound = false
-	/** Geo data from Netlify for external use */
 	export let geo: GeoApiResponse | null = null
 
 	const FORMAT = new Intl.DateTimeFormat('en', { day: 'numeric', month: 'long' })
 	const MAX_DISTANCE_KM = 100
+	const DISTANCE_OVERRIDES: Record<string, number> = {
+		jogj70dj: 480 // Override for specific D.C. (Capitol Hill) event to include users up to 250 miles away
+	}
 
+	let events: CalendarResponse | null = null
 	let nearbyEvent: Event | null = null
 
 	$: eventFound = !!nearbyEvent
 
 	onMount(async () => {
-		const [geoResult, events] = await Promise.all([fetchGeo(), fetchLuma()])
-		geo = geoResult
-
-		const { latitude: userLatitude, longitude: userLongitude } = geoResult
-		if (!userLatitude || !userLongitude) return
-
-		const userCoords = [userLatitude, userLongitude]
-
-		const isNearby = (event: Event): boolean => {
-			const { geo_latitude, geo_longitude } = event
-			if (!geo_latitude || !geo_longitude) return false
-			const eventCoords = [geo_latitude, geo_longitude]
-			return distance(userCoords, eventCoords, { units: 'kilometers' }) <= MAX_DISTANCE_KM
-		}
-
-		nearbyEvent = events.entries.map((entry) => entry.event).find(isNearby) ?? null
+		events = await fetchLuma()
 	})
 
-	function fetchGeo() {
-		return fetch('/api/geo').then((res) => res.json()) as Promise<GeoApiResponse>
+	$: if (geo && events) {
+		nearbyEvent = findNearbyEvent(geo, events)
 	}
 
-	function fetchLuma() {
-		return fetch('/api/calendar').then((res) => res.json()) as Promise<CalendarResponse>
+	function findNearbyEvent(geo: GeoApiResponse, events: CalendarResponse) {
+		const { latitude: userLatitude, longitude: userLongitude } = geo
+		if (userLatitude == null || userLongitude == null) return null
+
+		const userCoords: [number, number] = [userLongitude, userLatitude]
+
+		const isNearby = (event: Event): boolean => {
+			const { geo_latitude, geo_longitude, url } = event
+			if (geo_latitude == null || geo_longitude == null) return false
+			const eventCoords: [number, number] = [geo_longitude, geo_latitude]
+
+			const maxDistance = DISTANCE_OVERRIDES[url] ?? MAX_DISTANCE_KM
+
+			return distance(userCoords, eventCoords, { units: 'kilometers' }) <= maxDistance
+		}
+
+		return events.entries.map((entry) => entry.event).find(isNearby) ?? null
+	}
+
+	async function fetchLuma(): Promise<CalendarResponse> {
+		const response = await fetch('/api/calendar?days=30')
+		return (await response.json()) as CalendarResponse
 	}
 </script>
 
 {#if nearbyEvent}
 	<Banner {contrast}>
-		Next up in your area: <ExternalLink
+		Next up in your area: <Link
 			href={'https://lu.ma/' + nearbyEvent.url + '?utm_source=local-banner'}
-			>{nearbyEvent.name}</ExternalLink
+			>{nearbyEvent.name}</Link
 		> on {FORMAT.format(new Date(nearbyEvent.start_at))}
 	</Banner>
 {/if}

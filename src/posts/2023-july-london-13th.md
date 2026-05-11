@@ -1,6 +1,12 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en el FCDO, Londres, 13 de julio
 description: Protesta de PauseAI, instando al Consejo de Seguridad de las Naciones Unidas a implementar una pausa global en las ejecuciones de entrenamiento de IA más grandes.
+=======
+title: PauseAI Protest @ FCDO, London, July 13th
+description: PauseAI protest, urging the United Nations Security Council to
+  implement a global pause on the largest AI training runs.
+>>>>>>> upstream/main
 ---
 
 - Protesta de PauseAI, instando al Consejo de Seguridad de las Naciones Unidas a implementar una pausa global en las ejecuciones de entrenamiento de IA más grandes.
@@ -10,7 +16,7 @@ description: Protesta de PauseAI, instando al Consejo de Seguridad de las Nacion
 
 ## Contacto {#contact}
 
-- Alistair Steward ([twitter](https://twitter.com/alistair___s))
+- Alistair Stewart ([twitter](https://twitter.com/alistair___s))
 
 ## Comunicado de prensa: PauseAI protesta en la Oficina de Relaciones Exteriores antes de la reunión del Consejo de Seguridad de la ONU sobre el riesgo de la IA {#press-release-pauseai-protests-foreign-office-ahead-of-un-security-council-meeting-on-ai-risk}
 

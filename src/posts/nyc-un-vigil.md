@@ -1,5 +1,9 @@
 ---
+<<<<<<< HEAD
 title: Vigilia con velas de PauseAI en la sede de la ONU en Nueva York, 3 de junio
+=======
+title: PauseAI Candlelit Vigil @ UN HQ NYC, 3rd of June
+>>>>>>> upstream/main
 ---
 
  <!-- fin de metadatos de frontmatter, las líneas de arriba deben permanecer -->

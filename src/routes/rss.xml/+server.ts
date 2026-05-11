@@ -1,11 +1,12 @@
 import * as config from '$lib/config'
-import type { Post } from '$lib/types'
+import type { PostsApiResponse } from '$api/posts/+server.js'
+import type { RequestHandler } from './$types'
 
 export const prerender = true
 
-export async function GET({ fetch }) {
+export const GET: RequestHandler = async ({ fetch }) => {
 	const response = await fetch('api/posts')
-	const posts: Post[] = await response.json()
+	const posts = (await response.json()) as PostsApiResponse
 
 	const headers = { 'Content-Type': 'application/xml' }
 
@@ -20,7 +21,7 @@ export async function GET({ fetch }) {
 					.map(
 						(post) => `
 						<item>
-							<title>${escapeXml(post.title)}</title>
+							<title>${escapeXml(post.title ?? 'Untitled')}</title>
 							<description>${post.description ? escapeXml(post.description) : ''}</description>
 							<link>${config.url}/${post.slug}</link>
 							<guid isPermaLink="true">${config.url}/${post.slug}</guid>

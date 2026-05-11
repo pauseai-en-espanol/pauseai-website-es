@@ -2,13 +2,13 @@
 	import { onMount } from 'svelte'
 	import type { NationalGroup } from '$lib/types'
 	import NationalGroupItem from '$lib/components/NationalGroupItem.svelte'
-	import { loadNationalGroups } from '$lib/stores/nationalGroups'
+	import { fetchNationalGroups } from '$lib/nationalGroups'
 
 	export let nationalGroups: NationalGroup[] = []
 
 	onMount(async () => {
 		if (nationalGroups.length === 0) {
-			nationalGroups = await loadNationalGroups()
+			nationalGroups = await fetchNationalGroups()
 		}
 	})
 </script>
@@ -28,6 +28,8 @@
 <style>
 	.national-groups {
 		display: grid;
+		grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+		gap: 0.5rem;
 		list-style-type: none;
 		padding: 0;
 	}

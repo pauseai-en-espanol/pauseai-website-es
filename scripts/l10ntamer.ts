@@ -11,9 +11,7 @@
 
 import fs from 'fs'
 import path from 'path'
-import { importRuntimeWithoutVite } from './l10n/utils.js'
-
-const { locales, localizeHref } = await importRuntimeWithoutVite()
+import { locales, localizeHref } from '../src/lib/paraglide/runtime.js'
 
 if (localizeHref('/test', { locale: 'en' }) === '/test') {
 	console.log('⏭️  Skipping l10ntamer - English routes not prefixed')
@@ -29,7 +27,6 @@ const UNLOCALIZED_PATTERNS = [
 	'/action',
 	'/donate',
 	'/join',
-	'/events',
 	'/risks',
 	'/xrisk',
 	'/feasibility',
@@ -49,13 +46,13 @@ interface LinkAuditResult {
 }
 
 export function findFilesRecursively(dir: string, ext: string) {
-	const files = fs.readdirSync(dir, { recursive: true }) as string[]
+	const files = fs.readdirSync(dir, { recursive: true, encoding: 'utf-8' })
 	return files
 		.map((file) => path.join(dir, file))
 		.filter((file) => path.extname(file) === '.' + ext)
 }
 
-async function findUnlocalizedLinks(): Promise<LinkAuditResult[]> {
+function findUnlocalizedLinks(): LinkAuditResult[] {
 	const results: LinkAuditResult[] = []
 
 	// 1. Audit prerendered HTML files
@@ -252,10 +249,10 @@ function generateReport(results: LinkAuditResult[]): void {
 }
 
 // Main execution
-async function main() {
+function main() {
 	try {
 		const isValidateMode = process.argv.includes('--validate')
-		const results = await findUnlocalizedLinks()
+		const results = findUnlocalizedLinks()
 
 		// In validate mode, be more concise and exit with error code if issues found
 		if (isValidateMode) {

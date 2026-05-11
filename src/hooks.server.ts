@@ -1,4 +1,4 @@
-import { type Handle } from '@sveltejs/kit'
+import { type Handle, type HandleServerError } from '@sveltejs/kit'
 import { paraglideMiddleware } from '$lib/paraglide/server.js'
 
 const handle: Handle = ({ event, resolve }) =>
@@ -10,3 +10,8 @@ const handle: Handle = ({ event, resolve }) =>
 	})
 
 export { handle }
+
+export const handleError: HandleServerError = ({ error }) => {
+	console.error(error)
+	return { message: 'An unexpected error occurred.' }
+}

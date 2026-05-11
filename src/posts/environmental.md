@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Impacto ambiental de la IA
 description: El impacto ambiental de la IA es un problema no solo por el costo humano inmediato, sino porque los robots consumen enormes cantidades de energía y aceleran el daño insostenible e insostenible que estamos causando a la Tierra.
+=======
+title: Environmental Impact of AI
+description: AI's environmental impact is a problem not just because of the immediate human cost, but because robots are fantastically energy-hungry and thus accelerate the unsustainable, insupportable damage we are doing to Earth.
+>>>>>>> upstream/main
 ---
 
 > La llegada de los robots es un problema no solo por el costo humano inmediato, sino porque los robots consumen enormes cantidades de energía y aceleran el daño insostenible e insostenible que estamos causando a la Tierra.

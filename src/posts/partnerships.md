@@ -100,6 +100,10 @@ PauseAI ofrece beneficios únicos a una variedad de organizaciones e individuos,
 - **Retroalimentación de base:** Recopilar retroalimentación de nivel de base sobre programas de seguridad de inteligencia artificial.
 - **Colaboración transfronteriza:** Conectar a activistas locales con iniciativas globales.
 
+<<<<<<< HEAD
 ## ¿Interesado en explorar oportunidades de colaboración? {#interested-in-exploring-partnership-opportunities}
 
 Envíe un correo electrónico a [joep@pauseai.info](mailto:joep@pauseai.info).
+=======
+Interested in exploring partnership opportunities? Check out our [Contact form](/contact-us?tab=partnerships).
+>>>>>>> upstream/main

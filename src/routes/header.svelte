@@ -1,5 +1,5 @@
 <script lang="ts">
-	import NavLink from '$lib/components/Navlink.svelte'
+	import NavLink from '$lib/components/navbar/Navlink.svelte'
 	import Logo from '$lib/components/logo.svelte'
 	import { botName } from '$lib/config'
 	import { page } from '$app/stores'

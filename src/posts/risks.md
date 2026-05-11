@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Riesgos de la inteligencia artificial
 description: La IA amenaza nuestra democracia, nuestra tecnología y nuestra especie.
+=======
+title: Risks of Artificial Intelligence
+description: AI threatens our democracy, our technology, and our species.
+>>>>>>> upstream/main
 ---
 
 La inteligencia artificial (IA) es una tecnología poderosa que está transformando cada vez más nuestro mundo.
@@ -82,6 +87,7 @@ Pronto, podríamos ser todos los que nos sintamos de esta manera.
 
 ### Salud mental, adicción y desconexión entre las personas {#mental-health-addiction-and-disconnection-between-people}
 
+<<<<<<< HEAD
 Las empresas de redes sociales han estado utilizando sistemas de IA para maximizar sus ganancias mientras aprovechan nuestras mentes primarias durante algún tiempo, dañando nuestra salud mental en el proceso.
 Los chatbots de IA que ofrecen a los usuarios una relación romántica han visto un crecimiento enorme en el último año, con más de 3 mil millones de resultados de búsqueda para "novia de IA" en Google.
 Estas aplicaciones de relación de IA son [demostradas como adictivas](https://onlinelibrary.wiley.com/doi/10.1002/mar.21899), especialmente para "personas solitarias y vulnerables".
@@ -89,6 +95,23 @@ Estas aplicaciones de relación de IA son [demostradas como adictivas](https://o
 Las empresas que controlan estas aplicaciones están incentivadas para hacerlas lo más adictivas posible, y tienen una cantidad tremenda de poder al dar forma al comportamiento y las opiniones de estos modelos.
 
 Una pausa en los modelos más grandes podría prevenir que se conviertan en chatbots multipropósito que se ajusten a nuestras necesidades perfectamente sin que las personas entiendan las consecuencias a largo plazo de ellos.
+=======
+Social media companies have been using AI systems to maximise their profits while taking advantage of our primate minds for some time already, often damaging our mental health in the process.
+But having conversations with today’s increasingly capable AIs poses unexpected and dangerous risks our mental health.
+
+Companies instruct their AI chatbots to agree with their users, encourage their ideas, and keep the conversation going.
+This can backfire horribly for users in mental health distress by causing people to develop “[AI psychosis](https://www.psychologytoday.com/us/blog/urban-survival/202507/the-emerging-problem-of-ai-psychosis)”.
+In these cases, AIs mirror the user’s delusional thinking, paranoia, or despair back to them. In extreme situations, this has caused the person talking with the AI to [commit suicide](https://www.npr.org/sections/shots-health-news/2025/09/19/nx-s1-5545749/ai-chatbots-safety-openai-meta-characterai-teens-suicide).
+More than a million users of ChatGPT have signs of mental health distress.
+
+Another risk area is AIs being used for intimate and explicit conversations. AI chatbots offering users a romantic relationship have seen huge growth over the last year, with more than 3 billion search results for ‘AI girlfriend’ on Google.
+These AI relationship apps are [shown to be addictive](https://onlinelibrary.wiley.com/doi/10.1002/mar.21899), especially to “lonely vulnerable people”.
+The companies controlling these apps make more money by designing their AIs to be as addictive as possible, and can gain a tremendous amount of power by shaping the behavior and opinions chatbots express to [manipulate their users](https://arxiv.org/abs/2508.19258) through romantic connection.
+
+We need time to better understand AIs to build in proper safeguards to protect our mental health, especially for vulnerable users.
+Pausing the development of powerful AI systems would give us time to research how AI conversations can be made safer when talking about difficult or sensitive subjects.
+We also need regulation to prevent companies from releasing AIs that pose as friendly companions, but have a hidden dark side that worsens our mental health and puts vulnerable people at risk.
+>>>>>>> upstream/main
 
 ### Investigación automatizada (pérdida de privacidad) {#automated-investigation-loss-of-privacy}
 
@@ -181,13 +204,19 @@ Estaríamos introduciendo una nueva especie en el planeta que podría superarnos
 Incluso si logramos crear solo sistemas de IA que podamos controlar individualmente, podríamos perder nuestro poder para tomar decisiones importantes de manera incremental cada vez que uno se incorpora a instituciones o la vida cotidiana.
 Esos procesos terminarían teniendo más aportes de los sistemas de IA que de los humanos, y si no podemos coordinarnos lo suficientemente rápido, o carecemos de conocimientos cruciales sobre el funcionamiento de los sistemas, podríamos terminar sin control sobre nuestro futuro.
 
+<<<<<<< HEAD
 Sería una civilización en la que cada sistema está optimizando diferentes objetivos, no hay una dirección clara hacia dónde se dirige todo, y no hay forma de cambiarlo.
 El conocimiento técnico requerido para modificar estos sistemas podría faltar en primer lugar o perderse con el tiempo, a medida que nos volvemos más y más dependientes de la tecnología, y la tecnología se vuelve más compleja.
+=======
+Even if we manage to create only AI systems that we can control individually, we could lose our power to make important decisions incrementally each time one becomes incorporated to institutions or everyday life.
+Those processes would end up having more input from AI systems than from humans, and, if we cannot coordinate quickly enough, or we lack crucial knowledge about the functioning of the systems, we could end up without control over our future.
+>>>>>>> upstream/main
 
 Los sistemas pueden lograr sus objetivos, pero esos objetivos podrían no encapsular completamente los valores que se esperaba que tuvieran. Este problema ya está sucediendo en cierta medida hoy en día, pero la IA podría amplificarlo significativamente.
 
 ### Sentencia digital {#digital-sentience}
 
+<<<<<<< HEAD
 A medida que la IA continúa avanzando, los sistemas futuros pueden volverse increíblemente sofisticados, replicando estructuras y funciones neuronales que se asemejan más al cerebro humano.
 Esta mayor complejidad podría llevar a propiedades emergentes como la subjetividad y/o la conciencia de la IA, lo que los haría merecedores de consideraciones morales.
 
@@ -206,5 +235,8 @@ Esos seres podrían ser humanos, animales, personas digitales o cualquier otra e
 Para **todos** los problemas discutidos anteriormente, el riesgo aumenta a medida que mejoran las capacidades de la IA.
 Esto significa que lo más seguro que podemos hacer ahora es **ralentizar**.
 Necesitamos pausar el desarrollo de sistemas de IA más poderosos hasta que hayamos descubierto cómo lidiar con los riesgos.
+=======
+## What can we do?
+>>>>>>> upstream/main
 
 Ver [nuestra propuesta](/proposal) para más detalles.

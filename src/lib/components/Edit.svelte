@@ -1,5 +1,5 @@
 <script lang="ts">
-	import ExternalLink from '$lib/components/Link.svelte'
+	import Link from '$lib/components/Link.svelte'
 	import { page } from '$app/stores'
 	import * as m from '$lib/paraglide/messages.js'
 	import { getLocale } from '$lib/paraglide/runtime.js'
@@ -8,11 +8,11 @@
 	const GITHUB_BASE_URL = 'https://github.com/PauseAI/pauseai-website/edit/main/src/'
 	const GITHUB_ISSUES_URL = 'https://github.com/PauseAI/pauseai-website/issues/new'
 
-	const markdownFiles = import.meta.glob(`../../posts/**/*.md`)
-	const svelteFiles = import.meta.glob('../../routes/**/+page.svelte')
+	const markdownFiles = import.meta.glob('/src/posts/**/*.md')
+	const svelteFiles = import.meta.glob('/src/routes/**/+page.svelte')
 
 	$: pathname = $page.url.pathname
-	const currentLocale = getLocale()
+	const currentLocale: string = getLocale() // broaden to avoid "never"
 	const isTranslatedPage = currentLocale != 'en'
 
 	let editUrl: string | null = null
@@ -23,7 +23,7 @@
 		translationIssueUrl = null
 
 		// Get the English canonical path (without locale prefix)
-		let englishPath = pathname.replace(new RegExp(`^/${currentLocale}`), '')
+		let englishPath = pathname.replace(new RegExp(`^/${currentLocale}(/|$)`), '$1')
 		if (englishPath === '') englishPath = '/'
 
 		// For translated pages, we need to create a translation issue URL
@@ -46,13 +46,13 @@
 			translationIssueUrl = `${GITHUB_ISSUES_URL}?title=${encodedTitle}&body=${encodedBody}`
 		}
 
-		let relativePath = englishPath == '/' ? '../../routes/+page.svelte' : null
+		let relativePath = englishPath == '/' ? '/src/routes/+page.svelte' : null
 		if (!relativePath) {
-			const markdownPath = `../../posts${englishPath}.md`
+			const markdownPath = `/src/posts${englishPath}.md`
 			if (markdownFiles[markdownPath]) relativePath = markdownPath
 		}
 		if (!relativePath) {
-			const sveltePath = `../../routes${englishPath}/+page.svelte`
+			const sveltePath = `/src/routes${englishPath}/+page.svelte`
 			if (svelteFiles[sveltePath]) relativePath = sveltePath
 		}
 
@@ -61,7 +61,7 @@
 				// Always point to the original English content in the CMS
 				editUrl = DECAP_BASE_URL + englishPath
 			} else if (relativePath.endsWith('.svelte')) {
-				const rootPath = relativePath.substring('../../'.length)
+				const rootPath = relativePath.substring('/src/'.length)
 				editUrl = GITHUB_BASE_URL + rootPath
 			}
 		}
@@ -71,20 +71,20 @@
 {#if isTranslatedPage}
 	<div class="edit-options">
 		{#if editUrl}
-			<ExternalLink href={editUrl}>
+			<Link href={editUrl}>
 				{m.footer_other_edit()}
-			</ExternalLink>
+			</Link>
 		{/if}
 		{#if translationIssueUrl}
-			<ExternalLink href={translationIssueUrl}>
+			<Link href={translationIssueUrl}>
 				{m.footer_other_l10n()}
-			</ExternalLink>
+			</Link>
 		{/if}
 	</div>
 {:else if editUrl}
-	<ExternalLink href={editUrl}>
-		Edit{#if editUrl.startsWith(GITHUB_BASE_URL)}&nbsp;on GitHub{/if}
-	</ExternalLink>
+	<Link href={editUrl}>
+		Edit page{#if editUrl.startsWith(GITHUB_BASE_URL)}&nbsp;on GitHub{/if}
+	</Link>
 {/if}
 
 <style>

@@ -1,6 +1,11 @@
 ---
+<<<<<<< HEAD
 title: Protesta de PauseAI en Melbourne - 16 de junio
 description: Únete a PauseAI en una próxima protesta pacífica en el Melbourne Convention and Exhibition Centre (MCEC), donde Sam Altman dará una charla en Melbourne.
+=======
+title: PauseAI Protest @ Melbourne - June 16th
+description: Join PauseAI for an upcoming peaceful protest at the Melbourne Convention and Exhibition Centre (MCEC) where Sam Altman will be having a talk in Melbourne.
+>>>>>>> upstream/main
 ---
 
 <script>
@@ -32,8 +37,13 @@ Un número creciente de expertos en inteligencia artificial firmaron una declara
 
 Esto ha sido firmado por prácticamente todos los laboratorios de inteligencia artificial (OpenAI, Google DeepMind, Anthropic) y cientos de científicos de inteligencia artificial, incluyendo a Geoffrey Hinton, considerado el "padre de la inteligencia artificial".
 
+<<<<<<< HEAD
 Los investigadores de seguridad de la inteligencia artificial no han llegado a un consenso sobre cuán grande es el riesgo de extinción humana.
 Los resultados de la encuesta "Riesgo existencial de la inteligencia artificial" muestran que las estimaciones van desde el 2% hasta el 98%, con un promedio del 30%.
+=======
+AI safety researchers have not reached consensus on how large the risk of human extinction will be.
+Results from the ["Existential risk from AI survey"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) show that estimates range from 2% to 98%, with an average of 30%.
+>>>>>>> upstream/main
 
 Los manifestantes están instando al gobierno australiano a tomar la iniciativa en la seguridad global de la inteligencia artificial y a pausar el desarrollo de sistemas de inteligencia artificial más peligrosos.
 También les están pidiendo que prioricen la pausa en la Cumbre de Seguridad de la Inteligencia Artificial, que está siendo organizada por el Reino Unido y se llevará a cabo a finales de 2023.
