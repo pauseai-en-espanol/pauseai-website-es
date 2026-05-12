@@ -4,7 +4,6 @@ import dotenv from 'dotenv'
 import fs from 'fs'
 import path from 'path'
 import { defineConfig } from 'vite'
-import lucidePreprocess from 'vite-plugin-lucide-preprocess'
 import { MARKDOWN_L10NS } from './src/lib/l10n'
 import { locales as compiledLocales } from './src/lib/paraglide/runtime.js'
 
@@ -52,6 +51,6 @@ export default defineConfig(() => {
 				external: getLocaleExcludePatterns()
 			}
 		} as const,
-		plugins: [lucidePreprocess(), enhancedImages(), sveltekit()]
+		plugins: [enhancedImages(), sveltekit()]
 	}
 })
