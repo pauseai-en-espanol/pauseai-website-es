@@ -2,19 +2,10 @@
 	import Link from '$lib/components/Link.svelte'
 	import Toggle from '$lib/components/Toggle.svelte'
 	import Socials from '$lib/components/Socials.svelte'
-	import SubstackEmbed from '$lib/components/SubstackEmbed.svelte'
 	import * as m from '$lib/paraglide/messages.js'
 </script>
 
 <footer>
-	<div class="newsletter-container">
-		<SubstackEmbed
-			publicationUrl="https://pauseaispanish.substack.com"
-			title="PauseAI Español"
-			style="background: white;"
-		/>
-	</div>
-
 	<div class="joinbar">
 		<Link class="c2a" href="/inscripcion">{m.footer_join()}</Link>
 		<div class="socials">

@@ -3,9 +3,7 @@
 	import { page } from '$app/stores'
 	import Banner from '$lib/components/Banner.svelte'
 	import Hero from '$lib/components/Hero.svelte'
-	import NearbyEvent from '$lib/components/NearbyEvent.svelte'
 	import Toc from '$lib/components/Toc.svelte'
-	import ExternalLink from '$lib/components/Link.svelte'
 	import { deLocalizeHref } from '$lib/paraglide/runtime'
 	import '@fontsource/roboto-slab/300.css'
 	import '@fontsource/roboto-slab/500.css'
@@ -18,15 +16,9 @@
 	import Footer from './footer.svelte'
 	import Header from './header.svelte'
 	import PageTransition from './transition.svelte'
-	import type { GeoApiResponse } from '$api/geo/+server'
 
 	export let data
 
-	// We use $page store instead of data prop for more reliable navigation
-	// This prevents "undefined" issues during navigation
-
-	let eventFound: boolean
-	let geo: GeoApiResponse | null
 	// Show the hero on the homepage, but nowhere else
 	$: hero = deLocalizeHref($page.url.pathname) === '/'
 
@@ -43,20 +35,28 @@
 	(Top)
 </h2>
 
-{#if data.localeAlert}
-	<Banner
-		contrast={data.localeAlert.isDev}
-		id={data.localeAlert.isDev ? undefined : 'locale-switch'}
-	>
-		<!-- eslint-disable-next-line svelte/no-at-html-tags not vulnerable against XSS -->
-		{@html data.localeAlert.message}
-	</Banner>
-{/if}
+<div class="page-top" class:hero-page={hero}>
+	{#if data.localeAlert}
+		<Banner
+			contrast={data.localeAlert.isDev}
+			id={data.localeAlert.isDev ? undefined : 'locale-switch'}
+		>
+			<!-- eslint-disable-next-line svelte/no-at-html-tags not vulnerable against XSS -->
+			{@html data.localeAlert.message}
+		</Banner>
+	{/if}
 
-<div class="layout" class:with-hero={hero}>
-	<Header inverted={false} moveUp={false} />
 	{#if hero}
-		<Hero />
+		<div class="hero-section">
+			<Hero />
+			<Header inverted />
+		</div>
+	{/if}
+</div>
+
+<div class="layout" class:hero-page={hero}>
+	{#if !hero}
+		<Header />
 	{/if}
 
 	<main>
@@ -85,14 +85,32 @@
 <ProgressBar color="var(--brand)" />
 
 <style>
-	/* @import url('$lib/reset.css');
-	@import url('$lib/theme.css'); */
+	.page-top.hero-page {
+		display: flex;
+		flex-direction: column;
+		height: 100dvh;
+	}
 
-	/* .wrapper {
-		color: var(--t-text);
-		max-width: 50rem;
-		margin: auto;
-	} */
+	.page-top.hero-page > :global(.banner) {
+		flex-shrink: 0;
+	}
+
+	.page-top.hero-page .hero-section {
+		flex: 1;
+		min-height: var(--hero-min-height);
+	}
+
+	.hero-section {
+		position: relative;
+	}
+
+	.hero-section :global(nav) {
+		position: absolute;
+		top: 0;
+		left: 0;
+		right: 0;
+		z-index: 1;
+	}
 
 	.layout {
 		height: 100%;
@@ -104,10 +122,13 @@
 		margin-inline: auto;
 		--padding-big: 3rem;
 		--padding-small: 1rem;
-		padding: 0 var(--padding-big) 0 var(--padding-big);
+		padding: 0 var(--padding-big);
 	}
 
-	/* Media query not strictily necessary */
+	.layout.hero-page {
+		grid-template-rows: 1fr auto;
+	}
+
 	@media (max-width: 750px) {
 		.layout {
 			--transition-padding-from: 750px;
@@ -127,10 +148,4 @@
 	main {
 		padding-block: 1rem;
 	}
-
-	/* @media (min-width: --page-width) {
-		.layout {
-			padding: 0;
-		}
-	} */
 </style>

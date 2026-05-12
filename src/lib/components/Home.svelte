@@ -1,8 +1,8 @@
 <script lang="ts">
 	import Block from '$lib/components/Block.svelte'
 	import LatestNews from '$lib/components/LatestNews.svelte'
+	import NewsletterSignup from '$lib/components/NewsletterSignup.svelte'
 	import PostMeta from '$lib/components/PostMeta.svelte'
-	import SubstackEmbed from '$lib/components/SubstackEmbed.svelte'
 	import PreloadFonts from '$lib/components/PreloadFonts.svelte'
 	import QuotesCarousel from '$lib/components/QuotesCarousel.svelte'
 	import PressLogos from '$lib/components/PressLogos.svelte'
@@ -50,8 +50,12 @@
 	</Block>
 </section>
 
-<div class="divider"></div>
-<SubstackEmbed />
+<NewsletterSignup
+	headingText="Suscríbete a nuestro boletín"
+	descriptionText="Mantente al día sobre nuestros esfuerzos por una IA segura."
+	placeholderText="Tu correo electrónico"
+	buttonText="Suscribirse"
+/>
 
 <style>
 	.divider {
