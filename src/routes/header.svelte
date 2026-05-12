@@ -35,7 +35,7 @@
 		<div class="space-between" />
 	</div>
 
-	<div class="nav-links">
+	<div class="nav-links wide-navbar">
 		<NavLink {inverted} first href="/nosotros">Nosotros</NavLink>
 		<NavLink {inverted} href="/riesgos">Riesgos</NavLink>
 		<NavLink {inverted} href="/pausa">La pausa</NavLink>
