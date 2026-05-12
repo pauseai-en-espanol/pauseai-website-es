@@ -113,7 +113,6 @@
 	}
 
 	.hero-section :global(nav) {
-		max-width: var(--page-width);
 		width: 100%;
 		margin-inline: auto;
 		padding-left: 3rem;
