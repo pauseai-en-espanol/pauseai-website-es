@@ -1,7 +1,5 @@
 import type { Locale } from '$lib/paraglide/runtime.js'
-import type { Context } from '@netlify/edge-functions'
-// See https://kit.svelte.dev/docs/types#app
-// for information about these interfaces
+
 declare global {
 	namespace App {
 		// interface Error {}
@@ -9,9 +7,6 @@ declare global {
 			locale: Locale
 		}
 		// interface PageData {}
-		interface Platform {
-			context: Context
-		}
 	}
 
 	interface Twttr {
@@ -22,6 +17,8 @@ declare global {
 	interface Window {
 		twttr?: Twttr
 		plausible?: (event: string, options?: { props?: Record<string, string> }) => void
+		selectBanners?: () => void
+		applyTheme?: (theme: string) => void
 	}
 }
 

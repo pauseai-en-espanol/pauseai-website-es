@@ -91,6 +91,8 @@ async function getPosts() {
 	return posts
 }
 
+export type PostsApiResponse = Post[]
+
 export async function GET() {
 	const posts = await getPosts()
 	return json(posts)

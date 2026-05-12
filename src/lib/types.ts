@@ -30,6 +30,18 @@ export type StrictPost<T = StrictFrontmatterMeta> = T & {
 
 export type DescriptivePost = StrictPost<DescriptiveFrontmatterMeta>
 
+export type Post = DescriptivePost
+
+export type Team = {
+	id: string
+	name: string
+	description: string
+	leadName: string
+	leadEmail: string
+	public: boolean
+	responsibilities: string[]
+}
+
 export type NewsItem = {
 	title: string
 	subtitle: string

@@ -41,6 +41,10 @@ interface EmailRequest {
 	message: string
 }
 
+export type UKSendMPEmailApiResponse =
+	| { success: true; recordId: string }
+	| { error: 'server_error' | 'validation' | 'rate_limit'; message: string }
+
 export const POST = async ({ request }) => {
 	if (!AIRTABLE_API_KEY || !AIRTABLE_WRITE_API_KEY) {
 		return json({ error: 'server_error', message: 'Email service not configured' }, { status: 500 })
