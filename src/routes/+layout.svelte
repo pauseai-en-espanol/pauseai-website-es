@@ -97,6 +97,22 @@
 		flex-shrink: 0;
 	}
 
+	.page-top.hero-page > :global(nav) {
+		max-width: var(--page-width);
+		width: 100%;
+		margin-inline: auto;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		box-sizing: border-box;
+	}
+
+	@media (max-width: 750px) {
+		.page-top.hero-page > :global(nav) {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+
 	.page-top.hero-page .hero-section {
 		flex: 1;
 		min-height: var(--hero-min-height);
