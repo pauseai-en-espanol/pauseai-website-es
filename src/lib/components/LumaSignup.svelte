@@ -12,14 +12,14 @@
 </svelte:head>
 
 <div>
-	<LinkWithoutIcon
+	<a
 		href={BASE_URL + '/event/' + eventId}
 		class="luma-checkout--button"
 		data-luma-action="checkout"
 		data-luma-event-id={eventId}
 	>
 		<slot></slot>
-	</LinkWithoutIcon>
+	</a>
 </div>
 
 <style>

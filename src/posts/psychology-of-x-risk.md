@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: La difícil psicología del riesgo existencial
 description: Pensar en el fin del mundo es difícil.
-=======
-title: The Difficult Psychology of Existential Risk
-description: Thinking about the end of the world is hard.
->>>>>>> upstream/main
 ---
 
 La mayoría de las personas responden inicialmente al tema del riesgo existencial de la inteligencia artificial con una mezcla de burla, negación e incredulidad.

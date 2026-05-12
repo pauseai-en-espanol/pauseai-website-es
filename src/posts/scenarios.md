@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Escenarios concretos de riesgos catastróficos de IA
 description: Cómo la IA superinteligente podría causar la extinción humana.
-=======
-title: Concrete Scenarios for Catastrophic AI Risks
-description: How superintelligent AI could cause human extinction.
->>>>>>> upstream/main
 ---
 
  <!-- final de los metadatos de Frontmatter, los guiones arriba deben permanecer -->

@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Cómo las evaluaciones y referencias de seguridad de IA pueden ayudar en la gobernanza de la IA
 description: ¿Qué son las evaluaciones de seguridad de IA y cómo pueden contribuir a prevenir riesgos catastróficos?
-=======
-title: How AI Safety Evaluations & Benchmarks Can Aid in AI Governance
-description: What are AI safety evals, and how can they contribute to preventing catastrophic risks?
->>>>>>> upstream/main
 ---
 
 ## ¿Qué son las evaluaciones de seguridad de IA? {#what-are-ai-safety-evaluations}
@@ -40,19 +35,11 @@ En otras palabras, **urgentemente necesitamos regulaciones que exijan evaluacion
 
 Varios gobiernos están invirtiendo seriamente en Evaluaciones/Referencias de IA para medir capacidades peligrosas:
 
-<<<<<<< HEAD
 - El AISI del Reino Unido ha creado el [marco Inspect](https://github.com/UKGovernmentBEIS/inspect_ai), ha escrito [Replibench](https://arxiv.org/abs/2504.18565) y ahora está invirtiendo [15 millones de libras esterlinas en subvenciones para evaluaciones e investigación de alineación](https://alignmentproject.aisi.gov.uk/)
 - La Comisión Europea está lanzando una [licitación de 10 millones de euros](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/76f9edf2-d9e2-4db2-931e-a72c5ab356d2-CN) y una [gran subvención con el programa Horizonte](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2025-04-DIGITAL-EMERGING-04). También han lanzado el [Código de Práctica de IA de Propósito General](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai), que incluye un requisito para realizar "evaluaciones de modelos de última generación" (Medida 3.2).
 - El [Plan de Acción de IA de EE. UU.](https://www.whitehouse.gov/articles/2025/07/white-house-unveils-americas-ai-action-plan/) menciona evaluaciones y controles de hardware
 - China (Concordia AI + Laboratorio de IA de Shanghái) acaba de [publicar un informe con muchas evaluaciones](https://substack.com/home/post/p-169741512)
 - Otros gobiernos también están trabajando en evaluaciones
-=======
-- UK AISI has built the [Inspect framework](https://github.com/UKGovernmentBEIS/inspect_ai), written [Replibench](https://arxiv.org/abs/2504.18565), is now investing [15M GBP in evals & alignment research grants](https://alignmentproject.aisi.gov.uk/)
-- EU Commission is launching a [10M EUR tender](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/tender-details/76f9edf2-d9e2-4db2-931e-a72c5ab356d2-CN), and a [big grant with the Horizon programme](https://ec.europa.eu/info/funding-tenders/opportunities/portal/screen/opportunities/topic-details/HORIZON-CL4-2025-04-DIGITAL-EMERGING-04). They have also launched the [The General-Purpose AI Code of Practice](https://digital-strategy.ec.europa.eu/en/policies/contents-code-gpai), which includes a requirement to do "state‑of‑the‑art model evaluations" (Measure 3.2).
-- [US AI Action Plan](https://www.whitehouse.gov/articles/2025/07/white-house-unveils-americas-ai-action-plan/) mentions evaluations and hardware controls
-- China (concordia AI + Shanghai AI lab) has just [released a report with a lot of evals](https://substack.com/home/post/p-169741512)
-- Other governments are working on evaluations as well
->>>>>>> upstream/main
 
 _El hecho de que tantos países estén trabajando en evaluaciones crea una oportunidad muy importante para nosotros_.
 Si estos países e institutos **utilizaran las mismas referencias** y tuvieran algunas **líneas rojas** comunes, sería un paso importante hacia un tratado global.

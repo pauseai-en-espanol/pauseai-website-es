@@ -7,6 +7,18 @@ declare global {
 			locale: Locale
 		}
 		// interface PageData {}
+		interface Platform {
+			context: {
+				geo?: {
+					country?: { code?: string; name?: string }
+					subdivision?: { code?: string; name?: string }
+					city?: string
+					timezone?: string
+					latitude?: number
+					longitude?: number
+				}
+			}
+		}
 	}
 
 	interface Twttr {
@@ -18,7 +30,7 @@ declare global {
 		twttr?: Twttr
 		plausible?: (event: string, options?: { props?: Record<string, string> }) => void
 		selectBanners?: () => void
-		applyTheme?: (theme: string) => void
+		applyTheme?: () => void
 	}
 }
 

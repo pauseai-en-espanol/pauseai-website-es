@@ -1,24 +1,14 @@
 ---
-<<<<<<< HEAD
 title: Por qué una toma del control por IA podría ser muy probable
 description: A medida que la IA supera las capacidades humanas, la probabilidad de una toma del control por IA se vuelve muy alta.
-=======
-title: Why an AI Takeover Could Be Very Likely
-description: As AI surpasses human capabilities, the likelihood of an AI takeover becomes very high.
->>>>>>> upstream/main
 ---
 
 Una de las preocupaciones de los científicos de IA es que una superinteligencia podría tomar el control de nuestro planeta.
 Puedes verlo en [artículos](/learn#papers), [encuestas](/polls-and-surveys) y [predicciones](/pdoom) & [declaraciones](/quotes) individuales.
 Esto no significa necesariamente que todos mueran, pero sí significa que (casi) todos los humanos perderán el control sobre nuestro futuro.
 
-<<<<<<< HEAD
 Discutimos los conceptos básicos del riesgo existencial principalmente en [otro artículo](/xrisk).
 En este artículo, argumentaremos que este riesgo de toma del control no solo es real, sino que es muy probable que ocurra _si desarrollamos una superinteligencia_.
-=======
-We discuss the basics of x-risk mostly in [another article](/xrisk).
-In this article here, we will argue that this takeover risk is not only real but that it is very likely to happen _if we build a superintelligence_.
->>>>>>> upstream/main
 
 ## El argumento {#the-argument}
 
@@ -34,7 +24,6 @@ Una Superinteligencia (SI) es un tipo de IA que tiene capacidades que superan a 
 Algunos [modelos de IA de última generación](/sota) ya tienen capacidades superhumanas en ciertos campos, pero ninguno de ellos supera a todos los humanos en un amplio rango de tareas.
 A medida que las capacidades de la IA mejoran debido a innovaciones en arquitecturas de entrenamiento, entornos de ejecución y mayor escala, podemos esperar que una IA eventualmente supere a los humanos en prácticamente todos los campos.
 
-<<<<<<< HEAD
 No todos los sistemas de IA son agentes.
 Un agente es una entidad capaz de tomar decisiones y realizar acciones para lograr un objetivo.
 Un gran modelo de lenguaje, por ejemplo, no persigue ningún objetivo por sí solo.
@@ -42,15 +31,6 @@ Sin embargo, los entornos de ejecución pueden convertir fácilmente una IA no a
 Un ejemplo de esto es AutoGPT, que permite recursivamente que un modelo de lenguaje genere su próxima entrada.
 Si una SI persigue un objetivo en el mundo real, la llamamos Superinteligencia Agente (SA).
 Dado que ya podemos convertir una IA no agente en una IA agente, podemos esperar que una SA exista poco después de que exista una SI.
-=======
-Not all AI systems are agents.
-An agent is an entity that is capable of making decisions and taking actions to achieve a goal.
-A large language model, for example, does not pursue any objective on its own.
-However, runtime environments can easily turn a non-agentic AI into an agentic AI.
-An example of this is AutoGPT, which recursively lets a language model generate its next input.
-If an SI pursues an objective in the real world, we call it an Agentic SuperIntelligence (ASI).
-Since we can already turn non-agentic AI into agentic AI, we can expect that an ASI will exist shortly after an SI exists.
->>>>>>> upstream/main
 
 Es prácticamente imposible predecir con precisión cuándo existirá la SA.
 Podría tomar décadas, podría [suceder el próximo mes](/urgency).
@@ -68,13 +48,8 @@ Esta primera razón probablemente ocurrirá en algún momento si esperamos lo su
 
 El sub-objetivo de _maximizar el control_ sobre el mundo podría ocurrir debido a la _convergencia instrumental_: la tendencia de los sub-objetivos a converger en la adquisición de poder, la auto-preservación y la adquisición de recursos:
 
-<<<<<<< HEAD
 - Cuanto más control tengas, más difícil será para cualquier otro agente evitar que logres tu objetivo.
 - Cuanto más control tengas, más recursos tendrás para lograr tu objetivo. (Por ejemplo, una IA encargada de calcular pi podría concluir que sería beneficioso usar todas las computadoras del mundo para calcular pi).
-=======
-- The more control you have, the harder it will be from any other agent to prevent you from achieving your goal.
-- The more control you have, the more resources you have to achieve your goal. (For example, an AI tasked with calculating pi might conclude that it would be beneficial to use all computers on the world to calculate pi.)
->>>>>>> upstream/main
 
 Ya hay [pruebas](https://www.anthropic.com/research/alignment-faking)[s](https://www.transformernews.ai/p/openais-new-model-tried-to-avoid) de que las IA desarrollan un comportamiento similar.
 

@@ -33,8 +33,4 @@ POR LO TANTO, por una buena y valiosa consideración, cuyo recibo y suficiencia 
 
 - **No Violencia**: PauseAI es un movimiento pacífico, con la no violencia como un valor fundamental no negociable. El Voluntario se compromete a no promover, abogar o proponer acciones violentas en ningún contexto, verbal o escrito, y entiende que hacerlo resultará en la terminación inmediata del Acuerdo.
 
-<<<<<<< HEAD
 - **Código de Conducta**: El Voluntario entiende y se compromete a cumplir con el [Código de Conducta para Manifestantes](/protesters-code-of-conduct) público.
-=======
-- **Code of Conduct**: The Volunteer understands and agrees to the public [Code of Conduct](/code-of-conduct) and [Protesters Code of Conduct](/protesters-code-of-conduct)
->>>>>>> upstream/main

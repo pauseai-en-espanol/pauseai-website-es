@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Protesta de PauseAI en la Plaza del Parlamento - 8 de junio
 description: Estamos organizando una protesta en la Plaza del Parlamento para exigir una cumbre que pause el desarrollo de la inteligencia artificial.
-=======
-title: PauseAI Protest @ Parliament Square - June 8th
-description: We are organising a protest at Parliament Square to demand a summit to pause AI development.
->>>>>>> upstream/main
 ---
 
 - Protesta de PauseAI, instando a Rishi Sunak a implementar una pausa en el desarrollo de la inteligencia artificial.
@@ -22,13 +17,8 @@ Un número creciente de expertos en inteligencia artificial [firmaron una declar
 
 Esta declaración ha sido firmada por prácticamente todos los laboratorios de inteligencia artificial (OpenAI, Google DeepMind, Anthropic) y cientos de científicos de inteligencia artificial, incluyendo a Geoffrey Hinton, considerado el "Padre de la inteligencia artificial".
 
-<<<<<<< HEAD
 Los investigadores de seguridad de la inteligencia artificial no han llegado a un consenso sobre la magnitud del riesgo de extinción humana.
 Los resultados de la ["Encuesta sobre el riesgo existencial de la inteligencia artificial"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) muestran que las estimaciones varían desde el 2% hasta el 98%, con un promedio del 30%.
-=======
-AI safety researchers have not reached consensus on how large the risk of human extinction will be.
-Results from the ["Existential risk from AI survey"](https://forum.effectivealtruism.org/posts/8CM9vZ2nnQsWJNsHx/existential-risk-from-ai-survey-results) show that estimates range from 2% to 98%, with an average of 30%.
->>>>>>> upstream/main
 
 Rishi Sunak ha declarado que el ["Gobierno está examinando esto muy cuidadosamente"](https://twitter.com/RishiSunak/status/1663838958558539776) y que ["el Reino Unido está bien posicionado para liderar"](https://twitter.com/RishiSunak/status/1662369922234679297) la colaboración global en el desarrollo seguro de la inteligencia artificial.
 El Reino Unido es sede de algunos de los laboratorios de inteligencia artificial más destacados del mundo, incluyendo Google DeepMind, y cuenta con una alta concentración de investigadores de seguridad de la inteligencia artificial.

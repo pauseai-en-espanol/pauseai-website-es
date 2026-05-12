@@ -1,9 +1,5 @@
 ---
-<<<<<<< HEAD
 title: Protesta de PauseAI en la Oficina de IA - 29 de junio
-=======
-title: PauseAI Protest @ Office for AI - June 29th
->>>>>>> upstream/main
 ---
 
  <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->

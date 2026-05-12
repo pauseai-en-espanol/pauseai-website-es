@@ -1,8 +1,7 @@
 <script lang="ts">
-	import Link from './LinkWithoutIcon.svelte'
+	import Link, { Type } from './LinkWithoutIcon.svelte'
 	import ExternalLink from 'lucide-svelte/icons/external-link'
 	import Mail from 'lucide-svelte/icons/mail'
-	import type { LinkType } from '$lib/types'
 
 	export let href: string
 	export let target: string | null = null
@@ -13,17 +12,17 @@
 	const ICON_PROPS = { size: '0.7em' }
 
 	// Link component determines the type
-	let type: LinkType
+	let type: Type = Type.Internal
 </script>
 
 <Link {href} {target} {rel} class={className} bind:type {...$$restProps}>
-	<slot></slot>{#if type != 'internal'}
+	<slot></slot>{#if type != Type.Internal}
 		<span style="white-space: nowrap">
 			&nbsp;
 			<span class="icon">
-				{#if type == 'external'}
+				{#if type == Type.External}
 					<ExternalLink {...ICON_PROPS} />
-				{:else if type == 'mail'}
+				{:else if type == Type.Mail}
 					<Mail {...ICON_PROPS} />
 				{/if}
 			</span>

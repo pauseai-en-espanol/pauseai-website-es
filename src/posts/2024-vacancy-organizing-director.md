@@ -24,15 +24,7 @@ Serás el primer contratado y desempeñarás un papel crucial en el crecimiento 
 Trabajarás estrechamente con el fundador, Joep Meindertsma.
 Ten en cuenta que PauseAI puede experimentar un crecimiento rápido en el futuro cercano, tanto en términos de miembros como de financiamiento.
 
-<<<<<<< HEAD
 ### Tareas y responsabilidades {#tasks--responsibilities}
-=======
-- Maintaining contact with and managing various volunteers and teams within PauseAI.
-- Coaching and supporting teams and leaders of [local](/communities) and [national groups](/national-groups).
-- Designing and implementing an [organizational structure](/organization) and strategy for effective collaboration with local groups.
-- Developing and managing materials for local and national PauseAI groups.
-- Creating social media content (text, video) to inform, motivate, and inspire members.
->>>>>>> upstream/main
 
 - Mantener contacto con y gestionar a varios voluntarios y [equipos](/teams) dentro de PauseAI.
 - Capacitar y apoyar a equipos y líderes de [grupos locales](/communities) y [grupos nacionales](/national-groups).

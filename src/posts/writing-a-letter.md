@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Cómo escribir una carta o correo electrónico a alguien con influencia
 description: Una guía sobre cómo escribir una carta de lobby efectiva
-=======
-title: How to Write a Letter or Email to Someone in Power
-description: A guide on how to write a lobby letter
->>>>>>> upstream/main
 ---
 
 _Also available as a [video](https://www.youtube.com/watch?v=Mjq4NFiKKd0) and a [slideshow](https://tiny.cc/emaillobby) for workshops_

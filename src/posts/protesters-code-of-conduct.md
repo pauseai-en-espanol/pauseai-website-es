@@ -15,10 +15,6 @@ Como participante en una protesta de PauseAI, me comprometo a adherirme al sigui
 7. **Responsabilidad**: Reconozco mi responsabilidad personal de defender los valores y objetivos del movimiento PauseAI. Si presencio cualquier violación de este Código de Conducta, lo informaré a los organizadores de la protesta u otras autoridades pertinentes.
 8. **Acción frente al pesimismo**: Me centraré en el diálogo constructivo y en promover soluciones viables para abordar los desafíos que plantea el desarrollo de la inteligencia artificial. Este enfoque generará un ambiente más motivador y esperanzador, animando a otros a unirse a nuestra causa.
 
-<<<<<<< HEAD
 Al adherirme a este Código de Conducta, prometo ser un embajador del movimiento PauseAI y su misión de promover el desarrollo y uso responsable de la inteligencia artificial. Juntos, podemos crear una fuerza poderosa y positiva para el cambio.
 
 _Relacionado: nuestros [Valores](/values)_
-=======
-_Related: our [Values](/values) and our community-wide [Code of Conduct](/code-of-conduct)_
->>>>>>> upstream/main

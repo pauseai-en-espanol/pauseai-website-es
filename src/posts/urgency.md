@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Por qué podríamos tener superinteligencia antes de lo que la mayoría piensa
 description: Estamos subestimando el progreso de la IA, y existe una pequeña pero realista posibilidad de que estemos muy cerca de una superinteligencia.
-=======
-title: Why We Might Have Superintelligence Sooner Than Most Think
-description: We're underestimating the progress of AI, and there is a small but realistic chance that we are very close to a superintelligence.
->>>>>>> upstream/main
 date: '2023-05-04'
 ---
 
@@ -91,19 +86,8 @@ No tenemos idea de cómo alinear una IA así (incluso [OpenAI admite esto](https
 
 ## Actuar {#act}
 
-<<<<<<< HEAD
 Nadie sabe con certeza cuándo alcanzaremos el umbral de Ilya.
 Pero las [apuestas son demasiado altas](/xrisk) para asumir que tenemos mucho tiempo.
 Necesitamos actuar sobre la pequeña posibilidad de que podríamos estar a meses de distancia.
 Necesitamos [pausar el desarrollo de IA de vanguardia](/proposal) ahora mismo.
 Depende de cada uno de nosotros [tomar medidas](/action) y asegurarnos de que no nos sorprendan.
-=======
-<!--Anthropic co-founder Ben Mann [believes](https://x.com/ai_ctrl/status/1819173703869255879/photo/0) there's a 30% chance that Claude 3 (their latest model) can autonomously replicate, given fine-tuning and clever prompting.
-Ex-OpenAI researcher Daniel Kokotajlo thinks there's a [15% chance](https://x.com/ai_ctrl/status/1819173703869255879/photo/0) we'll have AGI in 2024.-->
-
-No-one knows for certain when we will reach the Ilya threshold.
-But the [stakes are too high](/xrisk) to assume we have a lot of time.
-We need to act on the small chance that we could be months away.
-We need to [Pause frontier AI development](/proposal) right now.
-It's up to each of us to [take action](/action) and make sure that we don't get caught off guard.
->>>>>>> upstream/main

@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Protesta de PauseAI en Bletchley Park - 1 de noviembre
 description: Estamos organizando una protesta en Bletchley Park, durante la Cumbre de Seguridad de la IA
-=======
-title: PauseAI Protest @ Bletchley Park - November 1st
-description: We are organising a protest at Bletchley Park, during the AI Safety Summit
->>>>>>> upstream/main
 ---
 
  <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->

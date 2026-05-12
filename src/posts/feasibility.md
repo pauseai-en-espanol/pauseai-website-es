@@ -107,13 +107,7 @@ Hace que la gente dé más importancia al trabajo técnico, político y comunica
 
 No solo traería nuevas personas y recursos a nuevas intervenciones, sino que también ayudaría a que las iniciativas técnicas y políticas moderadas parezcan más "razonables" y aumenten sus posibilidades de ser apoyadas.
 
-<<<<<<< HEAD
 Además, podría preparar a la gente para los peligros, enseñarles a utilizar la IA de manera más ética, e incluso convencerlos de no invertir o trabajar en proyectos de vanguardia y peligrosos.
-=======
-Advocating for a pause has other positive impacts outside achieving it.
-Informing the public, tech people and politicians of the risks helps other interventions that aim to make safe AIs and AIs safe.
-It causes people to give more importance to the technical, political and communicational work that goes into AI Safety and AI ethics, which ultimately means more funding and jobs going into them, expecting better results.
->>>>>>> upstream/main
 
 ## No te rindas al pesimismo {#dont-give-in-to-pessimism}
 

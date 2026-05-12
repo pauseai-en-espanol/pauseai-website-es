@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Información legal
 description: Información requerida por ley sobre PauseAI.
-=======
-title: Legal Information
-description: Information required by law about PauseAI.
->>>>>>> upstream/main
 ---
 
 Este sitio web es mantenido por PauseAI Global.
@@ -18,7 +13,6 @@ A continuación, se proporciona información sobre la entidad legal holandesa de
 - Nombre: "Stichting PauseAI"
 - Número de KVK: 92951031
 - RSIN: 866227696
-<<<<<<< HEAD
 - Número de impuesto/IVA: NL866227696B01
 - Cuenta bancaria: NL31BUNQ2109903155 ([donar](/donate))
 - Objetivo: "Mitigar los riesgos más catastróficos de la inteligencia artificial".
@@ -26,15 +20,6 @@ A continuación, se proporciona información sobre la entidad legal holandesa de
 - Estado ANBI: Sí, desde el 13-02-2024
 - Contacto: [Joep Meindertsma](mailto:joep@pauseai.info)
 - Dirección: Skopjestraat 26, 3541ES Utrecht, Países Bajos
-=======
-- Tax/VAT number: NL866227696B01
-- Bank Account: NL31BUNQ2109903155 ([donate](/donate))
-- Goal: "Mitigate the most catastrophic risks of AI."
-- Founding date: 13-02-2024
-- ANBI status: Yes, since 13-02-2024
-- Contact: [Joep Meindertsma](mailto:joep@pauseai.info)
-- Address: Box C5957, Kwikstaartlaan 42, 3704GS Zeist, The Netherlands
->>>>>>> upstream/main
 
 ### Estado ANBI {#anbi-status}
 
@@ -48,15 +33,10 @@ Para calificar para el estado ANBI, la organización benéfica debe cumplir con 
 - No debe tener fines de lucro, el dinero debe utilizarse para el objetivo de la organización benéfica.
 - Varios requisitos de publicación (como esta página).
 
-<<<<<<< HEAD
 ### Plan de política 2024-2025 ("Beleidsplan") {#policy-plan-2024-2025-beleidsplan}
-=======
-### Policy Plan 2026 ("Beleidsplan")
->>>>>>> upstream/main
 
 Nuestro objetivo es prevenir los riesgos catastróficos de la inteligencia artificial. Pretendemos lograr esto mediante las siguientes acciones:
 
-<<<<<<< HEAD
 - Crear una comunidad de voluntarios para abogar por la seguridad de la inteligencia artificial.
 - Informar al público a través de las redes sociales, escribir artículos, participar en [entrevistas/podcasts](/press) y organizar eventos.
 - Facilitar el crecimiento de la comunidad organizando eventos sociales.
@@ -73,29 +53,6 @@ También esperamos proporcionar subvenciones ("PauseAI MicroGrants") a voluntari
 Nuestro primer año contable es más largo que un año - comienza desde nuestra fecha de fundación (13-02-2024) y termina el 31-12-2025, después de lo cual publicaremos un informe anual.
 Los fondos recibidos son administrados por la junta y se utilizan para cubrir los costos de nuestras actividades.
 Si recibimos más fondos de los que podemos gastar, ahorraremos los fondos excedentes para actividades futuras.
-=======
-- Grow a community of volunteers to advocate for AI safety.
-- Inform the public through social media, writing articles, participating in [interviews/podcasts](/press), and organizing events.
-- Facilitate community growth by organizing social events.
-- Distribute [donations](/donate) to projects that align with our goals.
-- Organize [protests](/protests) and other forms of activism to raise awareness about the risks of AI.
-- Educate [volunteers](/join) on how to become more effective advocates.
-- Research policy measures and update [our proposal](/proposal) accordingly.
-
-#### Financial accountability ("Financiële paragraaf")
-
-We raise funds to support our activities through [donations](/donate), selling merchandise (through [the store](https://pauseai-shop.fourthwall.com/)) and applying for grants.
-
-The funds will be used to cover the costs of our activities, such as hiring staff or freelancers (excluding the board), travel expenses, materials for events, marketing expenses, and other costs related to our mission.
-We also expect to provide grants ("PauseAI MicroGrants") to volunteers who want to organize events, create content or otherwise contribute to our mission.
-
-Our first bookkeeping year is longer than one year - it starts from our founding date (13-02-2024) and ends on 31-12-2025, after which we will publish an annual report within 6 months.
-
-Received funds are managed by the board and are used to cover the costs of our activities. The foundation does not hold more capital than is reasonably necessary for the continuity of the planned activities. Any surplus is reserved solely to support future non-profit activities.
-
-The board members do not receive any remuneration for their work.
-They are entitled to reimbursement of the costs incurred by them in the performance of their duties.
->>>>>>> upstream/main
 
 ### Informe de actividades {#report-of-activities}
 
@@ -103,7 +60,6 @@ Una lista de [apariciones en los medios](/press) y [protestas organizadas](/prot
 Las publicaciones en las redes sociales se pueden encontrar principalmente en [X](https://x.com/PauseAI).
 Nuestro [servidor de Discord](https://discord.gg/HWcPt5ccJN) es, con mucho, nuestra comunidad más activa, con un promedio de 100 mensajes por día.
 
-<<<<<<< HEAD
 ### Junta {#board}
 
 - Joep Meindertsma (Presidente)
@@ -163,10 +119,3 @@ Las entidades nacionales/locales son responsables de:
 - Obtención de cobertura en los medios locales [cobertura en los medios](/).
 - Canales de redes sociales locales (por ejemplo, [PauseAI UK](https://twitter.com/PauseAI_UK) y [PauseAI US](https://twitter.com/PauseAIus) Twitter)
 - Trabajo y retroalimentación de políticas a nivel nacional.
-=======
-### Board members
-
-- Joep Meindertsma (Voorzitter / Chairman)
-- Michiel van den Ingh (Penningmeester / Treasurer)
-- Otto Barten (Secretaris / Secretary)
->>>>>>> upstream/main

@@ -2,6 +2,7 @@ import { isDev, getDevContext } from '$lib/env'
 import { env } from '$env/dynamic/private'
 
 const AIRTABLE_API_KEY = env.AIRTABLE_API_KEY || ''
+const AIRTABLE_WRITE_API_KEY = env.AIRTABLE_WRITE_API_KEY || ''
 
 /** Fetch options for getting data from Airtable */
 const OPTIONS = {
@@ -33,7 +34,8 @@ type AirtableResponse<T> = {
 export async function fetchAllPages<T = Record<string, unknown>>(
 	customFetch: typeof fetch,
 	url: string,
-	fallbackData: AirtableRecord<T>[] = []
+	fallbackData: AirtableRecord<T>[] = [],
+	query: { filterByFormula?: string } = {}
 ): Promise<AirtableRecord<T>[]> {
 	let allRecords: AirtableRecord<T>[] = []
 	// https://airtable.com/developers/web/api/list-records#query-pagesize
@@ -58,7 +60,11 @@ export async function fetchAllPages<T = Record<string, unknown>>(
 
 	try {
 		do {
-			const fullUrl = offset ? `${url}?offset=${offset}` : url
+			const params = new URLSearchParams()
+			if (offset) params.set('offset', String(offset))
+			if (query.filterByFormula) params.set('filterByFormula', query.filterByFormula)
+			const qs = params.toString()
+			const fullUrl = qs ? `${url}?${qs}` : url
 			if (isDev()) console.log('Fetching from URL:', fullUrl)
 
 			const response = await customFetch(fullUrl, OPTIONS)
@@ -95,5 +101,44 @@ export async function fetchAllPages<T = Record<string, unknown>>(
 		}
 
 		throw error
+	}
+}
+
+/**
+ * Creates a record in an Airtable table. Soft-fails (logs + swallows) so callers
+ * don't crash the whole request if Airtable is unreachable.
+ */
+export async function createRecord(
+	baseId: string,
+	tableId: string,
+	fields: Record<string, unknown>
+): Promise<void> {
+	if (!AIRTABLE_WRITE_API_KEY) {
+		console.warn(`⚠️ Airtable write API key not configured. Skipping record creation.`)
+		return
+	}
+	try {
+		const url = `https://api.airtable.com/v0/${baseId}/${tableId}`
+		const response = await fetch(url, {
+			method: 'POST',
+			headers: {
+				Authorization: `Bearer ${AIRTABLE_WRITE_API_KEY}`,
+				'Content-Type': 'application/json'
+			},
+			body: JSON.stringify({ records: [{ fields }] })
+		})
+		if (!response.ok) {
+			const errorText = await response.text()
+			console.error(
+				`Airtable createRecord ${tableId} error:`,
+				response.status,
+				response.statusText,
+				errorText
+			)
+			return
+		}
+		console.log(`Successfully created record in Airtable table ${tableId}`)
+	} catch (error) {
+		console.error(`Error creating Airtable record in ${tableId}:`, error)
 	}
 }

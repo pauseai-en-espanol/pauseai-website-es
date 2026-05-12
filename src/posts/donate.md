@@ -27,21 +27,12 @@ Desde febrero de 2024, PauseAI es una [fundación sin fines de lucro registrada]
 
 ## Lo que ya hemos logrado {#what-have-we-already-achieved}
 
-<<<<<<< HEAD
 - Más de 1000 personas que se han [unido](/inscripcion) a PauseAI, muchas de las cuales trabajan activamente en diversos proyectos.
 - Más de 100 proyectos en nuestro servidor de Discord (sitios web, talleres, videos, respuestas a consultas gubernamentales, etc.).
 - Hemos organizado más de 15 [protestas](/protests) en 7 países.
 - Más de 100 otros tipos de [eventos](/events) (talleres de cabildeo, sesiones de distribución de folletos, reuniones de acción, etc.).
 - Más de 30 [apariciones en medios](/press) en importantes medios de comunicación, podcasts, documentales, televisión y más.
 - Numerosas reuniones con políticos y otras partes interesadas.
-=======
-- 1000+ people who have [joined](/join) PauseAI, many of whom are actively working on various projects
-- 100+ projects in our Discord server (websites, workshops, videos, responses to government consultations, etc.)
-- Organized 15+ [protests](/protests) in 7 countries.
-- 100+ other types of [events](/communities#events) (lobby workshops, flyering sessions, action meetings, etc.)
-- 30+ [Media appearances](/press) on major news outlets, podcasts, documentaries, TV and more.
-- Many meetings with politicians and other stakeholders.
->>>>>>> upstream/main
 
 ## ¿Quién financia a PauseAI? {#who-is-funding-pauseai}
 
@@ -53,7 +44,6 @@ Visita nuestra [hoja de ruta](/roadmap) para obtener más detalles.
 
 ## Cómo donar a PauseAI {#how-to-donate-to-pauseai}
 
-<<<<<<< HEAD
 - Por transferencia bancaria. IBAN: NL31BUNQ2109903155 BIC/SWIFT: BUNQNL2AXXX (Stichting PauseAI). Probablemente, esta sea la forma más económica de transferirnos dinero.
 - [PayPal](https://www.paypal.com/donate/?hosted_button_id=4TWZXY62EM5VE). Admite donaciones recurrentes. Se aplican [comisiones por transacción](https://www.paypal.com/webapps/mpp/merchant-fees).
 - A través de nuestra [tienda de productos oficiales](https://pauseai-shop.fourthwall.com/). Todas las transacciones con tarjetas de crédito de EE. UU. tienen una tarifa adicional de procesamiento de pagos del 2,9% + $0,30. Las tarjetas de crédito de fuera de EE. UU. tienen una tarifa de procesamiento de pagos del 3,9% + $0,30.
@@ -65,41 +55,3 @@ Visita nuestra [hoja de ruta](/roadmap) para obtener más detalles.
   - Polygon `0x01c9646d376408cD77599d1a0860eC38E6928F1b`
   - Bitcoin (Taproot) `bc1ptn0czghufhl6gwf67kswm3hhkvvcu8nm6mx872rwh6hzxa70a9pquqcc7q`
   - Bitcoin (Native Segwit) `bc1qma97wdt8wmz7rlkplyrmcf5y6w3qjrcq5m6u8c`
-=======
-### IBAN Bank transfer (no fees)
-
-This is **probably the cheapest way** to transfer money to us.
-
-- IBAN: NL31BUNQ2109903155
-- BIC/SWIFT: BUNQNL2AXXX
-- Name: Stichting PauseAI
-- Bank Address: Basisweg 32, Amsterdam, the Netherlands
-
-## [Bunq / SoFort](https://bunq.me/pauseai)
-
-- Supports most banks (0% fees)
-- PayPal
-- Debit / Credit card (max 500 EUR, 2.5% fee)
-- Bancontact (max 10,000 EUR)
-- iDeal (max 50,000 EUR)
-
-### [PayPal](https://www.paypal.com/donate/?hosted_button_id=4TWZXY62EM5VE)
-
-- Supports credit cards and recurring donations.
-- [Transaction fees](https://www.paypal.com/webapps/mpp/merchant-fees) apply, can go up to 5%.
-
-## [Merchandise store](https://pauseai-shop.fourthwall.com/)
-
-All US-based credit card transactions have an added 2.9% + $0.30 payment processing fee. Non-US credit cards have a 3.9% +$0.30 payment processing fee.
-
-## Crypto
-
-We do not have an official token. Any coins branded with our name are unaffiliated with us. We generally only accept native cryptocurrencies and established stablecoins; other tokens may not be recoverable.
-
-- Solana `9isSiDuKRkpiui6LzHyVoFiJ3LuV5LVpsdpH2YzD13dy`
-- Ethereum `0x01c9646d376408cD77599d1a0860eC38E6928F1b`
-- Base `0x01c9646d376408cD77599d1a0860eC38E6928F1b`
-- Polygon `0x01c9646d376408cD77599d1a0860eC38E6928F1b`
-- Bitcoin (Taproot) `bc1ptn0czghufhl6gwf67kswm3hhkvvcu8nm6mx872rwh6hzxa70a9pquqcc7q`
-- Bitcoin (Native Segwit) `bc1qma97wdt8wmz7rlkplyrmcf5y6w3qjrcq5m6u8c`
->>>>>>> upstream/main

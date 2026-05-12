@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Organizar una protesta de PauseAI
 description: ¡No es muy difícil!
-=======
-title: Organizing a PauseAI Protest
-description: It's not very hard!
->>>>>>> upstream/main
 ---
 
 Protestar es una forma muy efectiva de llamar la atención del público, los medios de comunicación y los tomadores de decisiones.
@@ -24,15 +19,7 @@ Sin embargo, puedes tener un mayor impacto escalando y haciendo más cosas, y es
 
 ## Preparación {#preparation}
 
-<<<<<<< HEAD
 ### Pide ayuda {#ask-for-help}
-=======
-### Review the Code of Conduct
-
-Make sure all participants are aware of our [Code of Conduct](/code-of-conduct) and [Protesters Code of Conduct](/protesters-code-of-conduct). Event organisers should also familiarise themselves with our [Safeguarding Protocol](/safeguarding-protocol).
-
-### Ask for help
->>>>>>> upstream/main
 
 Verifica si ya hay una [comunidad local cerca de ti](/communities).
 Si no la hay, deberías [iniciar una](/local-organizing).
@@ -69,15 +56,9 @@ También, actualiza el archivo `protests.md` para vincular a la protesta.
 
 ### Crea una página de evento {#create-an-event-page}
 
-<<<<<<< HEAD
 Agrega el evento a [este sitio web](/events), que luego se puede compartir por separado a través de Luma para invitar a las personas. O usa otra herramienta de RSVP como Facebook.
 También puedes decidir vincular a un grupo de WhatsApp o algo similar en su lugar.
 Lo importante es que puedas mantener a las personas actualizadas sobre lo que va a suceder.
-=======
-Add the event to [this website](https://luma.com/PauseAI), which can be then shared separately via Luma to invite people. Or use another RSVP tool like Facebook.
-You can also decide to link to a Whatsapp group or something similar instead.
-The important bit is that you can keep people updated about what's going to happen.
->>>>>>> upstream/main
 
 ### Comparte el evento en las redes sociales {#share-the-event-on-social-media}
 

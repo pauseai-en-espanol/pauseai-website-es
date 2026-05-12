@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Refutando argumentos escépticos sobre los riesgos existenciales de la IA
 description: Por qué los riesgos existenciales de la IA son reales y merecen atención seria
-=======
-title: Rebutting Skeptical Arguments About AI Existential Risks
-description: Why AI existential risks are real and deserve serious attention
->>>>>>> upstream/main
 ---
 
  <!-- fin de metadatos de frontmatter, las rayas anteriores deben permanecer -->

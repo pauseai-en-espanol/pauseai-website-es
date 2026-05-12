@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: El riesgo de extinción de la inteligencia artificial superinteligente
 description: Por qué la IA es un riesgo para el futuro de nuestra existencia y por qué debemos pausar su desarrollo.
-=======
-title: The Extinction Risk of Superintelligent AI
-description: Why AI is a risk for the future of our existence, and why we need to pause development.
->>>>>>> upstream/main
 ---
 
 Puedes aprender sobre los riesgos de extinción leyendo esta página, o también puedes aprender a través de [videos, artículos y otros medios](/learn).

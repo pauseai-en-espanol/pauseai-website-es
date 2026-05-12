@@ -19,9 +19,23 @@ export const load: PageLoad = async ({ params, depends }) => {
 	}
 }
 
-const posts = import.meta.glob('../../posts/**/*.md')
+type PostMetadata = {
+	title?: string
+	description?: string
+	date?: string
+	image?: string
+	author?: string
+	hideTitle?: boolean
+}
 
-async function importMarkdown(locale: string, slug: string) {
+type MarkdownModule = {
+	default: import('svelte').ComponentType
+	metadata?: PostMetadata
+}
+
+const posts = import.meta.glob<MarkdownModule>('../../posts/**/*.md')
+
+async function importMarkdown(locale: string, slug: string): Promise<MarkdownModule> {
 	const postPath = `../../posts/${slug}.md`
 
 	if (posts[postPath]) {
@@ -30,7 +44,8 @@ async function importMarkdown(locale: string, slug: string) {
 
 	if (import.meta.env.DEV) {
 		return {
-			default: `## Couldn't import content!\n(This is only tolerated in development mode.)`
+			default: (() => `## Couldn't import content!`) as unknown as import('svelte').ComponentType,
+			metadata: {}
 		}
 	}
 

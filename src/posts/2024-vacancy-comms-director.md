@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Vacante de Director de Comunicaciones en PauseAI Global (Vacante cerrada)
 description: PauseAI busca un Director de Comunicaciones para liderar nuestro equipo de Comunicaciones y cuentas de redes sociales. Trabajo remoto o presencial en Utrecht, Países Bajos.
-=======
-title: Communications Director Vacancy at PauseAI Global (Vacancy Closed)
-description: PauseAI is looking for a Communications Director to lead our Comms Team and Social Media accounts. Remote work or in-person in Utrecht, the Netherlands.
->>>>>>> upstream/main
 ---
 
 <!-- end of frontmatter metadata, dashes above need to stay -->
@@ -22,33 +17,14 @@ Los [tres científicos de IA más destacados](https://twitter.com/PauseAI/status
 
 PauseAI se fundó en abril de 2023 y desde entonces ha crecido a 2000 miembros, más de 100 voluntarios registrados y docenas de [grupos locales](/communities) en todo el mundo.
 
-<<<<<<< HEAD
 ## Tu papel {#your-role}
-=======
-Although many volunteers contribute to PauseAI (some even full-time), PauseAI has one paid staff member ([Organizing Director](/2024-vacancy-organizing-director))
-You will be the second hire and you will play a crucial role in how the organization grows and evolves.
-You will work closely with the founder, Joep Meindertsma.
-Be aware that PauseAI may grow very quickly in the near future, both in terms of members and funding.
->>>>>>> upstream/main
 
 Aunque muchos voluntarios contribuyen a PauseAI (algunos incluso a tiempo completo), PauseAI tiene un miembro del personal remunerado ([Director de Organización](/2024-vacancy-organizing-director)).
 Serás la segunda persona contratada y desempeñarás un papel crucial en el crecimiento y la evolución de la organización.
 Trabajarás estrechamente con el fundador, Joep Meindertsma.
 Ten en cuenta que PauseAI puede experimentar un crecimiento rápido en el futuro cercano, tanto en términos de miembros como de financiamiento.
 
-<<<<<<< HEAD
 ### Tareas y responsabilidades {#tasks--responsibilities}
-=======
-- Lead the Comms Team (multiple volunteers with diverse relevant skills, some of whom create and edit videos)
-- Develop and execute a communication strategy
-- Set up an international communication pipeline for the various National Groups.
-- Run our Social Media accounts (Twitter, Facebook, TikTok, LinkedIn, YouTube, Instagram, SubStack)
-- Creating social media content (text, video) to inform, motivate, and inspire.
-- Engage with the PauseAI community and other organizations
-- Stay up to date on AI (safety, governance) news
-- Set up & execute digital (ad) campaigns
-- Make changes to our website (no programming experience required)
->>>>>>> upstream/main
 
 - Liderar el equipo de Comunicaciones [Team](/teams) (varios voluntarios con habilidades relevantes diversas, algunos de los cuales crean y editan videos)
 - Desarrollar y ejecutar una estrategia de comunicación efectiva

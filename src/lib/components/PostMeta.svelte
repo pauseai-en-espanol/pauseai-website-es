@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { url, title as siteName } from '$lib/config'
-	export let title: string
-	export let description: string
+	export let title: string | undefined = undefined
+	export let description: string | undefined = undefined
 	export let date: string | undefined = undefined
 	/** URL or relative path to cover / preview image */
 	export let image: string | undefined = undefined

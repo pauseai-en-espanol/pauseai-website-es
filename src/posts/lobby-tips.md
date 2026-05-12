@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Consejos para un lobby efectivo
 description: Cómo convencer a tu gobierno de que necesita trabajar hacia una pausa en las ejecuciones de entrenamiento de IA
-=======
-title: Tips for Effective Lobbying
-description: How to convince your government that it needs to work towards a pause on AI training runs
->>>>>>> upstream/main
 ---
 
 ## Cualquiera puede ser un lobista {#anyone-can-be-a-lobbyist}
@@ -59,19 +54,11 @@ Pero no podemos permitirnos el lujo de minimizar las palabras y suavizar todo:
 
 ## Después de la reunión {#after-the-meeting}
 
-<<<<<<< HEAD
 ¡Mantén el contacto cálido!
 Envíales actualizaciones regulares sobre lo que está sucediendo en el campo de la seguridad de la IA.
 El campo se mueve muy rápido, y esta es tu oportunidad de ser su fuente de información.
 Si eres conocedor de este campo, puedes convertirte en un asesor o fuente de conocimiento.
 Pide que te presenten a otras personas que puedan estar interesadas en este tema.
-=======
-Keep your contact warm!
-Send them regular updates on what's happening in the AI safety field.
-The field moves very fast, and this is your opportunity to be their source of information.
-If you are knowledgeable about this field (which you probably are compared to lots of people) you can become an advisor / source or knowledge.
-Ask them to introduce you to other people who might be interested in this topic.
->>>>>>> upstream/main
 
 ## ¡Comienza! {#get-to-it}
 

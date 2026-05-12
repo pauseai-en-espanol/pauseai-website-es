@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Por qué necesitamos cumbres de seguridad de IA
 description: Por qué es necesario que se lleve a cabo la cumbre de seguridad de IA y qué se debe lograr.
-=======
-title: Why We Need AI Safety Summits
-description: Why we need the AI safety summit to happen, and what it should achieve.
->>>>>>> upstream/main
 ---
 
  <!-- final de los metadatos de Frontmatter, las líneas de guiones arriba deben permanecer -->
@@ -67,21 +62,10 @@ También se cambió el nombre a "Cumbre de Acción de IA", eliminando el importa
 Estuvo liderada por Anne Bouverot, escéptica de la IA, quien [resta importancia](https://legrandcontinent-eu.translate.goog/es/2023/12/08/la-ia-no-nos-sustituira-una-conversacion-con-anne-bouverot-yann-le-cun-y-alexandre-viros/?_x_tr_sl=es&_x_tr_tl=en&_x_tr_hl=en&_x_tr_pto=sc) al "discurso alarmista", comparando la IA con calculadoras y comparando las preocupaciones sobre la seguridad de la IA con las preocupaciones sobre el Y2K, asegurando que "la IA no nos va a reemplazar, sino que nos ayudará".
 [Protestamos](/2025-february) por la falta de enfoque en la seguridad de la cumbre.
 
-<<<<<<< HEAD
 La cumbre ha sido ampliamente criticada por la comunidad de seguridad de IA.
 Recomendamos leer [el artículo de Zvi](https://thezvi.substack.com/p/the-paris-ai-anti-safety-summit) sobre la ["Cumbre Contra la Seguridad de la IA"](https://thezvi.substack.com/p/the-paris-ai-anti-safety-summit).
 
 ## Próximas Cumbres {#coming-summits}
-=======
-### 2026 India AI Impact Summit (February 16th-20th)
-
-The third major international AI summit, following Bletchley Park and Paris, was held in New Delhi from February 16-20, 2026.
-Ahead of the summit, we launched an [international campaign](/india-summit-2026) calling on world leaders to enact mandatory safety evaluations and international oversight.
-
-## Coming Summits
-
-- The UN organizes The [AI For Good summit](https://aiforgood.itu.int/) in Switzerland, July 2026.
->>>>>>> upstream/main
 
 - India fue coanfitriona de la cumbre de París y será la anfitriona de la siguiente. Lamentablemente, esperamos que carezca de discusiones significativas sobre seguridad/regulación.
 - La ONU organiza la [cumbre AI For Good](https://aiforgood.itu.int/) en Suiza, en julio de 2025.

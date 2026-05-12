@@ -24,7 +24,7 @@
 
 <span>
 	{#if href}
-		<LinkWithoutIcon href={localizedHref} class={classes} aria-label={ariaLabel}>
+		<LinkWithoutIcon href={localizedHref ?? ''} class={classes} aria-label={ariaLabel}>
 			<slot></slot>
 		</LinkWithoutIcon>
 	{:else}

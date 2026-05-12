@@ -1,11 +1,6 @@
 ---
-<<<<<<< HEAD
 title: Equilibrio entre ataque y defensa en la seguridad de la IA
 description: Cómo analizar el equilibrio entre ataque y defensa en la seguridad de la IA
-=======
-title: Offense / Defense Balance in AI Safety
-description: How to think about the balance between offense and defense in AI safety
->>>>>>> upstream/main
 ---
 
 El equilibrio entre ataque y defensa se refiere a las fortalezas y debilidades relativas de las estrategias ofensivas y defensivas, generalmente en el contexto de conflictos militares o competiciones deportivas.
