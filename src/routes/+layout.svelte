@@ -47,9 +47,9 @@
 	{/if}
 
 	{#if hero}
+		<Header inverted />
 		<div class="hero-section">
 			<Hero />
-			<Header inverted />
 		</div>
 	{/if}
 </div>
@@ -89,27 +89,19 @@
 		display: flex;
 		flex-direction: column;
 		height: 100dvh;
+		background-color: #ff9416;
 	}
 
-	.page-top.hero-page > :global(.banner) {
+	.page-top.hero-page > :global(.banner),
+	.page-top.hero-page > :global(nav) {
 		flex-shrink: 0;
 	}
 
 	.page-top.hero-page .hero-section {
 		flex: 1;
 		min-height: var(--hero-min-height);
-	}
-
-	.hero-section {
 		position: relative;
-	}
-
-	.hero-section :global(nav) {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
-		z-index: 1;
+		overflow: hidden;
 	}
 
 	.layout {

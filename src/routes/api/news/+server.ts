@@ -34,7 +34,7 @@ async function getInternalNews(localFetch: typeof fetch): Promise<NewsItem[]> {
 
 async function getSubstackNews(): Promise<NewsItem[]> {
 	try {
-		const response = await fetch('https://pauseai.substack.com/feed')
+		const response = await fetch('https://pauseaispanish.substack.com/feed')
 		const xml = await response.text()
 		const items: NewsItem[] = []
 

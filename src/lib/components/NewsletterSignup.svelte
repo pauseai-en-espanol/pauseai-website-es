@@ -40,7 +40,7 @@
 		<!-- Direct POST to Substack API in new tab -->
 		<form
 			bind:this={formElement}
-			action="https://pauseai.substack.com/api/v1/free"
+			action="https://pauseaispanish.substack.com/api/v1/free"
 			method="POST"
 			target="_blank"
 			on:submit={handleSubmit}
