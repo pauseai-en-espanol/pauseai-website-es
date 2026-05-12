@@ -112,6 +112,22 @@
 		z-index: 1;
 	}
 
+	.hero-section :global(nav) {
+		max-width: var(--page-width);
+		width: 100%;
+		margin-inline: auto;
+		padding-left: 3rem;
+		padding-right: 3rem;
+		box-sizing: border-box;
+	}
+
+	@media (max-width: 750px) {
+		.hero-section :global(nav) {
+			padding-left: 1rem;
+			padding-right: 1rem;
+		}
+	}
+
 	.layout {
 		height: 100%;
 		position: relative;
