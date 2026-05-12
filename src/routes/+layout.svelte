@@ -121,6 +121,12 @@
 		box-sizing: border-box;
 	}
 
+	/* Tame UniversalNavbar's flex-grow:1 spacer so the gap between logo and
+	   nav-links stays compact on standard desktop widths. */
+	.hero-section :global(nav .space-between) {
+		flex-grow: 0;
+	}
+
 	@media (max-width: 750px) {
 		.hero-section :global(nav) {
 			padding-left: 1rem;
