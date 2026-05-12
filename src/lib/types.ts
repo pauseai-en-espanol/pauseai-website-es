@@ -42,6 +42,15 @@ export type Team = {
 	responsibilities: string[]
 }
 
+export type AirtableTeam = {
+	name: string
+	mission: string
+	name_from_lead: string
+	email_address_from_lead: string
+	responsibilities_names: string[]
+	public: boolean
+}
+
 export type NewsItem = {
 	title: string
 	subtitle: string
