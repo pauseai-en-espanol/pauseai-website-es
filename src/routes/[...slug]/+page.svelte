@@ -7,7 +7,7 @@
 	$: meta = data.meta
 	$: ({ title = data.slug, date, description, image, author, hideTitle } = meta)
 	$: parent = data.slug.split('/').slice(0, -1).join('/')
-	$: imageUrl = getPostMetaImageUrl(image)
+	$: imageUrl = image ? getPostMetaImageUrl(image) : undefined
 </script>
 
 <PostMeta {title} {description} {date} image={imageUrl} />

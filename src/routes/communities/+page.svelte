@@ -41,8 +41,8 @@
 			if (response.ok) {
 				const geoData: GeoApiResponse = await response.json()
 				return {
-					userLng: geoData.longitude,
-					userLat: geoData.latitude
+					userLng: geoData?.longitude,
+					userLat: geoData?.latitude
 				}
 			} else {
 				console.error('Failed to fetch user location:', response.statusText)

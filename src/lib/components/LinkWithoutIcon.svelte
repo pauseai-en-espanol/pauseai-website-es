@@ -18,6 +18,9 @@
 	let className: string = ''
 	export { className as class }
 	export let rel: string | null = null
+	export let id: string | undefined = undefined
+	let ariaLabel: string | undefined = undefined
+	export { ariaLabel as 'aria-label' }
 
 	export let type = Type.Internal
 	let anchor: HTMLAnchorElement | undefined = undefined
@@ -66,6 +69,6 @@
 </script>
 
 <!-- eslint-disable-next-line svelte/no-restricted-html-elements - Warning is about using this component -->
-<a {href} {target} {rel} class={className} bind:this={anchor}>
+<a {href} {target} {rel} {id} aria-label={ariaLabel} class={className} bind:this={anchor}>
 	<slot />
 </a>

@@ -29,7 +29,7 @@
 		nearbyEvent = findNearbyEvent(geo, events)
 	}
 
-	function findNearbyEvent(geo: GeoApiResponse, events: CalendarResponse) {
+	function findNearbyEvent(geo: NonNullable<GeoApiResponse>, events: CalendarResponse) {
 		const { latitude: userLatitude, longitude: userLongitude } = geo
 		if (userLatitude == null || userLongitude == null) return null
 
