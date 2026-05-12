@@ -121,10 +121,18 @@
 		box-sizing: border-box;
 	}
 
-	/* Tame UniversalNavbar's flex-grow:1 spacer so the gap between logo and
-	   nav-links stays compact on standard desktop widths. */
+	/* Tame UniversalNavbar's flex-grow:1 on both .logo-container and
+	   .space-between. Without these overrides, .logo-container expands and
+	   centers the logo inside, while .space-between pushes nav-links to the
+	   far right — producing a "logo centered, links far right" layout that
+	   doesn't match what we want (logo left, links flowing right after). */
+	.hero-section :global(nav .logo-container),
 	.hero-section :global(nav .space-between) {
 		flex-grow: 0;
+	}
+
+	.hero-section :global(nav .logo-container) {
+		justify-content: flex-start;
 	}
 
 	@media (max-width: 750px) {
