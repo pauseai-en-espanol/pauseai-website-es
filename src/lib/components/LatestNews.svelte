@@ -35,7 +35,7 @@
 </script>
 
 <section class="latest-news" data-pagefind-ignore>
-	<h2 class="section-title toc-exclude">Latest</h2>
+	<h2 class="section-title toc-exclude">Últimas Noticias</h2>
 
 	{#if newsItems.length > 0}
 		<div class="news-grid">
