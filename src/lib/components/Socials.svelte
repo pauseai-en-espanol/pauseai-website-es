@@ -1,10 +1,10 @@
-<script type="ts">
-	// import TikTok from '$lib/components/icons/tiktok.svelte'
-	// import Instagram from '$lib/components/icons/instagram.svelte'
+<script lang="ts">
+	import TikTok from '$lib/components/icons/tiktok.svelte'
+	import Instagram from '$lib/components/icons/instagram.svelte'
 	// import Facebook from '$lib/components/icons/facebook.svelte'
 	import Youtube from '$lib/components/icons/youtube.svelte'
 	import Discord from '$lib/components/icons/discord.svelte'
-	// import Linkedin from '$lib/components/icons/linkedin.svelte'
+	import Linkedin from '$lib/components/icons/linkedin.svelte'
 	import X from '$lib/components/icons/x.svelte'
 	import Substack from './icons/substack.svelte'
 	// import Reddit from './icons/reddit.svelte'
@@ -30,13 +30,17 @@
 	<a href="https://x.com/pauseai_es" target="_blank" title="X / Twitter">
 		<X />
 	</a>
-	<!--	<a href="https://www.linkedin.com/company/pauseai" target="_blank" title="LinkedIn">-->
-	<!--		<Linkedin />-->
-	<!--	</a>-->
-	<!--	<a href="https://www.tiktok.com/@pauseai" target="_blank" title="TikTok"><TikTok /></a>-->
-	<!--	<a href="https://www.instagram.com/pause_ai/" target="_blank" title="Instagram">-->
-	<!--		<Instagram />-->
-	<!--	</a>-->
+	<a
+		href="https://www.linkedin.com/company/pauseai-en-espa%C3%B1ol/"
+		target="_blank"
+		title="LinkedIn"
+	>
+		<Linkedin />
+	</a>
+	<a href="https://www.tiktok.com/@pauseai_es" target="_blank" title="TikTok"><TikTok /></a>
+	<a href="https://www.instagram.com/pauseai_es/" target="_blank" title="Instagram">
+		<Instagram />
+	</a>
 	<a href="https://www.youtube.com/@pauseai-es" target="_blank" title="YouTube"> <Youtube /></a>
 	<a href="https://pauseaispanish.substack.com/" target="_blank" title="Substack"><Substack /></a>
 	<!--	<a href="https://www.reddit.com/r/PauseAI/" target="_blank" title="Reddit"><Reddit /></a>-->
