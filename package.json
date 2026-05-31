@@ -3,7 +3,7 @@
 	"name": "pause-ai",
 	"version": "1.1.7",
 	"private": true,
-	"packageManager": "pnpm@10.29.2",
+	"packageManager": "pnpm@11.5.0",
 	"scripts": {
 		"clean": "tsx scripts/clean.ts",
 		"inlang:settings": "tsx scripts/inlang-settings.ts",
@@ -28,11 +28,6 @@
 		"sync": "svelte-kit sync",
 		"docker:build": "docker buildx build ${DOCKER_PLATFORM:+--platform=$DOCKER_PLATFORM} -t \"${DOCKER_REGISTRY:+${DOCKER_REGISTRY}/}pauseai-es/pauseai-website-es:${npm_package_version}${DOCKER_TAG_SUFFIX:+.${DOCKER_TAG_SUFFIX}}\" .",
 		"docker:push": "docker push \"${DOCKER_REGISTRY:+${DOCKER_REGISTRY}/}pauseai-es/pauseai-website-es:${npm_package_version}${DOCKER_TAG_SUFFIX:+.${DOCKER_TAG_SUFFIX}}\""
-	},
-	"pnpm": {
-		"overrides": {
-			"svelte-toc>svelte": "5"
-		}
 	},
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
@@ -115,7 +110,14 @@
 		"ua-parser-js": "^1.0.41"
 	},
 	"engines": {
-		"node": "^24.13.0",
-		"pnpm": "^10.29.2"
+		"node": "^26.2.0",
+		"pnpm": "^11.5.0"
+	},
+	"devEngines": {
+		"packageManager": {
+			"name": "pnpm",
+			"version": "11.5.0",
+			"onFail": "error"
+		}
 	}
 }

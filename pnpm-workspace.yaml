@@ -1,3 +1,16 @@
-onlyBuiltDependencies:
-  - esbuild
-  - sharp
+# pnpm 11 renamed onlyBuiltDependencies → allowBuilds (map of name → bool).
+# These three ship native binaries / install hooks we trust and need.
+allowBuilds:
+  esbuild: true
+  lefthook: true
+  sharp: true
+
+# Wait 3 days (4320 min) after a version is published before installing it
+# (supply-chain hardening); keep in sync with minimumReleaseAge in renovate.json5.
+minimumReleaseAge: 4320
+
+# svelte-toc@0.5.9 declares `svelte: ^4.2.18` as a hard dependency, so without
+# this it pulls a second, Svelte-4 copy of svelte alongside the app's Svelte 5.
+# Force it onto the workspace's Svelte 5.
+overrides:
+  svelte-toc>svelte: '5'
