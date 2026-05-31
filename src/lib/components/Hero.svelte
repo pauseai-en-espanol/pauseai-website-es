@@ -118,8 +118,12 @@
 	}
 
 	.hero {
-		display: block;
-		height: 100%;
+		/* The layout renders <Hero> as a flex child of the column .hero-section,
+		   so grow to fill it. min-height guarantees the orange area even when the
+		   flexed height would otherwise resolve to 0 (all children are absolutely
+		   positioned, so .hero has no intrinsic content height). */
+		flex: 1;
+		min-height: var(--hero-min-height);
 		overflow: hidden;
 		position: relative;
 		width: 100vw;
