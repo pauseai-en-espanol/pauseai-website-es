@@ -81,6 +81,7 @@
 		margin: 0;
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+		grid-auto-rows: 1fr;
 		gap: 1rem;
 	}
 	@media (max-width: 850px) {
@@ -94,6 +95,7 @@
 		}
 	}
 	.event-card {
+		height: 100%;
 		border: 1px solid var(--bg-subtle);
 		border-radius: 8px;
 		overflow: hidden;

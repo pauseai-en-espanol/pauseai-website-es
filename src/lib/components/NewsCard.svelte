@@ -30,7 +30,7 @@
 	})
 </script>
 
-<div>
+<div class="card-wrapper">
 	<LinkWithoutIcon
 		href={item?.href ?? ''}
 		class="news-card"
@@ -86,9 +86,14 @@
 </div>
 
 <style>
+	.card-wrapper {
+		height: 100%;
+	}
+
 	* :global(.news-card) {
 		display: flex;
 		flex-direction: column;
+		height: 100%;
 		border-radius: 12px;
 		overflow: hidden;
 		background: var(--bg-subtle);
@@ -135,6 +140,8 @@
 		display: flex;
 		flex-direction: column;
 		gap: 0.3rem;
+		/* Fill the remaining card height so the date can anchor to the bottom. */
+		flex: 1;
 	}
 
 	.card-title {
@@ -144,6 +151,12 @@
 		line-height: 1.2;
 		margin: 0;
 		text-transform: none;
+		/* Clamp so a long title can't make the whole row taller. */
+		display: -webkit-box;
+		-webkit-line-clamp: 3;
+		line-clamp: 3;
+		-webkit-box-orient: vertical;
+		overflow: hidden;
 	}
 
 	.card-outlet {
@@ -174,6 +187,9 @@
 		font-size: 0.8rem;
 		font-weight: 300;
 		margin: 0;
+		/* Anchor the date to the bottom so cards with shorter titles still align. */
+		margin-top: auto;
+		padding-top: 0.3rem;
 		color: var(--text);
 		opacity: 0.6;
 	}

@@ -99,6 +99,8 @@
 	.news-grid {
 		display: grid;
 		grid-template-columns: repeat(3, 1fr);
+		/* Every row the same height (tallest card), so all cards are uniform. */
+		grid-auto-rows: 1fr;
 		gap: 1.5rem;
 	}
 
