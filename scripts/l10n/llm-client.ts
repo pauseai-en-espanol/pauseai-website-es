@@ -11,8 +11,8 @@ import { fetchAndDisplayBilling, formatLlmErrorForLogging } from './llm-utils'
 // Default values for LLM client configuration
 export const LLM_DEFAULTS = {
 	BASE_URL: 'https://openrouter.ai/api/v1/',
-	MODEL: 'meta-llama/llama-3.3-70b-instruct:nitro',
-	PROVIDERS: [] as string[],
+	MODEL: 'meta-llama/llama-3.1-405b-instruct',
+	PROVIDERS: ['Fireworks'],
 	REQUESTS_PER_SECOND: 1
 }
 
@@ -96,17 +96,18 @@ export function createLlmClient(options: {
 	created.interceptors.request.use((config) => {
 		// Only modify data for requests that have a body (POST, PUT, etc.)
 		if (config.data) {
-			const extra: Record<string, unknown> = { model: options.model }
-			if (options.providers.length > 0) {
-				extra.provider = { order: options.providers }
-			}
-			Object.assign(config.data, extra)
+			Object.assign(config.data, {
+				model: options.model,
+				provider: {
+					order: options.providers
+				}
+			})
 		}
 		return config
 	})
 	axiosRetry(created, {
-		retryDelay: (...args) => axiosRetry.exponentialDelay(...args),
-		retryCondition: (error) => axiosRetry.isRetryableError(error)
+		retryDelay: axiosRetry.exponentialDelay,
+		retryCondition: axiosRetry.isRetryableError
 	})
 	return created
 }
@@ -139,30 +140,18 @@ export async function postChatCompletion(
 	}
 
 	try {
-		const response = await queue.add(() =>
-			client.post<Completion, CompletionResponse, PartialCompletionPayload>(
-				'/chat/completions',
-				partialCompletionPayload
-			)
+		const response = await queue.add(
+			() =>
+				client.post<Completion, CompletionResponse, PartialCompletionPayload>(
+					'/chat/completions',
+					partialCompletionPayload
+				),
+			{
+				// We don't specify a timeout so this should never happen but it ensures the queue can't return void
+				throwOnTimeout: true
+			}
 		)
-		if (!response.data.choices?.length) {
-			const body = JSON.stringify(response.data).replace(
-				/((?:\\[nrt]|\s){10})(?:\\[nrt]|\s)+/g,
-				'$1\\s...'
-			)
-			throw new Error(`LLM returned no choices: ${body}`)
-		}
-		const choice = response.data.choices[0]
-		const finishReason = (choice as Record<string, unknown>).finish_reason
-		if (typeof finishReason === 'string' && finishReason !== 'stop') {
-			throw new Error(
-				`LLM response incomplete (finish_reason: ${finishReason}). Output may be truncated or filtered.`
-			)
-		}
-		if (!choice.message.content) {
-			throw new Error(`LLM returned empty content`)
-		}
-		return choice.message.content
+		return response.data.choices[0].message.content
 	} catch (error) {
 		if (!isAxiosError<OpenRouterError, CompletionPayload>(error)) throw error
 
@@ -182,6 +171,6 @@ export async function postChatCompletion(
 
 		// Throw a cleaner error without the full response dump
 		const statusText = error.response?.statusText || 'Error'
-		throw new Error(`LLM API call failed: ${status} ${statusText}`, { cause: error })
+		throw new Error(`LLM API call failed: ${status} ${statusText}`)
 	}
 }

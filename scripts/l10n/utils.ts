@@ -8,20 +8,23 @@ import path from 'path'
 import removeMarkdown from 'remove-markdown'
 import GithubSlugger from 'github-slugger'
 
+// Regular expression patterns for file path extraction
+export const PATH_PATTERNS = [/src\/posts(\/.*)\.md/, /messages\/(.*)/]
+
 // Markdown processing configuration
-const MARKDOWN_CONFIG = {
+export const MARKDOWN_CONFIG = {
 	POSTPROCESSING_ADD_HEADING_IDS: true,
 	PREPROCESSING_REMOVE_COMMENTS_WITH_MD_HEADINGS: true,
 	PREPROCESSING_REMOVE_COMMENTS_WITH_MD_LINKS: true
 }
 
 // Comment patterns to preserve in markdown
-type PatternCommentPair = {
+export type PatternCommentPair = {
 	pattern: RegExp
 	comment: string
 	lineBreakAfterComment?: boolean
 }
-const PREPROCESSING_COMMENT_AFTER_PATTERN: PatternCommentPair[] = [
+export const PREPROCESSING_COMMENT_AFTER_PATTERN: PatternCommentPair[] = [
 	{
 		pattern: /---[\S\s]*?\n---\n/,
 		comment: `end of frontmatter metadata, dashes above need to stay`,
@@ -86,7 +89,7 @@ const joinPath = (...parts: string[]) => path.normalize(path.join(...parts))
  * @param description Optional description for the log
  * @param verbose Whether to log the removal
  */
-function removeIfExists(path: string, description?: string, verbose = true): void {
+export function removeIfExists(path: string, description?: string, verbose = true): void {
 	if (fsSync.existsSync(path)) {
 		path = joinPath(path)
 		const desc = description || path
@@ -122,18 +125,43 @@ export function createSymlinkIfNeeded(targetPath: string, linkPath: string, verb
 		fsSync.unlinkSync(linkPath)
 	}
 
-	// Create symbolic link or fallback to copy
-	try {
-		fsSync.symlinkSync(path.relative(path.dirname(linkPath), targetPath), linkPath, 'file')
-		if (verbose) console.log(`  \u2713 Linked ${linkPath} to ${targetPath}`)
-	} catch (error: unknown) {
-		if (typeof error === 'object' && error && 'code' in error && error.code === 'EPERM') {
-			fsSync.copyFileSync(targetPath, linkPath)
-			if (verbose) console.log(`  \u2713 Copied ${targetPath} to ${linkPath} (symlink fallback)`)
-		} else {
-			throw error
+	// Create symbolic link
+	fsSync.symlinkSync(path.relative(path.dirname(linkPath), targetPath), linkPath, 'file')
+	if (verbose) console.log(`  \u2713 Linked ${linkPath} to ${targetPath}`)
+}
+
+/**
+ * Retrieves the value of an environment variable.
+ *
+ * @param variable - The name of the environment variable.
+ * @param dryRunFallback - Optional fallback value to return in dry run mode
+ * @param isDryRun - Whether the system is running in dry run mode
+ * @param verbose - Whether to output verbose messages
+ * @returns The value of the specified environment variable, or a fallback placeholder in dry run mode.
+ * @throws {Error} If the environment variable is not set and not in dry run mode.
+ */
+export function requireEnvVar(
+	variable: string,
+	dryRunFallback = 'dry-run-placeholder',
+	isDryRun = false,
+	verbose = false
+): string {
+	const value = process.env[variable]
+
+	// In dry run mode, return a placeholder if the variable is missing
+	if (!value) {
+		if (isDryRun) {
+			if (verbose) {
+				console.log(
+					`⚠️ Environment variable ${variable} is missing but not required in dry run mode`
+				)
+			}
+			return dryRunFallback
 		}
+		throw new Error(`Environment variable ${variable} is required`)
 	}
+
+	return value
 }
 
 /**
@@ -239,4 +267,15 @@ export function cullCommentary(filePath: string, verbose = false) {
 			error instanceof Error ? error.message : String(error)
 		)
 	}
+}
+
+export async function importRuntimeWithoutVite(): Promise<
+	typeof import('../../src/lib/paraglide/runtime.js')
+> {
+	const runtimeString = await fs.readFile('src/lib/paraglide/runtime.js', 'utf-8')
+	const patchedRuntime = runtimeString.replace('import.meta.env.SSR', 'true')
+	const runtime = await import(
+		'data:text/javascript;base64,' + Buffer.from(patchedRuntime).toString('base64')
+	)
+	return runtime
 }

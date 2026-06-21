@@ -6,48 +6,6 @@
 import type { AxiosHeaderValue, AxiosInstance } from 'axios'
 import type { OpenRouterErrorResponse } from './llm-client'
 
-type RequestConfigPayload = {
-	model?: string
-	provider?: {
-		order?: string[]
-	}
-}
-
-type OpenRouterCreditsResponse = {
-	total_credits?: number
-	total_usage?: number
-}
-
-type OpenRouterKeyData = {
-	limit?: number | string
-	limit_remaining?: number | string
-	rate_limit?: {
-		requests?: number
-		interval?: string
-	}
-}
-
-type OpenRouterKeyResponse = {
-	data?: OpenRouterKeyData
-}
-
-function isRecord(value: unknown): value is Record<string, unknown> {
-	return typeof value === 'object' && value !== null
-}
-
-function parseRequestConfigData(configData: unknown): RequestConfigPayload | null {
-	if (typeof configData === 'string') {
-		try {
-			const parsed = JSON.parse(configData) as unknown
-			return isRecord(parsed) ? parsed : null
-		} catch {
-			return null
-		}
-	}
-
-	return isRecord(configData) ? configData : null
-}
-
 /**
  * Extracted error information from LLM API responses
  */
@@ -81,7 +39,7 @@ export interface LlmErrorInfo {
  * @param requestData - The original request data for context
  * @returns Structured error information for logging
  */
-function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
+export function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
 	const response = error.response
 	const config = error.config
 
@@ -98,7 +56,7 @@ function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
 
 	if (isOpenRouter) {
 		// Extract OpenRouter-specific information
-		const headers = (response?.headers as Record<string, AxiosHeaderValue | undefined>) ?? {}
+		const headers = response?.headers || {}
 
 		errorInfo.authMessage = headers['x-clerk-auth-message']
 		errorInfo.authReason = headers['x-clerk-auth-reason']
@@ -110,9 +68,17 @@ function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
 
 		// Extract request context
 		if (config && config.data) {
-			const parsedData = parseRequestConfigData(config.data)
-			errorInfo.model = parsedData?.model
-			errorInfo.requestProvider = parsedData?.provider?.order?.[0]
+			errorInfo.model = config.data.model
+			errorInfo.requestProvider = config.data.provider?.order?.[0]
+		} else if (config?.data) {
+			// Try to parse request data from config
+			try {
+				const parsedData = typeof config.data === 'string' ? JSON.parse(config.data) : config.data
+				errorInfo.model = parsedData.model
+				errorInfo.requestProvider = parsedData.provider?.order?.[0]
+			} catch {
+				// Ignore parsing errors
+			}
 		}
 	} else {
 		// For non-OpenRouter providers, include the full response for debugging
@@ -138,7 +104,7 @@ function extractLlmErrorInfo(error: OpenRouterErrorResponse): LlmErrorInfo {
  * @param errorInfo - The extracted error information
  * @returns A formatted string suitable for console logging
  */
-function formatLlmError(errorInfo: LlmErrorInfo): string {
+export function formatLlmError(errorInfo: LlmErrorInfo): string {
 	const parts: string[] = []
 
 	// Basic error info
@@ -147,15 +113,13 @@ function formatLlmError(errorInfo: LlmErrorInfo): string {
 	if (errorInfo.provider === 'OpenRouter') {
 		// OpenRouter-specific formatting
 		if (errorInfo.authMessage || errorInfo.authReason) {
-			const authReason = JSON.stringify(errorInfo.authReason)
-			const authMessage = JSON.stringify(errorInfo.authMessage)
-			parts.push(`Auth Issue: ${authReason} - ${authMessage}`)
+			parts.push(`Auth Issue: ${errorInfo.authReason} - ${errorInfo.authMessage}`)
 		}
 
 		if (errorInfo.rateLimitRemaining || errorInfo.retryAfter) {
-			const rateLimitRemaining = JSON.stringify(errorInfo.rateLimitRemaining)
-			const retryAfter = JSON.stringify(errorInfo.retryAfter)
-			parts.push(`Rate Limit: ${rateLimitRemaining} remaining, retry after ${retryAfter}`)
+			parts.push(
+				`Rate Limit: ${errorInfo.rateLimitRemaining} remaining, retry after ${errorInfo.retryAfter}`
+			)
 		}
 
 		if (errorInfo.model || errorInfo.requestProvider) {
@@ -186,42 +150,6 @@ export function formatLlmErrorForLogging(error: OpenRouterErrorResponse): string
 }
 
 /**
- * A point-in-time snapshot of OpenRouter billing state.
- */
-export interface BillingSnapshot {
-	limitRemaining: number | null
-	totalUsage: number | null
-}
-
-function toNumberOrNull(value: number | string | undefined): number | null {
-	if (typeof value === 'number') return value
-	if (typeof value === 'string') {
-		const n = Number(value)
-		return Number.isFinite(n) ? n : null
-	}
-	return null
-}
-
-/**
- * Fetches OpenRouter billing as raw numbers without printing. For computing
- * spend deltas across a run.
- */
-export async function getBillingSnapshot(client: AxiosInstance): Promise<BillingSnapshot> {
-	try {
-		const [keyResponse, creditsResponse] = await Promise.all([
-			client.get<OpenRouterKeyResponse>('/auth/key').catch(() => null),
-			client.get<OpenRouterCreditsResponse>('/credits').catch(() => null)
-		])
-		return {
-			limitRemaining: toNumberOrNull(keyResponse?.data?.data?.limit_remaining),
-			totalUsage: toNumberOrNull(creditsResponse?.data?.total_usage)
-		}
-	} catch {
-		return { limitRemaining: null, totalUsage: null }
-	}
-}
-
-/**
  * Fetches and displays billing information for OpenRouter API key
  *
  * @param client - Axios client configured for the LLM API
@@ -231,8 +159,8 @@ export async function fetchAndDisplayBilling(client: AxiosInstance): Promise<voi
 	try {
 		// Fetch both key info and credits
 		const [keyResponse, creditsResponse] = await Promise.all([
-			client.get<OpenRouterKeyResponse>('/auth/key').catch(() => null),
-			client.get<OpenRouterCreditsResponse>('/credits').catch(() => null)
+			client.get('/auth/key').catch(() => null),
+			client.get('/credits').catch(() => null)
 		])
 
 		console.error('\nOpenRouter Account Status:')
@@ -240,23 +168,21 @@ export async function fetchAndDisplayBilling(client: AxiosInstance): Promise<voi
 		// Display credits information if available
 		if (creditsResponse?.data) {
 			const credits = creditsResponse.data
-			const totalCredits = credits.total_credits ?? 0
-			const totalUsage = credits.total_usage ?? 0
-			const balance = totalCredits - totalUsage
+			const balance = (credits.total_credits || 0) - (credits.total_usage || 0)
 			console.error(`  Balance: $${balance.toFixed(2)}`)
-			console.error(`  Total Credits: $${totalCredits}`)
-			console.error(`  Total Usage: $${totalUsage}`)
+			console.error(`  Total Credits: $${credits.total_credits || 0}`)
+			console.error(`  Total Usage: $${credits.total_usage || 0}`)
 		}
 
 		// Display key information if available
 		if (keyResponse?.data?.data) {
 			const keyInfo = keyResponse.data.data
-			console.error(`  Spend Limit: $${keyInfo.limit ?? 'Unknown'}`)
-			console.error(`  Limit Remaining: $${keyInfo.limit_remaining ?? 'Unknown'}`)
+			console.error(`  Spend Limit: $${keyInfo.limit || 'Unknown'}`)
+			console.error(`  Limit Remaining: $${keyInfo.limit_remaining || 'Unknown'}`)
 			if (keyInfo.rate_limit) {
-				const requests = keyInfo.rate_limit.requests ?? 'Unknown'
-				const interval = keyInfo.rate_limit.interval ?? 'Unknown interval'
-				console.error(`  Rate Limit: ${requests} requests per ${interval}`)
+				console.error(
+					`  Rate Limit: ${keyInfo.rate_limit.requests} requests per ${keyInfo.rate_limit.interval}`
+				)
 			}
 		}
 	} catch (billingError: unknown) {
