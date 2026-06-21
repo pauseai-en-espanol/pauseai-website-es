@@ -2,7 +2,7 @@
 	import Navbar from '$lib/components/navbar/Navbar.svelte'
 	import Navlink from '$lib/components/navbar/Navlink.svelte'
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte'
-	import SearchIcon from 'lucide-svelte/icons/search'
+	import SearchIcon from '@lucide/svelte/icons/search'
 
 	export let inverted = false
 </script>

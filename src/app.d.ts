@@ -31,6 +31,8 @@ declare global {
 		plausible?: (event: string, options?: { props?: Record<string, string> }) => void
 		selectBanners?: () => void
 		applyTheme?: () => void
+		/** Google Tag Manager queue (used by Banner.svelte for banner events) */
+		dataLayer?: unknown[]
 	}
 }
 

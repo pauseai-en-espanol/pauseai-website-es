@@ -2,12 +2,25 @@
 	import type { Picture } from '$lib/types'
 	import { layoutWidth } from '$lib/config'
 
-	export let src: string
-	export let alt: string | null = null
-	export let title: string | null = null
-	export let sizes: string = `min(${layoutWidth}, 100vw)`
-	let className: string = ''
-	export { className as class }
+	interface Props {
+		src: string
+		alt?: string
+		title?: string
+		sizes?: string
+		class?: string
+		loading?: 'eager' | 'lazy'
+		fetchpriority?: 'high' | 'low' | 'auto'
+	}
+
+	let {
+		src,
+		alt,
+		title,
+		sizes = `min(${layoutWidth}, 100vw)`,
+		class: className = '',
+		loading = 'lazy',
+		fetchpriority = 'auto'
+	}: Props = $props()
 
 	// Use import.meta.glob to statically analyze all potential static assets
 	const pictureModules = import.meta.glob<Picture>(
@@ -16,7 +29,8 @@
 			eager: true,
 			import: 'default',
 			query: {
-				enhanced: true
+				enhanced: true,
+				w: '520;640;800;1280;1920;2560;3840'
 			}
 		}
 	)
@@ -26,26 +40,25 @@
 		query: { url: true }
 	})
 
-	let picture: Picture | null = null
-	let assetUrl: string | null = null
-
-	if (src.startsWith('/')) {
-		const fullPath = `../../assets/images${src}`
-		if (pictureModules[fullPath]) {
-			picture = pictureModules[fullPath]
-		} else if (assetUrlModules[fullPath]) {
-			assetUrl = assetUrlModules[fullPath]
-		}
-	}
+	let fullPath = $derived(src.startsWith('/') ? `../../assets/images${src}` : null)
+	let picture: Picture | null = $derived(pictureModules[fullPath ?? ''] ?? null)
+	let assetUrl: string | null = $derived(assetUrlModules[fullPath ?? ''] ?? null)
 </script>
 
 {#if picture}
-	<enhanced:img src={picture} {alt} class="enhanced {className}" loading="lazy" {sizes} {title}
+	<enhanced:img
+		src={picture}
+		{alt}
+		class="enhanced {className}"
+		{loading}
+		{fetchpriority}
+		{sizes}
+		{title}
 	></enhanced:img>
 {:else if assetUrl}
-	<img src={assetUrl} {alt} {title} loading="lazy" class={className} />
+	<img src={assetUrl} {alt} {title} {loading} {fetchpriority} class={className} />
 {:else}
-	<img {src} {alt} {title} loading="lazy" class={className} />
+	<img {src} {alt} {title} {loading} {fetchpriority} class={className} />
 {/if}
 
 <style>

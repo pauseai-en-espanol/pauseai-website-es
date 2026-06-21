@@ -23,6 +23,11 @@ type AirtableResponse<T> = {
 	offset: number
 }
 
+/** Shape of a non-paginated Airtable list response (used by the UK MP helpers). */
+export type AirtableListResponse<T> = {
+	records: AirtableRecord<T>[]
+}
+
 /**
  * Fetches all pages from Airtable API (which is limited to 100 items per page)
  * @template T The type of the records' fields

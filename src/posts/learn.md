@@ -7,7 +7,7 @@ description: Recursos educativos (videos, artículos, libros) sobre riesgos de I
 import NewsletterSignup from '$lib/components/NewsletterSignup.svelte';
 import IconBullets from '$lib/components/IconBullets.svelte'
 import * as m from '$lib/paraglide/messages'
-import { CirclePause, CircleQuestionMark, Cog, Earth, Footprints, MessageSquareQuote, Skull, TriangleAlert } from 'lucide-svelte';
+import { CirclePause, CircleQuestionMark, Cog, Earth, Footprints, MessageSquareQuote, Skull, TriangleAlert } from '@lucide/svelte';
 </script>
 
 <NewsletterSignup />

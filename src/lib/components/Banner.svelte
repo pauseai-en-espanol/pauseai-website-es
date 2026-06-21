@@ -1,102 +1,170 @@
 <script lang="ts">
-	import X from 'lucide-svelte/icons/x'
-	import { page } from '$app/stores'
-	import { onMount } from 'svelte'
-	import { browser } from '$app/environment'
+	import X from '@lucide/svelte/icons/x'
+	import { page } from '$app/state'
 	import { fade } from 'svelte/transition'
+	import { deLocalizeHref } from '$lib/paraglide/runtime'
+	import { setItem } from '$lib/localStorage'
+	import LinkWithoutIcon from '$lib/components/LinkWithoutIcon.svelte'
+	import { onMount } from 'svelte'
 
-	export let contrast = false
-	export let target: string | null = null
-	export let id: string | null = null
-	export let hidden = false
-	export let fixed = false
+	interface Props {
+		contrast?: boolean
+		href?: string | null
+		id?: string | null
+		type?: 'main' | 'campaign'
+		children?: import('svelte').Snippet
+	}
 
-	let bannerEl: HTMLDivElement
-	let bannerHeight = 0
+	let { children, contrast = false, href = null, id = null, type = 'main' }: Props = $props()
 
-	function checkStoredState() {
-		if (browser && id) {
-			const storedState = localStorage.getItem(`banner_${id}_hidden`)
-			if (storedState === 'true') {
-				hidden = true
-			}
+	// Initialize dismissed state during SSR based on the current pathname
+	const isCurrentPage = (href: string | null) =>
+		href !== null && deLocalizeHref(page.url.pathname) === href
+	// svelte-ignore state_referenced_locally
+	let dismissed = $state(isCurrentPage(href))
+
+	// Hide on navigation to the target/href page
+	$effect(() => {
+		if (isCurrentPage(href)) {
+			dismissed = true
+		}
+	})
+
+	let bannerEl: HTMLDivElement | undefined = $state()
+
+	function pushGtmEvent(eventObj: Record<string, unknown>) {
+		if (typeof window !== 'undefined') {
+			window.dataLayer = window.dataLayer ?? []
+			window.dataLayer.push(eventObj)
 		}
 	}
 
-	function closeClick() {
-		hidden = true
-		if (browser && id) {
-			try {
-				localStorage.setItem(`banner_${id}_hidden`, 'true')
-			} catch (e) {
-				console.error(e)
-			}
+	function close(ev: MouseEvent) {
+		ev.stopPropagation()
+		dismissed = true
+		if (id) {
+			const prefix = type === 'campaign' ? 'campaign_banner' : 'banner'
+			setItem(`${prefix}_${id}_hidden`, 'true')
+		}
+		pushGtmEvent({
+			event: 'banner_dismiss',
+			banner_id: id,
+			banner_type: type
+		})
+	}
+
+	function handleBannerClick(event: MouseEvent) {
+		const target = event.target as HTMLElement
+		const link = target.closest('a')
+		if (link) {
+			pushGtmEvent({
+				event: 'banner_click',
+				banner_id: id,
+				banner_type: type,
+				link_url: link.href
+			})
 		}
 	}
 
-	function updateHeight() {
-		if (bannerEl) {
-			bannerHeight = bannerEl.offsetHeight
-		}
-	}
-
-	$: {
-		const path = $page.url.pathname
-		if (path === target) hidden = true
-	}
+	let isCampaign = $derived(type === 'campaign')
+	let dataIdAttr = $derived(isCampaign ? 'data-campaign-banner-id' : 'data-banner-id')
 
 	onMount(() => {
-		checkStoredState()
-		updateHeight()
+		if (dismissed) return
+
+		const observer = new IntersectionObserver(
+			(entries) => {
+				entries.forEach((entry) => {
+					if (entry.isIntersecting) {
+						pushGtmEvent({
+							event: 'banner_show',
+							banner_id: id,
+							banner_type: type
+						})
+						observer.disconnect()
+					}
+				})
+			},
+			{ threshold: 0.1 }
+		)
+
+		if (bannerEl) observer.observe(bannerEl)
+
+		return () => observer.disconnect()
 	})
 </script>
 
-{#if !hidden}
-	{#if fixed}
-		<div class="banner fixed" bind:this={bannerEl} transition:fade={{ duration: 200 }}>
-			<span class="content">
-				<slot />
-			</span>
-			<button class="close" on:click={closeClick}>
-				<X size="1.2em" />
-				<span class="sr-only">Close</span>
-			</button>
-		</div>
-		<div class="spacer" style="height: {bannerHeight}px" />
-	{:else}
-		<div class="banner" class:contrast transition:fade={{ duration: 200 }}>
-			<span class="content">
-				<slot />
-			</span>
-			<button class="close" on:click={closeClick}>
-				<X size="1.2em" />
-				<span class="sr-only">Close</span>
-			</button>
-		</div>
+<svelte:head>
+	{#if id}
+		{@const selector = isCampaign
+			? `html[data-active-campaign-banner="${id}"] [data-campaign-banner-id="${id}"]`
+			: `html[data-active-banner="${id}"] [data-banner-id="${id}"]`}
+		<!-- eslint-disable-next-line svelte/no-at-html-tags -->
+		{@html `<${'style'}>${selector}{display:flex!important}</${'style'}>`}
 	{/if}
+</svelte:head>
+
+{#if !dismissed}
+	<div
+		class="banner"
+		class:contrast
+		class:campaign={isCampaign}
+		{...{ [dataIdAttr]: id }}
+		data-pagefind-ignore
+		transition:fade={{ duration: 200 }}
+		bind:this={bannerEl}
+		onclick={handleBannerClick}
+	>
+		{#if isCampaign}
+			<div class="accent-line"></div>
+		{/if}
+
+		<span class="content">
+			{#if isCampaign && href}
+				<LinkWithoutIcon {href} class="campaign-link" onclick={close}>
+					<span class="campaign-text">
+						{@render children?.()}
+					</span>
+					<span class="campaign-cta">Take action →</span>
+				</LinkWithoutIcon>
+			{:else}
+				{@render children?.()}
+			{/if}
+		</span>
+
+		<button class="close banner-close-btn" class:campaign-close={isCampaign} onclick={close}>
+			<X size={isCampaign ? '1em' : '1.2em'} />
+			<span class="sr-only">Close</span>
+		</button>
+	</div>
 {/if}
 
 <style>
 	.banner {
 		position: relative;
 		display: flex;
-		align-items: center;
 		justify-content: center;
 		width: 100%;
 		background-color: var(--brand);
-		color: #1a1a1a;
-		padding: 0.6em 1em;
+		padding: 0.5em;
 		box-sizing: border-box;
-		font-size: 0.9rem;
-		font-weight: 500;
-		letter-spacing: 0.01em;
 	}
 
-	.banner.fixed {
-		position: fixed;
-		top: 0;
-		left: 0;
-		z-index: 100;
+	.banner.campaign {
+		flex-direction: column;
+		padding: 0;
+		background: linear-gradient(135deg, hsl(0, 0%, 8%) 0%, hsl(25, 10%, 12%) 100%);
+		overflow: hidden;
+	}
+
+	.accent-line {
+		height: 3px;
+		background: linear-gradient(
+			90deg,
+			var(--brand, #ff9416) 0%,
+			hsl(20, 100%, 60%) 50%,
+			var(--brand, #ff9416) 100%
+		);
 	}
 
 	.banner.contrast {
@@ -114,56 +182,120 @@
 	}
 
 	.banner :global(a) {
-		color: inherit;
-		text-decoration: none;
+		color: unset;
 	}
 
-	.banner :global(a:hover) {
-		text-decoration: underline;
-	}
-
-	.banner.contrast :global(a:hover),
-	.banner.contrast .close:hover {
-		color: var(--brand);
+	.banner :global(a:hover),
+	.close:hover {
+		color: var(--brand-subtle);
 	}
 
 	.content {
 		text-align: center;
-		margin-inline: 2.5rem;
+		margin-inline: 3rem;
+	}
+
+	.banner.campaign .content {
+		padding: 0.7em 3rem;
+		margin-inline: 0;
 	}
 
 	@media (max-width: 40rem) {
 		.content {
-			margin-inline: 0.5rem 2rem;
+			margin-left: 1rem;
 		}
+		.banner.campaign .content {
+			padding: 0.6em 2.5rem 0.6em 1rem;
+			margin-left: 0;
+		}
+	}
+
+	.content::selection {
+		color: var(--text);
+		background-color: var(--bg-subtle);
 	}
 
 	.close {
 		position: absolute;
-		top: 0;
-		right: 0.5em;
-		bottom: 0;
+		top: 50%;
+		right: 0.75em;
+		transform: translateY(-50%);
 		display: flex;
 		align-items: center;
 		background: transparent;
 		border: none;
 		cursor: pointer;
-		padding: 0.5em;
+		padding: 0.75em;
 		color: inherit;
 		border-radius: 50%;
-		opacity: 0.6;
-		transition: opacity 0.15s;
+	}
+
+	.close.campaign-close {
+		right: 0.5em;
+		color: hsl(0, 0%, 50%);
+		font-size: 0.9rem;
 	}
 
 	.close:hover {
+		opacity: 0.8;
+		background-color: rgba(0, 0, 0, 0.1);
+	}
+
+	.close.campaign-close:hover {
+		color: white;
+		background-color: rgba(255, 255, 255, 0.1);
 		opacity: 1;
 	}
 
-	.close:focus-visible {
+	.close:focus {
 		outline: 2px solid currentColor;
-		outline-offset: -2px;
 	}
 
+	/* Campaign specific styles */
+	.banner.campaign :global(.campaign-link) {
+		display: inline-flex;
+		align-items: center;
+		gap: 0.8em;
+		text-decoration: none;
+		color: white;
+		font-family: var(--font-body);
+		font-weight: 500;
+		font-size: 1rem;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+
+	:global(.campaign-link:hover) .campaign-cta {
+		background: var(--brand, #ff9416);
+		color: black;
+	}
+
+	.campaign-text {
+		line-height: 1.4;
+	}
+
+	.campaign-text :global(strong) {
+		color: var(--brand, #ff9416);
+	}
+
+	.campaign-cta {
+		display: inline-block;
+		padding: 0.25em 0.8em;
+		border: 1.5px solid var(--brand, #ff9416);
+		border-radius: 4px;
+		color: var(--brand, #ff9416);
+		font-family: var(--font-heading);
+		font-weight: 700;
+		font-size: 0.9em;
+		text-transform: uppercase;
+		letter-spacing: 0.05em;
+		white-space: nowrap;
+		transition:
+			background 0.2s,
+			color 0.2s;
+	}
+
+	/* Accessibility hidden text */
 	.sr-only {
 		position: absolute;
 		width: 1px;

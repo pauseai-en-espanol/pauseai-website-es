@@ -83,8 +83,8 @@
 		}
 	]
 
-	let selectedAction = actions[0]
-	let selectedConcern = concerns[0]
+	let selectedAction = $state(actions[0])
+	let selectedConcern = $state(concerns[0])
 
 	type Section = {
 		name: string
@@ -187,7 +187,7 @@
 		{#each concerns as section}
 			<button
 				class={selectedConcern == section ? 'tag tag--selected' : 'tag'}
-				on:click={() => (selectedConcern = section)}>{section.name}</button
+				onclick={() => (selectedConcern = section)}>{section.name}</button
 			>&nbsp;
 		{/each}
 	</li>
@@ -205,7 +205,7 @@
 		{#each actions as section}
 			<button
 				class={selectedAction == section ? 'tag tag--selected' : 'tag'}
-				on:click={() => (selectedAction = section)}>{section.name}</button
+				onclick={() => (selectedAction = section)}>{section.name}</button
 			>&nbsp;
 		{/each}
 	</li>
@@ -248,8 +248,8 @@
 		<div
 			id={letterId}
 			contenteditable="true"
-			on:click={handleClick}
-			on:keydown={handleKeydown}
+			onclick={handleClick}
+			onkeydown={handleKeydown}
 			role="document"
 			tabindex="-1"
 		>
@@ -261,7 +261,7 @@
 				artificial.
 			</p>
 
-			<svelte:component this={selectedConcern.section} />
+			<selectedConcern.section />
 
 			<p>
 				Los avances en el panorama de la IA han progresado mucho más rápido de lo previsto. En 2020,
@@ -307,7 +307,7 @@
 				inicien negociaciones de tratados.
 			</p>
 
-			<svelte:component this={selectedAction.section} />
+			<selectedAction.section />
 
 			<p>Atentamente,</p>
 
@@ -317,7 +317,7 @@
 </div>
 
 <div class="actionBar">
-	<Button on:click={() => copyHTMLWithoutStyles()}>Copiar</Button>
+	<Button onclick={() => copyHTMLWithoutStyles()}>Copiar</Button>
 </div>
 
 <style>

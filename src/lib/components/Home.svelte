@@ -32,19 +32,19 @@
 <section>
 	<Block linkText="Conoce los riesgos" href="/riesgos">
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -- static content -->
-		<span slot="title">{@html 'Nos arriesgamos a <u>perder el control</u>'}</span>
+		{#snippet title()}{@html 'Nos arriesgamos a <u>perder el control</u>'}{/snippet}
 		La IA puede tener enormes beneficios, pero también podría erosionar nuestra democracia,
 		desestabilizar nuestra economía y servir para crear potentes ciberarmas.
 	</Block>
 	<Block linkText="Lee la propuesta" href="/pausa">
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -- static content -->
-		<span slot="title">{@html 'Necesitamos una <u>pausa</u>'}</span>
+		{#snippet title()}{@html 'Necesitamos una <u>pausa</u>'}{/snippet}
 		Detener el desarrollo de los sistemas de IA general más potentes hasta que sepamos cómo
 		hacerlos seguros. Esto tiene que ocurrir a nivel internacional, y tiene que ocurrir pronto.
 	</Block>
 	<Block linkText="Pasa a la acción" href="/action">
 		<!-- eslint-disable-next-line svelte/no-at-html-tags -- static content -->
-		<span slot="title">{@html '<u>TÚ</u> PUEDES AYUDAR'}</span>
+		{#snippet title()}{@html '<u>TÚ</u> PUEDES AYUDAR'}{/snippet}
 		Demasiada poca gente está bien informada sobre los posibles riesgos de la IA. Informa a otras
 		personas y ayuda a detener esta carrera al abismo.
 	</Block>

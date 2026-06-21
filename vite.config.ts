@@ -1,8 +1,10 @@
 import { enhancedImages } from '@sveltejs/enhanced-img'
 import { sveltekit } from '@sveltejs/kit/vite'
 import dotenv from 'dotenv'
+import { FontaineTransform } from 'fontaine'
 import fs from 'fs'
 import path from 'path'
+import discardDuplicates from 'postcss-discard-duplicates'
 import { defineConfig } from 'vite'
 import { MARKDOWN_L10NS } from './src/lib/l10n'
 import inlangSettings from './project.inlang/settings.json' with { type: 'json' }
@@ -37,6 +39,14 @@ export default defineConfig(() => {
 			}
 		},
 
+		css: {
+			// Fontaine generates one fallback @font-face per src URL × unicode-range
+			// subset, which are metric-identical copies; collapse them.
+			postcss: {
+				plugins: [discardDuplicates()]
+			}
+		},
+
 		// Improve build performance and reduce log output
 		build: {
 			// Do not output sizes for every chunk
@@ -51,6 +61,19 @@ export default defineConfig(() => {
 				external: getLocaleExcludePatterns()
 			}
 		} as const,
-		plugins: [enhancedImages(), sveltekit()]
+		plugins: [
+			enhancedImages(),
+			// Generates "<font> fallback" @font-face rules whose metrics match the webfonts,
+			// so text doesn't shift when they swap in (see --font-* variables in styles.css).
+			// Each list needs fonts that resolve via src:local() across platforms —
+			// Tinos/Arimo/Noto cover Linux, where Times/Georgia/Arial don't exist.
+			FontaineTransform.vite({
+				fallbacks: {
+					'Roboto Slab': ['Georgia', 'Times New Roman', 'Tinos', 'Noto Serif'],
+					'Saira Condensed': ['Arial', 'Arimo', 'Noto Sans']
+				}
+			}),
+			sveltekit()
+		]
 	}
 })

@@ -2,7 +2,7 @@
 	import SvelteMarkdown from 'svelte-markdown'
 	import Link from '$lib/components/Link.svelte'
 	import type { Team } from '$lib/types'
-	import ChevronDown from 'lucide-svelte/icons/chevron-down'
+	import ChevronDown from '@lucide/svelte/icons/chevron-down'
 	import { slide } from 'svelte/transition'
 	import Button from '$lib/components/Button.svelte'
 
@@ -15,14 +15,14 @@
 		{team.name}
 	</div>
 	<div class="description prose">
-		<SvelteMarkdown source={team.description} renderers={{ link: Link }} />
+		<SvelteMarkdown source={team.description} renderers={{ link: Link as never }} />
 	</div>
 
 	{#if collapsed}
 		<div out:slide>
 			<Button
 				subtle
-				on:click={() => {
+				onclick={() => {
 					collapsed = !collapsed
 				}}
 			>

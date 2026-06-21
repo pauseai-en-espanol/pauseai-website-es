@@ -1,55 +1,215 @@
 <script lang="ts">
 	import Toc from 'svelte-toc'
-	import X from 'lucide-svelte/icons/x'
-	import List from 'lucide-svelte/icons/list'
-	import '$lib/components/Card.css'
+	import X from '@lucide/svelte/icons/x'
+	import List from '@lucide/svelte/icons/list'
+	import Card from '$lib/components/Card.svelte'
 	import Backdrop from '$lib/components/Backdrop.svelte'
+	import { onMount } from 'svelte'
 
-	let desktop: boolean | undefined
-	let open: boolean | undefined
-	let headings: HTMLHeadingElement[] | undefined
+	let desktop = $state(false)
+	let open = $state(false)
+	let headings = $state<HTMLHeadingElement[]>([])
+	const maxTop = 14
+	let sidebarTop = $state(maxTop) // Initial top offset in rem (below banner)
+
+	// Track scroll to adjust sidebar position
+	onMount(() => {
+		const bannerHeight = 275 // Scroll distance in pixels for full transition (higher = slower)
+		const minTop = 1 // Minimum top value in rem when scrolled past banner
+
+		function handleScroll() {
+			const scrollY = window.scrollY
+			// Calculate top value based on scroll position
+			// As user scrolls down, reduce the top value
+			const remValue = Math.max(minTop, maxTop - (scrollY / bannerHeight) * (maxTop - minTop))
+			sidebarTop = remValue
+		}
+
+		window.addEventListener('scroll', handleScroll, { passive: true })
+		handleScroll() // Initial call
+
+		return () => {
+			window.removeEventListener('scroll', handleScroll)
+		}
+	})
+
+	function autoScroll(node: HTMLElement) {
+		const observer = new MutationObserver((mutations) => {
+			for (const mutation of mutations) {
+				if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+					const target = mutation.target as HTMLElement
+					if (target.classList.contains('active')) {
+						target.scrollIntoView({ block: 'center', behavior: 'smooth' })
+					}
+				}
+			}
+		})
+
+		observer.observe(node, {
+			attributes: true,
+			subtree: true,
+			attributeFilter: ['class']
+		})
+
+		return {
+			destroy() {
+				observer.disconnect()
+			}
+		}
+	}
 </script>
 
+<!-- Mobile: Backdrop for popup -->
 <Backdrop {open} />
-<div class="toc-wrapper card" style={desktop ? 'display: none;' : ''}>
-	<Toc
-		headingSelector=":is(h2, h3, h4):not(.toc-exclude):not(footer *)"
-		title="Contenido"
-		bind:open
-		bind:desktop
-		bind:headings
-		hide={(headings?.length ?? 0) <= 1}
+
+<!-- Desktop: Fixed sidebar on the left -->
+{#if desktop}
+	<div
+		class="desktop-toc-wrapper"
+		class:hidden={(headings?.length ?? 0) <= 2}
+		style="top: {sidebarTop}rem;"
+		use:autoScroll
 	>
-		<svelte:fragment slot="open-toc-icon">
-			<List size="2rem" />
-		</svelte:fragment>
-		<svelte:fragment slot="title">
-			<div class="toc-head">
+		<Toc
+			headingSelector=":is(h2, h3, h4):not(.toc-exclude):not(footer *):not(.tabs *):not(.tab-content *)"
+			title="Contenido"
+			bind:headings
+			hide={(headings?.length ?? 0) <= 2}
+			open={true}
+			desktop={true}
+		>
+			{#snippet titleSnippet()}
 				<h2 class="toc-title-heading toc-exclude">Contenido</h2>
-				<button
-					class="toc-close"
-					on:click={() => (open = false)}
-					aria-label="Close table of contents"
-				>
-					<X size="1.2rem" />
-				</button>
-			</div>
-		</svelte:fragment>
-	</Toc>
+			{/snippet}
+		</Toc>
+	</div>
+{/if}
+
+<!-- Mobile: Floating button with popup (hidden on desktop) -->
+<div
+	class="toc-wrapper"
+	class:hidden-on-desktop={desktop}
+	class:hidden={(headings?.length ?? 0) <= 1}
+>
+	<Card>
+		<Toc
+			headingSelector=":is(h2, h3, h4):not(.toc-exclude):not(footer *):not(.tabs *):not(.tab-content *)"
+			title="Contenido"
+			breakpoint={1250}
+			bind:open
+			bind:desktop
+			bind:headings
+			hide={(headings?.length ?? 0) <= 1}
+			openButtonClass="toc-icon"
+		>
+			{#snippet openTocIcon()}
+				<List size="2rem" />
+			{/snippet}
+			{#snippet titleSnippet()}
+				<div class="toc-head">
+					<h2 class="toc-title toc-title-heading toc-exclude">Contenido</h2>
+					<button
+						class="toc-close"
+						onclick={() => (open = false)}
+						aria-label="Close table of contents"
+					>
+						<span class="toc-close-hitbox" aria-hidden="true"></span>
+						<X size="1.2rem" />
+					</button>
+				</div>
+			{/snippet}
+		</Toc>
+	</Card>
 </div>
 
 <style>
 	:root {
-		--toc-active-color: var(--bg);
+		--toc-active-color: var(--brand);
 		--toc-li-hover-color: var(--brand);
 		--toc-li-color: var(--text);
 		--toc-mobile-bg: var(--bg);
-		--toc-active-bg: var(--brand);
+		--toc-active-bg: transparent;
 		--toc-max-height: 80vh;
-		--toc-padding: 0em 1em 1em;
+		--toc-padding: 0.5em 1.5em 1.5em;
 		--toc-z-index: 10;
+		--toc-mobile-width: min(90vw, 18rem);
+		--toc-mobile-right: 1rem;
+		--toc-mobile-bottom: 1rem;
+		--title-font-size-base: 1.5rem;
+		--title-font-size: var(--title-font-size-base);
 	}
 
+	.desktop-toc-wrapper {
+		--toc-li-font-size-base: 0.85rem;
+		--title-font-size: calc(0.85 * var(--title-font-size-base));
+	}
+
+	/* Desktop sidebar: fixed on left */
+	.desktop-toc-wrapper {
+		position: fixed;
+		/* top is set dynamically via inline style */
+		width: 220px;
+		max-height: calc(100vh - 3rem); /* Extend nearly to bottom of viewport */
+		overflow-y: auto;
+		background-color: transparent;
+		z-index: 5;
+		padding: 1rem;
+		font-size: 0.85rem;
+
+		/* Hide scrollbar but allow scrolling */
+		scrollbar-width: none; /* Firefox */
+		-ms-overflow-style: none; /* IE and Edge */
+	}
+
+	.desktop-toc-wrapper::-webkit-scrollbar {
+		display: none; /* Chrome, Safari, Opera */
+	}
+
+	.desktop-toc-wrapper :global(.toc) {
+		background-color: transparent;
+	}
+
+	.desktop-toc-wrapper :global(.toc > nav) {
+		background-color: transparent;
+	}
+
+	.desktop-toc-wrapper :global(aside.toc > nav > ol) {
+		padding-left: 0;
+	}
+
+	/* Hide open button on desktop ToC */
+	.desktop-toc-wrapper :global(button.toc-icon) {
+		display: none;
+	}
+
+	/* Hide the arrows/navigation bar */
+	.desktop-toc-wrapper :global(.toc-title),
+	.desktop-toc-wrapper :global(.toc-nav),
+	.desktop-toc-wrapper :global(.toc-header) {
+		display: none !important;
+	}
+
+	/* Hide all buttons in desktop sidebar */
+	.desktop-toc-wrapper :global(button) {
+		display: none !important;
+	}
+
+	/* Remove inner scrollbar - only wrapper should scroll */
+	.desktop-toc-wrapper :global(nav) {
+		max-height: none;
+		overflow: visible;
+	}
+
+	/* Hide mobile wrapper on desktop */
+	.hidden-on-desktop {
+		display: none;
+	}
+
+	.hidden {
+		display: none !important;
+	}
+
+	/* Mobile styles */
 	.toc-head {
 		position: sticky;
 		top: 0;
@@ -58,12 +218,18 @@
 	}
 
 	.toc-title-heading {
+		font-size: var(--title-font-size);
 		padding: 0;
 		margin: 0;
 	}
 
 	.toc-wrapper :global(aside.toc > nav) {
 		max-width: 90vw;
+	}
+
+	/** Fix likely svelte-toc bug */
+	.toc-wrapper :global(aside.toc.mobile > nav) {
+		right: 0;
 	}
 
 	.toc-close {
@@ -74,9 +240,11 @@
 		top: 0;
 		right: 0;
 		padding: inherit;
-		padding-left: 1rem;
-		padding-right: 1rem;
-		margin-right: -1rem;
+	}
+
+	.toc-close-hitbox {
+		position: absolute;
+		inset: -0.75rem;
 	}
 
 	.toc-wrapper :global(.toc) {
@@ -87,6 +255,8 @@
 
 	.toc-wrapper :global(.toc > nav) {
 		background-color: inherit;
+		border-radius: inherit;
+		box-shadow: inherit;
 	}
 
 	@media (hover: none) {
@@ -97,6 +267,9 @@
 
 	@media (hover: hover) {
 		.toc-wrapper :global(aside.toc > nav > ol > li:hover) {
+			text-decoration-line: underline;
+		}
+		.desktop-toc-wrapper :global(aside.toc > nav > ol > li:hover) {
 			text-decoration-line: underline;
 		}
 		.toc-close:hover {

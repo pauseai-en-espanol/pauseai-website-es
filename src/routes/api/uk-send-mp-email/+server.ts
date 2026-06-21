@@ -1,3 +1,4 @@
+import type { AirtableListResponse, AirtableRecord } from '$lib/airtable'
 import { json } from '@sveltejs/kit'
 import { env } from '$env/dynamic/private'
 import { validMPEmails } from '$lib/server/uk-postcode-to-mp.js'
@@ -39,6 +40,7 @@ interface EmailRequest {
 	recipient: string
 	subject: string
 	message: string
+	attendingVisit?: boolean
 }
 
 export type UKSendMPEmailApiResponse =
@@ -103,7 +105,7 @@ export const POST = async ({ request }) => {
 			return json({ error: 'server_error', message: 'Failed to find MP record' }, { status: 500 })
 		}
 
-		const mpData = await mpResponse.json()
+		const mpData = (await mpResponse.json()) as AirtableListResponse<Record<string, unknown>>
 		if (!mpData.records || mpData.records.length === 0) {
 			console.error(`MP record not found for email: ${data.recipient}`)
 			return json({ error: 'server_error', message: 'MP record not found' }, { status: 500 })
@@ -119,7 +121,9 @@ export const POST = async ({ request }) => {
 				'Sender postcode': data.senderPostcode,
 				Recipient: [mpRecordId], // Array of record IDs for linked field
 				Subject: data.subject,
-				Message: data.message
+				Message: data.message,
+				Campaign: 'Frontier AI letter',
+				'Attending Parliament 23 June 2026': data.attendingVisit ?? false
 			}
 		}
 
@@ -141,7 +145,7 @@ export const POST = async ({ request }) => {
 			return json({ error: 'server_error', message: 'Failed to send email' }, { status: 500 })
 		}
 
-		const result = await response.json()
+		const result = (await response.json()) as AirtableRecord<Record<string, unknown>>
 		console.log(`Email record created for ${data.senderEmail} -> ${data.recipient}`)
 
 		return json({ success: true, recordId: result.id })

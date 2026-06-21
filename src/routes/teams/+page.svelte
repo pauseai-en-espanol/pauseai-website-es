@@ -24,7 +24,7 @@ Other than that, Teams are free to choose how they want to work.
 Check out the [vacancies](/vacancies) to see some specific roles that you could take.
 If you want to create a new team, reach out to the Oversight team leader (see below).
 `}
-	renderers={{ link: Link }}
+	renderers={{ link: Link as never }}
 />
 
 <section data-pagefind-ignore>
