@@ -6,7 +6,7 @@
 	// el texto, y los enlaces de los botones (apunta a una página/formulario en español).
 	const campaign = {
 		description:
-			'Los laboratorios de IA compiten abiertamente por automatizar todos los empleos del planeta, incluido el tuyo, en cuestión de años. Y la pérdida de empleo es solo la punta del iceberg.',
+			'Los laboratorios de IA compiten por automatizar todos los empleos, incluido el tuyo, en pocos años. Y eso es solo la punta del iceberg.',
 		primary: { href: '/inscripcion', label: 'Súmate' },
 		secondary: { href: '/riesgos', label: 'Saber más' }
 	}
@@ -61,11 +61,9 @@
 	.slogan {
 		position: relative;
 		/* La banda de menú + lema + campaña llenan juntos el viewport; el lema
-		   flexiona para tomar la altura que quede. El min-height en vh hace que la
-		   foto domine (como en el sitio global): la banda de campaña queda justo
-		   asomando al pie, ya que el logo y el texto en español son más altos. */
+		   flexiona para tomar la altura que quede tras la (compacta) banda de campaña. */
 		flex: 1;
-		min-height: max(240px, 60vh);
+		min-height: 240px;
 		overflow: hidden;
 		/* Naranja sólido mientras carga la foto, igual que la banda de menú de arriba. */
 		background-color: var(--hero-orange, #ff9416);
@@ -80,7 +78,7 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-		object-position: 50% 35%;
+		object-position: 50% 50%;
 	}
 
 	/* Velo oscuro sobre la foto. Más fuerte arriba-izquierda, donde va el titular;
@@ -128,12 +126,12 @@
 		color: var(--text);
 	}
 	.campaign-inner {
-		padding-block: 1.75rem 2.25rem;
+		padding-block: 1.5rem 1.75rem;
 		padding-inline: clamp(1.5rem, 20vw, 18rem);
 		display: flex;
 		flex-direction: column;
 		align-items: flex-start;
-		gap: 0.875rem;
+		gap: 0.7rem;
 	}
 	.campaign-eyebrow {
 		display: inline-block;
@@ -230,7 +228,7 @@
 	/* ---------- RESPONSIVE ---------- */
 	@media (max-width: 850px) {
 		.slogan {
-			min-height: max(200px, 42vh);
+			min-height: 200px;
 		}
 		.slogan-inner {
 			padding: 1.25rem 1.5rem 2.25rem;

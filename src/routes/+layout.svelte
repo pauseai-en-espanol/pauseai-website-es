@@ -193,7 +193,7 @@
 		--page-gutter: var(--gutter-max);
 		/* Wider than --page-width: the centered hero nav needs room for the
 		   (wordier) Spanish labels so they stay on a single row. */
-		--nav-width: 56rem;
+		--nav-width: 48rem;
 	}
 
 	/* Linearly interpolate from gutter-max (at 600px) down to gutter-min */
