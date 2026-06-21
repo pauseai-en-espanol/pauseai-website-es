@@ -19,7 +19,9 @@
 
 	let { item, loading = false, imageSizes, id }: Props = $props()
 
-	let isExternal = $derived(item?.source === 'substack' || item?.source === 'press')
+	let isExternal = $derived(
+		item?.source === 'substack' || item?.source === 'press' || item?.source === 'youtube'
+	)
 	let hasImageError = $state(false)
 
 	// Reset error state when item changes and new item has image

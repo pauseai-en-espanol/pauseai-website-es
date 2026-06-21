@@ -1,6 +1,7 @@
 import type { NewsItem } from '$lib/types'
 import { generateCacheControlRecord } from '$lib/utils'
 import { json } from '@sveltejs/kit'
+import { env } from '$env/dynamic/private'
 import type { PostsApiResponse } from '$api/posts/+server.js'
 import type { RequestHandler } from './$types'
 
@@ -72,6 +73,95 @@ async function getSubstackNews(): Promise<NewsItem[]> {
 	}
 }
 
+// --- YouTube ----------------------------------------------------------------
+// @pauseai-es channel. The Atom feed needs the UC… channel id, not the handle,
+// so we resolve it once from the channel page and cache it. PUBLIC_YOUTUBE_
+// CHANNEL_ID can be set to skip the lookup.
+const YOUTUBE_HANDLE = '@pauseai-es'
+let cachedChannelId: string | null = null
+
+async function resolveYoutubeChannelId(): Promise<string | null> {
+	if (cachedChannelId) return cachedChannelId
+	if (env.PUBLIC_YOUTUBE_CHANNEL_ID) {
+		cachedChannelId = env.PUBLIC_YOUTUBE_CHANNEL_ID
+		return cachedChannelId
+	}
+	try {
+		const res = await fetch(`https://www.youtube.com/${YOUTUBE_HANDLE}`, {
+			headers: {
+				// Bypass the EU consent interstitial so the channel HTML is returned.
+				Cookie: 'CONSENT=YES+1',
+				'Accept-Language': 'es-ES,es;q=0.9',
+				'User-Agent':
+					'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/124.0 Safari/537.36'
+			}
+		})
+		const html = await res.text()
+		const match =
+			html.match(/"channelId":"(UC[0-9A-Za-z_-]{22})"/) ||
+			html.match(/\/channel\/(UC[0-9A-Za-z_-]{22})/)
+		cachedChannelId = match ? match[1] : null
+		return cachedChannelId
+	} catch (error) {
+		console.error('Failed to resolve YouTube channel id:', error)
+		return null
+	}
+}
+
+async function getYoutubeNews(): Promise<NewsItem[]> {
+	try {
+		const channelId = await resolveYoutubeChannelId()
+		if (!channelId) return []
+
+		const response = await fetch(
+			`https://www.youtube.com/feeds/videos.xml?channel_id=${channelId}`
+		)
+		const xml = await response.text()
+		const items: NewsItem[] = []
+
+		// YouTube uses Atom: <entry>…</entry>, not RSS <item>.
+		const entryRegex = /<entry>([\s\S]*?)<\/entry>/g
+		let match
+		while ((match = entryRegex.exec(xml)) !== null) {
+			const entry = match[1]
+			const title = extractTag(entry, 'title') || ''
+			const videoId = extractTag(entry, 'yt:videoId') || ''
+			const published = extractTag(entry, 'published') || ''
+			const linkMatch = entry.match(/<link[^>]*href="([^"]*)"/)
+			const link = linkMatch
+				? linkMatch[1]
+				: videoId
+					? `https://www.youtube.com/watch?v=${videoId}`
+					: ''
+			// media:group > media:description / media:thumbnail
+			const description = extractTag(entry, 'media:description') || ''
+			const thumbMatch = entry.match(/<media:thumbnail[^>]*url="([^"]*)"/)
+			const image = thumbMatch
+				? thumbMatch[1]
+				: videoId
+					? `https://i.ytimg.com/vi/${videoId}/hqdefault.jpg`
+					: undefined
+
+			if (title && link) {
+				items.push({
+					title: decodeHtmlEntities(title),
+					subtitle: decodeHtmlEntities(description).split('\n')[0].slice(0, 160),
+					date: published ? new Date(published).toISOString() : '',
+					image,
+					href: link,
+					outlet: 'YouTube',
+					source: 'youtube'
+				})
+			}
+		}
+
+		return items
+	} catch (error) {
+		console.error('Failed to fetch YouTube feed:', error)
+		return []
+	}
+}
+
 function decodeHtmlEntities(text: string): string {
 	return text
 		.replace(/&#(\d+);/g, (_, dec) => String.fromCharCode(parseInt(dec, 10)))
@@ -97,9 +187,13 @@ export const GET: RequestHandler = async ({ fetch, url, setHeaders }) => {
 	const page = Math.max(1, parseInt(url.searchParams.get('page') || '1', 10))
 	const pageSize = Math.max(1, Math.min(12, parseInt(url.searchParams.get('pageSize') || '6', 10)))
 
-	const [internal, substack] = await Promise.all([getInternalNews(fetch), getSubstackNews()])
+	const [internal, substack, youtube] = await Promise.all([
+		getInternalNews(fetch),
+		getSubstackNews(),
+		getYoutubeNews()
+	])
 
-	const allNews = [...internal, ...substack].sort(
+	const allNews = [...internal, ...substack, ...youtube].sort(
 		(a, b) => new Date(b.date).getTime() - new Date(a.date).getTime()
 	)
 

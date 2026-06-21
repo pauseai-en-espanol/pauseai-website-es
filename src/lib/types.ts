@@ -59,7 +59,7 @@ export type NewsItem = {
 	outlet?: string
 	/** URL to the article (internal path or external URL) */
 	href: string
-	source: 'internal' | 'substack' | 'press'
+	source: 'internal' | 'substack' | 'press' | 'youtube'
 }
 
 export type Signatory = {
