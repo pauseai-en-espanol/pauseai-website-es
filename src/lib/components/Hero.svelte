@@ -1,181 +1,249 @@
 <script lang="ts">
-	import homeHeroDesktop from '$assets/protests/Home Hero - web - No Background.png?enhanced'
-	import homeHeroMobile from '$assets/protests/Home Hero - mobile - No Background.png?enhanced'
-	import { onMount } from 'svelte'
-	import { emulateCqwIfNeeded } from '$lib/container-query-units'
-
+	import Image from '$lib/components/Image.svelte'
 	import Link from '$lib/components/Link.svelte'
 
-	let tagline: HTMLDivElement
-
-	onMount(() => {
-		const cleanupCqwEmulation = emulateCqwIfNeeded(tagline)
-
-		return () => {
-			cleanupCqwEmulation?.()
-		}
-	})
+	// Campaña actual. Edita este bloque cuando cambie la campaña activa:
+	// el texto, y los enlaces de los botones (apunta a una página/formulario en español).
+	const campaign = {
+		description:
+			'Los laboratorios de IA compiten abiertamente por automatizar todos los empleos del planeta, incluido el tuyo, en cuestión de años. Y la pérdida de empleo es solo la punta del iceberg.',
+		primary: { href: '/inscripcion', label: 'Súmate' },
+		secondary: { href: '/riesgos', label: 'Saber más' }
+	}
 </script>
 
 <div class="hero">
-	<picture>
-		{#each Object.entries(homeHeroMobile.sources) as [format, srcset]}
-			<source media="(max-width: 850px)" {srcset} sizes="100vw" type={'image/' + format} />
-		{/each}
-		{#each Object.entries(homeHeroDesktop.sources) as [format, srcset]}
-			<source {srcset} sizes="100vw" type={'image/' + format} />
-		{/each}
-		<img src={homeHeroDesktop.img.src} alt="" fetchpriority="high" />
-	</picture>
-	<div class="content" bind:this={tagline}>
-		<h2>No dejes que las empresas de IA<br />jueguen con nuestro futuro</h2>
-		<div class="actions">
-			<Link href="/inscripcion" class="btn-primary">Únete</Link>
-			<Link href="/donate" class="btn-secondary">Dona</Link>
+	<!-- LEMA — la identidad permanente del movimiento, sobre una foto de protesta a sangre. -->
+	<section class="slogan">
+		<Image
+			src="/protests/Home_Hero_-_London_June_2025.jpg"
+			class="slogan-photo"
+			sizes="200vw"
+			loading="eager"
+			fetchpriority="high"
+		/>
+		<div class="slogan-scrim" aria-hidden="true"></div>
+
+		<div class="slogan-inner">
+			<h1>Súmate al movimiento para <em>Pausar</em> la IA.</h1>
+			<div class="hero-buttons">
+				<Link href="/inscripcion" class="btn-primary">Únete</Link>
+				<Link href="/donate" class="btn-on-photo">Dona</Link>
+			</div>
 		</div>
-	</div>
+	</section>
+
+	<!-- CAMPAÑA — la campaña activa, sobre una banda clara para que se lea distinta y actual. -->
+	<section class="campaign">
+		<div class="campaign-inner">
+			<span class="campaign-eyebrow">Campaña actual</span>
+			<h2>La IA no viene <em>solo</em> por tu trabajo.</h2>
+			<p class="campaign-copy">{campaign.description}</p>
+			<div class="hero-buttons">
+				<Link href={campaign.primary.href} class="btn-primary">{campaign.primary.label}</Link>
+				{#if campaign.secondary}
+					<Link href={campaign.secondary.href} class="btn-outline">{campaign.secondary.label}</Link>
+				{/if}
+			</div>
+		</div>
+	</section>
 </div>
 
 <style>
-	.content {
-		position: absolute;
-		top: 45%;
-		left: 20%;
-		transform: translateY(-50%);
-		width: clamp(20rem, 60vw, 100%);
-		container-type: inline-size;
-		--cqw: 1cqw;
+	.hero {
+		flex: 1;
+		isolation: isolate;
 		display: flex;
 		flex-direction: column;
-		gap: 1.5rem;
 	}
 
-	.content h2 {
+	/* ---------- LEMA ---------- */
+	.slogan {
+		position: relative;
+		/* La banda de menú + lema + campaña llenan juntos el viewport; el lema
+		   flexiona para tomar la altura que quede tras la (compacta) banda de campaña.
+		   El min-height garantiza espacio suficiente para foto + titular. */
+		flex: 1;
+		min-height: 240px;
+		overflow: hidden;
+		/* Naranja sólido mientras carga la foto, igual que la banda de menú de arriba. */
+		background-color: var(--hero-orange, #ff9416);
+		color: white;
+	}
+
+	.slogan :global(.slogan-photo) {
+		position: absolute;
+		inset: 0;
+		pointer-events: none;
+		display: block;
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+		object-position: 50% 35%;
+	}
+
+	/* Velo oscuro sobre la foto. Más fuerte arriba-izquierda, donde va el titular;
+	   más ligero a la derecha para que se vean la multitud y la pancarta de PAUSE AI. */
+	.slogan-scrim {
+		position: absolute;
+		inset: 0;
+		background:
+			linear-gradient(
+				to bottom,
+				rgba(0, 0, 0, 0.62) 0%,
+				rgba(0, 0, 0, 0.12) 55%,
+				rgba(0, 0, 0, 0.32) 100%
+			),
+			linear-gradient(to right, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.18) 60%, transparent 100%);
+	}
+
+	.slogan-inner {
+		position: relative;
+		z-index: 1;
+		width: 100%;
+		padding-block: 1.75rem 3rem;
+		padding-inline: clamp(1.5rem, 20vw, 18rem);
+	}
+	.slogan-inner h1 {
+		font-family: var(--font-heading);
+		font-weight: 700;
+		font-size: clamp(2.5rem, 5.4vw, 5rem);
+		line-height: 1;
+		color: white;
+		margin: 0 0 1.5rem;
+		max-width: 18ch;
+		letter-spacing: 0.005em;
+		text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+	}
+	.slogan-inner h1 em {
+		color: var(--brand);
+		font-style: normal;
+	}
+
+	/* ---------- CAMPAÑA ---------- */
+	.campaign {
+		position: relative;
+		background: var(--bg);
+		color: var(--text);
+	}
+	.campaign-inner {
+		padding-block: 1.75rem 2.25rem;
+		padding-inline: clamp(1.5rem, 20vw, 18rem);
+		display: flex;
+		flex-direction: column;
+		align-items: flex-start;
+		gap: 0.875rem;
+	}
+	.campaign-eyebrow {
+		display: inline-block;
+		background: var(--brand);
 		color: white;
 		font-family: var(--font-heading);
 		font-weight: 700;
-		font-size: calc(6 * var(--cqw));
-		line-height: 1.1;
-		text-align: left;
-		margin: 0;
-		text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
-	}
-
-	.hero :global(img) {
-		position: absolute;
-		bottom: 0;
-		left: 50%;
-		--hero-scale: 1;
-		transform: translateX(-50%) scale(var(--hero-scale));
-		width: min(100%, calc(max(100vh, var(--hero-min-height)) * var(--hero-img-ar)));
-		height: auto;
-		mix-blend-mode: soft-light;
-	}
-
-	@media (min-width: 851px) {
-		.hero :global(img) {
-			transform-origin: center bottom;
-			--hero-scale: 0.95;
-			-webkit-mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-			mask-image: linear-gradient(to right, transparent, black 10%, black 90%, transparent);
-		}
-	}
-
-	@media (max-width: 850px) {
-		.hero :global(img) {
-			bottom: var(--mobile-hero-img-pos, 0px);
-			-webkit-mask-image: linear-gradient(to top, transparent, black 20%);
-			mask-image: linear-gradient(to top, transparent, black 20%);
-		}
-
-		.content {
-			top: auto;
-			bottom: 5vh;
-			left: 50%;
-			transform: translateX(-50%);
-			width: 90%;
-			text-align: center;
-			align-items: center;
-			z-index: 1;
-		}
-
-		.content h2 {
-			font-size: calc(9 * var(--cqw));
-			text-align: center;
-		}
-
-		.actions {
-			justify-content: center;
-		}
-
-		.actions :global(a.btn-primary),
-		.actions :global(a.btn-secondary) {
-			background-color: transparent;
-			backdrop-filter: blur(2px);
-			border: 2px solid white;
-			color: white;
-		}
-	}
-
-	.hero {
-		/* The layout renders <Hero> as a flex child of the column .hero-section,
-		   so grow to fill it. min-height guarantees the orange area even when the
-		   flexed height would otherwise resolve to 0 (all children are absolutely
-		   positioned, so .hero has no intrinsic content height). */
-		flex: 1;
-		min-height: var(--hero-min-height);
-		overflow: hidden;
-		position: relative;
-		width: 100vw;
-		left: 50%;
-		transform: translateX(-50%);
-		background-color: #ff9416;
-		isolation: isolate;
-
-		/* Desktop hero image aspect ratio (2880 / 1600) — update if image changes */
-		--hero-img-ar: 1.8;
-		/* Adjust this to push the mobile image up or down (e.g., 0px, 10vh, -20px) */
-		--mobile-hero-img-pos: 215px;
-	}
-
-	.actions {
-		display: flex;
-		gap: 1rem;
-		justify-content: flex-start;
-	}
-
-	/* Global styles for Link component when used here */
-	.actions :global(a) {
-		font-family: var(--font-heading);
-		text-decoration: none;
-		font-size: 1rem;
-		padding: 0.6rem 1.6rem;
+		letter-spacing: 0.16em;
 		text-transform: uppercase;
-		transition: scale 0.1s;
-		cursor: pointer;
+		font-size: 0.8125rem;
+		padding: 0.4rem 0.75rem;
 		border-radius: 4px;
-		font-weight: bold;
+	}
+	.campaign h2 {
+		font-family: var(--font-heading);
+		font-weight: 700;
+		font-size: clamp(1.75rem, 3.6vw, 2.75rem);
+		line-height: 1.04;
+		color: var(--text);
+		margin: 0;
+		max-width: 20ch;
+	}
+	.campaign h2 em {
+		color: var(--brand);
+		font-style: normal;
+	}
+	.campaign-copy {
+		color: var(--text);
+		opacity: 0.8;
+		font-size: 1rem;
+		line-height: 1.5;
+		max-width: 44rem;
+		margin: 0;
+		font-weight: 400;
+	}
+
+	/* ---------- BOTONES ---------- */
+	.hero-buttons {
+		display: flex;
+		gap: 0.75rem;
+		flex-wrap: wrap;
+	}
+	.hero-buttons :global(a) {
+		font-family: var(--font-heading);
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		font-size: 0.875rem;
+		text-transform: uppercase;
+		padding: 0.875rem 1.5rem;
+		border: 2px solid transparent;
+		border-radius: 4px;
+		text-decoration: none;
 		display: inline-block;
 		text-align: center;
+		transition:
+			background-color 0.15s,
+			color 0.15s,
+			scale 0.1s;
+		cursor: pointer;
 	}
-
-	.actions :global(a.btn-primary) {
-		background-color: #1a1a1a;
+	.hero-buttons :global(a.btn-primary) {
+		background: var(--brand);
+		border-color: var(--brand);
 		color: white;
-		border: 2px solid #1a1a1a;
+	}
+	.hero-buttons :global(a.btn-primary:hover) {
+		background: var(--brand-dark);
+		border-color: var(--brand-dark);
+	}
+	/* CTA secundario sobre la foto — blanco sólido se lee bien sobre el velo oscuro. */
+	.hero-buttons :global(a.btn-on-photo) {
+		background: white;
+		border-color: white;
+		color: #111110;
+	}
+	.hero-buttons :global(a.btn-on-photo:hover) {
+		background: #f0ebe2;
+		border-color: #f0ebe2;
+	}
+	/* CTA secundario en la banda clara de campaña — con contorno para que quede discreto. */
+	.hero-buttons :global(a.btn-outline) {
+		background: transparent;
+		border-color: var(--text);
+		color: var(--text);
+	}
+	.hero-buttons :global(a.btn-outline:hover) {
+		background: var(--text);
+		color: var(--bg);
+	}
+	.hero-buttons :global(a:active) {
+		scale: 0.97;
 	}
 
-	.actions :global(a.btn-secondary) {
-		background-color: white;
-		color: black;
-		border: 2px solid white;
-	}
-
-	.actions :global(a:hover) {
-		scale: 1.05;
-	}
-
-	.actions :global(a:active) {
-		scale: 0.95;
+	/* ---------- RESPONSIVE ---------- */
+	@media (max-width: 850px) {
+		.slogan {
+			min-height: 200px;
+		}
+		.slogan-inner {
+			padding: 1.25rem 1.5rem 2.25rem;
+		}
+		.slogan-inner h1 {
+			font-size: clamp(2.25rem, 10vw, 3rem);
+			max-width: none;
+		}
+		.campaign-inner {
+			padding: 1.75rem 1.5rem 2.25rem;
+		}
+		.campaign h2 {
+			font-size: clamp(1.6rem, 7.5vw, 2.25rem);
+			max-width: none;
+		}
 	}
 </style>

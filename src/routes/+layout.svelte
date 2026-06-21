@@ -139,8 +139,10 @@
 
 	{#if hero}
 		<div class="hero-section">
+			<div class="menu-band">
+				<Header inverted />
+			</div>
 			<Hero />
-			<Header inverted />
 		</div>
 	{/if}
 </div>
@@ -226,14 +228,22 @@
 		position: relative;
 	}
 
-	.hero-section :global(nav) {
-		position: absolute;
-		top: 0;
-		left: 0;
-		right: 0;
+	/* Orange band behind the menu. The nav sits in normal document flow above the
+	   hero photo, so the band is exactly as tall as the menu content. */
+	.menu-band {
+		background-color: var(--hero-orange);
+		/* Paint above the .hero sibling so the language-switcher dropdown,
+		   which opens downward past the band, isn't covered by it. */
+		position: relative;
+		z-index: 1;
+	}
+
+	.menu-band :global(nav) {
+		/* Wider than --page-width: the wordier Spanish nav labels need room to
+		   stay on a single row. */
 		width: min(var(--nav-width), 100% - 2 * var(--page-gutter));
 		margin-inline: auto;
-		z-index: 1;
+		--vspace: 1.85rem;
 	}
 
 	.layout {
