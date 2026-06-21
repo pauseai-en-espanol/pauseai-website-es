@@ -61,10 +61,11 @@
 	.slogan {
 		position: relative;
 		/* La banda de menú + lema + campaña llenan juntos el viewport; el lema
-		   flexiona para tomar la altura que quede tras la (compacta) banda de campaña.
-		   El min-height garantiza espacio suficiente para foto + titular. */
+		   flexiona para tomar la altura que quede. El min-height en vh hace que la
+		   foto domine (como en el sitio global): la banda de campaña queda justo
+		   asomando al pie, ya que el logo y el texto en español son más altos. */
 		flex: 1;
-		min-height: 240px;
+		min-height: max(240px, 60vh);
 		overflow: hidden;
 		/* Naranja sólido mientras carga la foto, igual que la banda de menú de arriba. */
 		background-color: var(--hero-orange, #ff9416);
@@ -229,7 +230,7 @@
 	/* ---------- RESPONSIVE ---------- */
 	@media (max-width: 850px) {
 		.slogan {
-			min-height: 200px;
+			min-height: max(200px, 42vh);
 		}
 		.slogan-inner {
 			padding: 1.25rem 1.5rem 2.25rem;
