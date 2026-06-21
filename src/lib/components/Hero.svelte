@@ -16,7 +16,7 @@
 	<!-- LEMA — la identidad permanente del movimiento, sobre una foto de protesta a sangre. -->
 	<section class="slogan">
 		<Image
-			src="/protests/Home_Hero_-_London_June_2025.jpg"
+			src="/protests/Home_Hero_-_Brussels_2026.jpg"
 			class="slogan-photo"
 			sizes="200vw"
 			loading="eager"
