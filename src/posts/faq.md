@@ -22,8 +22,8 @@ Lo hacemos informando al público, hablando con los tomadores de decisiones y or
 
 ## ¿Tienen redes sociales? {#do-you-have-social-media}
 
-Puedes encontrarnos en [Discord](https://discord.gg/NuqkHutXW3) (¡este es donde sucede la mayor parte de la coordinación!), [Twitter](https://twitter.com/PauseAI), [Substack](https://substack.com/@pauseai), [Facebook](https://www.facebook.com/PauseAI), [TikTok](https://www.tiktok.com/@pauseai), [LinkedIn](https://www.linkedin.com/uas/login?session_redirect=/company/97035448/), [YouTube](https://www.youtube.com/@PauseAI), [Instagram](https://www.instagram.com/pause_ai), [Telegram](https://t.me/+UeTsIsNkmt82ZmQ8), [Whatsapp](https://chat.whatsapp.com/JgcAbjqRr8X3tvrXdeQvfj) y [Reddit](https://www.reddit.com/r/PauseAI/).
-Puedes enviarnos un correo electrónico a [joep@pauseai.info](mailto:joep@pauseai.info).
+Nos encontrarás como PauseAI en Español en [Twitter](https://x.com/pauseai_es), [YouTube](https://www.youtube.com/@pauseai-es) y [Substack](https://pauseaispanish.substack.com). También formamos parte del movimiento global de PauseAI, donde sucede gran parte de la coordinación: [Discord](https://discord.gg/NuqkHutXW3), [Facebook](https://www.facebook.com/PauseAI), [TikTok](https://www.tiktok.com/@pauseai), [LinkedIn](https://www.linkedin.com/uas/login?session_redirect=/company/97035448/), [Instagram](https://www.instagram.com/pause_ai), [Telegram](https://t.me/+UeTsIsNkmt82ZmQ8), [Whatsapp](https://chat.whatsapp.com/JgcAbjqRr8X3tvrXdeQvfj) y [Reddit](https://www.reddit.com/r/PauseAI/).
+Puedes enviarnos un correo electrónico a [contacto@pauseai.es](mailto:contacto@pauseai.es).
 
 ## ¿No son solo miedo a los cambios y la nueva tecnología? {#arent-you-just-scared-of-changes-and-new-technology}
 

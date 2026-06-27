@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { title as siteName, url as rootUrl } from '$lib/config'
+	import { title as siteName, url as rootUrl, twitterHandle } from '$lib/config'
 	import type { BlogPosting, WithContext } from 'schema-dts'
 	import { page } from '$app/state'
 	import { deLocalizeHref } from '$lib/paraglide/runtime'
@@ -64,8 +64,8 @@
 	<meta property="twitter:card" content="summary_large_image" />
 	<meta property="twitter:image" content={imageUrl} />
 	<meta property="twitter:description" content={description} />
-	<meta property="twitter:site" content="@PauseAI" />
-	<meta property="twitter:creator" content="@PauseAI" />
+	<meta property="twitter:site" content={twitterHandle} />
+	<meta property="twitter:creator" content={twitterHandle} />
 	<!-- eslint-disable-next-line svelte/no-at-html-tags (static content) @typescript-eslint/no-unused-expressions (false positive) -->
 	{@html '<script type="application/ld+json">' + JSON.stringify(schemaOrgMarkup) + '</script>'}
 </svelte:head>
