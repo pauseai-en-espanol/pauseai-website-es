@@ -3,6 +3,31 @@ description: Install Node.js with pnpm caching
 runs:
   using: composite
   steps:
+    # Node 26's Linux arm64 binary is dynamically linked against libatomic.so.1,
+    # which is missing on minimal arm64 runners — node aborts the moment it runs
+    # (e.g. setup-node's `pnpm store path` cache step). Install it first. No-op
+    # where it already exists (e.g. x64 hosted runners).
+    - name: Ensure libatomic is present
+      shell: bash
+      run: |
+        if ldconfig -p 2>/dev/null | grep -q 'libatomic\.so\.1'; then
+          echo "libatomic already present"
+          exit 0
+        fi
+        SUDO=""
+        command -v sudo >/dev/null 2>&1 && SUDO=sudo
+        if command -v apt-get >/dev/null 2>&1; then
+          $SUDO apt-get update && $SUDO apt-get install -y --no-install-recommends libatomic1
+        elif command -v apk >/dev/null 2>&1; then
+          $SUDO apk add --no-cache libatomic
+        elif command -v dnf >/dev/null 2>&1; then
+          $SUDO dnf install -y libatomic
+        elif command -v yum >/dev/null 2>&1; then
+          $SUDO yum install -y libatomic
+        else
+          echo "::error::libatomic.so.1 missing and no supported package manager (apt/apk/dnf/yum) found" >&2
+          exit 1
+        fi
     - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
         node-version: 26.3.1
