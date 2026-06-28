@@ -4,7 +4,7 @@
 	import NewsCard from '$lib/components/NewsCard.svelte'
 	import { onMount } from 'svelte'
 
-	const pageSize = 6
+	const pageSize = 3
 	// Matches the 1/2/3-column grid below so browsers choose thumbnail-sized
 	// responsive image variants rather than downloading page-width images.
 	const newsCardImageSizes =
