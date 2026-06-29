@@ -68,6 +68,12 @@
 		/* Naranja sólido mientras carga la foto, igual que la banda de menú de arriba. */
 		background-color: var(--hero-orange, #ff9416);
 		color: white;
+		/* El lema es texto identitario (no contenido para copiar). Evitamos que se
+		   pueda seleccionar para que un toque/long-press en móvil no deje el
+		   resaltado naranja de ::selection sobre el titular. */
+		-webkit-user-select: none;
+		user-select: none;
+		-webkit-touch-callout: none;
 	}
 
 	.slogan :global(.slogan-photo) {
