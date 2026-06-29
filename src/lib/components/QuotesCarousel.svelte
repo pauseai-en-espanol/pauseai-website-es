@@ -140,7 +140,10 @@
 <style>
 	.glide__track {
 		position: relative;
-		margin: -20px;
+		/* inset (offset only) — NOT negative margin: a negative margin widens the
+		   box and spills ~10px past the viewport on narrow screens (horizontal
+		   scroll). inset gives the shadow room without resizing the box. */
+		inset: -20px;
 	}
 
 	.quote {
