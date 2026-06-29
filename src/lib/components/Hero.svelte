@@ -76,6 +76,13 @@
 		-webkit-touch-callout: none;
 	}
 
+	/* Belt-and-suspenders: even if a browser ignores user-select (some mobile
+	   browsers still allow Select-All / accessibility selection), don't paint the
+	   global orange ::selection highlight over the slogan. */
+	.slogan :global(::selection) {
+		background-color: transparent;
+	}
+
 	.slogan :global(.slogan-photo) {
 		position: absolute;
 		inset: 0;
