@@ -4,7 +4,7 @@ description: Guía para sumarte a PauseAI; inscripción, Discord, donaciones y a
 ---
 
 <script>
-	import TallyEmbed from '$lib/components/TallyEmbed.svelte'
+	import OnboardingEmbed from '$lib/components/OnboardingEmbed.svelte'
 </script>
 
 ![Protesta de PauseAI en Estados Unidos](/es/protestausa.jpg)
@@ -14,7 +14,7 @@ _Protesta en Estados Unidos. Fuente: PauseAI_
 
 Después, rellena el siguiente formulario de inscripción.
 
-<TallyEmbed formId="NpXX9b" />
+<OnboardingEmbed />
 
 Muy pronto contactaremos contigo y te orientaremos para que te pongas en marcha con iniciativas útiles.
 
