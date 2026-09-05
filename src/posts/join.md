@@ -6,7 +6,7 @@ description: Regístrate para unirte al movimiento PauseAI
 <!-- end of frontmatter metadata, dashes above need to stay -->
 
 <script>
-    import TallyEmbed from '$lib/components/TallyEmbed.svelte'
+    import OnboardingEmbed from '$lib/components/OnboardingEmbed.svelte'
     import NewsletterSignup from '$lib/components/NewsletterSignup.svelte'
 </script>
 
@@ -19,7 +19,7 @@ PauseAI Global une a ciudadanos preocupados —científicos, padres, estudiantes
 Ya sea que puedas dedicar 5 minutos (compartiendo publicaciones), una hora (repartiendo folletos, escribiendo cartas), 5 horas (protestas, reuniones con políticos) o 5 días a la semana (desarrollo de estrategias), tu voz es importante.
 Después de registrarte, únete a nuestra sesión de incorporación en línea o local para conocer las acciones actuales y cómo puedes participar.
 
-<TallyEmbed formId="wbGvKe" />
+<OnboardingEmbed />
 
 ## Mantente informado {#stay-updated}
 
