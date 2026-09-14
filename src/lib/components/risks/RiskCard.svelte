@@ -12,9 +12,16 @@
 		<h3 class="placeholder-title">{@html risk.title}</h3>
 	</div>
 {:else}
-	<a href="{baseUrl}/{risk.slug}" class="risk-card unlocked" aria-label={risk.title}>
+	<a
+		href="{baseUrl}/{risk.slug}"
+		class="risk-card unlocked"
+		class:no-cover={!risk.cover}
+		aria-label={risk.title}
+	>
 		{#if risk.cover}
 			<img src={risk.cover} alt={risk.title} class="card-cover" />
+		{:else}
+			<h3 class="card-title">{risk.title}</h3>
 		{/if}
 	</a>
 {/if}
@@ -46,13 +53,26 @@
 		display: block;
 	}
 
-	.risk-card.placeholder {
+	.risk-card.placeholder,
+	.risk-card.no-cover {
 		background: linear-gradient(135deg, var(--brand) 0%, #c45a00 100%);
 		display: flex;
 		flex-direction: column;
 		align-items: center;
 		justify-content: center;
 		gap: 0.75rem;
+	}
+
+	/* Articles still waiting on their cover art: show the title instead of an
+	   empty box, so the card stays readable and obviously clickable. */
+	.card-title {
+		font-family: var(--font-heading);
+		font-size: 1.6rem;
+		color: white;
+		margin: 0;
+		padding: var(--spacing-sm);
+		text-align: center;
+		text-wrap: balance;
 	}
 
 	.placeholder-logo {

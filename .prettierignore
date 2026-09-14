@@ -1,0 +1,41 @@
+# This file is dynamically generated from scripts/ignores.js and prettier.config.js
+# DO NOT EDIT MANUALLY
+
+**/.idea
+**/.DS_Store
+**/node_modules
+build
+.svelte-kit
+package
+**/*.local
+**/vite.config.js.timestamp-*
+**/vite.config.ts.timestamp-*
+**/.vercel
+**/.netlify
+static/pagefind
+**/.env
+**/bun.lock
+**/bun.lockb
+**/deno.lock
+messages/*
+!messages/en.json
+project.inlang/cache
+project.inlang/settings.json
+src/lib/generated
+src/temp
+static/open-letter/portraits/original
+.planning
+**/.claude
+l10n-cage/json/en.json
+messages/**/*
+!messages/**/.gitignore
+!messages/**/en.json
+project.inlang/**/cache
+project.inlang/**/.env-cache.json
+project.inlang/**/.meta.json
+project.inlang/**/README.md
+src/lib/paraglide/**/*
+
+# Manual ignores (specific to Prettier)
+pnpm-lock.yaml
+src/lib/components/widget-consent/loadTwitter.js
