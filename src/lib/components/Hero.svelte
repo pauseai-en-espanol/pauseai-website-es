@@ -1,6 +1,7 @@
 <script lang="ts">
-	import Image from '$lib/components/Image.svelte'
+	import Image from '$lib/components/images/Image.svelte'
 	import Link from '$lib/components/Link.svelte'
+	import heroPicture from '$assets/images/protests/Home_Hero_-_Brussels_2026.jpg?picture'
 
 	// Campaña actual. Edita este bloque cuando cambie la campaña activa:
 	// el texto, y los enlaces de los botones (apunta a una página/formulario en español).
@@ -16,7 +17,7 @@
 	<!-- LEMA — la identidad permanente del movimiento, sobre una foto de protesta a sangre. -->
 	<section class="slogan">
 		<Image
-			src="/protests/Home_Hero_-_Brussels_2026.jpg"
+			picture={heroPicture}
 			class="slogan-photo"
 			sizes="200vw"
 			loading="eager"
@@ -90,6 +91,7 @@
 		display: block;
 		width: 100%;
 		height: 100%;
+		border-radius: 0;
 		object-fit: cover;
 		object-position: 50% 50%;
 	}
@@ -102,11 +104,16 @@
 		background:
 			linear-gradient(
 				to bottom,
-				rgba(0, 0, 0, 0.62) 0%,
-				rgba(0, 0, 0, 0.12) 55%,
-				rgba(0, 0, 0, 0.32) 100%
+				rgba(var(--black-rgb), 0.62) 0%,
+				rgba(var(--black-rgb), 0.12) 55%,
+				rgba(var(--black-rgb), 0.32) 100%
 			),
-			linear-gradient(to right, rgba(0, 0, 0, 0.62) 0%, rgba(0, 0, 0, 0.18) 60%, transparent 100%);
+			linear-gradient(
+				to right,
+				rgba(var(--black-rgb), 0.62) 0%,
+				rgba(var(--black-rgb), 0.18) 60%,
+				transparent 100%
+			);
 	}
 
 	.slogan-inner {
@@ -125,7 +132,7 @@
 		margin: 0 0 1.5rem;
 		max-width: 18ch;
 		letter-spacing: 0.005em;
-		text-shadow: 0 2px 12px rgba(0, 0, 0, 0.4);
+		text-shadow: 0 2px 12px rgba(var(--black-rgb), 0.4);
 	}
 	.slogan-inner h1 em {
 		color: var(--brand);
@@ -218,11 +225,11 @@
 	.hero-buttons :global(a.btn-on-photo) {
 		background: white;
 		border-color: white;
-		color: #111110;
+		color: var(--grey-800);
 	}
 	.hero-buttons :global(a.btn-on-photo:hover) {
-		background: #f0ebe2;
-		border-color: #f0ebe2;
+		background: var(--cream);
+		border-color: var(--cream);
 	}
 	/* CTA secundario en la banda clara de campaña — con contorno para que quede discreto. */
 	.hero-buttons :global(a.btn-outline) {

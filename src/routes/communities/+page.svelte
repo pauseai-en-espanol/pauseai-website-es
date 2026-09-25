@@ -1,19 +1,30 @@
 <script lang="ts">
 	import PostMeta from '$lib/components/PostMeta.svelte'
-	import ExternalLink from '$lib/components/Link.svelte'
+	import Link from '$lib/components/Link.svelte'
 	import CommunitiesList from './CommunitiesList.svelte'
 	import type { GeoApiResponse } from '$api/geo/+server'
-	import type * as maplibregl from 'maplibre-gl'
-	import { GeolocateControl, Map, Marker, Popup } from 'maplibre-gl'
+	import type { CalendarResponse } from '$api/calendar/+server'
+	import type { StyleSpecification } from 'maplibre-gl'
+	import * as maplibregl from 'maplibre-gl'
 	import 'maplibre-gl/dist/maplibre-gl.css'
+	import workerUrl from 'maplibre-gl/dist/maplibre-gl-worker.mjs?worker&url'
 	import { isMapboxURL, transformMapboxUrl } from 'maplibregl-mapbox-request-transformer'
 	import { onDestroy, onMount } from 'svelte'
-	import { communities, communitiesMeta } from './communities'
+	import { communities, communitiesMeta, GLOBAL_DISCORD_URL } from './communities'
 	import { MAPBOX_KEY } from './constants'
+	import { HERO_ORANGE } from '$lib/colors'
+	import escape from 'escape-html'
 
-	let { data } = $props()
+	// maplibre-gl v6 is ESM-only; the worker URL must be set explicitly under
+	// bundlers like Vite (see v5→v6 migration guide).
+	maplibregl.setWorkerUrl(workerUrl)
+
+	// maplibre-gl doesn't support named imports on the server
+	const { GeolocateControl, Map, Marker, Popup } = maplibregl
 
 	const LOCATED_ZOOM = 4
+	const STYLE_URL =
+		'https://api.mapbox.com/styles/v1/mapbox/outdoors-v11?access_token=' + MAPBOX_KEY
 
 	let { title, description, date } = communitiesMeta
 
@@ -23,19 +34,37 @@
 	let lat: number = $state(42.213995)
 	let zoom: number = $state(1)
 
-	console.log('communities page.svelte', communities)
-
 	function updateData() {
 		zoom = map.getZoom()
 		lng = map.getCenter().lng
 		lat = map.getCenter().lat
 	}
 
+	async function fetchEvents() {
+		try {
+			const response = await fetch('/api/calendar?days=30')
+			if (response.ok) {
+				const data = (await response.json()) as CalendarResponse
+				return data.entries.map((entry) => entry.event)
+			}
+			console.error('Failed to fetch events:', response.statusText)
+		} catch (error) {
+			console.error('Error fetching events:', error)
+		}
+		return []
+	}
+
+	// Luma events carry a slug (`/api/calendar` builds `https://lu.ma/<slug>`);
+	// events from other calendars (currently Google) carry an absolute URL.
+	function eventLink(event: CalendarResponse['entries'][number]['event']): string {
+		return event.url.startsWith('https://') ? event.url : `https://lu.ma/${event.url}`
+	}
+
 	async function fetchUserLocation() {
 		try {
 			const response = await fetch('/api/geo')
 			if (response.ok) {
-				const geoData: GeoApiResponse = await response.json()
+				const geoData = (await response.json()) as GeoApiResponse
 				return {
 					userLng: geoData?.longitude,
 					userLat: geoData?.latitude
@@ -50,18 +79,23 @@
 	}
 
 	onMount(async () => {
-		const { userLng, userLat } = await fetchUserLocation()
+		// Required, can throw
+		const style = (await fetch(STYLE_URL).then((res) => res.json())) as StyleSpecification
+		if (!style) return
+
+		// Optional, call with error handling
+		const [{ userLng, userLat }, events] = await Promise.all([fetchUserLocation(), fetchEvents()])
 
 		const initialState = {
-			lng: userLng || lng,
-			lat: userLat || lat,
-			zoom: userLat && userLng ? LOCATED_ZOOM : zoom
+			lng: userLng ?? lng,
+			lat: userLat ?? lat,
+			zoom: userLat != null && userLng != null ? LOCATED_ZOOM : zoom
 		}
 
 		map = new Map({
 			container: mapContainer,
 			style: {
-				...data.style,
+				...style,
 				projection: {
 					type: 'globe'
 				}
@@ -98,19 +132,36 @@
 							? 'rgba(0,0,0,.5)'
 							: community.type === 'national'
 								? 'rgb(0, 150, 255)'
-								: 'rgb(255, 148, 22)',
+								: HERO_ORANGE,
 					opacityWhenCovered: '0'
 				})
 					.setPopup(
 						new Popup({ offset: [0, -15] }).setHTML(
-							`<h3><a href="${community.link || 'https://discord.gg/CR5u5BTBwy'}">${
-								community.name
-							}</a></h3>`
+							`<h3><a href="${community.link || GLOBAL_DISCORD_URL}">${community.name}</a></h3>`
 						)
 					)
 					.setLngLat([community.lon, community.lat])
 					.addTo(map)
 			})
+
+			// Sort descending so earlier events' markers are added last and render on top
+			events
+				.filter((event) => event.geo_latitude != null && event.geo_longitude != null)
+				.sort((a, b) => new Date(b.start_at).getTime() - new Date(a.start_at).getTime())
+				.forEach((event) => {
+					new Marker({
+						color: 'var(--event-marker)',
+						opacityWhenCovered: '0'
+					})
+						.setLngLat([event.geo_longitude!, event.geo_latitude!])
+						.setPopup(
+							new Popup({ offset: [0, -15] }).setHTML(
+								`<h3><a href="${escape(eventLink(event))}">${escape(event.name)}</a></h3>` +
+									`<p>${new Intl.DateTimeFormat('es', { day: 'numeric', month: 'long' }).format(new Date(event.start_at))}</p>`
+							)
+						)
+						.addTo(map)
+				})
 		})
 	})
 
@@ -122,34 +173,99 @@
 <PostMeta {title} {description} {date} />
 
 <h1>{title}</h1>
-<p>{description}</p>
 <p>
-	¿Quieres agregar tu ubicación o una comunidad? <ExternalLink href="https://discord.gg/CR5u5BTBwy"
-		>Crear un hilo</ExternalLink
-	> en nuestro Discord!
+	PauseAI Global tiene capítulos y comunidades en todo el mundo. Son grupos de personas a las que
+	les importa el futuro y que están de acuerdo en que <Link href="/pausa"
+		>una pausa es la solución</Link
+	>. Trabajan juntas para informar al público y a sus representantes políticos sobre los <Link
+		href="/riesgos">riesgos</Link
+	>.
 </p>
+
 <p>
-	¿Quieres iniciar una comunidad? Consulte nuestra <ExternalLink
-		href="https://pauseai.es/local-organizing">Guía sobre organización local</ExternalLink
-	>
+	Si buscas un grupo cerca de ti, consulta el mapa para encontrar a las personas más cercanas. El
+	mapa también muestra en gris comunidades afines de seguridad de la IA, y en verde los próximos
+	eventos.
 </p>
 <div>
 	<div class="map-wrap">
-		<div class="map" bind:this={mapContainer} />
+		<div class="map" bind:this={mapContainer}></div>
 	</div>
 </div>
 <CommunitiesList {communities} />
+
+<p>
+	¿No encuentras una comunidad cerca y quieres dar el paso? Consulta nuestra <Link
+		href="/local-organizing">guía sobre organización local</Link
+	>.
+</p>
+
+<h2 id="events">Eventos</h2>
+
+<p>¿Te interesa asistir a un evento de la comunidad PauseAI? Encuentra uno a continuación.</p>
+
+<iframe
+	src="https://lu.ma/embed/calendar/cal-E1qhLPs5IvlQr8S/events?"
+	height="450"
+	frameborder="0"
+	style="border: 1px solid var(--border-luma-embed); border-radius: 24px; width: 100%;"
+	allowfullscreen
+	aria-hidden="false"
+	title="Calendario de eventos de PauseAI"
+></iframe>
+
+<p>
+	Consulta la lista completa de eventos <Link href="https://lu.ma/PauseAI">aquí</Link>.
+</p>
+
+<p>
+	Si quieres organizar un evento, créalo en Luma y pulsa el botón «submit event» en <Link
+		href="https://lu.ma/PauseAI">nuestra página del calendario</Link
+	>.
+</p>
 
 <style>
 	.map-wrap {
 		position: relative;
 		padding-bottom: 56.25%; /* 16:9 */
 		overflow: hidden;
+		border-radius: 24px;
+		border: 1px solid var(--text-subtle);
 	}
 
 	.map {
 		position: absolute;
 		width: 100%;
 		height: 100%;
+	}
+
+	:global(.maplibregl-ctrl-group) {
+		border-radius: 24px !important;
+		border: 1px solid var(--text-subtle) !important;
+		overflow: hidden;
+	}
+
+	:global(.maplibregl-ctrl-group button) {
+		border-radius: 0 !important;
+	}
+
+	:global(.maplibregl-ctrl-group button:first-child) {
+		border-top-left-radius: 24px !important;
+		border-top-right-radius: 24px !important;
+	}
+
+	:global(.maplibregl-ctrl-group button:last-child) {
+		border-bottom-left-radius: 24px !important;
+		border-bottom-right-radius: 24px !important;
+	}
+
+	/* Maplibre popups stay white for contrast against the dark-mode map; force dark text on it */
+	:global(.maplibregl-popup-content) {
+		color: var(--grey-500);
+		text-align: center;
+	}
+
+	:global(.maplibregl-popup-content p) {
+		font-family: var(--font-body);
 	}
 </style>

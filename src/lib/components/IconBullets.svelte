@@ -1,8 +1,8 @@
 <script lang="ts">
-	import type { Icon } from '@lucide/svelte'
+	import type { LucideIcon } from '@lucide/svelte'
 	import MessageWithLink from '$lib/components/MessageWithLink.svelte'
 
-	export let items: [typeof Icon, () => string][]
+	export let items: [LucideIcon, () => string][]
 </script>
 
 {#each items as item}

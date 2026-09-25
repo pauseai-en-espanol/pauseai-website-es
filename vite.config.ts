@@ -1,4 +1,3 @@
-import { enhancedImages } from '@sveltejs/enhanced-img'
 import { sveltekit } from '@sveltejs/kit/vite'
 import dotenv from 'dotenv'
 import { FontaineTransform } from 'fontaine'
@@ -6,6 +5,8 @@ import fs from 'fs'
 import path from 'path'
 import discardDuplicates from 'postcss-discard-duplicates'
 import { defineConfig } from 'vite'
+import { imagetools } from 'vite-imagetools'
+import { imageFormats, imageWidths, metaImageWidth, imageQuality } from './src/lib/image-config'
 import { MARKDOWN_L10NS } from './src/lib/l10n'
 import inlangSettings from './project.inlang/settings.json' with { type: 'json' }
 
@@ -62,7 +63,30 @@ export default defineConfig(() => {
 			}
 		} as const,
 		plugins: [
-			enhancedImages(),
+			// Additional imagetools instance: the `?picture` shorthand returns a JS
+			// object ({ sources, img }) for rendering a <picture> tag with avif +
+			// webp <source>s and a jpeg/png fallback (png when alpha is present).
+			// Default widths match NetlifyImage's defaults for consistent srcset sizing.
+			imagetools({
+				defaultDirectives: (url) => {
+					if (url.searchParams.has('picture')) {
+						return new URLSearchParams({
+							as: 'picture',
+							format: imageFormats.join(';'),
+							w: imageWidths.join(';')
+						})
+					}
+					if (url.searchParams.has('meta')) {
+						return new URLSearchParams({
+							url: 'true',
+							w: String(metaImageWidth),
+							format: 'jpg',
+							quality: String(imageQuality)
+						})
+					}
+					return new URLSearchParams()
+				}
+			}),
 			// Generates "<font> fallback" @font-face rules whose metrics match the webfonts,
 			// so text doesn't shift when they swap in (see --font-* variables in styles.css).
 			// Each list needs fonts that resolve via src:local() across platforms —

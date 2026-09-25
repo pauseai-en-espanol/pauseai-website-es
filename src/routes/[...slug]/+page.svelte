@@ -1,52 +1,98 @@
 <script lang="ts">
+	import Image from '$lib/components/images/Image.svelte'
+	import Link from '$lib/components/Link.svelte'
 	import PostMeta from '$lib/components/PostMeta.svelte'
-	import { getPostMetaImageUrl } from '$lib/images.js'
+	import { setPostPictures } from '$lib/post-pictures-context.svelte'
+	import type { PageData } from './$types'
+
+	interface Props {
+		data: PageData
+	}
 
 	// don't destructure to maintain reactivity for invalidation after language detection
-	export let data
-	$: meta = data.meta
-	$: ({ title = data.slug, date, description, image, author, hideTitle } = meta)
-	$: parent = data.slug.split('/').slice(0, -1).join('/')
-	$: imageUrl = image ? getPostMetaImageUrl(image) : undefined
+	let { data }: Props = $props()
+
+	let {
+		title,
+		metaTitle,
+		date,
+		description,
+		image,
+		author,
+		showImage = true,
+		showTitle = true,
+		hideTitle = false
+	} = $derived({ title: data.slug, ...data.meta })
+	let parent = $derived(data.slug.split('/').slice(0, -1).join('/'))
+
+	// Expose server-resolved Picture objects to the markdown <img> renderer so
+	// it can use Image directly instead of bundling the glob resolver.
+	// setContext must run during component init (not in $effect) so children
+	// can read it during their own init; data.pictures is set per-navigation.
+	setPostPictures(data.pictures ?? {})
 </script>
 
-<PostMeta {title} {description} {date} image={imageUrl} />
+<svelte:head>
+	{#each data.cssUrls ?? [] as href}
+		<link rel="stylesheet" {href} />
+	{/each}
+</svelte:head>
+
+<PostMeta title={metaTitle ?? title} {description} {date} image={data.metaImageUrl} />
 
 <article>
 	{#if parent}
-		<a href={`/${parent}`}>Volver a {parent}</a>
+		<Link href={`/${parent}`}>Volver a {parent}</Link>
 	{/if}
-	{#if !hideTitle}
+	{#if showTitle !== false && !hideTitle}
 		<hgroup>
 			<h1>{title}</h1>
 			{#if author}
 				<p>{author}</p>
 			{/if}
-			{#if date}
-				<!-- <p>Published at {formatDate(date)}</p> -->
-			{/if}
 		</hgroup>
 	{/if}
 
-	<!-- <div class="tags">
-		{#if meta.categories && meta.categories.length > 0}
-			<div class="categories">
-				{#each meta.categories as category}
-					<span class="surface-4">&num;{category}</span>
-				{/each}
-			</div>
-		{/if}
-	</div> -->
+	{#if image && showImage !== false}
+		<div class="banner">
+			<Image
+				picture={data.banner?.picture ?? null}
+				src={data.banner?.assetUrl ?? image}
+				alt={title}
+				aspectRatio={1200 / 628}
+			/>
+		</div>
+	{/if}
 
 	<div class="prose">
-		<svelte:component this={data.content} />
+		<data.content />
 	</div>
 </article>
 
 <style>
 	article {
-		max-inline-size: var(--size-content-3);
 		margin-inline: auto;
 		text-align: justify;
+	}
+
+	h1 {
+		text-transform: none;
+	}
+
+	hgroup {
+		margin-top: 0;
+	}
+
+	.banner {
+		margin: 1.5rem 0 2rem;
+		border-radius: 12px;
+		overflow: hidden;
+	}
+
+	.banner :global(img) {
+		width: 100%;
+		aspect-ratio: 1200 / 628;
+		object-fit: cover;
+		display: block;
 	}
 </style>

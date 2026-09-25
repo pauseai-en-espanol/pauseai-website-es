@@ -1,4 +1,5 @@
 import type { Locale } from '$lib/paraglide/runtime.js'
+import type { Picture } from 'vite-imagetools'
 
 declare global {
 	namespace App {
@@ -33,6 +34,13 @@ declare global {
 		applyTheme?: () => void
 		/** Google Tag Manager queue (used by Banner.svelte for banner events) */
 		dataLayer?: unknown[]
+	}
+
+	// vite-imagetools `?picture` shorthand — returns a Picture object
+	// ({ sources, img }) for rendering a <picture> tag.
+	declare module '*?picture' {
+		const value: Picture
+		export default value
 	}
 }
 

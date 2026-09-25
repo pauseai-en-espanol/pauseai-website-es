@@ -253,7 +253,7 @@
 	{#each doomers as doomer (doomer.name)}
 		<li class="doomer" class:grounding={doomer.isGrounding}>
 			<div class="pdoom">
-				<LinkWithoutIcon href={doomer.source}>
+				<LinkWithoutIcon href={doomer.source} class="source-link">
 					<b>
 						{doomer.probability}
 					</b>
@@ -261,7 +261,7 @@
 			</div>
 			<div class="details">
 				<h3 class="name">
-					<div class="bar" style={`width: calc(${doomer.number * 100}%)`} />
+					<div class="bar" style={`width: calc(${doomer.number * 100}%)`}></div>
 					{doomer.name}
 					{#if doomer.title}
 						<div class="title">
@@ -292,12 +292,12 @@
 	}
 
 	.grounding .bar {
-		background-color: #666;
+		background-color: var(--text-subtle);
 		opacity: 0.5;
 	}
 
-	.grounding .pdoom :global(a) {
-		color: #666;
+	.grounding .pdoom :global(.source-link) {
+		color: var(--text-subtle);
 	}
 
 	.grounding .name {
@@ -355,7 +355,7 @@
 		flex-shrink: 0;
 	}
 
-	.pdoom :global(a) {
+	.pdoom :global(.source-link) {
 		color: var(--brand);
 		text-decoration: none;
 	}
@@ -369,11 +369,11 @@
 		margin: 0;
 	}
 
-	.doomer :global(a) {
+	.doomer :global(.source-link) {
 		text-decoration: none;
 	}
 
-	.doomer :global(a:hover) {
+	.doomer :global(.source-link):hover {
 		text-decoration: underline;
 	}
 </style>

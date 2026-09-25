@@ -1,12 +1,24 @@
 <script lang="ts">
-	export let width = 243
-	export let height = (width * 22) / 81
-	export let animate = false
-	export let fill: string | null = null
-	export let inverted = false
-	$: orange = inverted ? 'white' : '#FF9416'
-	$: orangeInverted = inverted ? '#FF9416' : 'white'
-	$: modifiedFill = fill ?? (inverted ? 'black' : 'var(--text)')
+	import { HERO_ORANGE } from '$lib/colors'
+
+	interface Props {
+		width?: number
+		height?: number
+		animate?: boolean
+		fill?: string | null
+		inverted?: boolean
+	}
+
+	let {
+		width = 243,
+		height = (width * 22) / 81,
+		animate = false,
+		fill = null,
+		inverted = false
+	}: Props = $props()
+	let orange = $derived(inverted ? 'white' : HERO_ORANGE)
+	let orangeInverted = $derived(inverted ? HERO_ORANGE : 'white')
+	let modifiedFill = $derived(fill ?? (inverted ? 'black' : 'var(--text)'))
 </script>
 
 <svg

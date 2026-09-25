@@ -72,7 +72,7 @@ Images in `src/assets/images` are automatically processed into multiple formats 
 
 ```svelte
 <script>
-	import Image from '$lib/components/Image.svelte'
+	import Image from '$lib/components/images/Image.svelte'
 </script>
 
 <Image src="/my-image.png" alt="Description" />

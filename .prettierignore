@@ -26,14 +26,14 @@ src/temp
 static/open-letter/portraits/original
 .planning
 **/.claude
+**/.playwright-mcp/
 l10n-cage/json/en.json
 messages/**/*
 !messages/**/.gitignore
 !messages/**/en.json
-project.inlang/**/cache
-project.inlang/**/.env-cache.json
-project.inlang/**/.meta.json
-project.inlang/**/README.md
+project.inlang/**/*
+!project.inlang/**/settings.json
+src/paraglide/**/*
 src/lib/paraglide/**/*
 
 # Manual ignores (specific to Prettier)

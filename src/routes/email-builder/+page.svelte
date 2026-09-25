@@ -141,8 +141,8 @@
 		<Link href="https://youtu.be/1j--6JYRLVk?t=5716">aquí</Link>.)
 	</li>
 	<li>
-		<b>Sin presión social.</b> Si publicas algo abiertamente, un político puede dudar en responder a
-		un tema sobre el cual aún no ha tomado una decisión.
+		<b>Sin presión social.</b> Si publicas algo abiertamente, un político puede dudar en responder a un
+		tema sobre el cual aún no ha tomado una decisión.
 	</li>
 	<li>
 		<b>No mucha gente lo hace realmente.</b> Eso significa que tu correo electrónico destacará.
@@ -186,7 +186,7 @@
 		<b>Selecciona una:</b>
 		{#each concerns as section}
 			<button
-				class={selectedConcern == section ? 'tag tag--selected' : 'tag'}
+				class={selectedConcern.name == section.name ? 'tag tag--selected' : 'tag'}
 				onclick={() => (selectedConcern = section)}>{section.name}</button
 			>&nbsp;
 		{/each}
@@ -204,7 +204,7 @@
 		<b>Selecciona una:</b>
 		{#each actions as section}
 			<button
-				class={selectedAction == section ? 'tag tag--selected' : 'tag'}
+				class={selectedAction.name == section.name ? 'tag tag--selected' : 'tag'}
 				onclick={() => (selectedAction = section)}>{section.name}</button
 			>&nbsp;
 		{/each}
@@ -223,8 +223,8 @@
 		trabajando? ¿Qué opinan sobre la IA? ¿Qué ha sucedido en su vida profesional las últimas semanas?
 	</li>
 	<li>
-		<b>Comparte algo sobre ti.</b> ¿Por qué te importa la seguridad de la IA? ¿Por qué te tomaste el
-		tiempo de enviar esta carta?
+		<b>Comparte algo sobre ti.</b> ¿Por qué te importa la seguridad de la IA? ¿Por qué te tomaste el tiempo
+		de enviar esta carta?
 	</li>
 	<li>
 		<b>Hazlo noticioso.</b> La plantilla de correo no siempre está actualizada. Asegúrate de mencionar
@@ -274,8 +274,8 @@
 				<a href="https://www.youtube.com/watch?t=1042&v=wUOjTR1511M&feature=youtu.be"
 					>hasta el 90 %</a
 				>
-				del código en las empresas de IA. En algún momento, posiblemente en un futuro cercano, la IA
-				podrá construir directamente IA más poderosas, lo que conducirá a un aumento rápido de las capacidades
+				del código en las empresas de IA. En algún momento, posiblemente en un futuro cercano, la IA podrá
+				construir directamente IA más poderosas, lo que conducirá a un aumento rápido de las capacidades
 				de la IA. Miles de expertos han
 				<a href="https://futureoflife.org/open-letter/pause-giant-ai-experiments/"
 					>pedido una pausa</a
@@ -286,9 +286,9 @@
 					href="https://www.vox.com/future-perfect/2023/9/19/23879648/americans-artificial-general-intelligence-ai-policy-poll"
 					>encuesta</a
 				>
-				indica que el 63 % de los estadounidenses apoya regulaciones para evitar que las empresas de
-				IA construyan IA superinteligente. Más de 100 000 personas (incluidos los investigadores de IA
-				más citados) han firmado una
+				indica que el 63 % de los estadounidenses apoya regulaciones para evitar que las empresas de IA
+				construyan IA superinteligente. Más de 100 000 personas (incluidos los investigadores de IA más
+				citados) han firmado una
 				<a href="https://superintelligence-statement.org/"
 					>declaración sobre la prohibición del desarrollo de una superinteligencia</a
 				>.

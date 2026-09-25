@@ -2,20 +2,68 @@
 	import Navbar from '$lib/components/navbar/Navbar.svelte'
 	import Navlink from '$lib/components/navbar/Navlink.svelte'
 	import LanguageSwitcher from '$lib/components/LanguageSwitcher.svelte'
+	import { getNavItems } from '$lib/components/navbar/navItems'
+	import { searchOpen } from '$lib/stores/searchModal'
 	import SearchIcon from '@lucide/svelte/icons/search'
 
-	export let inverted = false
+	interface Props {
+		inverted?: boolean
+	}
+
+	let { inverted = false }: Props = $props()
+
+	let items = $derived(getNavItems())
+
+	const openSearch = (e: MouseEvent) => {
+		e.preventDefault()
+		searchOpen.set(true)
+	}
 </script>
 
-<Navbar {inverted}>
-	<Navlink {inverted} first href="/nosotros">Nosotros</Navlink>
-	<Navlink {inverted} href="/riesgos">Riesgos</Navlink>
-	<Navlink {inverted} href="/pausa">La pausa</Navlink>
-	<Navlink {inverted} href="/debate">IA con ñ</Navlink>
-	<Navlink {inverted} external href="https://pauseaispanish.substack.com">Noticias</Navlink>
-	<Navlink {inverted} c2a href="/inscripcion">Únete</Navlink>
-	<LanguageSwitcher {inverted} />
-	<Navlink {inverted} href="/search" ariaLabel="Buscar">
-		<SearchIcon size="0.8em" />
-	</Navlink>
+<Navbar {inverted} {items}>
+	{#snippet extras()}
+		<LanguageSwitcher {inverted} />
+		<button
+			id="search-button"
+			onclick={openSearch}
+			class="reset-button"
+			aria-label="Buscar"
+			data-hydrate-click
+		>
+			<Navlink {inverted}>
+				<SearchIcon size="0.8em" />
+			</Navlink>
+		</button>
+	{/snippet}
+
+	{#snippet panelExtras(closePanel: () => void)}
+		<button
+			class="reset-button panel-search"
+			onclick={(e) => {
+				closePanel()
+				openSearch(e)
+			}}
+		>
+			<SearchIcon size="1em" />
+			<span>Buscar</span>
+		</button>
+		<LanguageSwitcher />
+	{/snippet}
 </Navbar>
+
+<style>
+	.panel-search {
+		display: flex;
+		align-items: center;
+		gap: 0.5rem;
+		padding: 0.75rem;
+		border-radius: 4px;
+		cursor: pointer;
+		text-transform: uppercase;
+	}
+
+	.panel-search:hover {
+		background: var(--bg);
+		color: var(--brand);
+	}
+</style>

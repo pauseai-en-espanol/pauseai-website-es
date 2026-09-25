@@ -11,10 +11,11 @@
 	import Toc from '$lib/components/Toc.svelte'
 	import { searchOpen } from '$lib/stores/searchModal'
 	import { deLocalizeHref } from '$lib/paraglide/runtime'
-	import '@fontsource/roboto-slab/300.css'
+	import type { BannerRule } from '$lib/types'
+	import '@fontsource/roboto-slab/400.css'
 	import '@fontsource/roboto-slab/500.css'
 	import '@fontsource/roboto-slab/700.css'
-	import robotoSlabLatin300 from '@fontsource/roboto-slab/files/roboto-slab-latin-300-normal.woff2'
+	import robotoSlabLatin400 from '@fontsource/roboto-slab/files/roboto-slab-latin-400-normal.woff2'
 	import '@fontsource/saira-condensed/700.css'
 	import sairaCondensedLatin700 from '@fontsource/saira-condensed/files/saira-condensed-latin-700-normal.woff2'
 	import { ProgressBar } from '@prgm/sveltekit-progress-bar'
@@ -29,6 +30,7 @@
 	import themeSelection from './theme-selection.js?raw'
 	import hydrationAwareClick from './hydration-aware-click.js?raw'
 	import bannerSelection from './banner-selection.js?raw'
+	import { inDateRange } from './inDateRange'
 	import type { PageData } from './$types'
 
 	interface Props {
@@ -38,12 +40,18 @@
 
 	let { data, children }: Props = $props()
 
+	// No active campaigns on the Spanish site right now. banner-selection.js
+	// reads these globals, so they are still injected (empty) below.
+	const mainBannerRules: BannerRule[] = []
+	const campaignBannerRules: BannerRule[] = []
+
 	let eventFound: boolean = $state(false)
 	let geoForNearbyEvent: GeoApiResponse | null = $state(null)
 	let hero = $derived(deLocalizeHref(page.url.pathname) === '/')
 
 	onMount(async () => {
 		document.documentElement.removeAttribute('data-waiting')
+		document.documentElement.setAttribute('data-hydrated', 'true')
 
 		const searchString = window.location.search
 		const response = await fetch('/api/geo' + searchString)
@@ -100,12 +108,14 @@
 </script>
 
 <svelte:head>
-	<script>
-		// No active campaigns on the Spanish site right now. Leaving these
-		// empty keeps banner-selection.js happy (it reads these globals).
-		var mainBannerRules = []
-		var campaignBannerRules = []
-	</script>
+	<!-- eslint-disable-next-line svelte/no-unused-svelte-ignore -- doesn't warn at compile time -->
+	<!-- svelte-ignore hydration_html_changed -- the stringified function looks different on client and server -->
+	<!-- eslint-disable-next-line svelte/no-at-html-tags -- not vulnerable against XSS -->
+	{@html `<${'script'}>${sanitizeScript(
+		`var mainBannerRules = ${JSON.stringify(mainBannerRules)}
+		var campaignBannerRules = ${JSON.stringify(campaignBannerRules)}
+		var inDateRange = ${inDateRange.toString()}`
+	)}</script>`}
 
 	<!-- eslint-disable-next-line svelte/no-at-html-tags not vulnerable against XSS -->
 	{@html `<${'script'}>${sanitizeScript(themeSelection)}</script>`}
@@ -117,7 +127,7 @@
 	{@html `<${'script'}>${sanitizeScript(bannerSelection)}</script>`}
 </svelte:head>
 
-<PreloadFonts urls={[robotoSlabLatin300, sairaCondensedLatin700]} />
+<PreloadFonts urls={[robotoSlabLatin400, sairaCondensedLatin700]} />
 
 <h2 style="width: 0; height: 0; margin: 0; padding: 0; visibility: hidden;" data-pagefind-ignore>
 	(Top)
@@ -191,9 +201,6 @@
 		--gutter-max: 3rem;
 		--gutter-min: 0.5rem;
 		--page-gutter: var(--gutter-max);
-		/* Wider than --page-width: the centered hero nav needs room for the
-		   (wordier) Spanish labels so they stay on a single row. */
-		--nav-width: 48rem;
 	}
 
 	/* Linearly interpolate from gutter-max (at 600px) down to gutter-min */
@@ -239,11 +246,17 @@
 	}
 
 	.menu-band :global(nav) {
-		/* Wider than --page-width: the wordier Spanish nav labels need room to
-		   stay on a single row. */
-		width: min(var(--nav-width), 100% - 2 * var(--page-gutter));
+		width: min(var(--header-width), 100% - 2 * var(--page-gutter));
 		margin-inline: auto;
 		--vspace: 1.85rem;
+	}
+
+	/* The header on non-hero pages sits inside .layout, whose max-inline-size is
+	   the (narrower) content width. Let it use the wider header width so all
+	   top-level nav items fit on one row beside the logo. */
+	.layout > :global(.wide-navbar) {
+		width: min(var(--header-width), 100dvw - 2 * var(--page-gutter));
+		justify-self: center;
 	}
 
 	.layout {

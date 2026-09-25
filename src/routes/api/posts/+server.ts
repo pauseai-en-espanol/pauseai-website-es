@@ -9,6 +9,7 @@ import { meta as quotesMeta } from '../../quotes/meta'
 import { meta as emailBuilderMeta } from '../../email-builder/meta'
 import { meta as teamsMeta } from '../../teams/meta'
 import { meta as statementMeta } from '../../statement/meta'
+import { meta as contactMeta } from '../../contact-us/meta'
 
 type InlangSettings = {
 	baseLocale?: string
@@ -50,7 +51,8 @@ const hardCodedPages: Post[] = [
 	quotesMeta,
 	emailBuilderMeta,
 	teamsMeta,
-	statementMeta
+	statementMeta,
+	contactMeta
 ]
 
 async function getPosts() {
