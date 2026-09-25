@@ -5,8 +5,8 @@ runs:
   steps:
     # Node 26's Linux arm64 binary is dynamically linked against libatomic.so.1,
     # which is missing on minimal arm64 runners — node aborts the moment it runs
-    # (e.g. setup-node's `pnpm store path` cache step). Install it first. No-op
-    # where it already exists (e.g. x64 hosted runners).
+    # (e.g. pnpm's install script). Install it first. No-op where it already
+    # exists (e.g. x64 hosted runners).
     - name: Ensure libatomic is present
       shell: bash
       run: |
@@ -31,5 +31,7 @@ runs:
     - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
         node-version: 26.10.0
-        cache: 'pnpm'
-        cache-dependency-path: '**/pnpm-lock.yaml'
+    # No `cache: 'pnpm'` here: it needs pnpm installed already, but pnpm 12's
+    # preinstall script needs `node`, so Node must be set up first. The
+    # self-hosted runners keep a persistent pnpm store at /opt/pnpm-store, so
+    # the GitHub cache is redundant anyway (see install-pnpm-dependencies).

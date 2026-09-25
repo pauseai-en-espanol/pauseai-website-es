@@ -25,8 +25,8 @@ jobs:
           token: ${{ secrets.PAT_TOKEN }}
           persist-credentials: true
 
-      - uses: ./.github/actions/setup-pnpm
       - uses: ./.github/actions/setup-node
+      - uses: ./.github/actions/setup-pnpm
 
       - name: Generate environment variables
         id: env
