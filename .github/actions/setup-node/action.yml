@@ -30,6 +30,6 @@ runs:
         fi
     - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
-        node-version: 26.3.1
+        node-version: 26.10.0
         cache: 'pnpm'
         cache-dependency-path: '**/pnpm-lock.yaml'

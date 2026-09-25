@@ -13,6 +13,7 @@
 	import Whatsapp from './icons/whatsapp.svelte'
 	import Spotify from './icons/spotify.svelte'
 	import Email from './icons/email.svelte'
+	import Mastodon from './icons/mastodon.svelte'
 	// import Globe from './icons/globe.svelte'
 </script>
 
@@ -43,6 +44,9 @@
 	</a>
 	<a href="https://www.youtube.com/@pauseai-es" target="_blank" title="YouTube"> <Youtube /></a>
 	<a href="https://pauseaispanish.substack.com/" target="_blank" title="Substack"><Substack /></a>
+	<a href="https://mastodon.social/@pauseai_es" target="_blank" rel="me" title="Mastodon"
+		><Mastodon /></a
+	>
 	<!--	<a href="https://www.reddit.com/r/PauseAI/" target="_blank" title="Reddit"><Reddit /></a>-->
 	<!--	<a href="https://t.me/+UeTsIsNkmt82ZmQ8" target="_blank" title="Telegram"><Telegram /></a>-->
 	<!--	<a href="https://bsky.app/profile/pauseai.bsky.social"><Bluesky /></a>-->
