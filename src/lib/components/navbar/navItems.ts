@@ -18,30 +18,9 @@ export interface NavItem {
 export function getNavItems(): NavItem[] {
 	return [
 		{ label: 'Nosotros', href: '/nosotros' },
-		{
-			label: 'Aprende',
-			children: [
-				{ label: 'Riesgos', href: '/riesgos' },
-				{ label: 'La pausa', href: '/pausa' },
-				{ label: 'IA con ñ', href: '/debate' },
-				{ label: 'Preguntas frecuentes', href: '/faq' }
-			]
-		},
-		{
-			label: 'Comunidad',
-			children: [
-				{ label: 'Encuentra tu grupo local', href: '/communities' },
-				{ label: 'Asiste a un evento', href: 'https://lu.ma/pauseai-es', external: true }
-			]
-		},
-		{
-			label: 'Participa',
-			children: [
-				{ label: 'Únete', href: '/inscripcion' },
-				{ label: 'Crea un grupo local', href: '/national-groups' },
-				{ label: 'Dona', href: '/donate' }
-			]
-		},
+		{ label: 'Riesgos', href: '/riesgos' },
+		{ label: 'La pausa', href: '/pausa' },
+		{ label: 'IA con ñ', href: '/debate' },
 		{ label: 'Noticias', href: 'https://pauseaispanish.substack.com', external: true, mail: true },
 		{ label: 'Únete', href: '/inscripcion', c2a: true }
 	]

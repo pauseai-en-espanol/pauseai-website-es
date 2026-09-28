@@ -87,6 +87,8 @@
 					<LinkWithoutIcon
 						href={item.href}
 						class="panel-link get-updates"
+						target={item.external ? '_blank' : null}
+						rel={item.external ? 'noopener noreferrer' : null}
 						aria-current={isCurrent(item) ? 'page' : undefined}
 					>
 						<span>{item.label}</span>

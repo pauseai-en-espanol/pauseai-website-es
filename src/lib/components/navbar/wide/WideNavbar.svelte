@@ -25,6 +25,8 @@
 			{@const active = !!item.href && localizeHref(page.url.pathname) === localizeHref(item.href)}
 			<LinkWithoutIcon
 				href={item.href}
+				target={item.external ? '_blank' : null}
+				rel={item.external ? 'noopener noreferrer' : null}
 				class="get-updates{inverted ? ' inverted' : ''}{active ? ' active' : ''}"
 			>
 				<MailIcon size="0.85em" />
