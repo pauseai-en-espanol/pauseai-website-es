@@ -3,6 +3,7 @@ title: El gran reemplazo laboral de la IA
 description: La automatización amenaza millones de empleos y el contrato social que sostienen.
 id: 3
 cover: /riesgos/empleo/cover.png
+image: /riesgos/empleo/social.png
 hideTitle: false
 ---
 
