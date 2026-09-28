@@ -2,8 +2,31 @@
 title: El gran reemplazo laboral de la IA
 description: La automatización amenaza millones de empleos y el contrato social que sostienen.
 id: 3
+cover: /riesgos/empleo/cover.png
 hideTitle: false
 ---
+
+<script>
+	import ParallaxHero from '$lib/components/ParallaxHero.svelte'
+
+	const basePath = '/riesgos/empleo'
+	// to: direction the layer leaves towards (it starts in place)
+	// travel: distance to travel (1 = 100% of container size; 0 = static)
+	// range: slice of the scroll during which the layer moves
+	// The human hand stays put while the robot pulls the bill out from under the thumb and off screen
+	const layers = [
+		{ src: `${basePath}/hand-back.png`, travel: 0 },
+		{ src: `${basePath}/robot-bill.png`, to: 'right', travel: 0.67, range: [0.1, 1], alt: 'Un brazo robótico se lleva un billete' },
+		{ src: `${basePath}/hand-front.png`, travel: 0, alt: 'Una mano humana sostiene un billete' },
+	]
+</script>
+
+<ParallaxHero
+aspectRatio="770/260"
+background="white"
+scrollDistance={1000}
+{layers}
+/>
 
 Dentro del debate sobre cómo la inteligencia artificial afectará al conjunto de la sociedad en un futuro próximo, el empleo ocupa un lugar central. A la hora de evaluar los riesgos que afrontamos, partimos de una posición de incertidumbre: hemos visto crecer sin cesar las capacidades de la IA en los últimos años, pero cuesta pronosticar con precisión cuándo llegará el gran impacto en el mercado laboral. [Un reciente estudio del centro de análisis español Funcas](https://www.funcas.es/articulos/inteligencia-artificial-y-mercado-de-trabajo-en-espana-exposicion-ocupacional-y-efectos-estimados-sobre-el-empleo/) planteaba que la automatización causará en nuestro país “una destrucción bruta de empleo de entre 1,7 y 2,3 millones de puestos en el horizonte 2025-2035”. Sin duda, un cambio de consecuencias impredecibles. Y esa previsión podría quedarse muy corta.
 

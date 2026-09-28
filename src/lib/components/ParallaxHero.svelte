@@ -12,8 +12,13 @@
 
 	interface Layer {
 		src: string
+		// Enters from this side and ends in place...
 		from?: Direction
+		// ...or starts in place and leaves towards this side (takes precedence over `from`)
+		to?: Direction
 		travel?: number
+		// Slice of the scroll progress (0-1) during which this layer moves
+		range?: [number, number]
 		zIndex?: number
 		alt?: string
 	}
@@ -23,6 +28,8 @@
 	export let titleFade: [number, number] = [0, 0.5]
 	export let layers: Layer[] = []
 	export let scrollDistance: number = 1500
+	// Scene backdrop, so transparent layers stay legible in dark mode
+	export let background: string = 'transparent'
 
 	let wrapper: HTMLElement
 	let scene: HTMLElement
@@ -57,10 +64,17 @@
 		}
 	}
 
-	function getTransform(from: Direction, travel: number, prog: number): string {
-		const offset = (1 - prog) * travel * 100
+	function getTransform(layer: Layer, prog: number): string {
+		const [start, end] = layer.range ?? [0, 1]
+		const local = Math.min(1, Math.max(0, (prog - start) / (end - start)))
+		const travel = layer.travel ?? 1
 
-		switch (from) {
+		if (layer.to) return translate(layer.to, local * travel * 100)
+		return translate(layer.from ?? 'left', (1 - local) * travel * 100)
+	}
+
+	function translate(direction: Direction, offset: number): string {
+		switch (direction) {
 			case 'left':
 				return `translate3d(${-offset}%, 0, 0)`
 			case 'right':
@@ -113,19 +127,18 @@
 		class:fixed={state === 'fixed'}
 		class:end={state === 'end'}
 		style="
+			background: {background};
 			width: {state === 'fixed' ? `${rectWidth}px` : '100%'};
 			left: {state === 'fixed' ? `${rectLeft}px` : 'auto'};
 		"
 	>
 		{#each layers as layer, i}
-			{@const from = layer.from ?? 'left'}
-			{@const travel = layer.travel ?? 1}
 			{@const zIndex = layer.zIndex ?? i + 1}
 			<div
 				class="parallax-layer"
 				style="
 					z-index: {zIndex};
-					transform: {getTransform(from, travel, progress)};
+					transform: {getTransform(layer, progress)};
 				"
 			>
 				<img src={layer.src} alt={layer.alt ?? ''} />
