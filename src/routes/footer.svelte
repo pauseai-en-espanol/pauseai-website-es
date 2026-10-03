@@ -22,6 +22,7 @@
 			<Link href="/debate">IA con ñ</Link>
 			<Link href="/privacy">{m.footer_info_privacy()}</Link>
 			<Link href="/legal">{m.footer_info_legal()}</Link>
+			<Link href="/terms">Términos de servicio</Link>
 		</div>
 		<div class="column">
 			<h2>{m.footer_action()}</h2>
