@@ -7,9 +7,6 @@ description: Guía para sumarte a PauseAI; inscripción, Discord, donaciones y a
 	import OnboardingEmbed from '$lib/components/OnboardingEmbed.svelte'
 </script>
 
-![Protesta de PauseAI en Estados Unidos](/es/protestausa.jpg)
-_Protesta en Estados Unidos. Fuente: PauseAI_
-
 ¿Quieres unirte a nosotros? ¡Bienvenido! En primer lugar hemos de aclarar que nos regimos por la [política de privacidad](/privacidad) de PauseAI. Asimismo, te invitamos a leer el [acuerdo para voluntarios](/volunteer-agreement) y el [código de conducta](/protesters-code-of-conduct) de la organización.
 
 Después, rellena el siguiente formulario de inscripción.

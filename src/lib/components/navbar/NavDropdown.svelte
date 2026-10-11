@@ -53,6 +53,7 @@
 		type="button"
 		class="navlink reset-button trigger"
 		class:inverted
+		class:c2a={item.c2a}
 		class:active={isActive}
 		aria-haspopup="true"
 		aria-expanded={open}
@@ -115,6 +116,14 @@
 
 	/* The global .navlink hover/active colours are scoped to UniversalNavlink's
 	   subtree, so they don't reach this button — restate them here. */
+	.trigger.c2a {
+		color: var(--brand);
+	}
+
+	.trigger.c2a.inverted {
+		color: black;
+	}
+
 	.trigger:hover {
 		color: var(--brand);
 	}

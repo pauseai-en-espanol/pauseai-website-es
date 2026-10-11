@@ -65,7 +65,7 @@
 			{#each items as item (item.label)}
 				{#if item.children}
 					<details class="group">
-						<summary>
+						<summary class:c2a={item.c2a}>
 							<span>{item.label}</span>
 							<ChevronDown size="1rem" class="chevron" />
 						</summary>
@@ -193,6 +193,10 @@
 		padding: 0.75rem;
 		cursor: pointer;
 		list-style: none;
+	}
+
+	.group summary.c2a {
+		color: var(--brand);
 	}
 
 	.group summary::-webkit-details-marker {
