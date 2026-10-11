@@ -29,7 +29,7 @@
 			<Link href="/inscripcion">{m.footer_action_join()}</Link>
 			<Link href="/protesters-code-of-conduct">Código de conducta</Link>
 			<Link href="/donate">{m.footer_action_donate()}</Link>
-			<Link href="https://pauseai-shop.fourthwall.com" target="_blank"
+			<Link href="https://merchandise.pauseai.es/" target="_blank"
 				>{m.footer_action_merchandise()}</Link
 			>
 			<Link href="/lobby-tips">{m.footer_action_lobby()}</Link>

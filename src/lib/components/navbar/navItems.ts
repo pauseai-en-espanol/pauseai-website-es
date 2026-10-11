@@ -41,7 +41,8 @@ export function getNavItems(): NavItem[] {
 			c2a: true,
 			children: [
 				{ label: 'Únete', href: '/inscripcion' },
-				{ label: 'Eventos', href: 'https://lu.ma/pauseai-es', external: true }
+				{ label: 'Eventos', href: 'https://lu.ma/pauseai-es', external: true },
+				{ label: 'Merchandise', href: 'https://merchandise.pauseai.es/', external: true }
 				// TODO: add 'Grupos locales' once that page exists.
 			]
 		}
