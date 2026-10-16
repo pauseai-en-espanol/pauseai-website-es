@@ -17,7 +17,8 @@ concurrency:
 
 jobs:
   ci:
-    # Skip forks (security: prevent external code from running on self-hosted runner)
+    # Pull requests run on a GitHub-hosted runner: the self-hosted one takes only workflows from main (its own
+    # job-started hook refuses pull requests). Forks are still skipped.
     if: |
       (github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository) &&
       !contains(github.event.head_commit.message, 'skip ci') &&
@@ -28,7 +29,7 @@ jobs:
           contains(github.event.pull_request.title, 'draft')
         )
       )
-    runs-on: [self-hosted, juggernaut]
+    runs-on: ${{ fromJSON(github.event_name == 'pull_request' && '["ubuntu-24.04"]' || '["self-hosted", "juggernaut"]') }}
     env:
       L10N_OFFLINE: 'true'
     steps:
