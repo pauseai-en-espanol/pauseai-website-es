@@ -1,0 +1,64 @@
+import { afterEach, beforeEach, describe, expect, it, vi } from 'vitest'
+import axios from 'axios'
+import MockAdapter from 'axios-mock-adapter'
+
+describe('luma client', () => {
+	beforeEach(() => {
+		vi.resetModules()
+	})
+
+	afterEach(() => {
+		vi.restoreAllMocks()
+	})
+
+	it('sends a request with snake_cased URL parameters to api.lu.ma', async () => {
+		const originalCreate = axios.create.bind(axios)
+		let mock: MockAdapter
+		vi.spyOn(axios, 'create').mockImplementation((...args) => {
+			const axios = originalCreate(...args)
+			mock = new MockAdapter(axios)
+			return axios
+		})
+
+		const luma = await import('.')
+
+		mock!.onGet('https://api.lu.ma/calendar/get-items').reply(200)
+
+		await luma.Calendar.getItems({
+			calendarApiId: 'abc-123',
+			period: 'future',
+			paginationLimit: 20
+		})
+
+		const request = mock!.history.get[0]
+		expect(request.url).toBe('/calendar/get-items')
+		expect(request.params).toEqual({
+			calendar_api_id: 'abc-123',
+			period: 'future',
+			pagination_limit: 20
+		})
+	})
+
+	it('sends an identifying user agent, because Luma throttles client-library user agents', async () => {
+		const originalCreate = axios.create.bind(axios)
+		let mock: MockAdapter
+		vi.spyOn(axios, 'create').mockImplementation((...args) => {
+			const axios = originalCreate(...args)
+			mock = new MockAdapter(axios)
+			return axios
+		})
+
+		const luma = await import('.')
+
+		mock!.onGet('https://api.lu.ma/calendar/get-items').reply(200)
+
+		await luma.Calendar.getItems({
+			calendarApiId: 'abc-123',
+			period: 'future',
+			paginationLimit: 20
+		})
+
+		const request = mock!.history.get[0]
+		expect(request.headers?.['User-Agent']).toBe('PauseAI-Website/1.0 (+https://pauseai.info)')
+	})
+})
