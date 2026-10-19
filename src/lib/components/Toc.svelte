@@ -100,7 +100,7 @@
 			bind:desktop
 			bind:headings
 			hide={(headings?.length ?? 0) <= 1}
-			openButtonClass="toc-icon"
+			openButtonProps={{ class: 'toc-icon' }}
 		>
 			{#snippet openTocIcon()}
 				<List size="2rem" />

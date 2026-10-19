@@ -1,13 +1,13 @@
 # syntax=docker/dockerfile:1.7
 
-FROM node:26.10.0-alpine@sha256:0b36e8c136b94cd4fcf02188228e76c31ad5872eef3fec8cbd2eee500cfd9e80 AS builder
+FROM node:26.12.0-alpine@sha256:6f08a523443ddedf52941874c203475b0ad503e859ad70cb26ab8be9a517dbd5 AS builder
 
 ENV PNPM_HOME="/pnpm"
 ENV PATH="$PNPM_HOME:$PATH"
 # git: the `prepare` script runs `lefthook install` (and the l10n build uses
 # simple-git). Node 26 no longer bundles corepack, so install the pinned pnpm
 # directly (matches packageManager/devEngines — nothing re-downloads at install).
-RUN apk add --no-cache git && npm install -g pnpm@12.6.0 && pnpm config set store-dir /pnpm/store
+RUN apk add --no-cache git && npm install -g pnpm@12.14.0 && pnpm config set store-dir /pnpm/store
 
 WORKDIR /app
 
@@ -28,7 +28,7 @@ RUN pnpm run sync
 RUN pnpm build
 
 
-FROM node:26.10.0-alpine@sha256:0b36e8c136b94cd4fcf02188228e76c31ad5872eef3fec8cbd2eee500cfd9e80 AS runner
+FROM node:26.12.0-alpine@sha256:6f08a523443ddedf52941874c203475b0ad503e859ad70cb26ab8be9a517dbd5 AS runner
 
 WORKDIR /app
 
@@ -41,7 +41,7 @@ ENV HOST=0.0.0.0
 # so the server needs the production node_modules at runtime. --ignore-scripts:
 # no prepare/lefthook (needs git) and no native rebuilds the request-serving
 # runtime doesn't use (image processing already happened at build time).
-RUN npm install -g pnpm@12.6.0
+RUN npm install -g pnpm@12.14.0
 COPY package.json pnpm-lock.yaml pnpm-workspace.yaml .npmrc* ./
 RUN pnpm install --prod --frozen-lockfile --ignore-scripts
 
