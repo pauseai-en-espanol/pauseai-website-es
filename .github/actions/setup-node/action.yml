@@ -30,7 +30,7 @@ runs:
         fi
     - uses: actions/setup-node@6044e13b5dc448c55e2357c09f80417699197238 # v6.2.0
       with:
-        node-version: 26.12.0
+        node-version: 26.12.1
     # No `cache: 'pnpm'` here: it needs pnpm installed already, but pnpm 12's
     # preinstall script needs `node`, so Node must be set up first. The
     # self-hosted runners keep a persistent pnpm store at /opt/pnpm-store, so
