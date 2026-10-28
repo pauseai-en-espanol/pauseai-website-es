@@ -1,7 +1,7 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
 	"extends": ["config:recommended"],
-	"minimumReleaseAge": "1 day",
+	"minimumReleaseAge": "3 days",
 	"rangeStrategy": "bump",
 	"labels": ["dependencies"],
 	"packageRules": [
@@ -14,15 +14,11 @@
 			"automerge": true
 		},
 		{
-			"matchDepTypes": ["pnpm.overrides"],
+			"matchDepTypes": ["pnpm.overrides", "pnpm-workspace.overrides"],
 			"rangeStrategy": "replace"
 		},
 		{
 			"matchManagers": ["nvm"],
-			"enabled": false
-		},
-		{
-			"matchDepTypes": ["packageManager"],
 			"enabled": false
 		},
 		{
