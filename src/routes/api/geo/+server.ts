@@ -3,7 +3,7 @@ import { json } from '@sveltejs/kit'
 import { StatusCodes } from 'http-status-codes'
 import type { RequestHandler } from './$types'
 
-export type GeoApiResponse = App.Platform['context']['geo']
+export type GeoApiResponse = NonNullable<App.Platform['context']>['geo']
 
 export const prerender = false
 
@@ -22,13 +22,13 @@ export const GET: RequestHandler = ({ platform, setHeaders, url }) => {
 		return json(geo)
 	}
 
-	if (!platform) {
+	const geo: GeoApiResponse = platform?.context?.geo
+	if (!geo) {
 		console.warn('Skipping geo lookup, Platform not available in this environment')
 		return new Response('Geo lookup is not available in this environment', {
 			status: StatusCodes.NOT_IMPLEMENTED
 		})
 	}
-	const geo: GeoApiResponse = platform.context.geo
 	setHeaders(generateCacheControlRecord({ private: true, maxAge: 60 * 60 }))
 	return json(geo)
 }

@@ -9,7 +9,8 @@ declare global {
 		}
 		// interface PageData {}
 		interface Platform {
-			context: {
+			// Netlify's; adapter-node's platform only has `req`
+			context?: {
 				geo?: {
 					country?: { code?: string; name?: string }
 					subdivision?: { code?: string; name?: string }
