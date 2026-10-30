@@ -47,11 +47,11 @@ sync. The file has no SvelteKit dependencies, so it can be imported from
 This module is `.server`-only. It uses three `import.meta.glob` calls over
 `src/assets/images/**/*`:
 
-| Glob                  | Query      | Returns                                                                    |
-| --------------------- | ---------- | -------------------------------------------------------------------------- |
-| `IMAGE_URLS`          | `?url`     | The Vite-resolved URL string for any asset                                 |
-| `PICTURES`            | `?picture` | A `Picture` object (avif/webp/jpeg/png, widths 400–2400) for raster images |
-| `METADATA_IMAGE_URLS` | `?meta`    | A single downscaled JPEG for social/SEO meta tags                          |
+| Glob                  | Query      | Returns                                                                |
+| --------------------- | ---------- | ---------------------------------------------------------------------- |
+| `IMAGE_URLS`          | `?url`     | The Vite-resolved URL string for any asset                             |
+| `PICTURES`            | `?picture` | A `Picture` object (avif/webp/jpeg, widths 400–2400) for raster images |
+| `METADATA_IMAGE_URLS` | `?meta`    | A single downscaled JPEG for social/SEO meta tags                      |
 
 It exposes three resolvers:
 

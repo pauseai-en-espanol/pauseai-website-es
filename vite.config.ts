@@ -95,7 +95,7 @@ export default defineConfig(() => {
 		plugins: [
 			// Additional imagetools instance: the `?picture` shorthand returns a JS
 			// object ({ sources, img }) for rendering a <picture> tag with avif +
-			// webp <source>s and a jpeg/png fallback (png when alpha is present).
+			// webp <source>s and a jpeg fallback.
 			// Default widths match NetlifyImage's defaults for consistent srcset sizing.
 			imagetools({
 				defaultDirectives: (url) => {
