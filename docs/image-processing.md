@@ -76,7 +76,7 @@ reference images in two ways:
 
 ### Collecting body images: `plugins/remark-collect-images.js`
 
-A remark plugin registered in `svelte.config.js`. It walks the MDAST tree,
+A remark plugin registered in the mdsvex options in `vite.config.ts`. It walks the MDAST tree,
 collects every `image` node's URL, dedupes them, and writes the list to
 `vFile.data.fm._images`. mdsvex then exports that as `metadata._images` on
 the compiled module. It deliberately ignores HTML `<img>` tags and the

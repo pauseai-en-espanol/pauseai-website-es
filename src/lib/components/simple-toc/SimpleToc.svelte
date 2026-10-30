@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 	import { onMount } from 'svelte'
 	import * as m from '$lib/paraglide/messages.js'
 	import Node from './Node.svelte'

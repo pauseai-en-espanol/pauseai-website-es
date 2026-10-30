@@ -1,5 +1,5 @@
 // Edge-compatible Cloudinary REST API client
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 import { json } from '@sveltejs/kit'
 
 const CLOUD_NAME = env.PUBLIC_CLOUDINARY_CLOUD_NAME || 'dyjlw1syg'

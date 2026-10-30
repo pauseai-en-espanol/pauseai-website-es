@@ -1,6 +1,6 @@
 export const prerender = true
 
-import { dev } from '$app/environment'
+import { dev } from '$app/env'
 import type { LocaleEnvApiResponse } from '$api/locale-env/+server.js'
 import { locales } from '$lib/paraglide/runtime'
 import { handleRedirects } from '$lib/redirects'

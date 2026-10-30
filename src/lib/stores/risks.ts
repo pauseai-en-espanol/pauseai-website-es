@@ -1,5 +1,5 @@
 import { writable } from 'svelte/store'
-import { browser } from '$app/environment'
+import { browser } from '$app/env'
 
 // Configuration
 export const MAX_RISK_SELECTIONS = 3

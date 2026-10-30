@@ -1,6 +1,6 @@
 import { fail } from '@sveltejs/kit'
 import type { Actions } from './$types'
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 import { createRecord } from '$lib/airtable'
 
 // Airtable configuration (User to fill in later)

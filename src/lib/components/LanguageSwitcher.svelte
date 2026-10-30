@@ -10,7 +10,7 @@
 	import { page } from '$app/state'
 	import Globe from '@lucide/svelte/icons/globe'
 	import Navlink from '$lib/components/navbar/Navlink.svelte'
-	import { building } from '$app/environment'
+	import { building } from '$app/env'
 	import { onMount } from 'svelte'
 	import Card from '$lib/components/Card.svelte'
 

@@ -54,7 +54,7 @@ export function hasCollagenUid(campaign: string): boolean {
  */
 export function detectAndStoreCollagenUid(
 	campaign: string,
-	searchParams: URLSearchParams
+	searchParams: Pick<URLSearchParams, 'get'>
 ): boolean {
 	const paramKey = `collagen_uid_${campaign}`
 	const uidParam = searchParams.get(paramKey)

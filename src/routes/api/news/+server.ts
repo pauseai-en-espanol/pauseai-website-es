@@ -2,7 +2,7 @@ import type { NewsItem } from '$lib/types'
 import { generateCacheControlRecord } from '$lib/utils'
 import { resolvePicture } from '$lib/image.server'
 import { json } from '@sveltejs/kit'
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 import type { PostsApiResponse } from '$api/posts/+server.js'
 import type { RequestHandler } from './$types'
 

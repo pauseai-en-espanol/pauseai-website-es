@@ -61,9 +61,7 @@
 			const handleClick = (ev: MouseEvent) => {
 				if (h && h.startsWith('#')) {
 					ev.preventDefault()
-					const url = page.url
-					url.hash = h
-					pushState(url, page.state)
+					void pushState(new URL(h, page.url.href), page.state)
 					const targetEl = document.querySelector<HTMLElement>(h)
 					if (!targetEl) return
 					targetEl.scrollIntoView({ behavior: 'smooth' })

@@ -7,7 +7,7 @@
 	 * Fades back when interaction ends.
 	 */
 	import { onDestroy } from 'svelte'
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 
 	export let title: string = ''
 	/** Image shown on top (the cover) */

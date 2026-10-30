@@ -1,5 +1,5 @@
 import { isDev, getDevContext } from '$lib/env'
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 
 const AIRTABLE_API_KEY = env.AIRTABLE_API_KEY || ''
 const AIRTABLE_WRITE_API_KEY = env.AIRTABLE_WRITE_API_KEY || ''

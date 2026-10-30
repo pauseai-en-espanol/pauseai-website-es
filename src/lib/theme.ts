@@ -1,5 +1,5 @@
 import { writable, get } from 'svelte/store'
-import { browser } from '$app/environment'
+import { browser } from '$app/env'
 
 /** What's being rendered */
 type Theme = 'light' | 'dark'

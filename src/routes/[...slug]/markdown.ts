@@ -1,4 +1,4 @@
-import { dev } from '$app/environment'
+import { dev } from '$app/env'
 import type { DescriptiveFrontmatterMeta } from '$lib/types'
 
 export type MarkdownModule = {

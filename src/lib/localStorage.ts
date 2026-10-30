@@ -1,4 +1,4 @@
-import { browser } from '$app/environment'
+import { browser } from '$app/env'
 
 /** Safe localStorage.setItem — no-op during SSR or if storage is unavailable. */
 export function setItem(key: string, value: string): void {

@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 	import { onNavigate } from '$app/navigation'
 	import type { PagefindModal, PagefindSearchResult } from '@pagefind/component-ui'
 	import { onMount } from 'svelte'

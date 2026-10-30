@@ -7,7 +7,6 @@
 		"knip.config.ts",
 		"prettier.config.js",
 		"stylelint.config.js",
-		"svelte.config.js",
 		"plugins/**/*.js",
 		"scripts/**/*.js",
 		"scripts/**/*.cjs",

@@ -1,7 +1,7 @@
 export const prerender = false
 
 import Airtable from 'airtable'
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 import { verificationParameter } from '$lib/config.js'
 
 const TABLE_PARAMETER = 'table'

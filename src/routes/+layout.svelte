@@ -1,6 +1,6 @@
 <script lang="ts">
 	import type { GeoApiResponse } from '$api/geo/+server'
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 	import { afterNavigate } from '$app/navigation'
 	import { page } from '$app/state'
 	import Banner from '$lib/components/Banner.svelte'
@@ -93,8 +93,9 @@
 
 	// Track client-side navigations with Plausible.
 	// Skip initial load (from === null) since the script auto-tracks it.
-	afterNavigate(({ from }) => {
-		if (from && typeof window !== 'undefined' && window.plausible) {
+	afterNavigate(({ from, shallow }) => {
+		// Shallow navigations (in-page anchor links) aren't pageviews
+		if (!shallow && from && typeof window !== 'undefined' && window.plausible) {
 			window.plausible('pageview')
 		}
 	})

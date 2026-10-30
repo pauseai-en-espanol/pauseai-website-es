@@ -1,5 +1,5 @@
 import { error, json } from '@sveltejs/kit'
-import { env } from '$env/dynamic/private'
+import * as env from '$app/env/private'
 import Anthropic from '@anthropic-ai/sdk'
 import type { RequestHandler } from './$types'
 

@@ -9,7 +9,6 @@ import globals from 'globals'
 import ts from 'typescript-eslint'
 import emptyMarkdownLinks from './plugins/eslint-empty-markdown-links.js'
 import markdownScripts from './plugins/eslint-markdown-scripts.js'
-import svelteConfig from './svelte.config.js'
 
 // See https://typescript-eslint.io/troubleshooting/typed-linting/performance#changes-to-extrafileextensions-with-projectservice
 const EXTRA_FILE_EXTENSIONS = ['.svelte']
@@ -89,7 +88,7 @@ export default defineConfig(
 				project: ['./tsconfig.json'],
 				// Defined globally instead:
 				// extraFileExtensions: ['.svelte'], // Add support for additional file extensions, such as .svelte
-				parser: ts.parser,
+				parser: ts.parser
 				// Specify a parser for each language, if needed:
 				// parser: {
 				//   ts: ts.parser,
@@ -97,11 +96,7 @@ export default defineConfig(
 				//   typescript: ts.parser
 				// },
 
-				// We recommend importing and specifying svelte.config.js.
-				// By doing so, some rules in eslint-plugin-svelte will automatically read the configuration and adjust their behavior accordingly.
-				// While certain Svelte settings may be statically loaded from svelte.config.js even if you don’t specify it,
-				// explicitly specifying it ensures better compatibility and functionality.
-				svelteConfig
+				// No svelteConfig: SvelteKit 3 has no svelte.config.js (its options live in vite.config.ts)
 			}
 		},
 		rules: {

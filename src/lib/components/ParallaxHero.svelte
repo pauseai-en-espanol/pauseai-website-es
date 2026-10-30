@@ -6,7 +6,7 @@
 	 * a defined distance. Uses JS-based positioning to avoid parent overflow issues.
 	 */
 	import { onMount } from 'svelte'
-	import { browser } from '$app/environment'
+	import { browser } from '$app/env'
 
 	type Direction = 'left' | 'right' | 'up' | 'down'
 

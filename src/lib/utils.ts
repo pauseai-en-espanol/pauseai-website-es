@@ -27,8 +27,8 @@ export function headersToRecord(headers: Headers): Record<string, string> {
 	return Object.fromEntries(headers.entries())
 }
 
-export function asError(...params: Parameters<typeof svelteKitError>): Error {
-	return svelteKitError(...params)
+export function asError(status: number, message?: string): Error {
+	return svelteKitError(status, message)
 }
 
 export function redirectAsError(...params: Parameters<typeof redirect>): Error {
