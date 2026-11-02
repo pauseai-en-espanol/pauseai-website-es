@@ -5,6 +5,7 @@
 	import { page } from '$app/state'
 	import Banner from '$lib/components/Banner.svelte'
 	import Hero from '$lib/components/Hero.svelte'
+	import Link from '$lib/components/Link.svelte'
 	import NearbyEvent from '$lib/components/NearbyEvent.svelte'
 	import PreloadFonts from '$lib/components/PreloadFonts.svelte'
 	import SearchModal from '$lib/components/SearchModal.svelte'
@@ -40,9 +41,15 @@
 
 	let { data, children }: Props = $props()
 
-	// No active campaigns on the Spanish site right now. banner-selection.js
-	// reads these globals, so they are still injected (empty) below.
-	const mainBannerRules: BannerRule[] = []
+	// banner-selection.js reads these globals, so they are injected below even
+	// when empty. The first rule in range that hasn't been dismissed wins.
+	const mainBannerRules: BannerRule[] = [
+		{
+			id: 'madrid-concentracion-2026-11-21',
+			countries: null,
+			dateRange: [null, '2026-11-21']
+		}
+	]
 	const campaignBannerRules: BannerRule[] = []
 
 	let eventFound: boolean = $state(false)
@@ -147,6 +154,12 @@
 	{/if}
 
 	<NearbyEvent contrast={hero} bind:eventFound geo={geoForNearbyEvent} />
+
+	<Banner contrast={hero} id="madrid-concentracion-2026-11-21" rules={mainBannerRules}>
+		<strong>Concentración contra la extinción por IA</strong>: sábado 21 de noviembre, 17:00, Plaza
+		de las Cortes (Madrid).
+		<strong><Link href="https://luma.com/c969qkzo">¡Apúntate!</Link></strong>
+	</Banner>
 
 	{#if hero}
 		<div class="hero-section">
