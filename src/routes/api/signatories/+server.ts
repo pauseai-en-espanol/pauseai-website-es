@@ -6,26 +6,6 @@ import type { RequestHandler } from './$types'
 /** PauseAI's public list of verified signatories, already anonymised and sorted oldest first. */
 const SIGNATORIES_URL = 'https://pauseai.info/api/signatories'
 
-/**
- * Fallback people data to use in development if the fetch fails
- */
-const fallbackSignatories: Signatory[] = [
-	{
-		name: 'Error',
-		private: false,
-		bio: 'So sorry',
-		country: 'Sorry',
-		date: new Date().toISOString()
-	},
-	{
-		name: 'This should be',
-		private: true,
-		bio: 'This is a bio',
-		country: 'United States',
-		date: new Date().toISOString()
-	}
-]
-
 export type SignatoriesApiResponse = {
 	signatories: Signatory[]
 	totalCount: number
@@ -47,10 +27,8 @@ export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 	} catch (e) {
 		console.error('Error fetching signatories:', e)
 
-		const response: SignatoriesApiResponse = {
-			signatories: fallbackSignatories,
-			totalCount: 0
-		}
+		// Same as an unavailable list from pauseai.info: the page says the list is unavailable.
+		const response: SignatoriesApiResponse = { signatories: [], totalCount: 0 }
 		return json(response)
 	}
 }
