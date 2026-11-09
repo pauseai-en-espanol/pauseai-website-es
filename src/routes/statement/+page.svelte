@@ -1,8 +1,8 @@
 <script lang="ts">
 	import PostMeta from '$lib/components/PostMeta.svelte'
-	import TallyEmbed from '$lib/components/TallyEmbed.svelte'
 	import { meta } from './meta'
 	import Signatory from './signatory.svelte'
+	import StatementForm from './StatementForm.svelte'
 
 	export let data
 
@@ -49,7 +49,7 @@
 	</p>
 </div>
 
-<TallyEmbed formId="q4GG7k" />
+<StatementForm />
 
 <div class="signatories-header">
 	<h2>Firmas ({totalCount})</h2>
