@@ -60,7 +60,7 @@
 
 <section data-pagefind-ignore>
 	{#if visibleSignatories.length === 0}
-		<p>No se encontraron firmas</p>
+		<p>La lista de firmas no está disponible en este momento.</p>
 	{/if}
 	<ul class="signatories">
 		{#each visibleSignatories as { name, country, bio }}
