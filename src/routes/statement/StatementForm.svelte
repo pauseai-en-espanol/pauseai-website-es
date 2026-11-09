@@ -7,7 +7,7 @@
 	const SIGN_URL = 'https://pauseai.info/api/statement/sign'
 	// PauseAI's public key: the endpoint only accepts tokens from its own widget, and only on
 	// hostnames PauseAI has added to it.
-	const TURNSTILE_SITE_KEY = '0x4AAAAAAEN3wCoRJgccDN0a'
+	const TURNSTILE_SITE_KEY = '0x4AAAAAAF6esahvQaB9M1wg'
 	const TURNSTILE_SCRIPT = 'https://challenges.cloudflare.com/turnstile/v0/api.js?render=explicit'
 
 	type TurnstileApi = {
