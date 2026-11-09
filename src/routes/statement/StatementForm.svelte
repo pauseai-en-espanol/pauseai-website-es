@@ -276,9 +276,11 @@
 			</label>
 			<p class="private-note" id="statement-private-note">
 				Tu nombre se ocultará, pero tu país y lo que escribas abajo se publicarán igualmente, así
-				que no incluyas datos que puedan identificarte. Consulta nuestra
-				<!-- A new tab, as leaving the page would lose what's been typed. -->
-				<Link href="/privacy" target="_blank">política de privacidad</Link>.
+				que no incluyas datos que puedan identificarte. Tu firma se envía a PauseAI Global, que
+				publica la lista. Consulta nuestra
+				<!-- New tabs, as leaving the page would lose what's been typed. -->
+				<Link href="/privacy" target="_blank">política de privacidad</Link> y la
+				<Link href="https://pauseai.info/privacy" target="_blank">de PauseAI Global</Link>.
 			</p>
 
 			<div class="field">
