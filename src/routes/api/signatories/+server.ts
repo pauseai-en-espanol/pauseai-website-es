@@ -38,7 +38,11 @@ export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
 		const res = await fetch(SIGNATORIES_URL)
 		if (!res.ok) throw new Error(`HTTP ${res.status}`)
 		const { signatories, totalCount } = (await res.json()) as SignatoriesApiResponse
-		const response: SignatoriesApiResponse = { signatories, totalCount }
+		// A totalCount of 0 means pauseai.info couldn't read its list, and its rows are placeholders.
+		const response: SignatoriesApiResponse = {
+			signatories: totalCount === 0 ? [] : signatories,
+			totalCount
+		}
 		return json(response)
 	} catch (e) {
 		console.error('Error fetching signatories:', e)
