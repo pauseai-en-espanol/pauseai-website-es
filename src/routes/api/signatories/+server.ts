@@ -1,11 +1,13 @@
-import type { AirtableSignatory, Signatory } from '$lib/types.js'
+import type { Signatory } from '$lib/types.js'
 import { json } from '@sveltejs/kit'
-import { fetchAllPages, type AirtableRecord } from '$lib/airtable.js'
 import { generateCacheControlRecord } from '$lib/utils'
 import type { RequestHandler } from './$types'
 
+/** PauseAI's public list of verified signatories, already anonymised and sorted oldest first. */
+const SIGNATORIES_URL = 'https://pauseai.info/api/signatories'
+
 /**
- * Fallback people data to use in development if Airtable fetch fails
+ * Fallback people data to use in development if the fetch fails
  */
 const fallbackSignatories: Signatory[] = [
 	{
@@ -29,44 +31,14 @@ export type SignatoriesApiResponse = {
 	totalCount: number
 }
 
-function recordToSignatory(record: AirtableRecord<AirtableSignatory>): Signatory {
-	return {
-		private: record.fields.private || false,
-		name: record.fields.private ? 'Anonymous' : record.fields.name, // Anonymize private signatories
-		country: record.fields.country,
-		bio: record.fields.bio,
-		date: record.fields.date
-	}
-}
-
 export const GET: RequestHandler = async ({ fetch, setHeaders }) => {
-	const url = `https://api.airtable.com/v0/appWPTGqZmUcs3NWu/tbl2emfOWNWoVz1kW`
 	setHeaders(generateCacheControlRecord({ public: true, maxAge: 60 * 60 }))
 
 	try {
-		// Fetch all records from Airtable
-		const records = await fetchAllPages<AirtableSignatory>(fetch, url)
-
-		// Filter to only include records where email_verified is explicitly true and not a duplicate
-		const verifiedRecords = records.filter((record) => {
-			const emailVerified = record.fields.email_verified
-			const duplicate = record.fields.duplicate
-			return emailVerified === true && !duplicate
-		})
-
-		console.log(`Total records: ${records.length}, Verified records: ${verifiedRecords.length}`)
-
-		// Map the filtered records to signatories
-		const signatories = verifiedRecords.map(recordToSignatory)
-
-		// Sort signatories by date (oldest first)
-		signatories.sort((a, b) => new Date(a.date).getTime() - new Date(b.date).getTime())
-
-		// Return both the visible signatories and the total count
-		const response: SignatoriesApiResponse = {
-			signatories: signatories,
-			totalCount: signatories.length
-		}
+		const res = await fetch(SIGNATORIES_URL)
+		if (!res.ok) throw new Error(`HTTP ${res.status}`)
+		const { signatories, totalCount } = (await res.json()) as SignatoriesApiResponse
+		const response: SignatoriesApiResponse = { signatories, totalCount }
 		return json(response)
 	} catch (e) {
 		console.error('Error fetching signatories:', e)
