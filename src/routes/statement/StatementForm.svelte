@@ -216,7 +216,7 @@
 				<div class="icon" aria-hidden="true">✉</div>
 				<h3 class="toc-exclude thanks-heading">¡Gracias por tu firma!</h3>
 				<p class="verify">
-					¡Revise su bandeja de emails (y la carpeta de correo no deseado) para verificar su
+					¡Revisa tu bandeja de entrada (y la carpeta de correo no deseado) para verificar tu
 					dirección de correo electrónico!
 				</p>
 				<p>
