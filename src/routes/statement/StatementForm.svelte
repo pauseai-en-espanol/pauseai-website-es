@@ -28,6 +28,9 @@
 		bio: 'El texto contiene caracteres no permitidos.'
 	}
 	const GENERIC_ERROR = 'Algo ha salido mal. Vuelve a intentarlo.'
+	// For refusals a retry won't fix: they mean this site's setup is wrong.
+	const BROKEN_ERROR =
+		'Ahora mismo no funciona la firma desde esta página. Escríbenos a contact@pauseai.info para avisarnos.'
 
 	let name = $state('')
 	let email = $state('')
@@ -114,7 +117,7 @@
 		return INVALID[field]
 	}
 
-	function errorFor(status: number, body: SignResponse) {
+	function errorFor(body: SignResponse) {
 		switch (body.error) {
 			case 'validation_failed': {
 				const fields: Partial<Record<Field, string>> = {}
@@ -135,10 +138,16 @@
 				return 'Ahora mismo no se puede firmar. Inténtalo más tarde o escribe a contact@pauseai.info.'
 			case 'turnstile_unavailable':
 				return 'No hemos podido comprobar la verificación antispam. Vuelve a intentarlo y, si sigue pasando, escribe a contact@pauseai.info.'
+			case 'payload_too_large':
+				return 'Tu texto es demasiado largo. Acórtalo y vuelve a firmar.'
+			case 'origin_not_allowed':
+			case 'unsupported_media_type':
+			case 'invalid_json':
+				return BROKEN_ERROR
 			default:
-				return status === 0
-					? 'No hemos podido conectar. Comprueba tu conexión y vuelve a intentarlo.'
-					: GENERIC_ERROR
+				// No error code: the request failed, or the answer wasn't the endpoint's JSON (a CORS
+				// refusal reaches us as a failed request).
+				return body.error === undefined ? BROKEN_ERROR : GENERIC_ERROR
 		}
 	}
 
@@ -156,7 +165,6 @@
 		errorMessage = ''
 		fieldErrors = {}
 
-		let status = 0
 		let body: SignResponse = {}
 		try {
 			const response = await fetch(SIGN_URL, {
@@ -173,7 +181,6 @@
 					honeypot
 				})
 			})
-			status = response.status
 			if (response.status === 429) {
 				const seconds = Number(response.headers.get('Retry-After'))
 				retryAt = Date.now() + (Number.isFinite(seconds) && seconds > 0 ? seconds : 60) * 1000
@@ -194,7 +201,7 @@
 			thanks?.focus()
 			return
 		}
-		errorMessage = errorFor(status, body)
+		errorMessage = errorFor(body)
 		await focusFirstError()
 	}
 </script>
