@@ -30,7 +30,7 @@
 	const GENERIC_ERROR = 'Algo ha salido mal. Vuelve a intentarlo.'
 	// For refusals a retry won't fix: they mean this site's setup is wrong.
 	const BROKEN_ERROR =
-		'Ahora mismo no funciona la firma desde esta página. Escríbenos a contact@pauseai.info para avisarnos.'
+		'Ahora mismo no se puede firmar desde esta página. Escríbenos a contact@pauseai.info para avisarnos.'
 
 	let name = $state('')
 	let email = $state('')
@@ -45,6 +45,7 @@
 	let fieldErrors = $state<Partial<Record<Field, string>>>({})
 	let retryAt = $state(0)
 	let now = $state(Date.now())
+	const retrySeconds = $derived(Math.ceil((retryAt - now) / 1000))
 
 	let turnstileToken = $state('')
 	let turnstileFailed = $state(false)
@@ -113,7 +114,7 @@
 	function fieldMessage(field: Field, problem: FieldProblem): string {
 		if (problem === 'required') return 'Este campo es obligatorio.'
 		if (problem === 'too_long' && field !== 'country')
-			return `Es demasiado largo: máximo ${MAX_LENGTH[field]} caracteres.`
+			return `El límite es de ${MAX_LENGTH[field]} caracteres.`
 		return INVALID[field]
 	}
 
@@ -137,7 +138,7 @@
 			case 'signing_unavailable':
 				return 'Ahora mismo no se puede firmar. Inténtalo más tarde o escribe a contact@pauseai.info.'
 			case 'turnstile_unavailable':
-				return 'No hemos podido comprobar la verificación antispam. Vuelve a intentarlo y, si sigue pasando, escribe a contact@pauseai.info.'
+				return 'No hemos podido completar la verificación antispam. Vuelve a intentarlo y, si el problema persiste, escribe a contact@pauseai.info.'
 			case 'payload_too_large':
 				return 'Tu texto es demasiado largo. Acórtalo y vuelve a firmar.'
 			case 'origin_not_allowed':
@@ -224,7 +225,7 @@
 					inglés, en pauseai.info.
 				</p>
 				<p class="note">
-					¿Ya habías firmado y quieres cambiar algo, por ejemplo firmar de forma anónima? Escribe a
+					¿Ya habías firmado y quieres cambiar algo, por ejemplo, firmar de forma anónima? Escribe a
 					<Link href="mailto:contact@pauseai.info">contact@pauseai.info</Link>, porque volver a
 					firmar no cambia tu firma.
 				</p>
@@ -248,7 +249,7 @@
 			</div>
 
 			<div class="field">
-				<label class="field-label" for="statement-name">Nombre Completo *</label>
+				<label class="field-label" for="statement-name">Nombre completo *</label>
 				<input
 					type="text"
 					id="statement-name"
@@ -272,19 +273,19 @@
 					bind:checked={anonymous}
 					aria-describedby="statement-private-note"
 				/>
-				<span>Quiero ser anónimo</span>
+				<span>Quiero firmar de forma anónima</span>
 			</label>
 			<p class="private-note" id="statement-private-note">
-				Tu nombre se ocultará, pero tu país y lo que escribas abajo se publicarán igualmente, así
-				que no incluyas datos que puedan identificarte. Tu firma se envía a PauseAI Global, que
-				publica la lista. Consulta nuestra
+				Si firmas de forma anónima, se ocultará tu nombre, pero se publicarán tu país y lo que
+				escribas abajo. En ese caso, no incluyas datos que puedan identificarte. Tu firma se envía a
+				PauseAI Global, que publica la lista. Consulta nuestra
 				<!-- New tabs, as leaving the page would lose what's been typed. -->
 				<Link href="/privacy" target="_blank">política de privacidad</Link> y la
 				<Link href="https://pauseai.info/privacy" target="_blank">de PauseAI Global</Link>.
 			</p>
 
 			<div class="field">
-				<label class="field-label" for="statement-email">Email *</label>
+				<label class="field-label" for="statement-email">Correo electrónico *</label>
 				<input
 					type="email"
 					id="statement-email"
@@ -299,7 +300,7 @@
 						: 'statement-email-note'}
 				/>
 				<p class="field-note" id="statement-email-note">
-					Te enviaremos un correo para verificar tu firma. Tu email nunca se publica.
+					Te enviaremos un correo para verificar tu dirección. Tu dirección nunca se publica.
 				</p>
 				{#if fieldErrors.email}
 					<p class="field-error" id="statement-email-error">{fieldErrors.email}</p>
@@ -379,11 +380,12 @@
 			<div role="status">
 				{#if rateLimited}
 					<p class="submit-hint">
-						Podrás volver a intentarlo en {Math.ceil((retryAt - now) / 1000)} segundos.
+						Podrás volver a intentarlo en {retrySeconds}
+						{retrySeconds === 1 ? 'segundo' : 'segundos'}.
 					</p>
 				{:else if waitingForTurnstile && !turnstileFailed}
 					<p class="submit-hint" id="statement-submit-hint">
-						Podrás firmar cuando termine la verificación antispam de arriba.
+						Podrás firmar cuando se complete la verificación antispam.
 					</p>
 				{/if}
 			</div>
