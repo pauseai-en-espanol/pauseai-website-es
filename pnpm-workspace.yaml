@@ -14,3 +14,7 @@ minimumReleaseAge: 4320
 # Force it onto the workspace's Svelte 5.
 overrides:
   svelte-toc>svelte: '5'
+minimumReleaseAgeExclude:
+  # fleet update: security fix (GHSA-g3hv-75wg-m249)
+  - eslint@10.15.0
+  - '@eslint/config-array@0.23.6'
