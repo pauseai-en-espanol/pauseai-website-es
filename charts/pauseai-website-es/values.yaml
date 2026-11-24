@@ -1,7 +1,7 @@
 replicaCount: 1
 image:
   repository: harbor.danilupion.com/pauseai-es/pauseai-website-es
-  tag: 1.1.7.5787f453
+  tag: 1.1.7.6a3fdb9f
   pullPolicy: IfNotPresent
 imagePullSecrets: []
 nameOverride: ''
