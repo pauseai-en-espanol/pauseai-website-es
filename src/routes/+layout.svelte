@@ -45,9 +45,9 @@
 	// when empty. The first rule in range that hasn't been dismissed wins.
 	const mainBannerRules: BannerRule[] = [
 		{
-			id: 'madrid-concentracion-2026-11-21',
+			id: 'elecciones-29n-2026',
 			countries: null,
-			dateRange: [null, '2026-11-21']
+			dateRange: [null, '2026-11-29']
 		}
 	]
 	const campaignBannerRules: BannerRule[] = []
@@ -155,10 +155,10 @@
 
 	<NearbyEvent contrast={hero} bind:eventFound geo={geoForNearbyEvent} />
 
-	<Banner contrast={hero} id="madrid-concentracion-2026-11-21" rules={mainBannerRules}>
-		<strong>Concentración contra la extinción por IA</strong>: sábado 21 de noviembre, 17:00, Plaza
-		de las Cortes (Madrid).
-		<strong><Link href="https://luma.com/c969qkzo">¡Apúntate!</Link></strong>
+	<Banner contrast={hero} id="elecciones-29n-2026" rules={mainBannerRules}>
+		Analizamos los programas electorales para las <strong>elecciones del 29N</strong> según los
+		criterios que consideramos más importantes.
+		<strong><Link href="https://iaenlasurnas.es/29n">Consulta el análisis</Link></strong>
 	</Banner>
 
 	{#if hero}
